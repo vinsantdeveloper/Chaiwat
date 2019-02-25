@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:QRTrack" 
+             x:Class="QRTrack.MainPage"
+             BackgroundColor="White"
+             >
+    
+    <Grid RowSpacing="0" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <!-- Logo -->
+        <Image Source="logo.png" 
+               HorizontalOptions="Center" 
+               VerticalOptions="Center"
+               WidthRequest="200" 
+               HeightRequest="200"/>
+        
+        <!-- button -->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            
+            <StackLayout Grid.Column="0"
+                         VerticalOptions="Center">
+                
+                <Button x:Name="user_button" 
+                        Text="USER" 
+                        TextColor="{StaticResource textBlackColor}" 
+                        BackgroundColor="White"/>
+                <BoxView x:Name="user_button_line" 
+                         HeightRequest="3.5"  
+                         BackgroundColor="{StaticResource greenColor}"/>
+                
+            </StackLayout>
+            
+            <StackLayout Grid.Column="1">
+                
+                <Button x:Name="admin_button" 
+                        Text="ADMIN" 
+                        TextColor="{StaticResource textBlackColor}" 
+                        BackgroundColor="White"/>
+                <BoxView x:Name="user_admin_line" 
+                         HeightRequest="3.5" />
+                
+            </StackLayout>
+            
+        </Grid>
+        
+        
+        <!-- username -->
+        <Grid Grid.Row="2" Margin="20,20,20,0" >
+            <StackLayout >
+                <Label Text="USERNAME" 
+                       TextColor="{StaticResource textGlayColor}"/>
+                <Entry Text="SAND@QRCODE.com" 
+                       TextColor="Black"/>
+                <BoxView HeightRequest="1" 
+                         BackgroundColor="Silver"
+                         />
+            </StackLayout>
+        </Grid>
+        
+        <!-- password -->
+        <Grid Grid.Row="3" Margin="20,20,20,0" >
+            <StackLayout >
+                <Label Text="PASSWORD" 
+                       TextColor="{StaticResource textGlayColor}"
+                       />
+                <Entry Text="********" 
+                       TextColor="Black"/>
+                <BoxView HeightRequest="1" 
+                         BackgroundColor="Silver"
+                         Margin="0,3"/>
+            </StackLayout>
+        </Grid>
+        
+        <!-- signin -->
+        <Grid Grid.Row="4" Margin="0,50,0,0" >
+                <Button Text="Sign In" 
+                    TextColor="White"
+                    BackgroundColor="{StaticResource greenColor}"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    HeightRequest="200"
+                    WidthRequest="300"
+                    />
+        </Grid>
+        
+        <!-- signup -->
+        
+        
+    </Grid>
+    
+</ContentPage>

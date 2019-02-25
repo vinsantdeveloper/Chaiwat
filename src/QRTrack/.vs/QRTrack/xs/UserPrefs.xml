@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{D91B0B6E-1336-407C-BB3B-A62724E5F812}|Default">
+  <MonoDevelop.Ide.ItemProperties.QRTrack.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="QRTrack/MainPage.xaml">
+    <Files>
+      <File FileName="QRTrack/MainPage.xaml.cs" Line="5" Column="30" />
+      <File FileName="QRTrack/MainPage.xaml" Line="40" Column="52" />
+      <File FileName="QRTrack/App.xaml" Line="15" Column="37" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="QRTrack" expanded="True">
+            <Node name="QRTrack" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
+            </Node>
+            <Node name="QRTrack.Android" expanded="True" />
+            <Node name="QRTrack.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.QRTrack.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7D19B68E-0DE7-4385-8FC7-628B02213B12" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

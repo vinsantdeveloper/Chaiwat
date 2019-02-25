@@ -1,0 +1,12 @@
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/bin/Debug/netstandard2.0/QRTrack.deps.json
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/bin/Debug/netstandard2.0/QRTrack.dll
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/bin/Debug/netstandard2.0/QRTrack.pdb
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/obj/Debug/netstandard2.0/QRTrack.csprojAssemblyReference.cache
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/obj/Debug/netstandard2.0/QRTrack.csproj.CoreCompileInputs.cache
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/obj/Debug/netstandard2.0/QRTrack.AssemblyInfoInputs.cache
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/obj/Debug/netstandard2.0/QRTrack.AssemblyInfo.cs
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/obj/Debug/netstandard2.0/QRTrack.dll
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/obj/Debug/netstandard2.0/QRTrack.pdb

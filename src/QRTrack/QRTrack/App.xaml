@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="QRTrack.App">
+    
+    <Application.Resources>
+        
+        <ResourceDictionary>
+            <!-- page color -->
+            <Style x:Key="pageStyle" TargetType="ContentPage">
+                <Setter Property="BackgroundColor" Value="White" />
+            </Style>
+            
+            <!-- color -->
+            <Color x:Key="greenColor">#50D2C2</Color>
+            <Color x:Key="redColor">#FF3366</Color>
+            <Color x:Key="textBlackColor">#1D1D26</Color>
+            <Color x:Key="textGlayColor">#A2A2AB</Color>
+            
+            <!-- fonts -->
+           
+            
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
