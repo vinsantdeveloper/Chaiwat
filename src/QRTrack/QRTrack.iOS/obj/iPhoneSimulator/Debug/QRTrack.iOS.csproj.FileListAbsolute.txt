@@ -1,3 +1,5 @@
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhoneSimulator/Debug/QRTrack.iOS.csprojAssemblyReference.cache
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhoneSimulator/Debug/QRTrack.iOS.csproj.CoreCompileInputs.cache
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/bin/iPhoneSimulator/Debug/QRTrack.iOS.exe
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/bin/iPhoneSimulator/Debug/QRTrack.iOS.pdb
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
@@ -43,8 +45,6 @@
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/bin/iPhoneSimulator/Debug/QRTrack.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/bin/iPhoneSimulator/Debug/QRTrack.pdb
-/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhoneSimulator/Debug/QRTrack.iOS.csprojAssemblyReference.cache
-/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhoneSimulator/Debug/QRTrack.iOS.csproj.CoreCompileInputs.cache
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhoneSimulator/Debug/QRTrack.iOS.csproj.CopyComplete
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhoneSimulator/Debug/QRTrack.iOS.exe
@@ -54,5 +54,5 @@
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/actool/_BundleResourceWithLogicalName.items
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/coremlc/_PartialAppManifest.items
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/coremlc/_BundleResourceWithLogicalName.items
-/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/logo.png
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/
