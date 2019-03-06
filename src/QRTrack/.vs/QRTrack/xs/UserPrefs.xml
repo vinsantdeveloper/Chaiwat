@@ -1,24 +1,24 @@
-﻿<Properties StartupConfiguration="{6918149B-9130-4BA4-8719-F013B26BCEB1}|Default">
-  <MonoDevelop.Ide.ItemProperties.QRTrack.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+﻿<Properties StartupConfiguration="{D91B0B6E-1336-407C-BB3B-A62724E5F812}|Default">
+  <MonoDevelop.Ide.ItemProperties.QRTrack.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.my_device" />
   <MonoDevelop.Ide.Workbench ActiveDocument="QRTrack/MainPage.xaml">
     <Files>
-      <File FileName="QRTrack/MainPage.xaml" Line="62" Column="54" />
-      <File FileName="QRTrack/MainPage.xaml.cs" Line="5" Column="30" />
-      <File FileName="QRTrack.Android/EntryCustomRender.cs" Line="14" Column="46" />
-      <File FileName="QRTrack/App.xaml.cs" Line="1" Column="1" />
-      <File FileName="QRTrack.iOS/EntryCustomRender.cs" Line="11" Column="45" />
-      <File FileName="QRTrack/CustomControl/EntryCustomRenderer.cs" Line="3" Column="11" />
+      <File FileName="QRTrack/MainPage.xaml" Line="12" Column="45" />
+      <File FileName="QRTrack/CustomControl/CustomButtonWithBar.xaml" Line="11" Column="54" />
+      <File FileName="QRTrack/CustomControl/CustomButtonWithBar.xaml.cs" Line="79" Column="58" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="QRTrack" expanded="True">
             <Node name="QRTrack" expanded="True">
+              <Node name="Dependencies" expanded="True" />
               <Node name="CustomControl" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" selected="True" />
+              <Node name="MainPage.xaml" selected="True" />
             </Node>
             <Node name="QRTrack.Android" expanded="True" />
-            <Node name="QRTrack.iOS" expanded="True" />
+            <Node name="QRTrack.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>

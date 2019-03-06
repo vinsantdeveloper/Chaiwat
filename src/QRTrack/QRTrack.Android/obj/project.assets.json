@@ -2,6 +2,28 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v8.1": {
+      "Exrin/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.1/Exrin.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Exrin.dll": {}
+        }
+      },
+      "Exrin.Navigation.XamarinForms/1.0.15": {
+        "type": "package",
+        "dependencies": {
+          "Exrin": "2.0.2",
+          "Xamarin.Forms": "2.4.0.282"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Exrin.Navigation.XamarinForms.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Exrin.Navigation.XamarinForms.dll": {}
+        }
+      },
       "Xamarin.Android.Arch.Core.Common/1.1.1.1": {
         "type": "package",
         "dependencies": {
@@ -345,6 +367,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Exrin.Navigation.XamarinForms": "1.0.15",
           "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
@@ -357,6 +380,29 @@
     }
   },
   "libraries": {
+    "Exrin/2.0.2": {
+      "sha512": "vMFnQqzk9kTC5N7WgfZzJtgcFyC4zz5bEtehNCxOhpBi4wrI4eKlIZZLtb9OoFozq71NZnM5AfSIJbGit42mNg==",
+      "type": "package",
+      "path": "exrin/2.0.2",
+      "files": [
+        ".signature.p7s",
+        "exrin.2.0.2.nupkg.sha512",
+        "exrin.nuspec",
+        "lib/netstandard1.1/Exrin.dll",
+        "lib/netstandard1.1/Exrin.pdb"
+      ]
+    },
+    "Exrin.Navigation.XamarinForms/1.0.15": {
+      "sha512": "pPdnJdG7tpsTjJpZmg1tH1GEz7ks4omwMqyE2sOHwdC4O7IiCQL3B28WkmhMWRhgPFMi7prTgUyUiO3RgQ89Zw==",
+      "type": "package",
+      "path": "exrin.navigation.xamarinforms/1.0.15",
+      "files": [
+        ".signature.p7s",
+        "exrin.navigation.xamarinforms.1.0.15.nupkg.sha512",
+        "exrin.navigation.xamarinforms.nuspec",
+        "lib/portable45-net45+win8+wpa81/Exrin.Navigation.XamarinForms.dll"
+      ]
+    },
     "Xamarin.Android.Arch.Core.Common/1.1.1.1": {
       "sha512": "3ijpoWgfyNeyUgbhLz4V/xAuizoz3h1Myg8Ioe1sCkl27Vl3lDN9SR30sFDDKcGgqQXJ4gtPOr9POCfvdPc63Q==",
       "type": "package",

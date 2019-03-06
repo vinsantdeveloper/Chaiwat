@@ -6,19 +6,41 @@
     <Application.Resources>
         
         <ResourceDictionary>
-            <!-- page color -->
+            <!-- start page color -->
             <Style x:Key="pageStyle" TargetType="ContentPage">
                 <Setter Property="BackgroundColor" Value="White" />
             </Style>
+            <!-- start page color -->
             
-            <!-- color -->
+            <!-- start color -->
             <Color x:Key="greenColor">#50D2C2</Color>
             <Color x:Key="redColor">#FF3366</Color>
             <Color x:Key="textBlackColor">#1D1D26</Color>
             <Color x:Key="textGlayColor">#A2A2AB</Color>
+            <!-- end color -->
             
             <!-- fonts -->
-           
+            
+            <!-- start custom entry markup -->
+            <FlexDirection x:Key="entry_FlexLay_direction">Column</FlexDirection>
+            <FlexAlignContent x:Key="entry_FlexLay_align">Start</FlexAlignContent>
+            <FlexJustify x:Key="entry_FlexLay_justify">SpaceEvenly</FlexJustify>
+            
+            <OnPlatform x:Key="entry_FlexLay_padding"
+                        x:TypeArguments="Thickness">
+                <On Platform="Android" Value="25,10,25,10"/>
+                <On Platform="iOS" Value="25,5,25,5"/>
+            </OnPlatform>
+            
+            <OnPlatform x:Key="boxview_FlexLay_highRequest"
+                        x:TypeArguments="x:Double" >
+                 <On Platform="iOS">1.5</On>
+                 <On Platform="Android">2</On>
+            </OnPlatform>
+            
+            <Color x:Key="boxview_FlexLay_color">#D8D8D8</Color>
+            <!-- end custom entry markup -->
+            
             
         </ResourceDictionary>
     </Application.Resources>

@@ -10,3 +10,4 @@
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/bin/Debug/netstandard2.0/QRTrack.pdb
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/obj/Debug/netstandard2.0/QRTrack.csprojAssemblyReference.cache
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/obj/Debug/netstandard2.0/CustomControl/CustomButtonWithBar.xaml.g.cs

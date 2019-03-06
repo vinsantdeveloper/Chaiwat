@@ -107,6 +107,8 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "QRTrack.Android.dll" comes first in this list. */
 		"QRTrack.Android.dll",
+		"Exrin.dll",
+		"Exrin.Navigation.XamarinForms.dll",
 		"FormsViewGroup.dll",
 		"QRTrack.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
