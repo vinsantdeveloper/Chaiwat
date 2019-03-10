@@ -9,5 +9,5 @@
     <RowDefinition Height="Auto" />
   </Grid.RowDefinitions>
   <Label x:Name="MainLabel" Grid.Row="0" VerticalTextAlignment="Center" TextColor="Black" HorizontalTextAlignment="Center" VerticalOptions="FillAndExpand" />
-  <Label x:Name="StatusBar" Grid.Row="1" HeightRequest="5" IsVisible="False" TextColor="White" />
+  <Label x:Name="StatusBar" Grid.Row="1" HeightRequest="3.5" IsVisible="true" TextColor="{StaticResource greenColor}" />
 </Grid>

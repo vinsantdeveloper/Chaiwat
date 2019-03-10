@@ -2,29 +2,7 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
-      "Exrin/2.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard1.1/Exrin.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.1/Exrin.dll": {}
-        }
-      },
-      "Exrin.Navigation.XamarinForms/1.0.15": {
-        "type": "package",
-        "dependencies": {
-          "Exrin": "2.0.2",
-          "Xamarin.Forms": "2.4.0.282"
-        },
-        "compile": {
-          "lib/portable45-net45+win8+wpa81/Exrin.Navigation.XamarinForms.dll": {}
-        },
-        "runtime": {
-          "lib/portable45-net45+win8+wpa81/Exrin.Navigation.XamarinForms.dll": {}
-        }
-      },
-      "Xamarin.Forms/3.5.0.169047": {
+      "Xamarin.Forms/3.6.0.220655": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -151,7 +129,6 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Exrin.Navigation.XamarinForms": "1.0.15",
           "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
@@ -163,29 +140,7 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
-      "Exrin/2.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard1.1/Exrin.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.1/Exrin.dll": {}
-        }
-      },
-      "Exrin.Navigation.XamarinForms/1.0.15": {
-        "type": "package",
-        "dependencies": {
-          "Exrin": "2.0.2",
-          "Xamarin.Forms": "2.4.0.282"
-        },
-        "compile": {
-          "lib/portable45-net45+win8+wpa81/Exrin.Navigation.XamarinForms.dll": {}
-        },
-        "runtime": {
-          "lib/portable45-net45+win8+wpa81/Exrin.Navigation.XamarinForms.dll": {}
-        }
-      },
-      "Xamarin.Forms/3.5.0.169047": {
+      "Xamarin.Forms/3.6.0.220655": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -312,7 +267,6 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Exrin.Navigation.XamarinForms": "1.0.15",
           "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
@@ -324,29 +278,7 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
-      "Exrin/2.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard1.1/Exrin.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.1/Exrin.dll": {}
-        }
-      },
-      "Exrin.Navigation.XamarinForms/1.0.15": {
-        "type": "package",
-        "dependencies": {
-          "Exrin": "2.0.2",
-          "Xamarin.Forms": "2.4.0.282"
-        },
-        "compile": {
-          "lib/portable45-net45+win8+wpa81/Exrin.Navigation.XamarinForms.dll": {}
-        },
-        "runtime": {
-          "lib/portable45-net45+win8+wpa81/Exrin.Navigation.XamarinForms.dll": {}
-        }
-      },
-      "Xamarin.Forms/3.5.0.169047": {
+      "Xamarin.Forms/3.6.0.220655": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -473,7 +405,6 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Exrin.Navigation.XamarinForms": "1.0.15",
           "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
@@ -485,29 +416,7 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
-      "Exrin/2.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard1.1/Exrin.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.1/Exrin.dll": {}
-        }
-      },
-      "Exrin.Navigation.XamarinForms/1.0.15": {
-        "type": "package",
-        "dependencies": {
-          "Exrin": "2.0.2",
-          "Xamarin.Forms": "2.4.0.282"
-        },
-        "compile": {
-          "lib/portable45-net45+win8+wpa81/Exrin.Navigation.XamarinForms.dll": {}
-        },
-        "runtime": {
-          "lib/portable45-net45+win8+wpa81/Exrin.Navigation.XamarinForms.dll": {}
-        }
-      },
-      "Xamarin.Forms/3.5.0.169047": {
+      "Xamarin.Forms/3.6.0.220655": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -634,7 +543,6 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Exrin.Navigation.XamarinForms": "1.0.15",
           "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
@@ -647,35 +555,13 @@
     }
   },
   "libraries": {
-    "Exrin/2.0.2": {
-      "sha512": "vMFnQqzk9kTC5N7WgfZzJtgcFyC4zz5bEtehNCxOhpBi4wrI4eKlIZZLtb9OoFozq71NZnM5AfSIJbGit42mNg==",
+    "Xamarin.Forms/3.6.0.220655": {
+      "sha512": "ltCTV5Tez9zTbg9f6UunegHPWRzfVHKGHeLOmXeJvNFEPwXrHDwjCcRqMqNISLRjzWxT1MuC9wgKdMoxGdBLqQ==",
       "type": "package",
-      "path": "exrin/2.0.2",
+      "path": "xamarin.forms/3.6.0.220655",
       "files": [
         ".signature.p7s",
-        "exrin.2.0.2.nupkg.sha512",
-        "exrin.nuspec",
-        "lib/netstandard1.1/Exrin.dll",
-        "lib/netstandard1.1/Exrin.pdb"
-      ]
-    },
-    "Exrin.Navigation.XamarinForms/1.0.15": {
-      "sha512": "pPdnJdG7tpsTjJpZmg1tH1GEz7ks4omwMqyE2sOHwdC4O7IiCQL3B28WkmhMWRhgPFMi7prTgUyUiO3RgQ89Zw==",
-      "type": "package",
-      "path": "exrin.navigation.xamarinforms/1.0.15",
-      "files": [
-        ".signature.p7s",
-        "exrin.navigation.xamarinforms.1.0.15.nupkg.sha512",
-        "exrin.navigation.xamarinforms.nuspec",
-        "lib/portable45-net45+win8+wpa81/Exrin.Navigation.XamarinForms.dll"
-      ]
-    },
-    "Xamarin.Forms/3.5.0.169047": {
-      "sha512": "ybupzRr8C93lEDyeCI4am3XTervm+4nhBVdb8StYS/ZRLQdvjrGyKkAonz/TGbz7Sjln05KDWwQts4moE9HUgg==",
-      "type": "package",
-      "path": "xamarin.forms/3.5.0.169047",
-      "files": [
-        ".signature.p7s",
+        "build/MonoAndroid10/proguard.cfg",
         "build/Xamarin.Forms.DefaultItems.props",
         "build/Xamarin.Forms.DefaultItems.targets",
         "build/Xamarin.Forms.props",
@@ -829,7 +715,7 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.3.5.0.169047.nupkg.sha512",
+        "xamarin.forms.3.6.0.220655.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -842,7 +728,7 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "QRTrack >= 1.0.0",
-      "Xamarin.Forms >= 3.5.0.169047"
+      "Xamarin.Forms >= 3.6.0.220655"
     ]
   },
   "packageFolders": {
@@ -882,7 +768,7 @@
         "dependencies": {
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.5.0.169047, )"
+            "version": "[3.6.0.220655, )"
           }
         }
       }

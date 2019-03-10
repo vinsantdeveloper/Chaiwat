@@ -1,6 +1,4 @@
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/QRTrack.Android.dll
-/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/Exrin.dll
-/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/Exrin.Navigation.XamarinForms.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/FormsViewGroup.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/Java.Interop.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/Mono.Android.dll
@@ -33,18 +31,6 @@
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/Xamarin.Forms.Platform.Android.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/Xamarin.Forms.Platform.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/Xamarin.Forms.Xaml.dll
-/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/System.Runtime.dll
-/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/System.ComponentModel.Composition.dll
-/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/System.Resources.ResourceManager.dll
-/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/System.Threading.Tasks.dll
-/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/System.Diagnostics.Debug.dll
-/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/System.Collections.dll
-/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/System.Threading.dll
-/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/System.ObjectModel.dll
-/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/System.Reflection.dll
-/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/System.Linq.dll
-/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/System.Reflection.Extensions.dll
-/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/System.Runtime.Extensions.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/System.Net.Http.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/System.Runtime.Serialization.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/System.ServiceModel.Internals.dll
@@ -54,5 +40,6 @@
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/System.Transactions.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/System.IO.Compression.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/System.IO.Compression.FileSystem.dll
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/System.ComponentModel.Composition.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/System.Web.Services.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/Mono.Security.dll

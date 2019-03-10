@@ -33,15 +33,17 @@
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
             
-            <StackLayout Grid.Column="0"
-                         VerticalOptions="Center">
+            <StackLayout Grid.Column="0">
                 
                 <Button x:Name="user_button" 
                         Text="USER" 
+                        FontFamily="{StaticResource Avenir_NormalFont}"
+                        FontSize="{StaticResource Avenir_FontSmallSize}"
                         TextColor="{StaticResource textBlackColor}" 
-                        BackgroundColor="White"/>
-                <BoxView x:Name="user_button_line" 
-                         HeightRequest="3.5"  
+                        BackgroundColor="White"
+                        Clicked="user_button_Clicked"/>
+                <BoxView x:Name="user_line" 
+                         HeightRequest="3.5" 
                          BackgroundColor="{StaticResource greenColor}"/>
                 
             </StackLayout>
@@ -51,9 +53,14 @@
                 <Button x:Name="admin_button" 
                         Text="ADMIN" 
                         TextColor="{StaticResource textBlackColor}" 
-                        BackgroundColor="White"/>
-                <BoxView x:Name="user_admin_line" 
-                         HeightRequest="3.5" />
+                        FontFamily="{StaticResource Avenir_NormalFont}"
+                        FontSize="{StaticResource Avenir_FontSmallSize}"
+                        BackgroundColor="White"
+                        Clicked="admin_button_Clicked"/>
+                <BoxView x:Name="admin_line" 
+                         HeightRequest="3.5" 
+                         BackgroundColor="{StaticResource greenColor}"
+                         IsVisible="false"/>
                 
             </StackLayout>
             
@@ -67,12 +74,17 @@
                          JustifyContent="{StaticResource entry_FlexLay_justify}"
                          Padding="{StaticResource entry_FlexLay_padding}">
                 <Label Text="USERNAME" 
-                    TextColor="{StaticResource textGlayColor}"/>
+                       FontFamily="{StaticResource Avenir_NormalFont}"
+                       FontSize="{StaticResource Avenir_FontSmallSize}"
+                       TextColor="{StaticResource textGlayColor}"/>
                 
                  <control:EntryCustomRenderer
                             x:Name="entry_username"
-                            Text="Email@dress"
-                            TextColor="{StaticResource textBlackColor}"/>
+                            Text="Email"
+                            FontFamily="{StaticResource Avenir_NormalFont}"
+                            FontSize="{StaticResource Avenir_FontMediumSize}"
+                            TextColor="{StaticResource textBlackColor}"
+                            />
                 
                  <BoxView  BackgroundColor="{StaticResource boxview_FlexLay_color}"
                            HeightRequest="{StaticResource boxview_FlexLay_highRequest}"/>
@@ -86,11 +98,15 @@
                          JustifyContent="{StaticResource entry_FlexLay_justify}"
                          Padding="{StaticResource entry_FlexLay_padding}">
                 <Label Text="PASSWORD" 
-                    TextColor="{StaticResource textGlayColor}"/>
+                       FontFamily="{StaticResource Avenir_NormalFont}"
+                       FontSize="{StaticResource Avenir_FontSmallSize}"
+                       TextColor="{StaticResource textGlayColor}"/>
                 
                  <control:EntryCustomRenderer
                             x:Name="entry_password"
                             Text="●●●●●●●●"
+                            FontFamily="{StaticResource Avenir_NormalFont}"
+                            FontSize="{StaticResource Avenir_FontMediumSize}"
                             TextColor="{StaticResource textBlackColor}"/>
                 
                  <BoxView  BackgroundColor="{StaticResource boxview_FlexLay_color}"
@@ -102,6 +118,8 @@
         <Grid Grid.Row="4" Margin="0,50,0,0" >
                 <Button Text="Sign In" 
                     TextColor="White"
+                    FontFamily="{StaticResource Avenir_NormalFont}"
+                    FontSize="{StaticResource Avenir_FontMediumSize}"
                     BackgroundColor="{StaticResource greenColor}"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -115,22 +133,22 @@
             <StackLayout Orientation="Vertical" 
                          Spacing="0">
                 <Button x:Name="signup_button" 
-                        Text="SIGN UP" 
+                        Text="SIGN UP"
+                        FontFamily="{StaticResource Avenir_NormalFont}"
+                        FontSize="{StaticResource Avenir_FontSmallSize}"
                         TextColor="{StaticResource textBlackColor}"
                         BackgroundColor="White"
                         VerticalOptions="EndAndExpand"
-                        FontSize="12"
                         />
                 <Button x:Name="forgetPass_button" 
-                        Text="Forget Password" 
+                        Text="Forget Password"
+                        FontFamily="{StaticResource Avenir_NormalFont}"
+                        FontSize="{StaticResource Avenir_FontSmallSize}"
                         TextColor="{StaticResource textBlackColor}"
                         BackgroundColor="White"
                         VerticalOptions="EndAndExpand"
-                        FontSize="12"
                         />
             </StackLayout>
         </Grid>
-
     </Grid>
-    
 </ContentPage>

@@ -1,30 +1,34 @@
-﻿<Properties StartupConfiguration="{D91B0B6E-1336-407C-BB3B-A62724E5F812}|Default">
+﻿<Properties StartupConfiguration="{6918149B-9130-4BA4-8719-F013B26BCEB1}|Default">
   <MonoDevelop.Ide.ItemProperties.QRTrack.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.my_device" />
   <MonoDevelop.Ide.Workbench ActiveDocument="QRTrack/MainPage.xaml">
     <Files>
-      <File FileName="QRTrack/MainPage.xaml" Line="12" Column="45" />
-      <File FileName="QRTrack/CustomControl/CustomButtonWithBar.xaml" Line="11" Column="54" />
-      <File FileName="QRTrack/CustomControl/CustomButtonWithBar.xaml.cs" Line="79" Column="58" />
+      <File FileName="QRTrack/MainPage.xaml" Line="40" Column="72" />
+      <File FileName="QRTrack/App.xaml" Line="27" Column="79" />
+      <File FileName="QRTrack/MainPage.xaml.cs" Line="25" Column="34" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="QRTrack" expanded="True">
             <Node name="QRTrack" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="CustomControl" expanded="True" />
+              <Node name="Font" expanded="True" />
               <Node name="MainPage.xaml" selected="True" />
             </Node>
-            <Node name="QRTrack.Android" expanded="True" />
-            <Node name="QRTrack.iOS" expanded="True">
+            <Node name="QRTrack.Android" expanded="True">
+              <Node name="Assets" expanded="True" />
               <Node name="Resources" expanded="True" />
+            </Node>
+            <Node name="QRTrack.iOS" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="Fonts" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.QRTrack.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7D19B68E-0DE7-4385-8FC7-628B02213B12" />
+  <MonoDevelop.Ide.ItemProperties.QRTrack.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7D19B68E-0DE7-4385-8FC7-628B02213B12" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

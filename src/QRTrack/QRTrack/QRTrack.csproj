@@ -11,12 +11,20 @@
 
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.3.0.967583" />
-    <PackageReference Include="Exrin.Navigation.XamarinForms" Version="1.0.15" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CustomControl\" />
+    <Folder Include="Font\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="CustomControl\EntryCustom.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Font\Avenir.ttc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Font\avenir.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 </Project>

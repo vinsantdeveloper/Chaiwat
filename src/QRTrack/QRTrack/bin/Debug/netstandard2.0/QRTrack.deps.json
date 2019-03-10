@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "6ba9cf9bd059e0f7a9a1eb9174c45c8ba1244f18"
+    "signature": "c13ab3e9dd0afa602671531bfe3629542f85aa4e"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,32 +9,11 @@
     ".NETStandard,Version=v2.0/": {
       "QRTrack/1.0.0": {
         "dependencies": {
-          "Exrin.Navigation.XamarinForms": "1.0.15",
           "NETStandard.Library": "2.0.3",
           "Xamarin.Forms": "3.3.0.967583"
         },
         "runtime": {
           "QRTrack.dll": {}
-        }
-      },
-      "Exrin/2.0.2": {
-        "runtime": {
-          "lib/netstandard1.1/Exrin.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Exrin.Navigation.XamarinForms/1.0.15": {
-        "dependencies": {
-          "Exrin": "2.0.2",
-          "Xamarin.Forms": "3.3.0.967583"
-        },
-        "runtime": {
-          "lib/portable45-net45+win8+wpa81/Exrin.Navigation.XamarinForms.dll": {
-            "assemblyVersion": "1.0.15.0",
-            "fileVersion": "1.0.15.0"
-          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -66,20 +45,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "Exrin/2.0.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-vMFnQqzk9kTC5N7WgfZzJtgcFyC4zz5bEtehNCxOhpBi4wrI4eKlIZZLtb9OoFozq71NZnM5AfSIJbGit42mNg==",
-      "path": "exrin/2.0.2",
-      "hashPath": "exrin.2.0.2.nupkg.sha512"
-    },
-    "Exrin.Navigation.XamarinForms/1.0.15": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-pPdnJdG7tpsTjJpZmg1tH1GEz7ks4omwMqyE2sOHwdC4O7IiCQL3B28WkmhMWRhgPFMi7prTgUyUiO3RgQ89Zw==",
-      "path": "exrin.navigation.xamarinforms/1.0.15",
-      "hashPath": "exrin.navigation.xamarinforms.1.0.15.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

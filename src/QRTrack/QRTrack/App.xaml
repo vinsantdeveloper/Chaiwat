@@ -6,22 +6,33 @@
     <Application.Resources>
         
         <ResourceDictionary>
-            <!-- start page color -->
+            <!-- page color -->
             <Style x:Key="pageStyle" TargetType="ContentPage">
                 <Setter Property="BackgroundColor" Value="White" />
             </Style>
-            <!-- start page color -->
             
-            <!-- start color -->
+            <!-- color -->
             <Color x:Key="greenColor">#50D2C2</Color>
             <Color x:Key="redColor">#FF3366</Color>
             <Color x:Key="textBlackColor">#1D1D26</Color>
             <Color x:Key="textGlayColor">#A2A2AB</Color>
-            <!-- end color -->
             
             <!-- fonts -->
+            <OnPlatform x:TypeArguments="x:String" x:Key="Avenir_NormalFont">
+                <On Platform="Android" Value="avenir.ttf#avenir" />
+                <On Platform="iOS" Value="avenir" />
+            </OnPlatform>
+            <OnPlatform x:TypeArguments="x:Double" x:Key="Avenir_FontSmallSize">
+                <On Platform="Android" Value="13" />
+                <On Platform="iOS" Value="13" />
+            </OnPlatform>
+            <OnPlatform x:TypeArguments="x:Double" x:Key="Avenir_FontMediumSize">
+                <On Platform="Android" Value="16" />
+                <On Platform="iOS" Value="16" />
+            </OnPlatform>
             
-            <!-- start custom entry markup -->
+            
+            <!-- custom entry markup -->
             <FlexDirection x:Key="entry_FlexLay_direction">Column</FlexDirection>
             <FlexAlignContent x:Key="entry_FlexLay_align">Start</FlexAlignContent>
             <FlexJustify x:Key="entry_FlexLay_justify">SpaceEvenly</FlexJustify>
@@ -39,8 +50,6 @@
             </OnPlatform>
             
             <Color x:Key="boxview_FlexLay_color">#D8D8D8</Color>
-            <!-- end custom entry markup -->
-            
             
         </ResourceDictionary>
     </Application.Resources>

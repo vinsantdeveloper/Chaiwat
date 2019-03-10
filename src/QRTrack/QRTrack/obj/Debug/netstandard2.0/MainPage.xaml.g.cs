@@ -20,13 +20,13 @@ namespace QRTrack {
         private global::Xamarin.Forms.Button user_button;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.BoxView user_button_line;
+        private global::Xamarin.Forms.BoxView user_line;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Button admin_button;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.BoxView user_admin_line;
+        private global::Xamarin.Forms.BoxView admin_line;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::QRTrack.CustomControl.EntryCustomRenderer entry_username;
@@ -44,9 +44,9 @@ namespace QRTrack {
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPage));
             user_button = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "user_button");
-            user_button_line = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.BoxView>(this, "user_button_line");
+            user_line = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.BoxView>(this, "user_line");
             admin_button = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "admin_button");
-            user_admin_line = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.BoxView>(this, "user_admin_line");
+            admin_line = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.BoxView>(this, "admin_line");
             entry_username = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::QRTrack.CustomControl.EntryCustomRenderer>(this, "entry_username");
             entry_password = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::QRTrack.CustomControl.EntryCustomRenderer>(this, "entry_password");
             signup_button = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "signup_button");

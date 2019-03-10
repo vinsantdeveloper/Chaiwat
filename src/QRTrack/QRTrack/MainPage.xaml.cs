@@ -12,7 +12,20 @@ namespace QRTrack
         public MainPage()
         {
             InitializeComponent();
-            
+
+
+        }
+
+        void user_button_Clicked(object sender, System.EventArgs e)
+        {
+            user_line.IsVisible = true;
+            admin_line.IsVisible = false;
+        }
+
+        void admin_button_Clicked(object sender, System.EventArgs e)
+        {
+            user_line.IsVisible = false;
+            admin_line.IsVisible = true;
         }
     }
 }
