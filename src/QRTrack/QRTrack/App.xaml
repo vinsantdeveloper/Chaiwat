@@ -19,7 +19,7 @@
             
             <!-- fonts -->
             <OnPlatform x:TypeArguments="x:String" x:Key="Avenir_NormalFont">
-                <On Platform="Android" Value="avenir.ttf#avenir" />
+                <On Platform="Android" Value="avenir.ttf#Avenir" />
                 <On Platform="iOS" Value="avenir" />
             </OnPlatform>
             <OnPlatform x:TypeArguments="x:Double" x:Key="Avenir_FontSmallSize">
