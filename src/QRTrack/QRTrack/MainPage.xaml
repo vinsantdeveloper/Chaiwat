@@ -5,6 +5,7 @@
              xmlns:control="clr-namespace:QRTrack.CustomControl"
              x:Class="QRTrack.MainPage"
              BackgroundColor="White"
+             NavigationPage.HasNavigationBar="false"
              >
     
     <Grid RowSpacing="0" 
@@ -125,6 +126,7 @@
                     HorizontalOptions="Center"
                     HeightRequest="200"
                     WidthRequest="300"
+                    Clicked="signin_button_ClickedAsync"
                     />
         </Grid>
         
@@ -139,6 +141,7 @@
                         TextColor="{StaticResource textBlackColor}"
                         BackgroundColor="White"
                         VerticalOptions="EndAndExpand"
+                        Clicked="signup_button_Clicked"
                         />
                 <Button x:Name="forgetPass_button" 
                         Text="Forget Password"

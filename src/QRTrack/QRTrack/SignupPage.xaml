@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="QRTrack.SignupPage"
+             xmlns:control="clr-namespace:QRTrack.CustomControl"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             Title="Sign up"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <Grid RowSpacing="0"
+              VerticalOptions="FillAndExpand"
+              HorizontalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="0.7*"/>
+            </Grid.RowDefinitions>
+            
+            <!-- profile pic -->
+            <Grid Grid.Row="0" >
+                <StackLayout Margin="5"
+                             HorizontalOptions="Center"
+                             VerticalOptions="Center">
+                    <controls:CircleImage Source="addProfile.png"
+                                          HeightRequest="90"
+                                          WidthRequest="90"
+                                          />
+                </StackLayout>
+            </Grid>
+            <!-- name entry -->
+            <Grid Grid.Row="1" >
+                 <FlexLayout Direction="{StaticResource entry_FlexLay_direction}"
+                             AlignContent="{StaticResource entry_FlexLay_align}"
+                             JustifyContent="{StaticResource entry_FlexLay_justify}"
+                             Padding="{StaticResource entry_FlexLay_padding}">
+                    <Label Text="Full Name" 
+                           FontFamily="{StaticResource Avenir_NormalFont}"
+                           FontSize="{StaticResource Avenir_FontSmallSize}"
+                           TextColor="{StaticResource textGlayColor}"/>
+                    
+                     <control:EntryCustomRenderer
+                                x:Name="signup_entry_fullname"
+                                Text="Daisy Collins"
+                                FontFamily="{StaticResource Avenir_NormalFont}"
+                                FontSize="{StaticResource Avenir_FontMediumSize}"
+                                TextColor="{StaticResource textBlackColor}"
+                                />
+                    
+                     <BoxView  BackgroundColor="{StaticResource boxview_FlexLay_color}"
+                               HeightRequest="{StaticResource boxview_FlexLay_highRequest}"/>
+                </FlexLayout>
+            </Grid>
+            
+            <!-- email entry -->
+            <Grid Grid.Row="2" >
+                 <FlexLayout Direction="{StaticResource entry_FlexLay_direction}"
+                             AlignContent="{StaticResource entry_FlexLay_align}"
+                             JustifyContent="{StaticResource entry_FlexLay_justify}"
+                             Padding="{StaticResource entry_FlexLay_padding}">
+                    <Label Text="Email" 
+                           FontFamily="{StaticResource Avenir_NormalFont}"
+                           FontSize="{StaticResource Avenir_FontSmallSize}"
+                           TextColor="{StaticResource textGlayColor}"/>
+                    
+                     <control:EntryCustomRenderer
+                                x:Name="signup_entry_email"
+                                Text="XXXX@email.com"
+                                FontFamily="{StaticResource Avenir_NormalFont}"
+                                FontSize="{StaticResource Avenir_FontMediumSize}"
+                                TextColor="{StaticResource textBlackColor}"
+                                />
+                    
+                     <BoxView  BackgroundColor="{StaticResource boxview_FlexLay_color}"
+                               HeightRequest="{StaticResource boxview_FlexLay_highRequest}"/>
+                </FlexLayout>
+            </Grid>
+            
+            <!-- password entry -->
+            <Grid Grid.Row="3" >
+                 <FlexLayout Direction="{StaticResource entry_FlexLay_direction}"
+                             AlignContent="{StaticResource entry_FlexLay_align}"
+                             JustifyContent="{StaticResource entry_FlexLay_justify}"
+                             Padding="{StaticResource entry_FlexLay_padding}">
+                    <Label Text="Password" 
+                           FontFamily="{StaticResource Avenir_NormalFont}"
+                           FontSize="{StaticResource Avenir_FontSmallSize}"
+                           TextColor="{StaticResource textGlayColor}"/>
+                    
+                     <control:EntryCustomRenderer
+                                x:Name="signup_entry_password"
+                                Text="1234"
+                                FontFamily="{StaticResource Avenir_NormalFont}"
+                                FontSize="{StaticResource Avenir_FontMediumSize}"
+                                TextColor="{StaticResource textBlackColor}"
+                                />
+                    
+                     <BoxView  BackgroundColor="{StaticResource boxview_FlexLay_color}"
+                               HeightRequest="{StaticResource boxview_FlexLay_highRequest}"/>
+                </FlexLayout>
+            </Grid>
+            
+            <!-- birthday entry -->
+            <Grid Grid.Row="4" >
+                 <FlexLayout Direction="{StaticResource entry_FlexLay_direction}"
+                             AlignContent="{StaticResource entry_FlexLay_align}"
+                             JustifyContent="{StaticResource entry_FlexLay_justify}"
+                             Padding="{StaticResource entry_FlexLay_padding}">
+                    <Label Text="Birthday" 
+                           FontFamily="{StaticResource Avenir_NormalFont}"
+                           FontSize="{StaticResource Avenir_FontSmallSize}"
+                           TextColor="{StaticResource textGlayColor}"/>
+                    
+                     <control:EntryCustomRenderer
+                                x:Name="signup_entry_birthday"
+                                Text="1989/01/12"
+                                FontFamily="{StaticResource Avenir_NormalFont}"
+                                FontSize="{StaticResource Avenir_FontMediumSize}"
+                                TextColor="{StaticResource textBlackColor}"
+                                />
+                    
+                     <BoxView  BackgroundColor="{StaticResource boxview_FlexLay_color}"
+                               HeightRequest="{StaticResource boxview_FlexLay_highRequest}"/>
+                </FlexLayout>
+            </Grid>
+            
+            <!-- create button -->
+            <Grid Grid.Row="5" Margin="25" >
+                    <Button Text="Sign In" 
+                        TextColor="White"
+                        FontFamily="{StaticResource Avenir_NormalFont}"
+                        FontSize="{StaticResource Avenir_FontMediumSize}"
+                        BackgroundColor="{StaticResource greenColor}"
+                        VerticalOptions="FillAndExpand"
+                        HorizontalOptions="FillAndExpand"
+                        />
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

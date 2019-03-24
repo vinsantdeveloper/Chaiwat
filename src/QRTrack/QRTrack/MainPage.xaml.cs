@@ -27,5 +27,15 @@ namespace QRTrack
             user_line.IsVisible = false;
             admin_line.IsVisible = true;
         }
+
+        async void signin_button_ClickedAsync(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new HomeMasterPageUser());
+        }
+
+        async void signup_button_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new SignupPage());
+        }
     }
 }

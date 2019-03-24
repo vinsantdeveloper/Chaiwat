@@ -30,7 +30,10 @@
                 <On Platform="Android" Value="16" />
                 <On Platform="iOS" Value="16" />
             </OnPlatform>
-            
+            <OnPlatform x:TypeArguments="x:Double" x:Key="Avenir_FontBigSize">
+                <On Platform="Android" Value="25" />
+                <On Platform="iOS" Value="25" />
+            </OnPlatform>
             
             <!-- custom entry markup -->
             <FlexDirection x:Key="entry_FlexLay_direction">Column</FlexDirection>

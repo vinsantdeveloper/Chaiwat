@@ -108,6 +108,7 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "QRTrack.Android.dll" comes first in this list. */
 		"QRTrack.Android.dll",
 		"FormsViewGroup.dll",
+		"ImageCircle.Forms.Plugin.dll",
 		"QRTrack.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

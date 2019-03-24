@@ -1,23 +1,37 @@
-﻿<Properties StartupConfiguration="{D91B0B6E-1336-407C-BB3B-A62724E5F812}|Default">
+﻿<Properties StartupConfiguration="{6918149B-9130-4BA4-8719-F013B26BCEB1}|Default">
   <MonoDevelop.Ide.ItemProperties.QRTrack.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.my_device" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="QRTrack/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="QRTrack/App.xaml">
     <Files>
-      <File FileName="QRTrack/MainPage.xaml" Line="85" Column="52" />
-      <File FileName="QRTrack/App.xaml" Line="22" Column="68" />
-      <File FileName="QRTrack/MainPage.xaml.cs" Line="25" Column="34" />
-      <File FileName="QRTrack.Android/MainActivity.cs" Line="21" Column="72" />
+      <File FileName="QRTrack/HomeMasterPageUser.xaml" Line="13" Column="38" />
+      <File FileName="QRTrack/MasterDetailMenuUser.xaml" Line="8" Column="47" />
+      <File FileName="QRTrack/SignupPage.xaml.cs" Line="2" Column="1" />
+      <File FileName="QRTrack/SignupPage.xaml" Line="144" Column="1" />
+      <File FileName="QRTrack/HomeMasterPageUser.xaml.cs" Line="8" Column="44" />
+      <File FileName="QRTrack/MasterDetailMenuUser.xaml.cs" Line="8" Column="46" />
+      <File FileName="QRTrack/MainPage.xaml" Line="4" Column="14" />
+      <File FileName="QRTrack/MainPage.xaml.cs" Line="14" Column="29" />
+      <File FileName="QRTrack/MasterPageItem.cs" Line="4" Column="32" />
+      <File FileName="HomeForUser.xaml" Line="1" Column="1" />
+      <File FileName="HomeForUser.xaml.cs" Line="16" Column="1" />
+      <File FileName="QRTrack/HomeForUser.xaml" Line="7" Column="43" />
+      <File FileName="QRTrack/HomeForUser.xaml.cs" Line="8" Column="37" />
+      <File FileName="QRTrack/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="QRTrack/App.xaml" Line="56" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="QRTrack" expanded="True">
             <Node name="QRTrack" expanded="True">
-              <Node name="CustomControl" expanded="True" />
-              <Node name="Font" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" selected="True" />
+              <Node name="App.xaml" expanded="True" selected="True" />
+              <Node name="HomeForUser.xaml" expanded="True" />
+              <Node name="HomeMasterPageUser.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="MasterDetailMenuUser.xaml" expanded="True" />
+              <Node name="SignupPage.xaml" expanded="True" />
             </Node>
             <Node name="QRTrack.Android" expanded="True">
-              <Node name="Assets" expanded="True" />
+              <Node name="Resources" expanded="True" />
             </Node>
             <Node name="QRTrack.iOS" expanded="True">
               <Node name="Resources" expanded="True" />

@@ -48,7 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.6.0.220655" />
+    <PackageReference Include="Xamarin.Forms" Version="3.6.0.264807" />
     <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.1" />
     <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="28.0.0.1" />
     <PackageReference Include="Xamarin.Android.Support.v4" Version="28.0.0.1" />
@@ -84,6 +84,16 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
     <AndroidResource Include="Resources\drawable\logo.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\addProfile.png" />
+    <AndroidResource Include="Resources\drawable\addProfile.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\hamburger.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\hamburger.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\hamburger.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\hamburger.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\create.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\create.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\create.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\create.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
