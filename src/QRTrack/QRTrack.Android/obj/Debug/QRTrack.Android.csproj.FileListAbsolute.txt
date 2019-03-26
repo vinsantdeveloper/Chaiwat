@@ -58,3 +58,7 @@
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/linksrc/Xamarin.Forms.Core.pdb
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/linksrc/Xamarin.Forms.Platform.Android.pdb
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/linksrc/Xamarin.Forms.Xaml.pdb
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/bin/Debug/Lottie.Android.dll.mdb
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/bin/Debug/Lottie.Forms.dll.mdb
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/linksrc/Lottie.Android.dll.mdb
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/linksrc/Lottie.Forms.dll.mdb

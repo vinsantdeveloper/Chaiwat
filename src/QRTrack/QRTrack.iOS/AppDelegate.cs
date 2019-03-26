@@ -5,6 +5,7 @@ using System.Linq;
 using Foundation;
 using ImageCircle.Forms.Plugin.iOS;
 using UIKit;
+using Lottie.Forms.iOS.Renderers;
 
 namespace QRTrack.iOS
 {
@@ -26,6 +27,7 @@ namespace QRTrack.iOS
             global::Xamarin.Forms.Forms.Init();
             ImageCircleRenderer.Init();
             LoadApplication(new App());
+            AnimationViewRenderer.Init();
             return base.FinishedLaunching(app, options);
         }
     }

@@ -2,6 +2,8 @@
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/FormsViewGroup.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/ImageCircle.Forms.Plugin.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/Java.Interop.dll
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/Lottie.Android.dll
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/Lottie.Forms.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/Mono.Android.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/mscorlib.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/QRTrack.dll

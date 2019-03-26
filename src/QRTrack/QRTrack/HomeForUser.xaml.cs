@@ -11,5 +11,10 @@ namespace QRTrack
         {
             InitializeComponent();
         }
+
+        void bt_calling_bt_OnClick(object sender, System.EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

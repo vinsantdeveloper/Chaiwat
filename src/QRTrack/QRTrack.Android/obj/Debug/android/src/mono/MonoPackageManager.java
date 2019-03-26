@@ -109,6 +109,8 @@ class MonoPackageManager_Resources {
 		"QRTrack.Android.dll",
 		"FormsViewGroup.dll",
 		"ImageCircle.Forms.Plugin.dll",
+		"Lottie.Android.dll",
+		"Lottie.Forms.dll",
 		"QRTrack.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

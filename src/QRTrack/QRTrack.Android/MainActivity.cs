@@ -7,6 +7,7 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using ImageCircle.Forms.Plugin.Droid;
+using Lottie.Forms.Droid;
 
 namespace QRTrack.Droid
 {
@@ -21,6 +22,7 @@ namespace QRTrack.Droid
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             ImageCircleRenderer.Init();
+            AnimationViewRenderer.Init();
             LoadApplication(new App());
         }
     }

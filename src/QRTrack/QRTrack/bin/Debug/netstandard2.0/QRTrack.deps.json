@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "5420f44e4860a2575ccdcd92c07e0260ff88a0f7"
+    "signature": "2f884d0b20dea3881a94dcda1f7b3af8a953b7da"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,12 +9,24 @@
     ".NETStandard,Version=v2.0/": {
       "QRTrack/1.0.0": {
         "dependencies": {
+          "Com.Airbnb.Xamarin.Forms.Lottie": "2.6.3",
           "NETStandard.Library": "2.0.3",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
-          "Xamarin.Forms": "3.6.0.220655"
+          "Xamarin.Forms": "3.6.0.264807"
         },
         "runtime": {
           "QRTrack.dll": {}
+        }
+      },
+      "Com.Airbnb.Xamarin.Forms.Lottie/2.6.3": {
+        "dependencies": {
+          "Xamarin.Forms": "3.6.0.264807"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Lottie.Forms.dll": {
+            "assemblyVersion": "2.6.3.0",
+            "fileVersion": "2.6.3.0"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -25,7 +37,7 @@
       },
       "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
         "dependencies": {
-          "Xamarin.Forms": "3.6.0.220655"
+          "Xamarin.Forms": "3.6.0.264807"
         },
         "runtime": {
           "lib/netstandard2.0/ImageCircle.Forms.Plugin.dll": {
@@ -34,7 +46,7 @@
           }
         }
       },
-      "Xamarin.Forms/3.6.0.220655": {
+      "Xamarin.Forms/3.6.0.264807": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
@@ -58,6 +70,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Com.Airbnb.Xamarin.Forms.Lottie/2.6.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BQJUg3Hrbbz8oagavkX7pIsMQpT59aLXZznExh5eovZR6DgWGp5yDtZ2RVqTJEduvY1qoZaYr6Izjr8MLXnQEA==",
+      "path": "com.airbnb.xamarin.forms.lottie/2.6.3",
+      "hashPath": "com.airbnb.xamarin.forms.lottie.2.6.3.nupkg.sha512"
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
       "serviceable": true,
@@ -79,12 +98,12 @@
       "path": "xam.plugins.forms.imagecircle/3.0.0.5",
       "hashPath": "xam.plugins.forms.imagecircle.3.0.0.5.nupkg.sha512"
     },
-    "Xamarin.Forms/3.6.0.220655": {
+    "Xamarin.Forms/3.6.0.264807": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ltCTV5Tez9zTbg9f6UunegHPWRzfVHKGHeLOmXeJvNFEPwXrHDwjCcRqMqNISLRjzWxT1MuC9wgKdMoxGdBLqQ==",
-      "path": "xamarin.forms/3.6.0.220655",
-      "hashPath": "xamarin.forms.3.6.0.220655.nupkg.sha512"
+      "sha512": "sha512-T7gYS3PoGNtp6D7GAX7fF4QzR7NC36NNQSiuEb5TXO8rEqkZGwpC4u/6S62rH0wL3dabWNVpJPPnL5jZvWeoVg==",
+      "path": "xamarin.forms/3.6.0.264807",
+      "hashPath": "xamarin.forms.3.6.0.264807.nupkg.sha512"
     }
   }
 }

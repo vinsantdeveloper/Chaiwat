@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="QRTrack.HomeForUser"
              xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
              Title="HOME"
              BackgroundColor="{StaticResource greenColor}">
     <ContentPage.Content>
@@ -17,21 +18,44 @@
                 <StackLayout Spacing="20"
                              HorizontalOptions="Center"
                              VerticalOptions="Center">
-                    <controls:CircleImage Source="addProfile.png"
+                    <controls:CircleImage x:Name="home_user_profile"
+                                          Source="addProfile.png"
                                           HeightRequest="100"
                                           WidthRequest="100"
                                           />
-                    <Label  x:Name=""
+                    <Label  x:Name="home_username"
                             Text="Kasanapop Srirabut" 
                             TextColor="White" 
                             FontFamily="{StaticResource Avenir_NormalFont}" 
                             FontSize="{StaticResource Avenir_FontBigSize}"/>
+                    <Label  Text="USER" 
+                            TextColor="White" 
+                            FontFamily="{StaticResource Avenir_NormalFont}" 
+                            FontSize="{StaticResource Avenir_FontSmallSize}"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"/>
                 </StackLayout>
             </Grid>
             
             <Grid Grid.Row="1" BackgroundColor="White">
-                <StackLayout>
-                    
+                <StackLayout Spacing="5"
+                             HorizontalOptions="FillAndExpand"
+                             VerticalOptions="FillAndExpand">
+                    <!--<forms:AnimationView Animation="no_calling_button.json"
+                                         AutoPlay="true"
+                                         Loop="true"
+                                         IsVisible="true"
+                                         HeightRequest="250"
+                                         WidthRequest="250"
+                                         HorizontalOptions="Center"
+                                         VerticalOptions="Center"
+                                         OnClick="bt_calling_bt_OnClick"/>-->
+                    <Label Text="No Calling" 
+                           TextColor="{StaticResource textGlayColor}" 
+                           FontFamily="{StaticResource Avenir_NormalFont}" 
+                           FontSize="{StaticResource Avenir_FontBigSize}"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
                 </StackLayout>
             </Grid>
             

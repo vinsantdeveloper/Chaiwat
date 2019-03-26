@@ -2,6 +2,28 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Com.Airbnb.iOS.Lottie/2.5.4": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        }
+      },
+      "Com.Airbnb.Xamarin.Forms.Lottie/2.6.3": {
+        "type": "package",
+        "dependencies": {
+          "Com.Airbnb.iOS.Lottie": "2.5.4",
+          "Xamarin.Forms": "3.1.0.697729"
+        },
+        "compile": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        }
+      },
       "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
         "type": "package",
         "dependencies": {
@@ -141,8 +163,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Com.Airbnb.Xamarin.Forms.Lottie": "2.6.3",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
-          "Xamarin.Forms": "3.6.0.220655"
+          "Xamarin.Forms": "3.6.0.264807"
         },
         "compile": {
           "bin/placeholder/QRTrack.dll": {}
@@ -153,6 +176,28 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Com.Airbnb.iOS.Lottie/2.5.4": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        }
+      },
+      "Com.Airbnb.Xamarin.Forms.Lottie/2.6.3": {
+        "type": "package",
+        "dependencies": {
+          "Com.Airbnb.iOS.Lottie": "2.5.4",
+          "Xamarin.Forms": "3.1.0.697729"
+        },
+        "compile": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        }
+      },
       "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
         "type": "package",
         "dependencies": {
@@ -292,8 +337,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Com.Airbnb.Xamarin.Forms.Lottie": "2.6.3",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
-          "Xamarin.Forms": "3.6.0.220655"
+          "Xamarin.Forms": "3.6.0.264807"
         },
         "compile": {
           "bin/placeholder/QRTrack.dll": {}
@@ -304,6 +350,28 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Com.Airbnb.iOS.Lottie/2.5.4": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        }
+      },
+      "Com.Airbnb.Xamarin.Forms.Lottie/2.6.3": {
+        "type": "package",
+        "dependencies": {
+          "Com.Airbnb.iOS.Lottie": "2.5.4",
+          "Xamarin.Forms": "3.1.0.697729"
+        },
+        "compile": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        }
+      },
       "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
         "type": "package",
         "dependencies": {
@@ -443,8 +511,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Com.Airbnb.Xamarin.Forms.Lottie": "2.6.3",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
-          "Xamarin.Forms": "3.6.0.220655"
+          "Xamarin.Forms": "3.6.0.264807"
         },
         "compile": {
           "bin/placeholder/QRTrack.dll": {}
@@ -455,6 +524,28 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Com.Airbnb.iOS.Lottie/2.5.4": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        }
+      },
+      "Com.Airbnb.Xamarin.Forms.Lottie/2.6.3": {
+        "type": "package",
+        "dependencies": {
+          "Com.Airbnb.iOS.Lottie": "2.5.4",
+          "Xamarin.Forms": "3.1.0.697729"
+        },
+        "compile": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        }
+      },
       "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
         "type": "package",
         "dependencies": {
@@ -594,8 +685,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Com.Airbnb.Xamarin.Forms.Lottie": "2.6.3",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
-          "Xamarin.Forms": "3.6.0.220655"
+          "Xamarin.Forms": "3.6.0.264807"
         },
         "compile": {
           "bin/placeholder/QRTrack.dll": {}
@@ -607,6 +699,50 @@
     }
   },
   "libraries": {
+    "Com.Airbnb.iOS.Lottie/2.5.4": {
+      "sha512": "N2fMsUrhLGeXdiNJF5HzASIPuNbY7VO2HQWWUQzb3UnWw55AbjJ6VXYC2c50zbZQd9ZaYG43O4e91WnL5StJPg==",
+      "type": "package",
+      "path": "com.airbnb.ios.lottie/2.5.4",
+      "files": [
+        ".signature.p7s",
+        "com.airbnb.ios.lottie.2.5.4.nupkg.sha512",
+        "com.airbnb.ios.lottie.nuspec",
+        "lib/xamarinios10/Lottie.iOS.dll",
+        "lib/xamarinios10/Lottie.iOS.pdb",
+        "lib/xamarinios10/Lottie.iOS.xml",
+        "lib/xamarinmac20/Lottie.iOS.dll",
+        "lib/xamarinmac20/Lottie.iOS.pdb",
+        "lib/xamarinmac20/Lottie.iOS.xml",
+        "lib/xamarintvos10/Lottie.iOS.dll",
+        "lib/xamarintvos10/Lottie.iOS.pdb",
+        "lib/xamarintvos10/Lottie.iOS.xml",
+        "readme.txt"
+      ]
+    },
+    "Com.Airbnb.Xamarin.Forms.Lottie/2.6.3": {
+      "sha512": "BQJUg3Hrbbz8oagavkX7pIsMQpT59aLXZznExh5eovZR6DgWGp5yDtZ2RVqTJEduvY1qoZaYr6Izjr8MLXnQEA==",
+      "type": "package",
+      "path": "com.airbnb.xamarin.forms.lottie/2.6.3",
+      "files": [
+        ".signature.p7s",
+        "com.airbnb.xamarin.forms.lottie.2.6.3.nupkg.sha512",
+        "com.airbnb.xamarin.forms.lottie.nuspec",
+        "lib/monoandroid81/Lottie.Forms.dll",
+        "lib/monoandroid81/Lottie.Forms.pdb",
+        "lib/monoandroid81/Lottie.Forms.xml",
+        "lib/netstandard2.0/Lottie.Forms.dll",
+        "lib/netstandard2.0/Lottie.Forms.pdb",
+        "lib/netstandard2.0/Lottie.Forms.xml",
+        "lib/uap10.0.16299/Lottie.Forms.dll",
+        "lib/uap10.0.16299/Lottie.Forms.pdb",
+        "lib/uap10.0.16299/Lottie.Forms.pri",
+        "lib/uap10.0.16299/Lottie.Forms.xml",
+        "lib/xamarinios10/Lottie.Forms.dll",
+        "lib/xamarinios10/Lottie.Forms.pdb",
+        "lib/xamarinios10/Lottie.Forms.xml",
+        "readme.txt"
+      ]
+    },
     "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
       "sha512": "in+ZqtkN2MC7oF/bQWqr84M/n6drISzFEL5QFB6fKLwF2yshTZRnmLvyhXtFGOCfy9ZpIfY1sDjSc6r2mbEwTw==",
       "type": "package",
@@ -800,6 +936,7 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
+      "Com.Airbnb.Xamarin.Forms.Lottie >= 2.6.3",
       "QRTrack >= 1.0.0",
       "Xamarin.Forms >= 3.6.0.264807"
     ]
@@ -839,6 +976,10 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "Com.Airbnb.Xamarin.Forms.Lottie": {
+            "target": "Package",
+            "version": "[2.6.3, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[3.6.0.264807, )"
