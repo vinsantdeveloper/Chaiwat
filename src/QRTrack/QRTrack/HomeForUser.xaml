@@ -10,7 +10,6 @@
         <Grid ColumnSpacing="0" RowSpacing="0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
-                <!-- <RowDefinition Height="AUTO" /> -->
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
             
@@ -41,7 +40,7 @@
                 <StackLayout Spacing="5"
                              HorizontalOptions="FillAndExpand"
                              VerticalOptions="FillAndExpand">
-                    <!--<forms:AnimationView Animation="no_calling_button.json"
+                    <forms:AnimationView Animation="no_calling_button.json"
                                          AutoPlay="true"
                                          Loop="true"
                                          IsVisible="true"
@@ -49,7 +48,7 @@
                                          WidthRequest="250"
                                          HorizontalOptions="Center"
                                          VerticalOptions="Center"
-                                         OnClick="bt_calling_bt_OnClick"/>-->
+                                         OnClick="bt_calling_bt_OnClick"/>
                     <Label Text="No Calling" 
                            TextColor="{StaticResource textGlayColor}" 
                            FontFamily="{StaticResource Avenir_NormalFont}" 

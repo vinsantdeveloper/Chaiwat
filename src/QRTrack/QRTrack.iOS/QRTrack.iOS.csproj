@@ -170,6 +170,8 @@
     <BundleResource Include="Resources\hamburger.png" />
     <BundleResource Include="Resources\create.png" />
     <BundleResource Include="no_calling_button.json" />
+    <BundleResource Include="scan_button.json" />
+    <BundleResource Include="calling_button.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\Fonts\" />

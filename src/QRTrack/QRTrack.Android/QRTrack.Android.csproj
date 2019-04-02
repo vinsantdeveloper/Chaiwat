@@ -117,6 +117,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AndroidAsset>
     <AndroidAsset Include="Assets\no_calling_button.json" />
+    <AndroidAsset Include="Assets\scan_button.json" />
+    <AndroidAsset Include="Assets\calling_button.json" />
   </ItemGroup>
  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

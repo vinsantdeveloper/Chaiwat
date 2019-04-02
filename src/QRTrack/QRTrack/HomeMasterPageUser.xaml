@@ -9,9 +9,11 @@
     </MasterDetailPage.Master>
     
     <MasterDetailPage.Detail>
-        <NavigationPage>
+        <NavigationPage BarBackgroundColor="{StaticResource greenColor}"
+                        BarTextColor="White"
+                        >
             <x:Arguments>
-                <local:HomeForUser />
+                <local:HomeForAdmin />
             </x:Arguments>
         </NavigationPage>
     </MasterDetailPage.Detail>

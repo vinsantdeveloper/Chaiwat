@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{209FA716-A7AD-4095-BD70-C8710FC66FA7}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="QRTracksService/Controllers/TodoItemController.cs">
+    <Files>
+      <File FileName="../../../../../../xamarin/learning/Azure/app-coffeecups-master/CoffeeCups.Shared/Authentication/AuthHandler.cs" Line="1" Column="1" />
+      <File FileName="../../../../../../xamarin/learning/Azure/app-coffeecups-master/CoffeeCups.Shared/Helpers/Settings.cs" Line="36" Column="44" />
+      <File FileName="../../../../../../xamarin/learning/Azure/app-coffeecups-master/CoffeeCups.Shared/Model/CupOfCoffee.cs" Line="1" Column="1" />
+      <File FileName="../../../../../../xamarin/learning/Azure/app-coffeecups-master/CoffeeCups.Shared/Services/AzureService.cs" Line="33" Column="9" />
+      <File FileName="QRTracksService/Models/QRTracksContext.cs" Line="1" Column="1" />
+      <File FileName="QRTracksService/Controllers/TodoItemController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CoffeeCups" expanded="True">
+            <Node name="CoffeeCups" expanded="True">
+              <Node name="Authentication" expanded="True" />
+              <Node name="Helpers" expanded="True" />
+              <Node name="Model" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+          <Node name="QRTracks" expanded="True">
+            <Node name="QRTracksService" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="TodoItemController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.QRTracksService PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

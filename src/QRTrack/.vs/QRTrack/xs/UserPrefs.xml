@@ -1,12 +1,8 @@
 ﻿<Properties StartupConfiguration="{6918149B-9130-4BA4-8719-F013B26BCEB1}|Default">
   <MonoDevelop.Ide.ItemProperties.QRTrack.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.my_device" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="QRTrack/HomeForUser.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="QRTrack/HomeForAdmin.xaml">
     <Files>
-      <File FileName="QRTrack/HomeForUser.xaml" Line="31" Column="39" />
-      <File FileName="QRTrack/HomeForUser.xaml.cs" Line="15" Column="35" />
-      <File FileName="QRTrack.Android/MainActivity.cs" Line="10" Column="25" />
-      <File FileName="QRTrack.iOS/AppDelegate.cs" Line="30" Column="42" />
-      <File FileName="QRTrack/App.xaml" Line="29" Column="80" />
+      <File FileName="QRTrack/HomeForAdmin.xaml" Line="64" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,14 +10,15 @@
           <Node name="QRTrack" expanded="True">
             <Node name="QRTrack" expanded="True">
               <Node name="App.xaml" expanded="True" />
-              <Node name="HomeForUser.xaml" expanded="True" selected="True" />
+              <Node name="HomeForAdmin.xaml" expanded="True" selected="True" />
               <Node name="HomeMasterPageUser.xaml" expanded="True" />
               <Node name="MainPage.xaml" expanded="True" />
-              <Node name="MasterDetailMenuUser.xaml" expanded="True" />
-              <Node name="SignupPage.xaml" expanded="True" />
             </Node>
             <Node name="QRTrack.Android" expanded="True">
               <Node name="Assets" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="values" expanded="True" />
+              </Node>
             </Node>
             <Node name="QRTrack.iOS" expanded="True" />
           </Node>
