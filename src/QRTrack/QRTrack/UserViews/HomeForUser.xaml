@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="QRTrack.UserViews.HomeForUser"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+             Title="HOME"
+             BackgroundColor="{StaticResource greenColor}">
+    <ContentPage.Content>
+        <Grid ColumnSpacing="0" RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            
+            <Grid Grid.Row="0" >
+                <StackLayout Spacing="20"
+                             HorizontalOptions="Center"
+                             VerticalOptions="Center">
+                    <controls:CircleImage x:Name="home_user_profile"
+                                          Source="addProfile.png"
+                                          HeightRequest="100"
+                                          WidthRequest="100"
+                                          />
+                    <Label  x:Name="home_username"
+                            Text="Kasanapop Srirabut" 
+                            TextColor="White" 
+                            FontFamily="{StaticResource Avenir_NormalFont}" 
+                            FontSize="{StaticResource Avenir_FontBigSize}"/>
+                    <Label  Text="USER" 
+                            TextColor="White" 
+                            FontFamily="{StaticResource Avenir_NormalFont}" 
+                            FontSize="{StaticResource Avenir_FontSmallSize}"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"/>
+                </StackLayout>
+            </Grid>
+            
+            <Grid Grid.Row="1" BackgroundColor="White">
+                <StackLayout Spacing="5"
+                             HorizontalOptions="FillAndExpand"
+                             VerticalOptions="FillAndExpand">
+                    <forms:AnimationView Animation="no_calling_button.json"
+                                         AutoPlay="true"
+                                         Loop="true"
+                                         IsVisible="true"
+                                         HeightRequest="250"
+                                         WidthRequest="250"
+                                         HorizontalOptions="Center"
+                                         VerticalOptions="Center"
+                                         OnClick="bt_calling_bt_OnClick"/>
+                    <Label Text="No Calling" 
+                           TextColor="{StaticResource textGlayColor}" 
+                           FontFamily="{StaticResource Avenir_NormalFont}" 
+                           FontSize="{StaticResource Avenir_FontBigSize}"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+                </StackLayout>
+            </Grid>
+            
+             <StackLayout Padding="15,0,0,0" Orientation="Horizontal" VerticalOptions="End" Spacing="0">
+                <Image Source="create.png" 
+                       HeightRequest="40" 
+                       WidthRequest="40" 
+                       TranslationY="20" 
+                       VerticalOptions="Center"/>
+                <Label Text="QR Code" 
+                       TextColor="{StaticResource textGlayColor}" 
+                       FontFamily="{StaticResource Avenir_NormalFont}" 
+                       FontSize="{StaticResource Avenir_FontSmallSize}"
+                       VerticalOptions="End"
+                       TranslationY="20" />
+            </StackLayout>
+            
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

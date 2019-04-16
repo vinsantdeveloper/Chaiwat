@@ -13,6 +13,8 @@ void xamarin_register_assemblies_impl ()
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
 	xamarin_open_and_register ("ImageCircle.Forms.Plugin.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
+	xamarin_open_and_register ("Microsoft.Azure.Mobile.Client.dll", &exception_gchandle);
+	xamarin_process_managed_exception_gchandle (exception_gchandle);
 	xamarin_open_and_register ("Lottie.Forms.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
 	xamarin_open_and_register ("Lottie.iOS.dll", &exception_gchandle);

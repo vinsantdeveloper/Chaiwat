@@ -81,10 +81,10 @@
                 
                  <control:EntryCustomRenderer
                             x:Name="entry_username"
-                            Text="Email"
                             FontFamily="{StaticResource Avenir_NormalFont}"
                             FontSize="{StaticResource Avenir_FontMediumSize}"
                             TextColor="{StaticResource textBlackColor}"
+                            Placeholder="Email"
                             />
                 
                  <BoxView  BackgroundColor="{StaticResource boxview_FlexLay_color}"
@@ -101,14 +101,15 @@
                 <Label Text="PASSWORD" 
                        FontFamily="{StaticResource Avenir_NormalFont}"
                        FontSize="{StaticResource Avenir_FontSmallSize}"
-                       TextColor="{StaticResource textGlayColor}"/>
+                       TextColor="{StaticResource textGlayColor}"
+                       />
                 
                  <control:EntryCustomRenderer
                             x:Name="entry_password"
-                            Text="●●●●●●●●"
                             FontFamily="{StaticResource Avenir_NormalFont}"
                             FontSize="{StaticResource Avenir_FontMediumSize}"
-                            TextColor="{StaticResource textBlackColor}"/>
+                            TextColor="{StaticResource textBlackColor}"
+                            IsPassword="true"/>
                 
                  <BoxView  BackgroundColor="{StaticResource boxview_FlexLay_color}"
                            HeightRequest="{StaticResource boxview_FlexLay_highRequest}"/>

@@ -21,8 +21,13 @@ namespace QRTrack.Droid
 
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+
             ImageCircleRenderer.Init();
             AnimationViewRenderer.Init();
+
+            Microsoft.WindowsAzure.MobileServices.CurrentPlatform.Init();
+            SQLitePCL.Batteries.Init();
+
             LoadApplication(new App());
         }
     }

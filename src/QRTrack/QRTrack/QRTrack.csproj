@@ -13,10 +13,17 @@
     <PackageReference Include="Xamarin.Forms" Version="3.6.0.264807" />
     <PackageReference Include="Xam.Plugins.Forms.ImageCircle" Version="3.0.0.5" />
     <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie" Version="2.6.3" />
+    <PackageReference Include="Microsoft.Azure.Mobile.Client" Version="4.1.1" />
+    <PackageReference Include="Microsoft.Azure.Mobile.Client.SQLiteStore" Version="4.1.1" />
+    <PackageReference Include="Xam.Plugin.Connectivity" Version="3.2.0" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CustomControl\" />
     <Folder Include="Font\" />
+    <Folder Include="Models\" />
+    <Folder Include="Services\" />
+    <Folder Include="UserViews\" />
+    <Folder Include="AdminViews\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="CustomControl\EntryCustom.xaml.cs" />
@@ -28,5 +35,19 @@
     <None Update="Font\avenir.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="UserViews\HomeMasterPageUser.xaml.cs">
+      <DependentUpon>HomeMasterPageUser.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="UserViews\MasterDetailMenuUser.xaml.cs">
+      <DependentUpon>MasterDetailMenuUser.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="AdminViews\HomeForAdmin.xaml.cs">
+      <DependentUpon>HomeForAdmin.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="AdminViews\HomeMasterPageAdmin.xaml.cs">
+      <DependentUpon>HomeMasterPageAdmin.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>

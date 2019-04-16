@@ -17,7 +17,10 @@ namespace QRTrack {
     public partial class SignupPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::QRTrack.CustomControl.EntryCustomRenderer signup_entry_fullname;
+        private global::QRTrack.CustomControl.EntryCustomRenderer signup_entry_firstname;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::QRTrack.CustomControl.EntryCustomRenderer signup_entry_lastname;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::QRTrack.CustomControl.EntryCustomRenderer signup_entry_email;
@@ -26,15 +29,20 @@ namespace QRTrack {
         private global::QRTrack.CustomControl.EntryCustomRenderer signup_entry_password;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::QRTrack.CustomControl.EntryCustomRenderer signup_entry_birthday;
+        private global::QRTrack.CustomControl.EntryCustomRenderer signup_entry_mobilephone;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Switch switch_admin_check;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(SignupPage));
-            signup_entry_fullname = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::QRTrack.CustomControl.EntryCustomRenderer>(this, "signup_entry_fullname");
+            signup_entry_firstname = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::QRTrack.CustomControl.EntryCustomRenderer>(this, "signup_entry_firstname");
+            signup_entry_lastname = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::QRTrack.CustomControl.EntryCustomRenderer>(this, "signup_entry_lastname");
             signup_entry_email = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::QRTrack.CustomControl.EntryCustomRenderer>(this, "signup_entry_email");
             signup_entry_password = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::QRTrack.CustomControl.EntryCustomRenderer>(this, "signup_entry_password");
-            signup_entry_birthday = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::QRTrack.CustomControl.EntryCustomRenderer>(this, "signup_entry_birthday");
+            signup_entry_mobilephone = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::QRTrack.CustomControl.EntryCustomRenderer>(this, "signup_entry_mobilephone");
+            switch_admin_check = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Switch>(this, "switch_admin_check");
         }
     }
 }

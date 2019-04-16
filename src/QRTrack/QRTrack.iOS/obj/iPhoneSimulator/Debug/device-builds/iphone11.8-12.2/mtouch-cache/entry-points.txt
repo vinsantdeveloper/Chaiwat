@@ -383,6 +383,14 @@ Function=xamarin_simd__void_objc_msgSend_IntPtr_Vector2_Vector2
 	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_simd__void_objc_msgSendSuper_IntPtr_Vector2_Vector2
 	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSAxisAlignedBoundingBox_objc_msgSend
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSAxisAlignedBoundingBox_objc_msgSendSuper
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSAxisAlignedBoundingBox_objc_msgSend_stret
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSAxisAlignedBoundingBox_objc_msgSendSuper_stret
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_simd__MPSImageHistogramInfo_objc_msgSend
 	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_simd__MPSImageHistogramInfo_objc_msgSendSuper

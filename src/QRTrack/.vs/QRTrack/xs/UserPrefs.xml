@@ -1,25 +1,20 @@
 ﻿<Properties StartupConfiguration="{6918149B-9130-4BA4-8719-F013B26BCEB1}|Default">
-  <MonoDevelop.Ide.ItemProperties.QRTrack.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.my_device" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="QRTrack/HomeForAdmin.xaml">
+  <MonoDevelop.Ide.ItemProperties.QRTrack.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.Light.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.my_device" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="QRTrack/SignupPage.xaml">
     <Files>
-      <File FileName="QRTrack/HomeForAdmin.xaml" Line="64" Column="1" />
+      <File FileName="QRTrack/Models/User_Information.cs" Line="25" Column="44" />
+      <File FileName="QRTrack/SignupPage.xaml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="QRTrack" expanded="True">
             <Node name="QRTrack" expanded="True">
-              <Node name="App.xaml" expanded="True" />
-              <Node name="HomeForAdmin.xaml" expanded="True" selected="True" />
-              <Node name="HomeMasterPageUser.xaml" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="MainPage.xaml" expanded="True" />
+              <Node name="SignupPage.xaml" selected="True" />
             </Node>
-            <Node name="QRTrack.Android" expanded="True">
-              <Node name="Assets" expanded="True" />
-              <Node name="Resources" expanded="True">
-                <Node name="values" expanded="True" />
-              </Node>
-            </Node>
+            <Node name="QRTrack.Android" expanded="True" />
             <Node name="QRTrack.iOS" expanded="True" />
           </Node>
         </State>
@@ -30,7 +25,10 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/CustomControl/EntryCustomRenderer.cs" relfile="QRTrack/CustomControl/EntryCustomRenderer.cs" line="23" column="1" />
+      <Breakpoint file="/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/SignupPage.xaml.cs" relfile="QRTrack/SignupPage.xaml.cs" line="32" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

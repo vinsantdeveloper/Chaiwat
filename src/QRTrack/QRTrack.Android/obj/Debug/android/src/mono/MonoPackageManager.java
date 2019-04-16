@@ -5,6 +5,7 @@ import java.lang.String;
 import java.util.Locale;
 import java.util.HashSet;
 import java.util.zip.*;
+import java.util.Arrays;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ApplicationInfo;
@@ -30,8 +31,7 @@ public class MonoPackageManager {
 						android.content.Intent.ACTION_TIMEZONE_CHANGED
 				);
 				context.registerReceiver (new mono.android.app.NotifyTimeZoneChanges (), timezoneChangedFilter);
-				
-				System.loadLibrary("monodroid");
+
 				Locale locale       = Locale.getDefault ();
 				String language     = locale.getLanguage () + "-" + locale.getCountry ();
 				String filesDir     = context.getFilesDir ().getAbsolutePath ();
@@ -45,6 +45,8 @@ public class MonoPackageManager {
 				String externalLegacyDir = new java.io.File (
 							external0,
 							"../legacy/Android/data/" + context.getPackageName () + "/files/.__override__").getAbsolutePath ();
+
+				System.loadLibrary("monodroid");
 
 				Runtime.init (
 						language,
@@ -61,7 +63,9 @@ public class MonoPackageManager {
 							externalLegacyDir
 						},
 						MonoPackageManager_Resources.Assemblies,
-						context.getPackageName ());
+						context.getPackageName (),
+						android.os.Build.VERSION.SDK_INT,
+						mono.android.app.XamarinAndroidEnvironmentVariables.Variables);
 				
 				mono.android.app.ApplicationRegistration.registerApplications ();
 				
@@ -111,7 +115,23 @@ class MonoPackageManager_Resources {
 		"ImageCircle.Forms.Plugin.dll",
 		"Lottie.Android.dll",
 		"Lottie.Forms.dll",
+		"Microsoft.Azure.Mobile.Client.dll",
+		"Microsoft.Azure.Mobile.Client.SQLiteStore.dll",
+		"Newtonsoft.Json.dll",
+		"PCLCrypto.dll",
+		"PInvoke.BCrypt.dll",
+		"PInvoke.Kernel32.dll",
+		"PInvoke.NCrypt.dll",
+		"PInvoke.Windows.Core.dll",
+		"Plugin.Connectivity.Abstractions.dll",
+		"Plugin.Connectivity.dll",
 		"QRTrack.dll",
+		"SQLitePCLRaw.batteries_green.dll",
+		"SQLitePCLRaw.batteries_v2.dll",
+		"SQLitePCLRaw.core.dll",
+		"SQLitePCLRaw.lib.e_sqlite3.dll",
+		"SQLitePCLRaw.provider.e_sqlite3.dll",
+		"Validation.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",
@@ -120,6 +140,7 @@ class MonoPackageManager_Resources {
 		"Xamarin.Android.Support.Compat.dll",
 		"Xamarin.Android.Support.Core.UI.dll",
 		"Xamarin.Android.Support.Core.Utils.dll",
+		"Xamarin.Android.Support.CustomTabs.dll",
 		"Xamarin.Android.Support.Design.dll",
 		"Xamarin.Android.Support.Fragment.dll",
 		"Xamarin.Android.Support.Media.Compat.dll",

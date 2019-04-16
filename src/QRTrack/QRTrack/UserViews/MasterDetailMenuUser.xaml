@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:QRTrack.UserViews"
+             x:Class="QRTrack.UserViews.MasterDetailMenuUser"
+             Padding="30,30,0,30"
+             BackgroundColor="{StaticResource greenColor}"
+             Icon="hamburger.png"
+             Title="masterPage">
+    <ContentPage.Content>
+        <Grid RowSpacing="0"
+              VerticalOptions="FillAndExpand"
+              HorizontalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            
+            <Grid Grid.Row="0" >
+                <FlexLayout >
+                    <Button x:Name="home_user_button" 
+                        Text="Home" 
+                        TextColor="White" 
+                        FontFamily="{StaticResource Avenir_NormalFont}"
+                        FontSize="{StaticResource Avenir_FontSmallSize}"
+                        BackgroundColor="{StaticResource greenColor}"
+                        />
+                </FlexLayout>
+            </Grid>
+            
+            <Grid Grid.Row="1">
+                <FlexLayout>
+                    <Button x:Name="profile_user_button" 
+                        Text="Profile" 
+                        TextColor="White" 
+                        FontFamily="{StaticResource Avenir_NormalFont}"
+                        FontSize="{StaticResource Avenir_FontSmallSize}"
+                        BackgroundColor="{StaticResource greenColor}"
+                        />
+                </FlexLayout>
+            </Grid>
+            
+            <Grid Grid.Row="2">
+                <FlexLayout>
+                    <Button x:Name="removeAds_user_button" 
+                        Text="Remove Ads" 
+                        TextColor="White" 
+                        FontFamily="{StaticResource Avenir_NormalFont}"
+                        FontSize="{StaticResource Avenir_FontSmallSize}"
+                        BackgroundColor="{StaticResource greenColor}"
+                        />
+                </FlexLayout>
+            </Grid>
+            
+            <Grid Grid.Row="4">
+                <FlexLayout>
+                    <Button x:Name="settings_user_button" 
+                        Text="Settings" 
+                        TextColor="White" 
+                        FontFamily="{StaticResource Avenir_NormalFont}"
+                        FontSize="{StaticResource Avenir_FontSmallSize}"
+                        BackgroundColor="{StaticResource greenColor}"
+                        />
+                </FlexLayout>
+            </Grid>
+            
+             <Grid Grid.Row="5">
+                <FlexLayout>
+                    <Button x:Name="logout_user_button" 
+                        Text="Logout" 
+                        TextColor="White" 
+                        FontFamily="{StaticResource Avenir_NormalFont}"
+                        FontSize="{StaticResource Avenir_FontSmallSize}"
+                        BackgroundColor="{StaticResource greenColor}"
+                        />
+                </FlexLayout>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

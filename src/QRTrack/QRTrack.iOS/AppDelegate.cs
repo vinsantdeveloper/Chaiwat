@@ -28,6 +28,10 @@ namespace QRTrack.iOS
             ImageCircleRenderer.Init();
             LoadApplication(new App());
             AnimationViewRenderer.Init();
+
+            Microsoft.WindowsAzure.MobileServices.CurrentPlatform.Init();
+            SQLitePCL.Batteries.Init();
+
             return base.FinishedLaunching(app, options);
         }
     }
