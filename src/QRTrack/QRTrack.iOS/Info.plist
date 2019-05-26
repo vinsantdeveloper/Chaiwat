@@ -10,8 +10,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
@@ -21,7 +19,7 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>MinimumOSVersion</key>
-	<string>8.0</string>
+	<string>12.2</string>
 	<key>CFBundleDisplayName</key>
 	<string>QRTrack</string>
 	<key>CFBundleIdentifier</key>
@@ -31,12 +29,37 @@
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>CFBundleName</key>
-	<string>QRTrack</string>
-	<key>XSAppIconAssets</key>
-	<string>Assets.xcassets/AppIcon.appiconset</string>
+	<string>Q-PICK</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Fonts/avenir.ttf</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Please allow access to the camera to scan QRCode</string>
+	<key>UIRequiresPersistentWiFi</key>
+	<true/>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Please allow access to the Camera Roll to save QRCode</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Please allow access to the Camera Roll to save QRCode</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>New Entry</string>
+	<key>Custom Property</key>
+	<string></string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>external-accessory</string>
+		<string>fetch</string>
+		<string>remote-notification</string>
+		<string>network-authentication</string>
+	</array>
+	<key>XSAppIconAssets</key>
+	<string>Assets.xcassets/AppIcon.appiconset</string>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>UIMainStoryboardFile</key>
+	<string>LaunchScreen</string>
 </dict>
 </plist>

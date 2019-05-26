@@ -76,7 +76,7 @@
                         FontFamily="{StaticResource Avenir_NormalFont}"
                         FontSize="{StaticResource Avenir_FontSmallSize}"
                         BackgroundColor="{StaticResource greenColor}"
-                        />
+                        Clicked="user_logout_Clicked"/>
                 </FlexLayout>
             </Grid>
         </Grid>

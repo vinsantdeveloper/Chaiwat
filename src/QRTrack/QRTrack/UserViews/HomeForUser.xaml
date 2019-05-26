@@ -7,7 +7,10 @@
              Title="HOME"
              BackgroundColor="{StaticResource greenColor}">
     <ContentPage.Content>
-        <Grid ColumnSpacing="0" RowSpacing="0">
+        <Grid ColumnSpacing="0" 
+              RowSpacing="0"
+              HorizontalOptions="FillAndExpand"
+              VerticalOptions="FillAndExpand">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
@@ -54,16 +57,17 @@
                            FontFamily="{StaticResource Avenir_NormalFont}" 
                            FontSize="{StaticResource Avenir_FontBigSize}"
                            HorizontalOptions="Center"
-                           VerticalOptions="Center"/>
+                           VerticalOptions="Start"/>
                 </StackLayout>
             </Grid>
             
-             <StackLayout Padding="15,0,0,0" Orientation="Horizontal" VerticalOptions="End" Spacing="0">
-                <Image Source="create.png" 
+             <StackLayout Padding="15,0,0,0" Orientation="Horizontal" VerticalOptions="End" Spacing="0" >
+                <ImageButton Source="create.png" 
                        HeightRequest="40" 
                        WidthRequest="40" 
                        TranslationY="20" 
-                       VerticalOptions="Center"/>
+                       VerticalOptions="Center"
+                       Clicked="bt_qrGen_pageCall_ClickedAsync"/>
                 <Label Text="QR Code" 
                        TextColor="{StaticResource textGlayColor}" 
                        FontFamily="{StaticResource Avenir_NormalFont}" 

@@ -1,29 +1,57 @@
 ﻿<Properties StartupConfiguration="{6918149B-9130-4BA4-8719-F013B26BCEB1}|Default">
   <MonoDevelop.Ide.ItemProperties.QRTrack.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.Light.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.my_device" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="QRTrack/SignupPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="QRTrack/MainPage.xaml.cs">
     <Files>
-      <File FileName="QRTrack/Models/User_Information.cs" Line="25" Column="44" />
+      <File FileName="QRTrack/AdminViews/ScanQRcodePage.xaml.cs" Line="9" Column="59" />
+      <File FileName="QRTrack/AdminViews/HomeForAdmin.xaml.cs" Line="36" Column="62" />
+      <File FileName="QRTrack/UserViews/ShowQRCodePage.xaml.cs" Line="46" Column="13" />
+      <File FileName="QRTrack/UserViews/HomeForUser.xaml.cs" Line="38" Column="95" />
+      <File FileName="QRTrack/AdminViews/HomeForAdmin.xaml" />
+      <File FileName="QRTrack/UserViews/ShowQRCodePage.xaml" />
+      <File FileName="QRTrack/AdminViews/ScanQRcodePage.xaml" />
       <File FileName="QRTrack/SignupPage.xaml" />
+      <File FileName="QRTrack/MainPage.xaml" />
+      <File FileName="QRTrack/MainPage.xaml.cs" Line="41" Column="24" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="QRTrack" expanded="True">
             <Node name="QRTrack" expanded="True">
+              <Node name="AdminViews" expanded="True">
+                <Node name="HomeForAdmin.xaml" expanded="True" />
+                <Node name="HomeMasterPageAdmin.xaml" expanded="True" />
+                <Node name="MasterDetailMenuAdmin.xaml" expanded="True" />
+                <Node name="ScanQRcodePage.xaml" expanded="True" />
+              </Node>
               <Node name="Models" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" />
-              <Node name="SignupPage.xaml" selected="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="UserViews" expanded="True">
+                <Node name="HomeForUser.xaml" expanded="True" />
+                <Node name="HomeMasterPageUser.xaml" expanded="True" />
+                <Node name="MasterDetailMenuUser.xaml" expanded="True" />
+                <Node name="ShowQRCodePage.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
             </Node>
-            <Node name="QRTrack.Android" expanded="True" />
+            <Node name="QRTrack.Backend" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
             <Node name="QRTrack.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.QRTrack.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8C92FCE4-2CBB-4E75-92C7-4AA39A3BEB15" />
+  <MonoDevelop.Ide.ItemProperties.QRTrack.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.3be58b1d7d81d8b1e691fbf4d771fee411e1d879" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/CustomControl/EntryCustomRenderer.cs" relfile="QRTrack/CustomControl/EntryCustomRenderer.cs" line="23" column="1" />

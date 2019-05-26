@@ -75,7 +75,7 @@
                         FontFamily="{StaticResource Avenir_NormalFont}"
                         FontSize="{StaticResource Avenir_FontSmallSize}"
                         BackgroundColor="{StaticResource greenColor}"
-                        />
+                        Clicked="Admin_Cancel_Clicked"/>
                 </FlexLayout>
             </Grid>
         </Grid>

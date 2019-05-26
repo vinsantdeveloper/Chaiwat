@@ -70,7 +70,7 @@ namespace QRTrack.Services
         {
             try
             {
-                await Initialize();
+                //await Initialize();
                 await userInfoTable.InsertAsync(userInfo);
                 await SyncUserInfo();
                 return true;

@@ -8,11 +8,11 @@ namespace QRTrack.UserViews
     public partial class HomeMasterPageUser : MasterDetailPage
     {
         
-        public HomeMasterPageUser()
+        public HomeMasterPageUser(string userId)
         {
             InitializeComponent();
 
-            
+            MessagingCenter.Send(this, "UserLogin", userId);
         }
     }
 }

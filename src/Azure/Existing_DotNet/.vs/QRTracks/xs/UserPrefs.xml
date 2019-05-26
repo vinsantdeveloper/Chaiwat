@@ -1,33 +1,24 @@
 ﻿<Properties StartupConfiguration="{209FA716-A7AD-4095-BD70-C8710FC66FA7}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../../xamarin/learning/Azure/app-coffeecups-master/CoffeeCups.Shared/Services/AzureService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../QRTrack/QRTrack/Services/AzureMobileService.cs">
     <Files>
-      <File FileName="../../../../../../xamarin/learning/Azure/app-coffeecups-master/CoffeeCups.Shared/Authentication/AuthHandler.cs" Line="1" Column="1" />
-      <File FileName="../../../../../../xamarin/learning/Azure/app-coffeecups-master/CoffeeCups.Shared/Helpers/Settings.cs" Line="36" Column="44" />
-      <File FileName="../../../../../../xamarin/learning/Azure/app-coffeecups-master/CoffeeCups.Shared/Model/CupOfCoffee.cs" Line="1" Column="1" />
-      <File FileName="../../../../../../xamarin/learning/Azure/app-coffeecups-master/CoffeeCups.Shared/Services/AzureService.cs" Line="52" Column="54" />
+      <File FileName="../../QRTrack/QRTrack/Services/AzureMobileService.cs" Line="31" Column="49" />
+      <File FileName="QRTracksService/App_Start/Startup.MobileApp.cs" Line="1" Column="1" />
+      <File FileName="QRTracksService/Controllers/TodoItemController.cs" Line="39" Column="32" />
+      <File FileName="QRTracksService/Controllers/ValuesController.cs" Line="17" Column="85" />
+      <File FileName="QRTracksService/Startup.cs" Line="1" Column="1" />
       <File FileName="QRTracksService/Models/QRTracksContext.cs" Line="1" Column="1" />
-      <File FileName="QRTracksService/Controllers/TodoItemController.cs" Line="1" Column="1" />
+      <File FileName="QRTracksService/DataObjects/TodoItem.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CoffeeCups" expanded="True">
-            <Node name="CoffeeCups" expanded="True">
-              <Node name="Authentication" expanded="True" />
-              <Node name="Helpers" expanded="True" />
-              <Node name="Model" expanded="True" />
-              <Node name="Services" expanded="True">
-                <Node name="AzureService.cs" selected="True" />
-              </Node>
-            </Node>
-            <Node name="CoffeeCups.Droid" expanded="True">
-              <Node name="Packages" expanded="True" />
-            </Node>
-          </Node>
-          <Node name="QRTracks" expanded="True">
+          <Node name="QRTracks" expanded="True" selected="True">
             <Node name="QRTracksService" expanded="True">
+              <Node name="App_Start" expanded="True" />
               <Node name="Controllers" expanded="True" />
+              <Node name="DataObjects" expanded="True" />
               <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -38,7 +29,11 @@
   <MonoDevelop.Ide.ItemProperties.QRTracksService PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/CustomControl/EntryCustomRenderer.cs" line="23" column="1" />
+      <Breakpoint file="/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/SignupPage.xaml.cs" line="32" column="1" />
+      <Breakpoint file="/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/Services/AzureMobileService.cs" line="30" column="36" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

@@ -47,6 +47,14 @@ namespace QRTrack
                         userModelOj.Email = signup_entry_email.Text;
                         userModelOj.Password = signup_entry_password.Text;
                         userModelOj.MobilePhoneNumber = signup_entry_mobilephone.Text;
+                        if (switch_admin_check.IsToggled) 
+                        {
+                            userModelOj.UserStatus = 1;
+                        }
+                        else 
+                        {
+                            userModelOj.UserStatus = 0;
+                        }
 
                         var sendUserInfo = await azureServiceOj.AddUserInfo(userModelOj);
                         if (!sendUserInfo) 

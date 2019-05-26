@@ -5,7 +5,7 @@
 --nolink
 --sdkroot=/Applications/Xcode.app/Contents/Developer
 --sdk=12.2
---targetver=8.0
+--targetver=12.2
 --aot-options=-O=-float32
 --http-message-handler=NSUrlSessionHandler
 --abi=x86_64
@@ -175,10 +175,11 @@
 -r=/Users/kasanapopsrirabut/.nuget/packages/pinvoke.kernel32/0.3.2/lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Kernel32.dll
 -r=/Users/kasanapopsrirabut/.nuget/packages/pinvoke.ncrypt/0.3.2/lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.NCrypt.dll
 -r=/Users/kasanapopsrirabut/.nuget/packages/pinvoke.windows.core/0.3.2/lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Windows.Core.dll
--r=/Users/kasanapopsrirabut/.nuget/packages/sqlitepclraw.bundle_green/1.1.2/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll
--r=/Users/kasanapopsrirabut/.nuget/packages/sqlitepclraw.bundle_green/1.1.2/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll
--r=/Users/kasanapopsrirabut/.nuget/packages/sqlitepclraw.core/1.1.2/lib/Xamarin.iOS10/SQLitePCLRaw.core.dll
--r=/Users/kasanapopsrirabut/.nuget/packages/sqlitepclraw.provider.sqlite3.ios_unified/1.1.2/lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll
+-r=/Users/kasanapopsrirabut/.nuget/packages/sqlite-net-pcl/1.5.231/lib/netstandard1.1/SQLite-net.dll
+-r=/Users/kasanapopsrirabut/.nuget/packages/sqlitepclraw.bundle_green/1.1.11/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll
+-r=/Users/kasanapopsrirabut/.nuget/packages/sqlitepclraw.bundle_green/1.1.11/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll
+-r=/Users/kasanapopsrirabut/.nuget/packages/sqlitepclraw.core/1.1.11/lib/Xamarin.iOS10/SQLitePCLRaw.core.dll
+-r=/Users/kasanapopsrirabut/.nuget/packages/sqlitepclraw.provider.sqlite3.ios_unified/1.1.11/lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll
 -r=/Users/kasanapopsrirabut/.nuget/packages/system.io.compression/4.3.0/runtimes/win/lib/netstandard1.3/System.IO.Compression.dll
 -r=/Users/kasanapopsrirabut/.nuget/packages/system.net.http/4.3.0/runtimes/win/lib/netstandard1.3/System.Net.Http.dll
 -r=/Users/kasanapopsrirabut/.nuget/packages/system.security.cryptography.encoding/4.3.0/runtimes/win/lib/netstandard1.3/System.Security.Cryptography.Encoding.dll
@@ -225,6 +226,11 @@
 -r=/Users/kasanapopsrirabut/.nuget/packages/xamarin.forms/3.6.0.264807/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/kasanapopsrirabut/.nuget/packages/xamarin.forms/3.6.0.264807/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/kasanapopsrirabut/.nuget/packages/xamarin.forms/3.6.0.264807/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+-r=/Users/kasanapopsrirabut/.nuget/packages/zxing.net.mobile/2.4.1/lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll
+-r=/Users/kasanapopsrirabut/.nuget/packages/zxing.net.mobile/2.4.1/lib/Xamarin.iOS10/ZXingNetMobile.dll
+-r=/Users/kasanapopsrirabut/.nuget/packages/zxing.net.mobile/2.4.1/lib/Xamarin.iOS10/zxing.portable.dll
+-r=/Users/kasanapopsrirabut/.nuget/packages/zxing.net.mobile.forms/2.4.1/lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.dll
+-r=/Users/kasanapopsrirabut/.nuget/packages/zxing.net.mobile.forms/2.4.1/lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.iOS.dll
 -r=/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/bin/Debug/netstandard2.0/QRTrack.dll
 --target-framework=Xamarin.iOS,v1.0
 --root-assembly=/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/bin/iPhoneSimulator/Debug/QRTrack.iOS.exe

@@ -20,6 +20,7 @@ namespace QRTrack.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(savedInstanceState);
+            ZXing.Net.Mobile.Forms.Android.Platform.Init();
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
 
             ImageCircleRenderer.Init();
@@ -28,7 +29,14 @@ namespace QRTrack.Droid
             Microsoft.WindowsAzure.MobileServices.CurrentPlatform.Init();
             SQLitePCL.Batteries.Init();
 
+            ZXing.Net.Mobile.Forms.Android.Platform.Init();
+
             LoadApplication(new App());
+        }
+
+        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Permission[] grantResults)
+        {
+            global::ZXing.Net.Mobile.Android.PermissionsHandler.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
     }
 }

@@ -6,17 +6,22 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using QRTrack.UserViews;
 using QRTrack.AdminViews;
+using QRTrack.Services;
+using QRTrack.Models;
 
 namespace QRTrack
 {
     public partial class MainPage : ContentPage
     {
-        
+        private TaskForAzureAsync taskForAsure;
+        private List<User_Information> userInfoLists;
+
         public MainPage()
         {
             InitializeComponent();
 
-
+            taskForAsure = new TaskForAzureAsync();
+            userInfoLists = new List<User_Information>();
         }
 
         void user_button_Clicked(object sender, System.EventArgs e)
@@ -33,15 +38,47 @@ namespace QRTrack
 
         async void signin_button_ClickedAsync(object sender, System.EventArgs e)
         {
-            if (user_line.IsVisible) 
+            activityIndicator.IsVisible = true;
+
+            userInfoLists = await taskForAsure.getAllUserFormDb();
+
+            if (userInfoLists != null) 
             {
-                await Navigation.PushAsync(new HomeMasterPageUser());
+                User_Information userInfo = userInfoLists.Find(user => user.Email == entry_username.Text);
+
+                if (userInfo != null) 
+                {
+                    if (userInfo.Password == entry_password.Text) 
+                    {
+                        if (user_line.IsVisible && userInfo.UserStatus == 0)
+                        {
+                            await Navigation.PushAsync(new HomeMasterPageUser(userInfo.Id));
+                        }
+                        else if(admin_line.IsVisible && userInfo.UserStatus == 1)
+                        {
+                            await Navigation.PushAsync(new HomeMasterPageAdmin(userInfo.Id));
+                        }
+                        else 
+                        {
+                            await DisplayAlert("wrong user status", "Please correctly use user status", "OK");
+                        }
+                    }
+                    else
+                    {
+                        await DisplayAlert("password is incorrect", "Please use another password", "OK");
+                    }
+                }
+                else
+                {
+                    await DisplayAlert("connot find this email", "Please use another email", "OK");
+                }
             }
-            else 
+            else
             {
-                await Navigation.PushAsync(new HomeMasterPageAdmin());
+
             }
 
+            activityIndicator.IsVisible = false;
         }
 
         async void signup_button_Clicked(object sender, System.EventArgs e)

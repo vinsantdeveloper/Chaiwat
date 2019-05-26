@@ -48,7 +48,7 @@
                                          WidthRequest="250"
                                          HorizontalOptions="Center"
                                          VerticalOptions="Center"
-                                         />
+                                         OnClick="ScanQR_OnClickAsync"/>
                     <Label Text="SCAN QR CODE" 
                            TextColor="{StaticResource textGlayColor}" 
                            FontFamily="{StaticResource Avenir_NormalFont}" 

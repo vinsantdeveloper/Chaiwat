@@ -13,7 +13,7 @@
                         BarTextColor="White"
                         >
             <x:Arguments>
-                <local:HomeForUser />
+                <local:HomeForUser/>
             </x:Arguments>
         </NavigationPage>
     </MasterDetailPage.Detail>
