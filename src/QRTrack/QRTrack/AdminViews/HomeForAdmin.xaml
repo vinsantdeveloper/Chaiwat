@@ -58,6 +58,18 @@
                 </StackLayout>
             </Grid>
             
+            <StackLayout Padding="15,0,0,0"
+                         RotationY="180"
+                         Orientation="Horizontal" 
+                         VerticalOptions="End" Spacing="0" >
+                <ImageButton Source="chat.png" 
+                       HeightRequest="50" 
+                       WidthRequest="50" 
+                       TranslationY="25" 
+                       VerticalOptions="Center"
+                       RotationY="180"
+                       Clicked="GotoChatPage_ClickedAsync"/>
+            </StackLayout>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

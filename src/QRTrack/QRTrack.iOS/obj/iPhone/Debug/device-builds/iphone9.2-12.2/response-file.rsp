@@ -175,6 +175,7 @@
 -r=/Users/kasanapopsrirabut/.nuget/packages/pinvoke.kernel32/0.3.2/lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Kernel32.dll
 -r=/Users/kasanapopsrirabut/.nuget/packages/pinvoke.ncrypt/0.3.2/lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.NCrypt.dll
 -r=/Users/kasanapopsrirabut/.nuget/packages/pinvoke.windows.core/0.3.2/lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Windows.Core.dll
+-r=/Users/kasanapopsrirabut/.nuget/packages/propertychanged.fody/3.0.1/lib/netstandard1.0/PropertyChanged.dll
 -r=/Users/kasanapopsrirabut/.nuget/packages/sqlite-net-pcl/1.5.231/lib/netstandard1.1/SQLite-net.dll
 -r=/Users/kasanapopsrirabut/.nuget/packages/sqlitepclraw.bundle_green/1.1.11/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll
 -r=/Users/kasanapopsrirabut/.nuget/packages/sqlitepclraw.bundle_green/1.1.11/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll

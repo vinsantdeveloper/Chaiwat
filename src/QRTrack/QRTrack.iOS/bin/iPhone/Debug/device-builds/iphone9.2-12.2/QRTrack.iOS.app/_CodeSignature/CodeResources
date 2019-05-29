@@ -82,7 +82,7 @@
 		</data>
 		<key>ImageCircle.Forms.Plugin.aotdata.arm64</key>
 		<data>
-		StCZQlTfW2uZ61DnSwyEIkGCsXU=
+		E6NLjPcQHi/whKy0EwF379Z0NBo=
 		</data>
 		<key>ImageCircle.Forms.Plugin.dll</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Lottie.Forms.aotdata.arm64</key>
 		<data>
-		ZrisHcnAvS/xE+DhulCP6L57hkg=
+		7TixSXRXSuuw6mhqdsc91CRfaOc=
 		</data>
 		<key>Lottie.Forms.dll</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>Lottie.iOS.aotdata.arm64</key>
 		<data>
-		e5R+Dd7V2PPbwC9bWQIJpv6mAeM=
+		D9Jdb11NghSLmSCPQObIDjerX5k=
 		</data>
 		<key>Lottie.iOS.dll</key>
 		<data>
@@ -142,7 +142,7 @@
 		</data>
 		<key>Microsoft.Azure.Mobile.Client.aotdata.arm64</key>
 		<data>
-		wgjsBSCgca6cVhlUxZyuqKdUoUY=
+		DfUoQnLiw85A5s0z5NhIgz+HpUE=
 		</data>
 		<key>Microsoft.Azure.Mobile.Client.dll</key>
 		<data>
@@ -190,7 +190,7 @@
 		</data>
 		<key>OpenTK-1.0.aotdata.arm64</key>
 		<data>
-		SmsxpG+83g45rQexMRPR1yTo3qo=
+		UXJ4OGLVYvnyh3OKgzaOVrZT2vc=
 		</data>
 		<key>OpenTK-1.0.dll</key>
 		<data>
@@ -206,7 +206,7 @@
 		</data>
 		<key>PCLCrypto.aotdata.arm64</key>
 		<data>
-		dD2YvyzRLCCGicBSQd25BEW6Ul4=
+		ypoOJD9AP0MuuWSKNyHodHCy39k=
 		</data>
 		<key>PCLCrypto.dll</key>
 		<data>
@@ -254,7 +254,7 @@
 		</data>
 		<key>Plugin.Connectivity.aotdata.arm64</key>
 		<data>
-		380sINzujkz0G2v9xrCbYtmPz8Y=
+		CmmYDWnxudE4HlyIewnhdIZd31Q=
 		</data>
 		<key>Plugin.Connectivity.dll</key>
 		<data>
@@ -266,27 +266,27 @@
 		</data>
 		<key>QRTrack.aotdata.arm64</key>
 		<data>
-		Q2Ar7Q1w37R+a55Mzmxbhc1FqkU=
+		CxroRpvXVa0lLMdaGofqEcGLu8U=
 		</data>
 		<key>QRTrack.dll</key>
 		<data>
-		9agG4WQg7X0hrKRJcyYEsrnrYNE=
+		9Sw9goLchhiUpSEqhaXWga36Wes=
 		</data>
 		<key>QRTrack.iOS.aotdata.arm64</key>
 		<data>
-		DHtfbdsaKaHV2wa60PGbAJB54uE=
+		8q4/FuwGzccpC9O3th9sMtK8nQ4=
 		</data>
 		<key>QRTrack.iOS.exe</key>
 		<data>
-		I/m7qfnnogXiCFuVpjYOsCvUvyg=
+		mjUisR9DyfWYBr4WOMb9wDh1U5E=
 		</data>
 		<key>QRTrack.iOS.pdb</key>
 		<data>
-		TKsRVwW58QBQS+NmxCn+NgpOnFg=
+		5aKTROzt58W0pRSVIFi0QBEcLl8=
 		</data>
 		<key>QRTrack.pdb</key>
 		<data>
-		7HvsDGMbcYeOtryenqOlsQxVdDE=
+		NXOZolRhfAdUCfQeB2h2CaxnSXg=
 		</data>
 		<key>SQLite-net.aotdata.arm64</key>
 		<data>
@@ -358,7 +358,7 @@
 		</data>
 		<key>System.Net.Http.aotdata.arm64</key>
 		<data>
-		7bMdyBdcwf32yC4vHozbAJRaHfE=
+		fz/cJS+TTQtm+5aW6QUvQMNXmFc=
 		</data>
 		<key>System.Net.Http.dll</key>
 		<data>
@@ -482,7 +482,7 @@
 		</data>
 		<key>Xamarin.Forms.Platform.iOS.aotdata.arm64</key>
 		<data>
-		RqVKRKawDf5kGdj6+lEw188dNwA=
+		wxD6jly5KgNI9mrkNncW0lCVeA8=
 		</data>
 		<key>Xamarin.Forms.Platform.iOS.dll</key>
 		<data>
@@ -506,15 +506,15 @@
 		</data>
 		<key>Xamarin.iOS.aotdata.arm64</key>
 		<data>
-		LRX1p7xKU5CrtRix/EOinDRoeH0=
+		x8xxHQWnxg8Z2NwJ2oQopt5cIpE=
 		</data>
 		<key>Xamarin.iOS.dll</key>
 		<data>
-		UITWI2VOFBaMF1GNY3xbBCPfskc=
+		s/w8uRaKzg84oAMt3Ggd7+BgNPk=
 		</data>
 		<key>Xamarin.iOS.pdb</key>
 		<data>
-		V7WoNbrAaonT2apHK/G4q9v9Yuo=
+		G4xbroiRvfufXpHL1NzstNP01ik=
 		</data>
 		<key>ZXing.Net.Mobile.Core.aotdata.arm64</key>
 		<data>
@@ -534,7 +534,7 @@
 		</data>
 		<key>ZXing.Net.Mobile.Forms.iOS.aotdata.arm64</key>
 		<data>
-		8S3Uz0fvg2IGeje9eOA6zSgibp4=
+		Anfs1cp6CLyXjzfX+HKE0e1a6lA=
 		</data>
 		<key>ZXing.Net.Mobile.Forms.iOS.dll</key>
 		<data>
@@ -542,7 +542,7 @@
 		</data>
 		<key>ZXingNetMobile.aotdata.arm64</key>
 		<data>
-		XPOb+9LwPFTiSYepy8yy3cC5SAE=
+		mBTCHrAOx0X0EEp+JF+AYzNHbeo=
 		</data>
 		<key>ZXingNetMobile.dll</key>
 		<data>
@@ -580,6 +580,10 @@
 		<data>
 		AskdEJh5wVFDyB+/Hdqqe6sIFxQ=
 		</data>
+		<key>chat.png</key>
+		<data>
+		NFtyVL38o1XXieNx2XOG8b0C4ZI=
+		</data>
 		<key>create.png</key>
 		<data>
 		EDpYUh0SS2rHbMhiBk+5qkIbMAQ=
@@ -602,7 +606,7 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		5HwNoVtqlR+PWcrHmpnlUsfdNdE=
+		VFYxBx+//7UGXnvn4wvVTCZudTM=
 		</data>
 		<key>es/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
@@ -635,6 +639,10 @@
 		<key>hu/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
 		I9jfkd2YxcSuVndD70wW/xMDbOI=
+		</data>
+		<key>ic_scrolldown@3x.png</key>
+		<data>
+		Vo/jn+FkGtc5F9oCzwEH5bTyxaw=
 		</data>
 		<key>id/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
@@ -892,7 +900,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xfxtMdI5uTQUHWZFJ4DteUHnvuiyLhJ5+dxfaXxxvys=
+			yn6iOd1ULU6DbeHZTjuL1qely0oIcRbGg6/45+Q5lN4=
 			</data>
 		</dict>
 		<key>ImageCircle.Forms.Plugin.dll</key>
@@ -934,7 +942,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5jT82Uc9gbVcxbfLJSBS6gYWCEn7YQuv4mKJmvDsvC0=
+			KsODEuuTyY1GZ6p36S6l1IVKeVwQHKmks8SxP/O3GkU=
 			</data>
 		</dict>
 		<key>Lottie.Forms.dll</key>
@@ -955,7 +963,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JdEHkEKdw0yZ9iB3DclbhVmSN/2p+0LibLCDpp+nduE=
+			OC2PnRgbjiwHhY4ySeTgO8yYuvkkRpHzPu2TajjvSj8=
 			</data>
 		</dict>
 		<key>Lottie.iOS.dll</key>
@@ -990,7 +998,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			t0gqlwCpaYaa2I2wA7ZTpLJ79t7d82f56yFDFsJHFLE=
+			w/sJsbHsmVi+hcSPcurH0GmHCdCPsNUHYfDrt8Ztbko=
 			</data>
 		</dict>
 		<key>Microsoft.Azure.Mobile.Client.dll</key>
@@ -1074,7 +1082,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9e4FXrQB6H9StlRTYuL/u/zBi7l7Fr14ZvpcwbQv/4A=
+			GeEm0bO+kt0KlBzz+C0df6ORYUYhIgYRUGB/bUPZGEw=
 			</data>
 		</dict>
 		<key>OpenTK-1.0.dll</key>
@@ -1102,7 +1110,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			14RIyUj4RUoHoT/HSg5d6zAiv+C6VfCciW/D7xVMqCw=
+			78aPhtSojH99EKaHOAS5vYtNB/gXQzZaR6osA/XfUB4=
 			</data>
 		</dict>
 		<key>PCLCrypto.dll</key>
@@ -1179,7 +1187,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PfDZgSsPhSE5gIGzu63Harsnwbjg3S2v8wB1L5/Mw0k=
+			GBGsMznAP8JBoIe4fKaAGSvCfhgsE/qILzvcPYvRAVg=
 			</data>
 		</dict>
 		<key>Plugin.Connectivity.dll</key>
@@ -1200,42 +1208,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EAX4n67I2tp3fqhHSZrBAdPe2BuXASe63SsLpM6oRfs=
+			GnJGpmmaVDXduhsaY5AtAwEHdfvG612R0IVxlPPSVkE=
 			</data>
 		</dict>
 		<key>QRTrack.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QOkiSaHcY85dBvsmzxZmrfyfOJgNCZFdWD5yOjt7uAI=
+			kpJW1iN75lcNE9O1UWOjlAzfcAEM7jwrrPL4Da6fGBM=
 			</data>
 		</dict>
 		<key>QRTrack.iOS.aotdata.arm64</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lwAMkCZe+ROXeOEk8G5xX6xWDb1syhexdQxK1Ias6vY=
+			zjBEAfiR1AvJbYsp8IgId3e68yyQN72V8ohbZCKd1UY=
 			</data>
 		</dict>
 		<key>QRTrack.iOS.exe</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lk2lILKF+42gFzH8bR6QiJdGVQyVxjIxxh3WvN+VU0k=
+			4qL8xQPZ1cyH1cdqNtq8LHGWjwEBrRpCsss84WwdTf8=
 			</data>
 		</dict>
 		<key>QRTrack.iOS.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vYgzj0SBZeXfnyq3MPfhC6ro7bS9dngxxw8Uw1NWjXo=
+			KoWhz6EJy9roR132VCSGx8jYJ/lYUolyu1qIUyMxFgo=
 			</data>
 		</dict>
 		<key>QRTrack.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iHOVbn8vmdvunssBKYEP2RmEi7eHYD44QGOqAjJIFz4=
+			hIoG+SSMGafpejZ2s7f2m/pczffj+kU4xNw11b4olV0=
 			</data>
 		</dict>
 		<key>SQLite-net.aotdata.arm64</key>
@@ -1361,7 +1369,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T5nfJJroOvShnOMBsrPgUxCXolbtDty8lz1r4AakF1Q=
+			tbPpI/xRlzkroQvqK//DR9LOy2Gl8LJL91lWkPEwEsc=
 			</data>
 		</dict>
 		<key>System.Net.Http.dll</key>
@@ -1578,7 +1586,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			agUp23E1ej84IBkh0dA7CDds82jglvlzZNU+zahmDjw=
+			juN1EIV2rWIRpT45TkPYZ8KD3OwYpPGyyggqD4rvxbE=
 			</data>
 		</dict>
 		<key>Xamarin.Forms.Platform.iOS.dll</key>
@@ -1620,21 +1628,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4W3POonXX3tl6h1UPfTI0uRuG4BlUPi+dH/HUSRd2MU=
+			LFSNEnyRDMghSMPXPCgv17pGBV6c6OyiHxJPDMpr/Dg=
 			</data>
 		</dict>
 		<key>Xamarin.iOS.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dMRJHw2YXzH9WphV39TR3zQElTa//dxDCq7o4BEqT7g=
+			4xl4gn5X3c5w8filAywgxFPcZDNgDxJS1QK70/PMcRk=
 			</data>
 		</dict>
 		<key>Xamarin.iOS.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KhWGMH7HyrDYOufxlzIvkvupppBJPjr460Fec+S/rsg=
+			ciClbmHQ4N5UvsVPdIRkV1nUtSWxwGU+m5SaMPoN53I=
 			</data>
 		</dict>
 		<key>ZXing.Net.Mobile.Core.aotdata.arm64</key>
@@ -1669,7 +1677,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			j6Ng6j+y6YRALIcSetfRcEGxQrDa0vfhuQDZm8BUh5s=
+			/+nXPg6Ds+8jMhHJaz7Ve/2L5KymYtSwFmjZJd58JS4=
 			</data>
 		</dict>
 		<key>ZXing.Net.Mobile.Forms.iOS.dll</key>
@@ -1683,7 +1691,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DYNPsh8yvM6wfeYN/tuxqvHlRypGAEhDFWlu0axldhY=
+			6URWzYLMPIN/WL2ForZxlUtHOFKh7U2cznGLPILaCww=
 			</data>
 		</dict>
 		<key>ZXingNetMobile.dll</key>
@@ -1749,6 +1757,13 @@
 			3dcj/9tw7V1Gt7zaLTpX8CNHviOEUeKx7TWdHTHI3yw=
 			</data>
 		</dict>
+		<key>chat.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			S7h1In9jeg0366w0EF/UhGAHs8HwJgFbaDNFl2A913w=
+			</data>
+		</dict>
 		<key>create.png</key>
 		<dict>
 			<key>hash2</key>
@@ -1788,7 +1803,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			p9PDh0YzmkyB2e7nNHDhOOk34sRnbim5kt5olvTGems=
+			W+elvbrnhelezpDGDNxLxvdnxCtoB5vcMhh9aDCM1Wc=
 			</data>
 		</dict>
 		<key>es/Xamarin.Forms.Platform.iOS.resources.dll</key>
@@ -1845,6 +1860,13 @@
 			<key>hash2</key>
 			<data>
 			w3BkbWqmtqiWwIcCaiQK9GxY1oeyqXnwA+x3X86mfc0=
+			</data>
+		</dict>
+		<key>ic_scrolldown@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			12d3lzH3HmbaBp594zRJ50bADjWIqZzmPbZCbBOL5Kc=
 			</data>
 		</dict>
 		<key>id/Xamarin.Forms.Platform.iOS.resources.dll</key>

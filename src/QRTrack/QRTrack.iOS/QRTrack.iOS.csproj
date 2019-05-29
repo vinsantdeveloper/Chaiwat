@@ -101,6 +101,9 @@
     <Compile Include="EntryCustomRender.cs" />
     <Compile Include="SQLite_iOS.cs" />
     <Compile Include="SaveImage_iOS.cs" />
+    <Compile Include="Renderer\ChatEntryRenderer.cs" />
+    <Compile Include="Renderer\CustomEditorRenderer.cs" />
+    <Compile Include="Renderer\ExtendedListViewRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -179,8 +182,11 @@
     <BundleResource Include="Resources\add_qr_bt%402x.png" />
     <BundleResource Include="Resources\add_qr_bt%403x.png" />
     <BundleResource Include="Resources\Logo_final.png" />
+    <BundleResource Include="Resources\chat.png" />
+    <BundleResource Include="Resources\ic_scrolldown%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\Fonts\" />
+    <Folder Include="Renderer\" />
   </ItemGroup>
 </Project>

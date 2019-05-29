@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "d459bbf89cd14b197131f40a2b6983e5c44e4a2d"
+    "signature": "cca2aa9bfb816eeb2d2e0857aab9d0141ddf3953"
   },
   "compilationOptions": {},
   "targets": {
@@ -13,6 +13,7 @@
           "Microsoft.Azure.Mobile.Client": "4.1.1",
           "Microsoft.Azure.Mobile.Client.SQLiteStore": "4.1.1",
           "NETStandard.Library": "2.0.3",
+          "PropertyChanged.Fody": "3.0.1",
           "Xam.Plugin.Connectivity": "3.2.0",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
           "Xamarin.Forms": "3.6.0.264807",
@@ -35,6 +36,7 @@
           }
         }
       },
+      "Fody/5.0.6": {},
       "Microsoft.Azure.Mobile.Client/4.1.1": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
@@ -126,6 +128,18 @@
           "lib/netstandard1.0/Newtonsoft.Json.dll": {
             "assemblyVersion": "9.0.0.0",
             "fileVersion": "9.0.1.19813"
+          }
+        }
+      },
+      "PropertyChanged.Fody/3.0.1": {
+        "dependencies": {
+          "Fody": "5.0.6",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.0/PropertyChanged.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
           }
         }
       },
@@ -782,6 +796,13 @@
       "path": "com.airbnb.xamarin.forms.lottie/2.6.3",
       "hashPath": "com.airbnb.xamarin.forms.lottie.2.6.3.nupkg.sha512"
     },
+    "Fody/5.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qLd3en9BgfKidsmXI9vxPttAR3pBcGO3n6vARrKloQ6My/uCskx2QhTKs9t1OYwQx3GN6ymqlnntuwR4tzTgIw==",
+      "path": "fody/5.0.6",
+      "hashPath": "fody.5.0.6.nupkg.sha512"
+    },
     "Microsoft.Azure.Mobile.Client/4.1.1": {
       "type": "package",
       "serviceable": true,
@@ -830,6 +851,13 @@
       "sha512": "sha512-2okXpTRwUcgQb06put5LwwCjtgoFo74zkPksjcvOpnIjx7TagGW5IoBCAA4luZx1+tfiIhoNqoiI7Y7zwWGyKA==",
       "path": "newtonsoft.json/9.0.1",
       "hashPath": "newtonsoft.json.9.0.1.nupkg.sha512"
+    },
+    "PropertyChanged.Fody/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+6G+qCU3evuF3QEwn000cSFgxFPB7WwYiNJFKHFzfjSRCZPszDkoPyXvDISgFh7+l4QB3fNqr2kq76W/owdICw==",
+      "path": "propertychanged.fody/3.0.1",
+      "hashPath": "propertychanged.fody.3.0.1.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",

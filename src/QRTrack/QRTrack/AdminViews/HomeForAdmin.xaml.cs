@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using QRTrack.ChatViews;
 using QRTrack.Models;
 using QRTrack.Services;
 using Xamarin.Forms;
@@ -34,6 +35,11 @@ namespace QRTrack.AdminViews
         async void ScanQR_OnClickAsync(object sender, System.EventArgs e)
         {
             await Navigation.PushAsync(new ScanQRcodePage());
+        }
+
+        async void GotoChatPage_ClickedAsync(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new ChatPage());
         }
     }
 }

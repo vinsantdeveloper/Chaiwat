@@ -78,6 +78,7 @@
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/linksrc/PInvoke.Windows.Core.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/linksrc/Plugin.Connectivity.Abstractions.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/linksrc/Plugin.Connectivity.dll
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/linksrc/PropertyChanged.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/linksrc/QRTrack.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/linksrc/SQLite-net.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/linksrc/SQLitePCLRaw.batteries_green.dll
@@ -181,6 +182,7 @@
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/Microsoft.Azure.Mobile.Client.SQLiteStore.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/Microsoft.CSharp.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/Mono.Android.dll
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/Mono.Android.pdb
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/Mono.Security.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/mscorlib.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/netstandard.dll
@@ -194,6 +196,7 @@
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/Plugin.Connectivity.Abstractions.pdb
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/Plugin.Connectivity.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/Plugin.Connectivity.dll.mdb
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/PropertyChanged.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/QRTrack.Android.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/QRTrack.Android.pdb
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/QRTrack.dll
@@ -281,7 +284,10 @@
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/stamp/_CopyMdbFiles.stamp
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/stamp/_CopyPdbFiles.stamp
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
-/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/.Mono.Android.pdb.icloud
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/res/drawable-hdpi/chat.png
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/res/drawable-xhdpi/chat.png
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/res/drawable-xxhdpi/chat.png
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/res/drawable-xxxhdpi/chat.png
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/machine.config
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/stamp/_CompileToDalvik.stamp
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp

@@ -81,6 +81,7 @@
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="EntryCustomRender.cs" />
+    <Compile Include="Renderer\CustomEditorRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -116,6 +117,14 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\create.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\create.png" />
     <AndroidResource Include="Resources\drawable\Logo_final.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\chat.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\chat.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\chat.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\chat.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_scrolldown.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_scrolldown.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_scrolldown.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_scrolldown.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
@@ -124,6 +133,7 @@
     <Folder Include="Resources\drawable-xxhdpi\" />
     <Folder Include="Resources\drawable-xxxhdpi\" />
     <Folder Include="Resources\Fonts\" />
+    <Folder Include="Renderer\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\QRTrack\QRTrack.csproj">

@@ -81616,7 +81616,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 165,144,25,45,82,152,157,46,134,183,121,218,81,242,244,182
+	.byte 124,197,141,48,50,32,72,127,204,46,152,254,165,235,65,228
 	.globl _mono_aot_module_Lottie_iOS_info
 	.align 3
 _mono_aot_module_Lottie_iOS_info:

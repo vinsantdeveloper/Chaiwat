@@ -17,6 +17,7 @@
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/PInvoke.Windows.Core.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/Plugin.Connectivity.Abstractions.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/Plugin.Connectivity.dll
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/PropertyChanged.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/QRTrack.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/SQLite-net.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Android/obj/Debug/android/assets/SQLitePCLRaw.batteries_green.dll

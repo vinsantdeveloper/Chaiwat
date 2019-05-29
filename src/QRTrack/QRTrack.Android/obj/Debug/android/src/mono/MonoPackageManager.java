@@ -126,6 +126,7 @@ class MonoPackageManager_Resources {
 		"PInvoke.Windows.Core.dll",
 		"Plugin.Connectivity.Abstractions.dll",
 		"Plugin.Connectivity.dll",
+		"PropertyChanged.dll",
 		"QRTrack.dll",
 		"SQLite-net.dll",
 		"SQLitePCLRaw.batteries_green.dll",

@@ -19,6 +19,7 @@
     <PackageReference Include="ZXing.Net.Mobile.Forms" Version="2.4.1" />
     <PackageReference Include="ZXing.Net.Mobile" Version="2.4.1" />
     <PackageReference Include="sqlite-net-pcl" Version="1.5.231" />
+    <PackageReference Include="PropertyChanged.Fody" Version="3.0.1" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CustomControl\" />
@@ -27,6 +28,11 @@
     <Folder Include="Services\" />
     <Folder Include="UserViews\" />
     <Folder Include="AdminViews\" />
+    <Folder Include="ChatViews\" />
+    <Folder Include="ChatViews\Cell\" />
+    <Folder Include="Helper\" />
+    <Folder Include="Partials\" />
+    <Folder Include="Controls\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="CustomControl\EntryCustom.xaml.cs" />

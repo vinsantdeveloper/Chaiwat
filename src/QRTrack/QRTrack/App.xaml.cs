@@ -12,6 +12,8 @@ namespace QRTrack
         public const string NotificationReceivedKey = "NotificationReceived";
         public const string MobileServiceUrl = "https://qrtracks.azurewebsites.net";
 
+        public static string User = "Rendy";
+
         public App()
         {
             InitializeComponent();

@@ -11533,7 +11533,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 247,184,68,31,154,209,63,111,253,120,244,136,21,176,178,76
+	.byte 83,17,129,207,242,231,252,149,84,172,196,226,234,37,4,89
 	.globl _mono_aot_module_Lottie_Forms_info
 	.align 3
 _mono_aot_module_Lottie_Forms_info:

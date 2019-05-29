@@ -24,6 +24,12 @@
           "lib/xamarinios10/Lottie.Forms.dll": {}
         }
       },
+      "Fody/5.0.6": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
       "Microsoft.Azure.Mobile.Client/4.1.1": {
         "type": "package",
         "dependencies": {
@@ -195,6 +201,22 @@
         },
         "runtime": {
           "lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Windows.Core.dll": {}
+        }
+      },
+      "PropertyChanged.Fody/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "5.0.6",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.0/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/PropertyChanged.dll": {}
+        },
+        "build": {
+          "build/_._": {}
         }
       },
       "sqlite-net-pcl/1.5.231": {
@@ -883,6 +905,7 @@
           "Com.Airbnb.Xamarin.Forms.Lottie": "2.6.3",
           "Microsoft.Azure.Mobile.Client": "4.1.1",
           "Microsoft.Azure.Mobile.Client.SQLiteStore": "4.1.1",
+          "PropertyChanged.Fody": "3.0.1",
           "Xam.Plugin.Connectivity": "3.2.0",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
           "Xamarin.Forms": "3.6.0.264807",
@@ -921,6 +944,12 @@
           "lib/xamarinios10/Lottie.Forms.dll": {}
         }
       },
+      "Fody/5.0.6": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
       "Microsoft.Azure.Mobile.Client/4.1.1": {
         "type": "package",
         "dependencies": {
@@ -1092,6 +1121,22 @@
         },
         "runtime": {
           "lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Windows.Core.dll": {}
+        }
+      },
+      "PropertyChanged.Fody/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "5.0.6",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.0/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/PropertyChanged.dll": {}
+        },
+        "build": {
+          "build/_._": {}
         }
       },
       "sqlite-net-pcl/1.5.231": {
@@ -1716,6 +1761,7 @@
           "Com.Airbnb.Xamarin.Forms.Lottie": "2.6.3",
           "Microsoft.Azure.Mobile.Client": "4.1.1",
           "Microsoft.Azure.Mobile.Client.SQLiteStore": "4.1.1",
+          "PropertyChanged.Fody": "3.0.1",
           "Xam.Plugin.Connectivity": "3.2.0",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
           "Xamarin.Forms": "3.6.0.264807",
@@ -1754,6 +1800,12 @@
           "lib/xamarinios10/Lottie.Forms.dll": {}
         }
       },
+      "Fody/5.0.6": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
       "Microsoft.Azure.Mobile.Client/4.1.1": {
         "type": "package",
         "dependencies": {
@@ -1925,6 +1977,22 @@
         },
         "runtime": {
           "lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Windows.Core.dll": {}
+        }
+      },
+      "PropertyChanged.Fody/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "5.0.6",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.0/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/PropertyChanged.dll": {}
+        },
+        "build": {
+          "build/_._": {}
         }
       },
       "sqlite-net-pcl/1.5.231": {
@@ -2549,6 +2617,7 @@
           "Com.Airbnb.Xamarin.Forms.Lottie": "2.6.3",
           "Microsoft.Azure.Mobile.Client": "4.1.1",
           "Microsoft.Azure.Mobile.Client.SQLiteStore": "4.1.1",
+          "PropertyChanged.Fody": "3.0.1",
           "Xam.Plugin.Connectivity": "3.2.0",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
           "Xamarin.Forms": "3.6.0.264807",
@@ -2587,6 +2656,12 @@
           "lib/xamarinios10/Lottie.Forms.dll": {}
         }
       },
+      "Fody/5.0.6": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
       "Microsoft.Azure.Mobile.Client/4.1.1": {
         "type": "package",
         "dependencies": {
@@ -2758,6 +2833,22 @@
         },
         "runtime": {
           "lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Windows.Core.dll": {}
+        }
+      },
+      "PropertyChanged.Fody/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "5.0.6",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.0/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/PropertyChanged.dll": {}
+        },
+        "build": {
+          "build/_._": {}
         }
       },
       "sqlite-net-pcl/1.5.231": {
@@ -3382,6 +3473,7 @@
           "Com.Airbnb.Xamarin.Forms.Lottie": "2.6.3",
           "Microsoft.Azure.Mobile.Client": "4.1.1",
           "Microsoft.Azure.Mobile.Client.SQLiteStore": "4.1.1",
+          "PropertyChanged.Fody": "3.0.1",
           "Xam.Plugin.Connectivity": "3.2.0",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
           "Xamarin.Forms": "3.6.0.264807",
@@ -3441,6 +3533,37 @@
         "lib/xamarinios10/Lottie.Forms.pdb",
         "lib/xamarinios10/Lottie.Forms.xml",
         "readme.txt"
+      ]
+    },
+    "Fody/5.0.6": {
+      "sha512": "qLd3en9BgfKidsmXI9vxPttAR3pBcGO3n6vARrKloQ6My/uCskx2QhTKs9t1OYwQx3GN6ymqlnntuwR4tzTgIw==",
+      "type": "package",
+      "path": "fody/5.0.6",
+      "files": [
+        ".signature.p7s",
+        "build/Fody.targets",
+        "fody.5.0.6.nupkg.sha512",
+        "fody.nuspec",
+        "netclassictask/Fody.dll",
+        "netclassictask/FodyCommon.dll",
+        "netclassictask/FodyHelpers.dll",
+        "netclassictask/FodyIsolated.dll",
+        "netclassictask/Mono.Cecil.Pdb.dll",
+        "netclassictask/Mono.Cecil.Pdb.pdb",
+        "netclassictask/Mono.Cecil.Rocks.dll",
+        "netclassictask/Mono.Cecil.Rocks.pdb",
+        "netclassictask/Mono.Cecil.dll",
+        "netclassictask/Mono.Cecil.pdb",
+        "netstandardtask/Fody.dll",
+        "netstandardtask/FodyCommon.dll",
+        "netstandardtask/FodyHelpers.dll",
+        "netstandardtask/FodyIsolated.dll",
+        "netstandardtask/Mono.Cecil.Pdb.dll",
+        "netstandardtask/Mono.Cecil.Pdb.pdb",
+        "netstandardtask/Mono.Cecil.Rocks.dll",
+        "netstandardtask/Mono.Cecil.Rocks.pdb",
+        "netstandardtask/Mono.Cecil.dll",
+        "netstandardtask/Mono.Cecil.pdb"
       ]
     },
     "Microsoft.Azure.Mobile.Client/4.1.1": {
@@ -3654,6 +3777,23 @@
         "lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Windows.Core.xml",
         "pinvoke.windows.core.0.3.2.nupkg.sha512",
         "pinvoke.windows.core.nuspec"
+      ]
+    },
+    "PropertyChanged.Fody/3.0.1": {
+      "sha512": "+6G+qCU3evuF3QEwn000cSFgxFPB7WwYiNJFKHFzfjSRCZPszDkoPyXvDISgFh7+l4QB3fNqr2kq76W/owdICw==",
+      "type": "package",
+      "path": "propertychanged.fody/3.0.1",
+      "files": [
+        ".signature.p7s",
+        "build/PropertyChanged.Fody.props",
+        "lib/net452/PropertyChanged.dll",
+        "lib/net452/PropertyChanged.xml",
+        "lib/netstandard1.0/PropertyChanged.dll",
+        "lib/netstandard1.0/PropertyChanged.xml",
+        "propertychanged.fody.3.0.1.nupkg.sha512",
+        "propertychanged.fody.nuspec",
+        "weaver/PropertyChanged.Fody.dll",
+        "weaver/PropertyChanged.Fody.xcf"
       ]
     },
     "sqlite-net-pcl/1.5.231": {

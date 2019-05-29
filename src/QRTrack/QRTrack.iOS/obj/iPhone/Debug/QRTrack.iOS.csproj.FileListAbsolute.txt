@@ -96,3 +96,6 @@
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/device-builds/iphone9.2-12.2/optimized/Logo_final.png
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/device-builds/iphone9.2-12.2/optimized/
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/QRTrack.iOS.csprojAssemblyReference.cache
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/bin/iPhone/Debug/PropertyChanged.dll
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/device-builds/iphone9.2-12.2/optimized/chat.png
+/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/device-builds/iphone9.2-12.2/optimized/ic_scrolldown@3x.png

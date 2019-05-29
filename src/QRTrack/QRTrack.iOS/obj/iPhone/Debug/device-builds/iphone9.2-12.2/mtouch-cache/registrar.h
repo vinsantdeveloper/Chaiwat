@@ -25,6 +25,13 @@
 @class Xamarin_Forms_Platform_iOS_EntryRendererBase_1;
 @class Xamarin_Forms_Platform_iOS_EntryRenderer;
 @class QRTrack_iOS_EntryCustomRender;
+@class Xamarin_Forms_Platform_iOS_ViewRenderer;
+@class QRTrack_iOS_Renderer_ChatEntryRenderer;
+@class Xamarin_Forms_Platform_iOS_EditorRendererBase_1;
+@class Xamarin_Forms_Platform_iOS_EditorRenderer;
+@class QRTrack_iOS_Renderer_CustomEditorRenderer;
+@class Xamarin_Forms_Platform_iOS_ListViewRenderer;
+@class QRTrack_iOS_Renderer_ExtendedListViewRenderer;
 @class UIApplicationDelegate;
 @class Xamarin_Forms_Platform_iOS_FormsApplicationDelegate;
 @class AppDelegate;
@@ -91,7 +98,6 @@
 @class Xamarin_Forms_Platform_iOS_GlobalCloseContextGestureRecognizer;
 @class Xamarin_Forms_Platform_iOS_ModalWrapper;
 @class Xamarin_Forms_Platform_iOS_PlatformRenderer;
-@class Xamarin_Forms_Platform_iOS_ViewRenderer;
 @class Xamarin_Forms_Platform_iOS_CellTableViewCell;
 @class Xamarin_Forms_Platform_iOS_ActivityIndicatorRenderer;
 @class Xamarin_Forms_Platform_iOS_BoxRenderer;
@@ -99,8 +105,6 @@
 @class Xamarin_Forms_Platform_iOS_NoCaretField;
 @class Xamarin_Forms_Platform_iOS_DatePickerRendererBase_1;
 @class Xamarin_Forms_Platform_iOS_DatePickerRenderer;
-@class Xamarin_Forms_Platform_iOS_EditorRendererBase_1;
-@class Xamarin_Forms_Platform_iOS_EditorRenderer;
 @class Xamarin_Forms_Platform_iOS_FrameRenderer;
 @class Xamarin_Forms_Platform_iOS_LabelRenderer;
 @class Xamarin_Forms_Platform_iOS_HeaderWrapperView;
@@ -159,7 +163,6 @@
 @class Xamarin_Forms_Platform_iOS_ImageRenderer;
 @class Xamarin_Forms_Platform_iOS_ListViewRenderer_ListViewDataSource;
 @class Xamarin_Forms_Platform_iOS_ListViewRenderer_UnevenListViewDataSource;
-@class Xamarin_Forms_Platform_iOS_ListViewRenderer;
 @class Xamarin_Forms_Platform_iOS_FormsUITableViewController;
 @class Xamarin_Forms_Platform_iOS_NavigationRenderer_FormsNavigationBar;
 @class Xamarin_Forms_Platform_iOS_NavigationRenderer_Container;
@@ -292,6 +295,42 @@
 @end
 
 @interface QRTrack_iOS_EntryCustomRender : Xamarin_Forms_Platform_iOS_EntryRenderer {
+}
+	-(id) init;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_ViewRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
+}
+	-(id) init;
+@end
+
+@interface QRTrack_iOS_Renderer_ChatEntryRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer {
+}
+	-(id) init;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_EditorRendererBase_1 : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
+}
+	-(id) init;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_EditorRenderer : Xamarin_Forms_Platform_iOS_EditorRendererBase_1 {
+}
+	-(id) init;
+@end
+
+@interface QRTrack_iOS_Renderer_CustomEditorRenderer : Xamarin_Forms_Platform_iOS_EditorRenderer {
+}
+	-(id) init;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_ListViewRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
+}
+	-(void) layoutSubviews;
+	-(id) init;
+@end
+
+@interface QRTrack_iOS_Renderer_ExtendedListViewRenderer : Xamarin_Forms_Platform_iOS_ListViewRenderer {
 }
 	-(id) init;
 @end
@@ -494,11 +533,6 @@
 	-(UIColor *) onTintColor;
 @end
 
-@interface Xamarin_Forms_Platform_iOS_ViewRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
-}
-	-(id) init;
-@end
-
 @interface Xamarin_Forms_Platform_iOS_CellTableViewCell : UITableViewCell {
 }
 	-(void) release;
@@ -532,16 +566,6 @@
 @end
 
 @interface Xamarin_Forms_Platform_iOS_DatePickerRenderer : Xamarin_Forms_Platform_iOS_DatePickerRendererBase_1 {
-}
-	-(id) init;
-@end
-
-@interface Xamarin_Forms_Platform_iOS_EditorRendererBase_1 : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
-}
-	-(id) init;
-@end
-
-@interface Xamarin_Forms_Platform_iOS_EditorRenderer : Xamarin_Forms_Platform_iOS_EditorRendererBase_1 {
 }
 	-(id) init;
 @end
@@ -841,12 +865,6 @@
 
 @interface Xamarin_Forms_Platform_iOS_ImageRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
 }
-	-(id) init;
-@end
-
-@interface Xamarin_Forms_Platform_iOS_ListViewRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
-}
-	-(void) layoutSubviews;
 	-(id) init;
 @end
 
