@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{6918149B-9130-4BA4-8719-F013B26BCEB1}|Default">
   <MonoDevelop.Ide.ItemProperties.QRTrack.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.Light.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.my_device" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="QRTrack/UserViews/HomeForUser.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="QRTrack/UserViews/HomeForUser.xaml">
     <Files>
       <File FileName="QRTrack/MainPage.xaml.cs" Line="45" Column="24" />
-      <File FileName="QRTrack.Backend3/Controllers/QRPickNotifiController.cs" Line="33" Column="19" />
-      <File FileName="QRTrack.iOS/AppDelegate.cs" Line="127" Column="22" />
+      <File FileName="QRTrack.Backend3/Controllers/QRPickNotifiController.cs" Line="60" Column="14" />
+      <File FileName="QRTrack.iOS/AppDelegate.cs" Line="123" Column="14" />
       <File FileName="QRTrack.iOS/Info.plist" />
-      <File FileName="QRTrack/UserViews/HomeForUser.xaml.cs" Line="67" Column="46" />
+      <File FileName="QRTrack/UserViews/HomeForUser.xaml" Line="75" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,9 +15,7 @@
             <Node name="QRTrack" expanded="True">
               <Node name="Services" expanded="True" />
               <Node name="UserViews" expanded="True">
-                <Node name="HomeForUser.xaml" expanded="True">
-                  <Node name="HomeForUser.xaml.cs" selected="True" />
-                </Node>
+                <Node name="HomeForUser.xaml" expanded="True" selected="True" />
               </Node>
               <Node name="App.xaml" expanded="True" />
               <Node name="MainPage.xaml" expanded="True" />
@@ -31,14 +29,15 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.QRTrack.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.30fdbe0b4a1b7a17003e2965f9fd2d9e2400cdda" />
+  <MonoDevelop.Ide.ItemProperties.QRTrack.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8C92FCE4-2CBB-4E75-92C7-4AA39A3BEB15" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/ChatViews/ChatPageViewModel.cs" relfile="QRTrack/ChatViews/ChatPageViewModel.cs" line="111" column="1" />
       <Breakpoint file="/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/UserViews/HomeForUser.xaml.cs" relfile="QRTrack/UserViews/HomeForUser.xaml.cs" line="74" column="1" />
       <Breakpoint file="/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/UserViews/HomeForUser.xaml.cs" relfile="QRTrack/UserViews/HomeForUser.xaml.cs" line="79" column="1" />
+      <Breakpoint file="/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/UserViews/HomeForUser.xaml.cs" relfile="QRTrack/UserViews/HomeForUser.xaml.cs" line="57" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
