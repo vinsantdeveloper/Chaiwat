@@ -51,7 +51,7 @@
                                          WidthRequest="250"
                                          HorizontalOptions="Center"
                                          VerticalOptions="Center"
-                                         OnClick="bt_calling_bt_OnClick"/>
+                                         OnClick="bt_calling_bt_OnClickAsync"/>
                     <Label Text="No Calling" 
                            TextColor="{StaticResource textGlayColor}" 
                            FontFamily="{StaticResource Avenir_NormalFont}" 
@@ -61,7 +61,11 @@
                 </StackLayout>
             </Grid>
             
-             <StackLayout Padding="15,0,0,0" Orientation="Horizontal" VerticalOptions="End" Spacing="0" >
+            <StackLayout Padding="15,0,0,0" 
+                         Orientation="Horizontal" 
+                         VerticalOptions="End" 
+                         Spacing="0" 
+                         >
                 <ImageButton Source="create.png" 
                        HeightRequest="40" 
                        WidthRequest="40" 
@@ -74,6 +78,20 @@
                        FontSize="{StaticResource Avenir_FontSmallSize}"
                        VerticalOptions="End"
                        TranslationY="20" />
+            </StackLayout>
+            
+            <StackLayout Padding="15,0,0,0"
+                         RotationY="180"
+                         Orientation="Horizontal" 
+                         VerticalOptions="End" Spacing="0"
+                         >
+                <ImageButton Source="chat.png" 
+                       HeightRequest="40" 
+                       WidthRequest="40" 
+                       TranslationY="20" 
+                       VerticalOptions="Center"
+                       RotationY="180"
+                       Clicked="GotoChatPage_ClickedAsync"/>
             </StackLayout>
             
         </Grid>

@@ -513,6 +513,12 @@ _OBJC_CLASS_$_LOTPointValueCallback
 _OBJC_CLASS_$_LOTSizeBlockCallback
 _OBJC_CLASS_$_LOTSizeInterpolatorCallback
 _OBJC_CLASS_$_LOTSizeValueCallback
+_OBJC_CLASS_$_SBConnectionString
+_OBJC_CLASS_$_SBLocalStorage
+_OBJC_CLASS_$_SBNotificationHub
+_OBJC_CLASS_$_SBRegistration
+_OBJC_CLASS_$_SBTokenProvider
+_OBJC_CLASS_$_StoredRegistrationEntry
 _mono_pmip
 _xamarin_dyn_objc_msgSend
 _xamarin_dyn_objc_msgSendSuper

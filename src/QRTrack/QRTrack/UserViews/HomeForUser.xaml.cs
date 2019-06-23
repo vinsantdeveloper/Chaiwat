@@ -1,5 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Text;
+using System.Threading.Tasks;
+using Microsoft.Azure.NotificationHubs;
+using QRTrack.ChatViews;
 using QRTrack.Models;
 using QRTrack.Services;
 using Xamarin.Forms;
@@ -11,11 +18,17 @@ namespace QRTrack.UserViews
         string userId = null;
         private User_Information userInfo;
         private SQLiteService sqLiteService;
+        HttpClient _client = new HttpClient();
 
         public HomeForUser()
         {
             InitializeComponent();
             sqLiteService = new SQLiteService();
+
+            _client.BaseAddress = new Uri(App.MobileServiceUrl);
+            _client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            _client.Timeout = TimeSpan.FromSeconds(120);
+
             MessagingCenter.Subscribe<HomeMasterPageUser, string>(this, "UserLogin", (sender, args) =>
             {
                 userId = args as string;
@@ -40,8 +53,8 @@ namespace QRTrack.UserViews
 
         void OnMessageReceived(object sender, string msg)
         {
-            Device.BeginInvokeOnMainThread(() => {
-
+            Device.BeginInvokeOnMainThread(async () => {
+                await DisplayAlert("notification", msg, "OK");
             });
         }
 
@@ -51,14 +64,33 @@ namespace QRTrack.UserViews
             MessagingCenter.Unsubscribe<object>(this, App.NotificationReceivedKey);
         }
 
-        void bt_calling_bt_OnClick(object sender, System.EventArgs e)
+        async void bt_calling_bt_OnClickAsync(object sender, System.EventArgs e)
         {
+            await PostAsync();
+        }
 
+        private async Task PostAsync()
+        {
+            Debug.WriteLine($"Sending message: " + userInfo.Id);
+
+            var content = new StringContent("\"" + userInfo.Id + "\"", Encoding.UTF8, "application/json");
+            //var content = new StringContent(@"/api/QRPickNotifi/" + userInfo.Id, Encoding.UTF8, "application/json");
+            var result = await _client.PostAsync(App.MobileServiceUrl + @"/api/QRPickNotifi", content);
+            Debug.WriteLine("Send result: " + result.IsSuccessStatusCode);
         }
 
         async void bt_qrGen_pageCall_ClickedAsync(object sender, System.EventArgs e)
         {
             await  Navigation.PushAsync(new ShowQRCodePage(userId));
         }
+
+        async void GotoChatPage_ClickedAsync(object sender, System.EventArgs e)
+        {
+            //var chatView = Resolver.Resolve<ChatPage>();
+            //chatView.userId = userId;
+            await Navigation.PushAsync(new ChatPage(userId));
+            //await Navigation.PushAsync(chatView);
+        }
+
     }
 }

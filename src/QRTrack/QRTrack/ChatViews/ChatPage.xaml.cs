@@ -7,10 +7,10 @@ namespace QRTrack.ChatViews
 {
     public partial class ChatPage : ContentPage
     {
-        public ChatPage()
+        public ChatPage(string userId)
         {
             InitializeComponent();
-            this.BindingContext = new ChatPageViewModel();
+            this.BindingContext = new ChatPageViewModel(userId);
         }
 
         public void ScrollTap(object sender, System.EventArgs e)

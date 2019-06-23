@@ -2,8 +2,13 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Linq;
+using System.Threading.Tasks;
 using System.Windows.Input;
+using QRTrack.AdminViews;
+using QRTrack.Chat.Messages;
 using QRTrack.Models;
+using QRTrack.Services;
 using Xamarin.Forms;
 
 namespace QRTrack.ChatViews
@@ -22,60 +27,51 @@ namespace QRTrack.ChatViews
         public ICommand MessageAppearingCommand { get; set; }
         public ICommand MessageDisappearingCommand { get; set; }
 
-        public ChatPageViewModel()
+        private readonly IChatService chatService;
+
+        private SQLiteService sqLiteService;
+        string userId = null;
+        private User_Information userInfo;
+
+        public ChatPageViewModel(string UserId)
         {
-            Messages.Insert(0, new Message() { Text = "Hi" });
-            Messages.Insert(0, new Message() { Text = "How are you?", User = App.User });
-            Messages.Insert(0, new Message() { Text = "What's new?" });
-            Messages.Insert(0, new Message() { Text = "How is your family", User = App.User });
-            Messages.Insert(0, new Message() { Text = "How is your dog?", User = App.User });
-            Messages.Insert(0, new Message() { Text = "How is your cat?", User = App.User });
-            Messages.Insert(0, new Message() { Text = "How is your sister?" });
-            Messages.Insert(0, new Message() { Text = "When we are going to meet?" });
-            Messages.Insert(0, new Message() { Text = "I want to buy a laptop" });
-            Messages.Insert(0, new Message() { Text = "Where I can find a good one?" });
-            Messages.Insert(0, new Message() { Text = "Also I'm testing this chat" });
-            Messages.Insert(0, new Message() { Text = "Oh My God!" });
-            Messages.Insert(0, new Message() { Text = " No Problem", User = App.User });
-            Messages.Insert(0, new Message() { Text = "Hugs and Kisses", User = App.User });
-            Messages.Insert(0, new Message() { Text = "When we are going to meet?" });
-            Messages.Insert(0, new Message() { Text = "I want to buy a laptop" });
-            Messages.Insert(0, new Message() { Text = "Where I can find a good one?" });
-            Messages.Insert(0, new Message() { Text = "Also I'm testing this chat" });
-            Messages.Insert(0, new Message() { Text = "Oh My God!" });
-            Messages.Insert(0, new Message() { Text = " No Problem" });
-            Messages.Insert(0, new Message() { Text = "Hugs and Kisses" });
+            this.userId = UserId;
+            sqLiteService = new SQLiteService();
+            if (userId != null)
+            {
+                userInfo = sqLiteService.GetItems(userId).Find(uId => uId.Id == userId);
+            }
+            chatService = Resolver.Resolve<IChatService>();
+
+            chatService.NewMessage += ChatService_NewMessage;
 
             MessageAppearingCommand = new Command<Message>(OnMessageAppearing);
             MessageDisappearingCommand = new Command<Message>(OnMessageDisappearing);
 
-            OnSendCommand = new Command(() =>
+            Task.Run(async () =>
+            {
+                if (!chatService.IsConnected)
+                {
+                    await chatService.CreateConnection();
+                }
+
+                await chatService.SendMessage(new UserConnectedMessage(userInfo.Firstname,userInfo.Id));
+            });
+
+            OnSendCommand = new Command(async() =>
             {
                 if (!string.IsNullOrEmpty(TextToSend))
                 {
-                    Messages.Insert(0, new Message() { Text = TextToSend });
+                    var message = new SimpleTextMessage(userInfo.Firstname, userInfo.Id)
+                    {
+                        Text = TextToSend
+                    };
+
+                    Messages.Insert(0, new LocalSimpleTextMessage(message));
+                    await chatService.SendMessage(message);
                     TextToSend = string.Empty;
                 }
-
             });
-
-            //Code to simulate reveing a new message procces
-            Device.StartTimer(TimeSpan.FromSeconds(5), () =>
-            {
-                if (LastMessageVisible)
-                {
-                    Messages.Insert(0, new Message() { Text = "New message test", User = "Mario" });
-                }
-                else
-                {
-                    DelayedMessages.Enqueue(new Message() { Text = "New message test", User = "Mario" });
-                    PendingMessageCount++;
-                }
-                return true;
-            });
-
-
-
         }
 
         void OnMessageAppearing(Message message)
@@ -110,6 +106,16 @@ namespace QRTrack.ChatViews
             }
         }
 
+        private void ChatService_NewMessage(object sender, Events.NewMessageEventArgs e)
+        {
+            Device.BeginInvokeOnMainThread(() =>
+            {
+                if (!Messages.Any(x => x.Id == e.Message.Id))
+                {
+                    Messages.Add(e.Message);
+                }
+            });
+        }
 
         public event PropertyChangedEventHandler PropertyChanged;
     }

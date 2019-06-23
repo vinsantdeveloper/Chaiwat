@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beta-reports-active</key>
+	<true/>
+	<key>aps-environment</key>
+	<string>production</string>
+	<key>com.apple.developer.pass-type-identifiers</key>
+	<array>
+		<string>FQV88XLJTS.*</string>
+	</array>
+	<key>com.apple.developer.default-data-protection</key>
+	<string>NSFileProtectionComplete</string>
+	<key>application-identifier</key>
+	<string>FQV88XLJTS.com.chaiwat.qpick</string>
+	<key>get-task-allow</key>
+	<false/>
+	<key>com.apple.developer.team-identifier</key>
+	<string>FQV88XLJTS</string>
+	<key>com.apple.developer.siri</key>
+	<true/>
+	<key>com.apple.developer.networking.wifi-info</key>
+	<true/>
+	<key>com.apple.external-accessory.wireless-configuration</key>
+	<true/>
+	<key>com.apple.developer.networking.HotspotConfiguration</key>
+	<true/>
+	<key>com.apple.developer.networking.vpn.api</key>
+	<array>
+		<string>allow-vpn</string>
+	</array>
+	<key>com.apple.developer.networking.networkextension</key>
+	<array>
+		<string>app-proxy-provider</string>
+		<string>content-filter-provider</string>
+		<string>packet-tunnel-provider</string>
+		<string>dns-proxy</string>
+	</array>
+	<key>com.apple.developer.networking.multipath</key>
+	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>FQV88XLJTS.*</string>
+	</array>
+</dict>
+</plist>

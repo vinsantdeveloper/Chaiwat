@@ -12,6 +12,8 @@ using Newtonsoft.Json.Linq;
 using Microsoft.WindowsAzure.MobileServices;
 using Xamarin.Forms;
 
+using WindowsAzure.Messaging;
+
 namespace QRTrack.iOS
 {
     // The UIApplicationDelegate for the application. This class is responsible for launching the 
@@ -21,7 +23,7 @@ namespace QRTrack.iOS
     public partial class AppDelegate : global::Xamarin.Forms.Platform.iOS.FormsApplicationDelegate
     {
         NSDictionary _launchOptions;
-
+        private SBNotificationHub Hub { get; set; }
         //
         // This method is invoked when the application has loaded and is ready to run. In this 
         // method you should instantiate the window, load the UI into it and then make the window
@@ -124,6 +126,21 @@ namespace QRTrack.iOS
 
             var client = new MobileServiceClient(QRTrack.App.MobileServiceUrl);
             await client.GetPush().RegisterAsync(deviceToken, templates);
+
+            //Hub = new SBNotificationHub(QRTrack.App.ListenConnectionString, QRTrack.App.NotificationHubName);
+            //Hub.UnregisterAllAsync(deviceToken, (error) => {
+            //    if (error != null)
+            //    {
+            //        System.Diagnostics.Debug.WriteLine("Error calling Unregister: {0}", error.ToString());
+            //        return;
+            //    }
+
+            //    NSSet tags = null; // create tags if you want
+            //    Hub.RegisterNativeAsync(deviceToken, tags, (errorCallback) => {
+            //        if (errorCallback != null)
+            //            System.Diagnostics.Debug.WriteLine("RegisterNativeAsync error: " + errorCallback.ToString());
+            //    });
+            //});
         }
 
         public override void FailedToRegisterForRemoteNotifications(UIApplication application, NSError error)
@@ -143,6 +160,11 @@ namespace QRTrack.iOS
 
             completionHandler(UIBackgroundFetchResult.NoData);
         }
+
+        //public override void ReceivedRemoteNotification(UIApplication application, NSDictionary userInfo)
+        //{
+        //    PresentNotification(userInfo);
+        //}
 
         void PresentNotification(NSDictionary dict)
         {

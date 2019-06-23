@@ -1,4 +1,8 @@
 MonoTouch: Could not install sigaction override, unexpected sigaction implementation.
-2019-05-19 15:52:55.206984+0900 QRTrack.iOS[56470:5933179] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=56470
-2019-05-19 15:52:55.207509+0900 QRTrack.iOS[56470:5933179] SecTaskCopyDebugDescription: QRTrack.iOS[56470]/0#-1 LF=0
-2019-05-19 15:52:55.241256+0900 QRTrack.iOS[56470:5933179] libMobileGestalt MobileGestalt.c:890: MGIsDeviceOneOfType is not supported on this platform.
+2019-06-23 12:13:09.386740+0900 QRTrack.iOS[6180:375880] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=6180
+2019-06-23 12:13:09.387175+0900 QRTrack.iOS[6180:375880] SecTaskCopyDebugDescription: QRTrack.iOS[6180]/0#-1 LF=0
+2019-06-23 12:13:11.545502+0900 QRTrack.iOS[6180:375880] Failed to register for remote notifications: Error Domain=NSCocoaErrorDomain Code=3010 "remote notifications are not supported in the simulator" UserInfo={NSLocalizedDescription=remote notifications are not supported in the simulator}
+2019-06-23 12:13:19.352792+0900 QRTrack.iOS[6180:375880] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=6180
+2019-06-23 12:13:19.353007+0900 QRTrack.iOS[6180:375880] SecTaskCopyDebugDescription: QRTrack.iOS[6180]/0#-1 LF=0
+2019-06-23 12:13:34.252650+0900 QRTrack.iOS[6180:376204] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=6180
+2019-06-23 12:13:34.253023+0900 QRTrack.iOS[6180:376204] SecTaskCopyDebugDescription: QRTrack.iOS[6180]/0#-1 LF=0

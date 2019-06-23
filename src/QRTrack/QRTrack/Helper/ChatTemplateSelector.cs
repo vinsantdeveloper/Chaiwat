@@ -1,6 +1,7 @@
 ﻿using System;
+using QRTrack.AdminViews;
+using QRTrack.Chat.Messages;
 using QRTrack.ChatViews.Cell;
-using QRTrack.Models;
 using Xamarin.Forms;
 
 namespace QRTrack.Helper
@@ -10,8 +11,14 @@ namespace QRTrack.Helper
         DataTemplate incomingDataTemplate;
         DataTemplate outgoingDataTemplate;
 
+        private string userId = null;
+
         public ChatTemplateSelector()
         {
+            MessagingCenter.Subscribe<HomeMasterPageAdmin, string>(this, "AdminLogin", (sender, args) =>
+            {
+                userId = args as string;
+            });
             this.incomingDataTemplate = new DataTemplate(typeof(IncomingViewCell));
             this.outgoingDataTemplate = new DataTemplate(typeof(OutgoingViewCell));
         }
@@ -23,7 +30,7 @@ namespace QRTrack.Helper
                 return null;
 
 
-            return (messageVm.User == App.User) ? outgoingDataTemplate : incomingDataTemplate;
+            return (messageVm.Id == userId) ? incomingDataTemplate : outgoingDataTemplate;
         }
     }
 }

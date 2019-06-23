@@ -21,10 +21,11 @@ namespace QRTrack.Services
 
         private async Task Initialize()
         {
-            if (Client?.SyncContext?.IsInitialized ?? false)
-                return;
+            //if (Client?.SyncContext?.IsInitialized ?? false)
+            //    return;
                 
-            Client = new MobileServiceClient("https://qrtracks.azurewebsites.net");
+            //Client = new MobileServiceClient("https://qrtracks.azurewebsites.net");
+            Client = new MobileServiceClient("https://qrpick.azurewebsites.net");
 
             //InitialzeDatabase for path
             var path = "qrtracksync.db";

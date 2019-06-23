@@ -1,70 +1,44 @@
 ﻿<Properties StartupConfiguration="{6918149B-9130-4BA4-8719-F013B26BCEB1}|Default">
-  <MonoDevelop.Ide.ItemProperties.QRTrack.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault" PreferredExecutionTarget="Android.my_device" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="QRTrack/SignupPage.xaml.cs">
+  <MonoDevelop.Ide.ItemProperties.QRTrack.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.Light.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.my_device" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="QRTrack/UserViews/HomeForUser.xaml.cs">
     <Files>
-      <File FileName="QRTrack/App.xaml" />
-      <File FileName="QRTrack/ChatViews/ChatPage.xaml" Line="23" Column="39" />
-      <File FileName="QRTrack/Partials/ChatInputBarView.xaml" />
-      <File FileName="QRTrack/App.xaml.cs" Line="15" Column="33" />
-      <File FileName="QRTrack/UserViews/ShowQRCodePage.xaml" />
-      <File FileName="QRTrack/ChatViews/Cell/OutgoingViewCell.xaml" />
-      <File FileName="QRTrack/ChatViews/Cell/IncomingViewCell.xaml" />
-      <File FileName="QRTrack/AdminViews/HomeForAdmin.xaml" />
-      <File FileName="QRTrack/AdminViews/HomeForAdmin.xaml.cs" Line="40" Column="45" />
-      <File FileName="QRTrack/ChatViews/ChatPage.xaml.cs" Line="44" Column="38" />
-      <File FileName="QRTrack/ChatViews/ChatPageViewModel.cs" Line="56" Column="74" />
-      <File FileName="QRTrack/SignupPage.xaml.cs" Line="32" Column="1" />
+      <File FileName="QRTrack/MainPage.xaml.cs" Line="45" Column="24" />
+      <File FileName="QRTrack.Backend3/Controllers/QRPickNotifiController.cs" Line="33" Column="19" />
+      <File FileName="QRTrack.iOS/AppDelegate.cs" Line="127" Column="22" />
+      <File FileName="QRTrack.iOS/Info.plist" />
+      <File FileName="QRTrack/UserViews/HomeForUser.xaml.cs" Line="67" Column="46" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="QRTrack" expanded="True">
             <Node name="QRTrack" expanded="True">
-              <Node name="AdminViews" expanded="True">
-                <Node name="HomeForAdmin.xaml" expanded="True" />
-                <Node name="HomeMasterPageAdmin.xaml" expanded="True" />
-                <Node name="MasterDetailMenuAdmin.xaml" expanded="True" />
-                <Node name="ScanQRcodePage.xaml" expanded="True" />
-              </Node>
-              <Node name="ChatViews" expanded="True">
-                <Node name="Cell" expanded="True" />
-                <Node name="ChatPage.xaml" expanded="True" />
-              </Node>
-              <Node name="Partials" expanded="True" />
+              <Node name="Services" expanded="True" />
               <Node name="UserViews" expanded="True">
-                <Node name="HomeForUser.xaml" expanded="True" />
-                <Node name="HomeMasterPageUser.xaml" expanded="True" />
-                <Node name="MasterDetailMenuUser.xaml" expanded="True" />
-                <Node name="ShowQRCodePage.xaml" expanded="True" />
+                <Node name="HomeForUser.xaml" expanded="True">
+                  <Node name="HomeForUser.xaml.cs" selected="True" />
+                </Node>
               </Node>
               <Node name="App.xaml" expanded="True" />
               <Node name="MainPage.xaml" expanded="True" />
-              <Node name="SignupPage.xaml" expanded="True">
-                <Node name="SignupPage.xaml.cs" selected="True" />
-              </Node>
             </Node>
-            <Node name="QRTrack.Android" expanded="True">
-              <Node name="Resources" expanded="True" />
+            <Node name="QRTrack.Backend3" expanded="True">
+              <Node name="Controllers" expanded="True" />
             </Node>
-            <Node name="QRTrack.iOS" expanded="True">
-              <Node name="Renderer" expanded="True" />
-              <Node name="Resources" expanded="True" />
-            </Node>
+            <Node name="QRTrack.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.QRTrack.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.3be58b1d7d81d8b1e691fbf4d771fee411e1d879" />
+  <MonoDevelop.Ide.ItemProperties.QRTrack.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.30fdbe0b4a1b7a17003e2965f9fd2d9e2400cdda" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/CustomControl/EntryCustomRenderer.cs" relfile="QRTrack/CustomControl/EntryCustomRenderer.cs" line="23" column="1" />
-      <Breakpoint file="/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/SignupPage.xaml.cs" relfile="QRTrack/SignupPage.xaml.cs" line="32" column="1" />
+      <Breakpoint file="/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/ChatViews/ChatPageViewModel.cs" relfile="QRTrack/ChatViews/ChatPageViewModel.cs" line="111" column="1" />
+      <Breakpoint file="/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/UserViews/HomeForUser.xaml.cs" relfile="QRTrack/UserViews/HomeForUser.xaml.cs" line="74" column="1" />
+      <Breakpoint file="/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/UserViews/HomeForUser.xaml.cs" relfile="QRTrack/UserViews/HomeForUser.xaml.cs" line="79" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

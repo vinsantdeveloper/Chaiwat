@@ -1,0 +1,85 @@
+Function=xamarin_timezone_get_data
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_start_wwan
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/System.dll
+Function=CreateZStream
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/System.dll
+Function=CloseZStream
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/System.dll
+Function=Flush
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/System.dll
+Function=ReadZStream
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/System.dll
+Function=WriteZStream
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/System.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_block_on_main_thread
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTAnimationView
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTAnimatedControl
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTAnimatedSwitch
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTAnimationCache
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTAnimationTransitionController
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTCacheProvider
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTColorBlockCallback
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTColorValueCallback
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTComposition
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTFloatInterpolatorCallback
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTKeypath
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTNumberBlockCallback
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTNumberValueCallback
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTPathBlockCallback
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTPathValueCallback
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTPointBlockCallback
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTPointInterpolatorCallback
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTPointValueCallback
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTSizeBlockCallback
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTSizeInterpolatorCallback
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTSizeValueCallback
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_SBConnectionString
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.Azure.NotificationHubs.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_SBLocalStorage
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.Azure.NotificationHubs.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_SBNotificationHub
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.Azure.NotificationHubs.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_SBRegistration
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.Azure.NotificationHubs.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_SBTokenProvider
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.Azure.NotificationHubs.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_StoredRegistrationEntry
+	/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.Azure.NotificationHubs.iOS.dll
+Function=mono_pmip

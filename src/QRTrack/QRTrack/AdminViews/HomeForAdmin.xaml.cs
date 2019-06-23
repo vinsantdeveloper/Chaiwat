@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Net.Http;
+using System.Net.Http.Headers;
 using QRTrack.ChatViews;
 using QRTrack.Models;
 using QRTrack.Services;
@@ -12,11 +14,17 @@ namespace QRTrack.AdminViews
         private SQLiteService sqLiteService;
         string userId = null;
         private User_Information userInfo;
+        HttpClient _client = new HttpClient();
 
         public HomeForAdmin()
         {
             InitializeComponent();
             sqLiteService = new SQLiteService();
+
+            _client.BaseAddress = new Uri(App.MobileServiceUrl);
+            _client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            _client.Timeout = TimeSpan.FromSeconds(120);
+
             MessagingCenter.Subscribe<HomeMasterPageAdmin, string>(this, "AdminLogin", (sender, args) =>
             {
                 userId = args as string;
@@ -32,14 +40,37 @@ namespace QRTrack.AdminViews
             });
         }
 
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            MessagingCenter.Subscribe<object, string>(this, App.NotificationReceivedKey, OnMessageReceived);
+        }
+
+        void OnMessageReceived(object sender, string msg)
+        {
+            Device.BeginInvokeOnMainThread(async () => {
+                await DisplayAlert("notification", msg, "OK");
+            });
+        }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            MessagingCenter.Unsubscribe<object>(this, App.NotificationReceivedKey);
+        }
+
         async void ScanQR_OnClickAsync(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new ScanQRcodePage());
+            await Navigation.PushAsync(new ScanQRcodePage(_client));
         }
 
         async void GotoChatPage_ClickedAsync(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new ChatPage());
+            //var chatView = Resolver.Resolve<ChatPage>();
+            await Navigation.PushAsync(new ChatPage(userId));
+            //await Navigation.PushAsync(chatView);
         }
+
     }
 }

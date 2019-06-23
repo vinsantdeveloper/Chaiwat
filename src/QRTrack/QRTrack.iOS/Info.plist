@@ -21,11 +21,9 @@
 	<key>MinimumOSVersion</key>
 	<string>12.2</string>
 	<key>CFBundleDisplayName</key>
-	<string>QRTrack</string>
+	<string>Q-Pick</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.chaiwat.QRTrack</string>
-	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>com.chaiwat.qpick</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>CFBundleName</key>
@@ -53,13 +51,17 @@
 		<string>remote-notification</string>
 		<string>network-authentication</string>
 	</array>
-	<key>XSAppIconAssets</key>
-	<string>Assets.xcassets/AppIcon.appiconset</string>
 	<key>UIRequiresFullScreen</key>
 	<true/>
-	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
 	<key>UIMainStoryboardFile</key>
 	<string>LaunchScreen</string>
+	<key>XSAppIconAssets</key>
+	<string>Assets.xcassets/AppIcon.appiconset</string>
+	<key>XSLaunchImageAssets</key>
+	<string>Assets.xcassets/LaunchImage.launchimage</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
 </dict>
 </plist>
