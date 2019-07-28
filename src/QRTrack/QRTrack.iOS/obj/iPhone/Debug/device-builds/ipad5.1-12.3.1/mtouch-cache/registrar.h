@@ -44,6 +44,7 @@
 @class WKUIDelegate;
 @class UIKit_UIControlEventProxy;
 @class __MonoTouch_UIImageStatusDispatcher;
+@protocol UIAccessibilityContainer;
 @class UIActionSheetDelegate;
 @class UICollectionViewDelegateFlowLayout;
 @class UIGestureRecognizerDelegate;
@@ -96,7 +97,6 @@
 @class System_Net_Http_NSUrlSessionHandler_NSUrlSessionHandlerDelegate;
 @class Xamarin_Forms_Platform_iOS_iOS7ButtonContainer;
 @class Xamarin_Forms_Platform_iOS_GlobalCloseContextGestureRecognizer;
-@class Xamarin_Forms_Platform_iOS_ModalWrapper;
 @class Xamarin_Forms_Platform_iOS_PlatformRenderer;
 @class Xamarin_Forms_Platform_iOS_CellTableViewCell;
 @class Xamarin_Forms_Platform_iOS_ActivityIndicatorRenderer;
@@ -115,6 +115,7 @@
 @class Xamarin_Forms_Platform_iOS_ProgressBarRenderer;
 @class Xamarin_Forms_Platform_iOS_ScrollViewRenderer;
 @class Xamarin_Forms_Platform_iOS_SearchBarRenderer;
+@class Xamarin_Forms_Platform_iOS_SliderRenderer;
 @class Xamarin_Forms_Platform_iOS_StepperRenderer;
 @class Xamarin_Forms_Platform_iOS_SwitchRenderer;
 @class Xamarin_Forms_Platform_iOS_TableViewModelRenderer;
@@ -125,6 +126,7 @@
 @class Xamarin_Forms_Platform_iOS_TimePickerRendererBase_1;
 @class Xamarin_Forms_Platform_iOS_TimePickerRenderer;
 @class Xamarin_Forms_Platform_iOS_ItemsViewRenderer;
+@class Xamarin_Forms_Platform_iOS_CarouselViewRenderer;
 @class Xamarin_Forms_Platform_iOS_SelectableItemsViewRenderer;
 @class Xamarin_Forms_Platform_iOS_CollectionViewRenderer;
 @class Xamarin_Forms_Platform_iOS_ItemsViewCell;
@@ -140,7 +142,11 @@
 @class Xamarin_Forms_Platform_iOS_TemplatedCell;
 @class Xamarin_Forms_Platform_iOS_HorizontalTemplatedCell;
 @class Xamarin_Forms_Platform_iOS_VerticalTemplatedCell;
+@class Xamarin_Forms_Platform_iOS_ModalWrapper;
+@class Xamarin_Forms_Platform_iOS_FormsCheckBox;
 @class Xamarin_Forms_Platform_iOS_NativeViewWrapperRenderer;
+@class Xamarin_Forms_Platform_iOS_PageContainer;
+@class Xamarin_Forms_Platform_iOS_CheckBoxRendererBase_1;
 @class Xamarin_Forms_Platform_iOS_ShellFlyoutContentRenderer;
 @class Xamarin_Forms_Platform_iOS_ShellItemRenderer;
 @class Xamarin_Forms_Platform_iOS_ShellSearchResultsRenderer;
@@ -149,6 +155,7 @@
 @class Xamarin_Forms_Platform_iOS_UIContainerCell;
 @class Xamarin_Forms_Platform_iOS_UIContainerView;
 @class Xamarin_Forms_Platform_iOS_NativeViewPropertyListener;
+@class Xamarin_Forms_Platform_iOS_CheckBoxRenderer;
 @class Xamarin_Forms_Platform_iOS_ContextActionsCell_SelectGestureRecognizer;
 @class Xamarin_Forms_Platform_iOS_ContextActionsCell_MoreActionSheetController;
 @class Xamarin_Forms_Platform_iOS_ContextActionsCell_MoreActionSheetDelegate;
@@ -157,7 +164,7 @@
 @class Xamarin_Forms_Platform_iOS_Platform_DefaultRenderer;
 @class Xamarin_Forms_Platform_iOS_EntryCellRenderer_EntryCellTableViewCell;
 @class Xamarin_Forms_Platform_iOS_ViewCellRenderer_ViewTableCell;
-@class Xamarin_Forms_Platform_iOS_CarouselPageRenderer_PageContainer;
+@class Xamarin_Forms_Platform_iOS_CarouselPageRenderer_CarouselPageContainer;
 @class Xamarin_Forms_Platform_iOS_CarouselPageRenderer;
 @class Xamarin_Forms_Platform_iOS_EditorRendererBase_1_FormsUITextView;
 @class Xamarin_Forms_Platform_iOS_ImageRenderer;
@@ -173,7 +180,6 @@
 @class Xamarin_Forms_Platform_iOS_PhoneMasterDetailRenderer_ChildViewController;
 @class Xamarin_Forms_Platform_iOS_PhoneMasterDetailRenderer;
 @class Xamarin_Forms_Platform_iOS_PickerRendererBase_1_PickerSource;
-@class Xamarin_Forms_Platform_iOS_SliderRenderer;
 @class Xamarin_Forms_Platform_iOS_TabbedRenderer;
 @class Xamarin_Forms_Platform_iOS_TabletMasterDetailRenderer_InnerDelegate;
 @class Xamarin_Forms_Platform_iOS_TabletMasterDetailRenderer;
@@ -200,17 +206,6 @@
 @class Xamarin_Forms_Platform_iOS_NavigationRenderer_ParentingViewController;
 @class Xamarin_Forms_Platform_iOS_WkWebViewRenderer_CustomWebViewUIDelegate;
 @class ImageCircle_Forms_Plugin_iOS_ImageCircleRenderer;
-@class Xamarin_Controls__MobileServices_ProgressLabel;
-@class Xamarin_Auth__MobileServices_NativeAuthSafariViewControllerDelegate;
-@class Xamarin_Auth__MobileServices_FormAuthenticatorController_FormDelegate;
-@class Xamarin_Auth__MobileServices_FormAuthenticatorController;
-@class Xamarin_Auth__MobileServices_WebAuthenticatorController_UIWebViewDelegate;
-@class Xamarin_Auth__MobileServices_WebAuthenticatorController_WKWebViewUIDelegate;
-@class Xamarin_Auth__MobileServices_WebAuthenticatorController_WKWebViewNavigationDelegate;
-@class Xamarin_Auth__MobileServices_WebAuthenticatorController_WKWebViewJacascriptMessageHandler;
-@class Xamarin_Auth__MobileServices_WebAuthenticatorController;
-@class Xamarin_Auth__MobileServices_FormAuthenticatorController_FieldCell;
-@class Xamarin_Auth__MobileServices_FormAuthenticatorController_FormDataSource;
 @class Lottie_Forms_iOS_Renderers_AnimationViewRenderer;
 @class LOTAnimationCache;
 @class LOTAnimationTransitionController;
@@ -250,12 +245,17 @@
 @class LOTAnimatedControl;
 @class Airbnb_Lottie_LOTAnimatedSwitch_LOTAnimatedSwitchAppearance;
 @class LOTAnimatedSwitch;
-@class SBConnectionString;
-@class SBLocalStorage;
-@class SBRegistration;
-@class SBTokenProvider;
-@class StoredRegistrationEntry;
-@class SBNotificationHub;
+@class Xamarin_Controls__MobileServices_ProgressLabel;
+@class Xamarin_Auth__MobileServices_NativeAuthSafariViewControllerDelegate;
+@class Xamarin_Auth__MobileServices_FormAuthenticatorController_FormDelegate;
+@class Xamarin_Auth__MobileServices_FormAuthenticatorController;
+@class Xamarin_Auth__MobileServices_WebAuthenticatorController_UIWebViewDelegate;
+@class Xamarin_Auth__MobileServices_WebAuthenticatorController_WKWebViewUIDelegate;
+@class Xamarin_Auth__MobileServices_WebAuthenticatorController_WKWebViewNavigationDelegate;
+@class Xamarin_Auth__MobileServices_WebAuthenticatorController_WKWebViewJacascriptMessageHandler;
+@class Xamarin_Auth__MobileServices_WebAuthenticatorController;
+@class Xamarin_Auth__MobileServices_FormAuthenticatorController_FieldCell;
+@class Xamarin_Auth__MobileServices_FormAuthenticatorController_FormDataSource;
 @class ZXing_Mobile_CaptureDelegate;
 @class ZXing_Mobile_AVCaptureScannerViewController;
 @class ZXing_Mobile_ZXingScannerViewController;
@@ -265,6 +265,17 @@
 @class ZXing_Mobile_ZXingScannerView;
 @class ZXing_Net_Mobile_Forms_iOS_ZXingScannerViewRenderer;
 @class ZXing_Net_Mobile_Forms_iOS_ZXingBarcodeImageViewRenderer;
+@protocol FIRMessagingDelegate;
+@class Plugin_FirebasePushNotification_FirebasePushNotificationManager;
+@class FIRMessagingMessageInfo;
+@class ApiDefinition__Firebase_CloudMessaging_MessagingDelegate;
+@class FIRMessagingRemoteMessage;
+@class FIRMessaging;
+@class FIRApp;
+@class FIRAnalyticsConfiguration;
+@class FIRConfiguration;
+@class FIROptions;
+@class FIRInstanceID;
 
 @interface Xamarin_Forms_Platform_iOS_VisualElementRenderer_1 : UIView {
 }
@@ -370,7 +381,6 @@
 @interface AppDelegate : Xamarin_Forms_Platform_iOS_FormsApplicationDelegate<UIApplicationDelegate> {
 }
 	-(BOOL) application:(UIApplication *)p0 didFinishLaunchingWithOptions:(NSDictionary *)p1;
-	-(void) applicationDidBecomeActive:(UIApplication *)p0;
 	-(void) application:(UIApplication *)p0 didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)p1;
 	-(void) application:(UIApplication *)p0 didFailToRegisterForRemoteNotificationsWithError:(NSError *)p1;
 	-(void) application:(UIApplication *)p0 didReceiveRemoteNotification:(NSDictionary *)p1 fetchCompletionHandler:(id)p2;
@@ -414,6 +424,9 @@
 @interface WKUIDelegate : NSObject<WKUIDelegate> {
 }
 	-(id) init;
+@end
+
+@protocol UIAccessibilityContainer
 @end
 
 @interface UIActionSheetDelegate : NSObject<UIActionSheetDelegate> {
@@ -632,6 +645,12 @@
 	-(id) init;
 @end
 
+@interface Xamarin_Forms_Platform_iOS_SliderRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
+}
+	-(CGSize) sizeThatFits:(CGSize)p0;
+	-(id) init;
+@end
+
 @interface Xamarin_Forms_Platform_iOS_StepperRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
 }
 	-(id) init;
@@ -682,6 +701,11 @@
 @end
 
 @interface Xamarin_Forms_Platform_iOS_ItemsViewRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
+}
+	-(id) init;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_CarouselViewRenderer : Xamarin_Forms_Platform_iOS_ItemsViewRenderer {
 }
 	-(id) init;
 @end
@@ -753,6 +777,7 @@
 	-(int) xamarinGetGCHandle;
 	-(void) xamarinSetGCHandle: (int) gchandle;
 	-(BOOL) shouldInvalidateLayoutForBoundsChange:(CGRect)p0;
+	-(BOOL) shouldInvalidateLayoutForPreferredLayoutAttributes:(UICollectionViewLayoutAttributes *)p0 withOriginalAttributes:(UICollectionViewLayoutAttributes *)p1;
 	-(CGPoint) targetContentOffsetForProposedContentOffset:(CGPoint)p0 withScrollingVelocity:(CGPoint)p1;
 	-(BOOL) conformsToProtocol:(void *)p0;
 @end
@@ -760,12 +785,32 @@
 @interface Xamarin_Forms_Platform_iOS_TemplatedCell : Xamarin_Forms_Platform_iOS_ItemsViewCell {
 }
 	-(UICollectionViewLayoutAttributes *) preferredLayoutAttributesFittingAttributes:(UICollectionViewLayoutAttributes *)p0;
+	-(void) prepareForReuse;
 	-(BOOL) isSelected;
 	-(void) setSelected:(BOOL)p0;
 	-(id) initWithFrame:(CGRect)p0;
 @end
 
+@interface Xamarin_Forms_Platform_iOS_FormsCheckBox : UIButton {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(BOOL) isEnabled;
+	-(void) setEnabled:(BOOL)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) init;
+@end
+
 @interface Xamarin_Forms_Platform_iOS_NativeViewWrapperRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
+}
+	-(void) layoutSubviews;
+	-(CGSize) sizeThatFits:(CGSize)p0;
+	-(id) init;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_CheckBoxRendererBase_1 : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
 }
 	-(void) layoutSubviews;
 	-(CGSize) sizeThatFits:(CGSize)p0;
@@ -852,6 +897,11 @@
 	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 
+@interface Xamarin_Forms_Platform_iOS_CheckBoxRenderer : Xamarin_Forms_Platform_iOS_CheckBoxRendererBase_1 {
+}
+	-(id) init;
+@end
+
 @interface Xamarin_Forms_Platform_iOS_CarouselPageRenderer : UIViewController {
 }
 	-(void) release;
@@ -889,6 +939,7 @@
 	-(void) viewDidLayoutSubviews;
 	-(void) viewDidLoad;
 	-(UIViewController *) childViewControllerForStatusBarHidden;
+	-(UIViewController *) childViewControllerForHomeIndicatorAutoHidden;
 	-(BOOL) conformsToProtocol:(void *)p0;
 	-(id) init;
 @end
@@ -899,6 +950,8 @@
 	-(id) retain;
 	-(int) xamarinGetGCHandle;
 	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) loadView;
+	-(void) viewWillLayoutSubviews;
 	-(void) viewDidLayoutSubviews;
 	-(void) viewSafeAreaInsetsDidChange;
 	-(void) viewDidAppear:(BOOL)p0;
@@ -907,6 +960,7 @@
 	-(void) viewWillDisappear:(BOOL)p0;
 	-(NSInteger) preferredStatusBarUpdateAnimation;
 	-(BOOL) prefersStatusBarHidden;
+	-(BOOL) prefersHomeIndicatorAutoHidden;
 	-(BOOL) conformsToProtocol:(void *)p0;
 	-(id) init;
 @end
@@ -923,13 +977,8 @@
 	-(void) viewDidLoad;
 	-(void) willRotateToInterfaceOrientation:(NSInteger)p0 duration:(double)p1;
 	-(UIViewController *) childViewControllerForStatusBarHidden;
+	-(UIViewController *) childViewControllerForHomeIndicatorAutoHidden;
 	-(BOOL) conformsToProtocol:(void *)p0;
-	-(id) init;
-@end
-
-@interface Xamarin_Forms_Platform_iOS_SliderRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
-}
-	-(CGSize) sizeThatFits:(CGSize)p0;
 	-(id) init;
 @end
 
@@ -946,6 +995,7 @@
 	-(void) viewDidDisappear:(BOOL)p0;
 	-(void) viewDidLayoutSubviews;
 	-(UIViewController *) childViewControllerForStatusBarHidden;
+	-(UIViewController *) childViewControllerForHomeIndicatorAutoHidden;
 	-(BOOL) conformsToProtocol:(void *)p0;
 	-(id) init;
 @end
@@ -964,6 +1014,7 @@
 	-(void) viewWillLayoutSubviews;
 	-(void) willRotateToInterfaceOrientation:(NSInteger)p0 duration:(double)p1;
 	-(UIViewController *) childViewControllerForStatusBarHidden;
+	-(UIViewController *) childViewControllerForHomeIndicatorAutoHidden;
 	-(BOOL) conformsToProtocol:(void *)p0;
 	-(id) init;
 @end
@@ -998,6 +1049,9 @@
 	-(void) xamarinSetGCHandle: (int) gchandle;
 	-(void) viewDidLayoutSubviews;
 	-(void) viewDidLoad;
+	-(NSArray *) keyCommands;
+	-(void) tabForward:(UIKeyCommand *)p0;
+	-(void) tabBackward:(UIKeyCommand *)p0;
 	-(BOOL) conformsToProtocol:(void *)p0;
 	-(id) init;
 @end
@@ -1103,16 +1157,6 @@
 @interface ImageCircle_Forms_Plugin_iOS_ImageCircleRenderer : Xamarin_Forms_Platform_iOS_ImageRenderer {
 }
 	-(id) init;
-@end
-
-@interface Xamarin_Auth__MobileServices_WebAuthenticatorController_WKWebViewJacascriptMessageHandler : NSObject<WKScriptMessageHandler> {
-}
-	-(void) release;
-	-(id) retain;
-	-(int) xamarinGetGCHandle;
-	-(void) xamarinSetGCHandle: (int) gchandle;
-	-(void) userContentController:(WKUserContentController *)p0 didReceiveScriptMessage:(WKScriptMessage *)p1;
-	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 
 @interface Lottie_Forms_iOS_Renderers_AnimationViewRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
@@ -1400,6 +1444,8 @@
 	-(void) setLoopAnimation:(BOOL)p0;
 	-(id) sceneModel;
 	-(void) setSceneModel:(id)p0;
+	-(BOOL) shouldRasterizeWhenIdle;
+	-(void) setShouldRasterizeWhenIdle:(BOOL)p0;
 	-(id) init;
 	-(id) initWithCoder:(NSCoder *)p0;
 	-(id) initWithModel:(id)p0 inBundle:(NSBundle *)p1;
@@ -1437,80 +1483,14 @@
 	-(id) initWithCoder:(NSCoder *)p0;
 @end
 
-@interface SBConnectionString : NSObject {
+@interface Xamarin_Auth__MobileServices_WebAuthenticatorController_WKWebViewJacascriptMessageHandler : NSObject<WKScriptMessageHandler> {
 }
-	-(id) init;
-@end
-
-@interface SBLocalStorage : NSObject {
-}
-	-(void) deleteWithRegistrationName:(NSString *)p0;
-	-(void) deleteAllRegistrations;
-	-(id) getStoredRegistrationEntryWithRegistrationName:(NSString *)p0;
-	-(void) refreshFinishedWithDeviceToken:(NSString *)p0;
-	-(void) updateWithRegistrationName:(NSString *)p0 registration:(id)p1;
-	-(void) updateWithRegistrationName:(NSString *)p0 registrationId:(NSString *)p1 eTag:(NSString *)p2 deviceToken:(NSString *)p3;
-	-(void) updateWithRegistrationName:(NSString *)p0;
-	-(void) updateWithRegistration:(id)p0;
-	-(NSString *) deviceToken;
-	-(void) setDeviceToken:(NSString *)p0;
-	-(BOOL) isRefreshNeeded;
-	-(void) setIsRefreshNeeded:(BOOL)p0;
-	-(id) init;
-	-(id) initWithNotificationHubPath:(NSString *)p0;
-@end
-
-@interface SBRegistration : NSObject {
-}
-	-(NSString *) deviceToken;
-	-(void) setDeviceToken:(NSString *)p0;
-	-(NSString *) ETag;
-	-(void) setETag:(NSString *)p0;
-	-(NSDate *) expiresAt;
-	-(void) setExpiresAt:(NSDate *)p0;
-	-(NSString *) registrationId;
-	-(void) setRegistrationId:(NSString *)p0;
-	-(NSSet *) tags;
-	-(void) setTags:(NSSet *)p0;
-	-(id) init;
-@end
-
-@interface SBTokenProvider : NSObject {
-}
-	-(void) setTokenWithRequest:(NSMutableURLRequest *)p0 completion:(id)p1;
-	-(BOOL) setTokenWithRequest:(NSMutableURLRequest *)p0 error:(NSError **)p1;
-	-(int) timeToExpireinMins;
-	-(void) setTimeToExpireinMins:(int)p0;
-	-(id) init;
-@end
-
-@interface StoredRegistrationEntry : NSObject {
-}
-	-(NSString *) toString;
-	-(NSString *) ETag;
-	-(void) setETag:(NSString *)p0;
-	-(NSString *) RegistrationId;
-	-(void) setRegistrationId:(NSString *)p0;
-	-(NSString *) RegistrationName;
-	-(void) setRegistrationName:(NSString *)p0;
-	-(id) init;
-	-(id) initWithString:(NSString *)p0;
-@end
-
-@interface SBNotificationHub : NSObject {
-}
-	-(BOOL) registerNativeWithDeviceToken:(NSData *)p0 tags:(NSSet *)p1 error:(NSError **)p2;
-	-(void) registerNativeWithDeviceToken:(NSData *)p0 tags:(NSSet *)p1 completion:(id)p2;
-	-(BOOL) registerTemplateWithDeviceToken:(NSData *)p0 name:(NSString *)p1 jsonBodyTemplate:(NSString *)p2 expiryTemplate:(NSString *)p3 tags:(NSSet *)p4 error:(NSError **)p5;
-	-(void) registerTemplateWithDeviceToken:(NSData *)p0 name:(NSString *)p1 jsonBodyTemplate:(NSString *)p2 expiryTemplate:(NSString *)p3 tags:(NSSet *)p4 completion:(id)p5;
-	-(BOOL) unregisterAllWithDeviceToken:(NSData *)p0 error:(NSError **)p1;
-	-(void) unregisterAllWithDeviceToken:(NSData *)p0 completion:(id)p1;
-	-(BOOL) unregisterNativeWithError:(NSError **)p0;
-	-(void) unregisterNativeWithCompletion:(id)p0;
-	-(BOOL) unregisterTemplateWithName:(NSString *)p0 error:(NSError **)p1;
-	-(void) unregisterTemplateWithName:(NSString *)p0 completion:(id)p1;
-	-(id) init;
-	-(id) initWithConnectionString:(NSString *)p0 notificationHubPath:(NSString *)p1;
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) userContentController:(WKUserContentController *)p0 didReceiveScriptMessage:(WKScriptMessage *)p1;
+	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 
 @interface ZXing_Mobile_AVCaptureScannerViewController : UIViewController {
@@ -1597,6 +1577,126 @@
 @interface ZXing_Net_Mobile_Forms_iOS_ZXingBarcodeImageViewRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
 }
 	-(id) init;
+@end
+
+@protocol FIRMessagingDelegate
+	@optional -(void) messaging:(id)p0 didReceiveRegistrationToken:(NSString *)p1;
+	@optional -(void) messaging:(id)p0 didReceiveMessage:(id)p1;
+@end
+
+@interface Plugin_FirebasePushNotification_FirebasePushNotificationManager : NSObject<UNUserNotificationCenterDelegate, FIRMessagingDelegate> {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) userNotificationCenter:(UNUserNotificationCenter *)p0 willPresentNotification:(UNNotification *)p1 withCompletionHandler:(id)p2;
+	-(void) userNotificationCenter:(UNUserNotificationCenter *)p0 didReceiveNotificationResponse:(UNNotificationResponse *)p1 withCompletionHandler:(id)p2;
+	-(void) messaging:(id)p0 didReceiveRegistrationToken:(NSString *)p1;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) init;
+@end
+
+@interface FIRMessagingMessageInfo : NSObject {
+}
+	-(NSInteger) status;
+	-(id) init;
+@end
+
+@interface ApiDefinition__Firebase_CloudMessaging_MessagingDelegate : NSObject<FIRMessagingDelegate> {
+}
+	-(id) init;
+@end
+
+@interface FIRMessagingRemoteMessage : NSObject {
+}
+	-(NSDictionary *) appData;
+@end
+
+@interface FIRMessaging : NSObject {
+}
+	-(id) appDidReceiveMessage:(NSDictionary *)p0;
+	-(void) connectWithCompletion:(id)p0;
+	-(void) deleteFCMTokenForSenderID:(NSString *)p0 completion:(id)p1;
+	-(void) disconnect;
+	-(void) retrieveFCMTokenForSenderID:(NSString *)p0 completion:(id)p1;
+	-(void) sendMessage:(NSDictionary *)p0 to:(NSString *)p1 withMessageID:(NSString *)p2 timeToLive:(long long)p3;
+	-(void) setAPNSToken:(NSData *)p0 type:(NSInteger)p1;
+	-(void) subscribeToTopic:(NSString *)p0;
+	-(void) subscribeToTopic:(NSString *)p0 completion:(id)p1;
+	-(void) unsubscribeFromTopic:(NSString *)p0;
+	-(void) unsubscribeFromTopic:(NSString *)p0 completion:(id)p1;
+	-(NSData *) APNSToken;
+	-(void) setAPNSToken:(NSData *)p0;
+	-(BOOL) isAutoInitEnabled;
+	-(void) setAutoInitEnabled:(BOOL)p0;
+	-(id) delegate;
+	-(void) setDelegate:(id)p0;
+	-(NSString *) FCMToken;
+	-(BOOL) isDirectChannelEstablished;
+	-(BOOL) shouldEstablishDirectChannel;
+	-(void) setShouldEstablishDirectChannel:(BOOL)p0;
+@end
+
+@interface FIRApp : NSObject {
+}
+	-(void) deleteApp:(id)p0;
+	-(BOOL) isDataCollectionDefaultEnabled;
+	-(void) setDataCollectionDefaultEnabled:(BOOL)p0;
+	-(NSString *) name;
+	-(id) options;
+@end
+
+@interface FIRAnalyticsConfiguration : NSObject {
+}
+	-(void) setAnalyticsCollectionEnabled:(BOOL)p0;
+	-(void) setMinimumSessionInterval:(double)p0;
+	-(void) setSessionTimeoutInterval:(double)p0;
+@end
+
+@interface FIRConfiguration : NSObject {
+}
+	-(void) setLoggerLevel:(NSInteger)p0;
+	-(id) analyticsConfiguration;
+	-(void) setAnalyticsConfiguration:(id)p0;
+@end
+
+@interface FIROptions : NSObject {
+}
+	-(NSObject *) copyWithZone:(id)p0;
+	-(NSString *) androidClientID;
+	-(void) setAndroidClientID:(NSString *)p0;
+	-(NSString *) APIKey;
+	-(void) setAPIKey:(NSString *)p0;
+	-(NSString *) bundleID;
+	-(void) setBundleID:(NSString *)p0;
+	-(NSString *) clientID;
+	-(void) setClientID:(NSString *)p0;
+	-(NSString *) databaseURL;
+	-(void) setDatabaseURL:(NSString *)p0;
+	-(NSString *) deepLinkURLScheme;
+	-(void) setDeepLinkURLScheme:(NSString *)p0;
+	-(NSString *) GCMSenderID;
+	-(void) setGCMSenderID:(NSString *)p0;
+	-(NSString *) googleAppID;
+	-(void) setGoogleAppID:(NSString *)p0;
+	-(NSString *) projectID;
+	-(void) setProjectID:(NSString *)p0;
+	-(NSString *) storageBucket;
+	-(void) setStorageBucket:(NSString *)p0;
+	-(NSString *) trackingID;
+	-(void) setTrackingID:(NSString *)p0;
+	-(id) initWithContentsOfFile:(NSString *)p0;
+	-(id) initWithGoogleAppID:(NSString *)p0 GCMSenderID:(NSString *)p1;
+@end
+
+@interface FIRInstanceID : NSObject {
+}
+	-(void) deleteIDWithHandler:(id)p0;
+	-(void) deleteTokenWithAuthorizedEntity:(NSString *)p0 scope:(NSString *)p1 handler:(id)p2;
+	-(void) getIDWithHandler:(id)p0;
+	-(void) tokenWithAuthorizedEntity:(NSString *)p0 scope:(NSString *)p1 options:(NSDictionary *)p2 handler:(id)p3;
+	-(NSString *) token;
 @end
 
 

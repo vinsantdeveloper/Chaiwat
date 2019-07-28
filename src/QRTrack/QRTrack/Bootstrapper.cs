@@ -2,6 +2,7 @@
 using System.Reflection;
 using Autofac;
 using QRTrack.Services;
+using QRTrack.Services.SignalRImplementation;
 
 namespace QRTrack
 {

@@ -1,11 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Threading.Tasks;
 using QRTrack.ChatViews;
+using QRTrack.Helper;
 using QRTrack.Models;
 using QRTrack.Services;
 using Xamarin.Forms;
+using ZXing.Mobile;
 
 namespace QRTrack.AdminViews
 {
@@ -49,7 +53,8 @@ namespace QRTrack.AdminViews
 
         void OnMessageReceived(object sender, string msg)
         {
-            Device.BeginInvokeOnMainThread(async () => {
+            Device.BeginInvokeOnMainThread(async () =>
+            {
                 await DisplayAlert("notification", msg, "OK");
             });
         }
@@ -62,14 +67,64 @@ namespace QRTrack.AdminViews
 
         async void ScanQR_OnClickAsync(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new ScanQRcodePage(_client));
+            try
+            {
+#if __ANDROID__
+            	// Initialize the scanner first so it can track the current context
+            	MobileBarcodeScanner.Initialize (Application);
+#endif
+                MobileBarcodeScanningOptions options = new ZXing.Mobile.MobileBarcodeScanningOptions()
+                {
+                    TryHarder = true,
+                    PossibleFormats = new List<ZXing.BarcodeFormat>() { ZXing.BarcodeFormat.QR_CODE }
+                };
+
+
+                var scanner = new ZXing.Mobile.MobileBarcodeScanner();
+
+                var result = await scanner.Scan(options);
+
+                if (result != null)
+                {
+                    await SendPush(result.ToString());
+
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            //   await Navigation.PushAsync(new ScanQRcodePage(_client));
         }
 
         async void GotoChatPage_ClickedAsync(object sender, System.EventArgs e)
         {
-            //var chatView = Resolver.Resolve<ChatPage>();
-            await Navigation.PushAsync(new ChatPage(userId));
-            //await Navigation.PushAsync(chatView);
+            await Navigation.PushAsync(new ChattingListPage(userId));
+        }
+
+
+        private async Task SendPush(string resultId)
+        {
+            var userDeviceTokenList = await App.TaskForAzureAsync.GetAllUserDeviceTokenDb();
+            var tokenList = userDeviceTokenList.Where(s => s.UserId == resultId).ToList().OrderByDescending(s => s.DateTime);
+
+            if (tokenList.Any())
+            {
+                var token = tokenList.FirstOrDefault();
+
+                //var message = $"{Settings.UserId}/{Settings.UserIsAndroid}/Testing Message";
+                var message = $"{userInfo.Firstname} {userInfo.Lastname} call you to pick up!";
+
+                if (token.IsAndroid)
+                {
+                    PushNotiificationSenderService.SendAndroidPushNotification(token.Token, message);
+                }
+                else
+                {
+                    PushNotiificationSenderService.SendIOSNotification(token.Token, message,userId);
+                }
+
+            }
         }
 
     }

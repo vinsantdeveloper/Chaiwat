@@ -1,0 +1,70 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="3.6.0.264807" />
+    <PackageReference Include="Xam.Plugins.Forms.ImageCircle" Version="3.0.0.5" />
+    <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie" Version="2.6.3" />
+    <PackageReference Include="Microsoft.Azure.Mobile.Client" Version="4.1.1" />
+    <PackageReference Include="Microsoft.Azure.Mobile.Client.SQLiteStore" Version="4.1.1" />
+    <PackageReference Include="Xam.Plugin.Connectivity" Version="3.2.0" />
+    <PackageReference Include="ZXing.Net.Mobile.Forms" Version="2.4.1" />
+    <PackageReference Include="ZXing.Net.Mobile" Version="2.4.1" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.5.231" />
+    <PackageReference Include="PropertyChanged.Fody" Version="3.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="1.1.0" />
+    <PackageReference Include="Autofac" Version="4.9.2" />
+    <PackageReference Include="Microsoft.Azure.NotificationHubs" Version="3.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CustomControl\" />
+    <Folder Include="Font\" />
+    <Folder Include="Models\" />
+    <Folder Include="Services\" />
+    <Folder Include="UserViews\" />
+    <Folder Include="AdminViews\" />
+    <Folder Include="ChatViews\" />
+    <Folder Include="ChatViews\Cell\" />
+    <Folder Include="Helper\" />
+    <Folder Include="Partials\" />
+    <Folder Include="Controls\" />
+    <Folder Include="Events\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="CustomControl\EntryCustom.xaml.cs" />
+    <Compile Remove="Models\Message.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Font\Avenir.ttc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Font\avenir.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="UserViews\HomeMasterPageUser.xaml.cs">
+      <DependentUpon>HomeMasterPageUser.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="UserViews\MasterDetailMenuUser.xaml.cs">
+      <DependentUpon>MasterDetailMenuUser.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="AdminViews\HomeForAdmin.xaml.cs">
+      <DependentUpon>HomeForAdmin.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="AdminViews\HomeMasterPageAdmin.xaml.cs">
+      <DependentUpon>HomeMasterPageAdmin.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QRTrack.Chat.Messages\QRTrack.Chat.Messages.csproj" />
+  </ItemGroup>
+</Project>

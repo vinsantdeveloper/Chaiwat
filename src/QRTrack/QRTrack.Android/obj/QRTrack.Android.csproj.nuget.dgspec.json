@@ -18,13 +18,13 @@
           "/Users/kasanapopsrirabut/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "monoandroid81"
+          "monoandroid90"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "monoandroid81": {
+          "monoandroid90": {
             "projectReferences": {
               "/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/QRTrack.csproj": {
                 "projectPath": "/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack/QRTrack.csproj"
@@ -34,11 +34,11 @@
         }
       },
       "frameworks": {
-        "monoandroid81": {
+        "monoandroid90": {
           "dependencies": {
             "Com.Airbnb.Xamarin.Forms.Lottie": {
               "target": "Package",
-              "version": "[2.6.3, )"
+              "version": "[3.0.0, )"
             },
             "Microsoft.Azure.Mobile.Client": {
               "target": "Package",
@@ -48,9 +48,17 @@
               "target": "Package",
               "version": "[4.1.1, )"
             },
+            "Plugin.FirebasePushNotification": {
+              "target": "Package",
+              "version": "[2.3.6, )"
+            },
             "Xam.Plugin.Connectivity": {
               "target": "Package",
               "version": "[3.2.0, )"
+            },
+            "Xam.Plugins.Settings": {
+              "target": "Package",
+              "version": "[3.1.1, )"
             },
             "Xamarin.Android.Support.Design": {
               "target": "Package",
@@ -74,7 +82,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[3.6.0.264807, )"
+              "version": "[4.1.0.581479, )"
             },
             "ZXing.Net.Mobile": {
               "target": "Package",
@@ -132,6 +140,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
             }
           },
           "imports": [
@@ -187,7 +199,11 @@
             },
             "Com.Airbnb.Xamarin.Forms.Lottie": {
               "target": "Package",
-              "version": "[2.6.3, )"
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNet.SignalR": {
+              "target": "Package",
+              "version": "[2.4.1, )"
             },
             "Microsoft.AspNetCore.SignalR.Client": {
               "target": "Package",
@@ -211,6 +227,10 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Plugin.FirebasePushNotification": {
+              "target": "Package",
+              "version": "[2.3.6, )"
+            },
             "PropertyChanged.Fody": {
               "target": "Package",
               "version": "[3.0.1, )"
@@ -223,9 +243,13 @@
               "target": "Package",
               "version": "[3.0.0.5, )"
             },
+            "Xam.Plugins.Settings": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[3.6.0.264807, )"
+              "version": "[4.1.0.581479, )"
             },
             "ZXing.Net.Mobile": {
               "target": "Package",

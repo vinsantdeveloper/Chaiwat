@@ -36797,7 +36797,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 163,23,187,248,0,18,5,130,110,67,16,52,200,140,196,131
+	.byte 182,1,210,131,52,141,106,128,159,210,141,148,226,29,83,101
 	.globl _mono_aot_module_Microsoft_Extensions_Logging_Abstractions_info
 	.align 3
 _mono_aot_module_Microsoft_Extensions_Logging_Abstractions_info:

@@ -20031,7 +20031,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Microsoft_WindowsAz
 .word 0xf9401400
 .word 0xf90027a0
 .word 0x14000009
-.word 0xd291f380
+.word 0xd2920080
 .word 0xf2a00020
 bl _p_341
 .word 0xaa0003e1
@@ -20135,7 +20135,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Microsoft_WindowsAz
 .word 0xf9401c00
 .word 0xf9002fa0
 .word 0x14000009
-.word 0xd291f380
+.word 0xd2920080
 .word 0xf2a00020
 bl _p_341
 .word 0xaa0003e1
@@ -20198,7 +20198,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Microsoft_WindowsAz
 .word 0xd2800b02
 bl _p_388
 .word 0x14000009
-.word 0xd291f380
+.word 0xd2920080
 .word 0xf2a00020
 bl _p_341
 .word 0xaa0003e1
@@ -22762,7 +22762,7 @@ bl _p_424
 .word 0xa8c37bfd
 .word 0xd65f03c0
 .loc 8 610 0
-.word 0xd291f8c0
+.word 0xd29205c0
 .word 0xf2a00020
 bl _p_341
 .word 0xaa0003e1
@@ -22897,7 +22897,7 @@ bl _p_441
 .word 0xa8c47bfd
 .word 0xd65f03c0
 .loc 8 649 0
-.word 0xd2886ba0
+.word 0xd2887a20
 .word 0xf2a00020
 bl _p_341
 .word 0xaa0003e1
@@ -22906,7 +22906,7 @@ bl _p_341
 bl _mono_create_corlib_exception_1
 bl _p_27
 .loc 8 675 0
-.word 0xd291f8c0
+.word 0xd29205c0
 .word 0xf2a00020
 bl _p_341
 .word 0xaa0003e1
@@ -30036,7 +30036,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 40,220,126,223,154,173,10,202,100,177,174,230,126,67,229,100
+	.byte 170,170,55,73,242,163,95,236,172,185,194,44,30,67,47,239
 	.globl _mono_aot_module_Microsoft_Azure_Mobile_Client_SQLiteStore_info
 	.align 3
 _mono_aot_module_Microsoft_Azure_Mobile_Client_SQLiteStore_info:

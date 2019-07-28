@@ -29490,7 +29490,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 126,118,221,49,184,0,46,76,187,44,148,126,174,86,73,231
+	.byte 195,108,164,127,235,139,9,226,33,240,249,236,154,211,233,202
 	.globl _mono_aot_module_Microsoft_Extensions_Logging_info
 	.align 3
 _mono_aot_module_Microsoft_Extensions_Logging_info:

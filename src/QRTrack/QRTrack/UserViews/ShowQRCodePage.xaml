@@ -37,6 +37,7 @@
                                              BarcodeFormat="QR_CODE"
                                              HorizontalOptions="FillAndExpand"
                                              VerticalOptions="FillAndExpand"
+                                             
                                              />
             </Grid>
             

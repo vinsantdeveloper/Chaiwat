@@ -53,6 +53,8 @@
 	</array>
 	<key>UIRequiresFullScreen</key>
 	<true/>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
 	<key>UIMainStoryboardFile</key>
 	<string>LaunchScreen</string>
 	<key>XSAppIconAssets</key>

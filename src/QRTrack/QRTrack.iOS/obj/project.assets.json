@@ -11,7 +11,7 @@
           "lib/netstandard2.0/Autofac.dll": {}
         }
       },
-      "Com.Airbnb.iOS.Lottie/2.5.4": {
+      "Com.Airbnb.iOS.Lottie/2.5.8": {
         "type": "package",
         "compile": {
           "lib/xamarinios10/Lottie.iOS.dll": {}
@@ -20,11 +20,11 @@
           "lib/xamarinios10/Lottie.iOS.dll": {}
         }
       },
-      "Com.Airbnb.Xamarin.Forms.Lottie/2.6.3": {
+      "Com.Airbnb.Xamarin.Forms.Lottie/3.0.0": {
         "type": "package",
         "dependencies": {
-          "Com.Airbnb.iOS.Lottie": "2.5.4",
-          "Xamarin.Forms": "3.1.0.697729"
+          "Com.Airbnb.iOS.Lottie": "2.5.8",
+          "Xamarin.Forms": "3.6.0.539721"
         },
         "compile": {
           "lib/xamarinios10/Lottie.Forms.dll": {}
@@ -38,6 +38,9 @@
         "build": {
           "build/_._": {}
         }
+      },
+      "Microsoft.AspNet.SignalR/2.4.1": {
+        "type": "package"
       },
       "Microsoft.AspNetCore.Connections.Abstractions/2.2.0": {
         "type": "package",
@@ -507,6 +510,20 @@
         },
         "runtime": {
           "lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Windows.Core.dll": {}
+        }
+      },
+      "Plugin.FirebasePushNotification/2.3.6": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Firebase.iOS.CloudMessaging": "3.1.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.FirebasePushNotification.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.FirebasePushNotification.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.FirebasePushNotification.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.FirebasePushNotification.dll": {}
         }
       },
       "PropertyChanged.Fody/3.0.1": {
@@ -1139,16 +1156,67 @@
           "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
         }
       },
-      "Xamarin.Azure.NotificationHubs.iOS-updated/1.2.5.3": {
+      "Xam.Plugins.Settings/3.1.1": {
         "type": "package",
         "compile": {
-          "lib/Xamarin.iOS10/Xamarin.Azure.NotificationHubs.iOS.dll": {}
+          "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Settings.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Xamarin.Azure.NotificationHubs.iOS.dll": {}
+          "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Settings.dll": {}
         }
       },
-      "Xamarin.Forms/3.6.0.264807": {
+      "Xamarin.Build.Download/0.4.11": {
+        "type": "package",
+        "build": {
+          "build/Xamarin.Build.Download.props": {},
+          "build/Xamarin.Build.Download.targets": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.CloudMessaging/3.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.11",
+          "Xamarin.Firebase.iOS.Core": "5.1.3",
+          "Xamarin.Firebase.iOS.InstanceID": "3.2.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Firebase.CloudMessaging.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Firebase.CloudMessaging.dll": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.Core/5.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.11"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Firebase.Core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Firebase.Core.dll": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.InstanceID/3.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.11",
+          "Xamarin.Firebase.iOS.Core": "5.1.3"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Firebase.InstanceID.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Firebase.InstanceID.dll": {}
+        },
+        "build": {
+          "build/Xamarin.Firebase.iOS.InstanceID.targets": {}
+        }
+      },
+      "Xamarin.Forms/4.1.0.581479": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -1226,8 +1294,8 @@
           "lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll": {
             "locale": "pl"
           },
-          "lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll": {
-            "locale": "pt-BR"
+          "lib/Xamarin.iOS10/pt-br/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pt-br"
           },
           "lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll": {
             "locale": "pt"
@@ -1304,16 +1372,19 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Autofac": "4.9.2",
-          "Com.Airbnb.Xamarin.Forms.Lottie": "2.6.3",
+          "Com.Airbnb.Xamarin.Forms.Lottie": "3.0.0",
+          "Microsoft.AspNet.SignalR": "2.4.1",
           "Microsoft.AspNetCore.SignalR.Client": "1.1.0",
           "Microsoft.Azure.Mobile.Client": "4.1.1",
           "Microsoft.Azure.Mobile.Client.SQLiteStore": "4.1.1",
           "Microsoft.Azure.NotificationHubs": "3.1.0",
+          "Plugin.FirebasePushNotification": "2.3.6",
           "PropertyChanged.Fody": "3.0.1",
           "QRTrack.Chat.Messages": "1.0.0",
           "Xam.Plugin.Connectivity": "3.2.0",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
-          "Xamarin.Forms": "3.6.0.264807",
+          "Xam.Plugins.Settings": "3.1.1",
+          "Xamarin.Forms": "4.1.0.581479",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1",
           "sqlite-net-pcl": "1.5.231"
@@ -1328,6 +1399,9 @@
       "QRTrack.Chat.Messages/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
         "compile": {
           "bin/placeholder/QRTrack.Chat.Messages.dll": {}
         },
@@ -1346,7 +1420,7 @@
           "lib/netstandard2.0/Autofac.dll": {}
         }
       },
-      "Com.Airbnb.iOS.Lottie/2.5.4": {
+      "Com.Airbnb.iOS.Lottie/2.5.8": {
         "type": "package",
         "compile": {
           "lib/xamarinios10/Lottie.iOS.dll": {}
@@ -1355,11 +1429,11 @@
           "lib/xamarinios10/Lottie.iOS.dll": {}
         }
       },
-      "Com.Airbnb.Xamarin.Forms.Lottie/2.6.3": {
+      "Com.Airbnb.Xamarin.Forms.Lottie/3.0.0": {
         "type": "package",
         "dependencies": {
-          "Com.Airbnb.iOS.Lottie": "2.5.4",
-          "Xamarin.Forms": "3.1.0.697729"
+          "Com.Airbnb.iOS.Lottie": "2.5.8",
+          "Xamarin.Forms": "3.6.0.539721"
         },
         "compile": {
           "lib/xamarinios10/Lottie.Forms.dll": {}
@@ -1373,6 +1447,9 @@
         "build": {
           "build/_._": {}
         }
+      },
+      "Microsoft.AspNet.SignalR/2.4.1": {
+        "type": "package"
       },
       "Microsoft.AspNetCore.Connections.Abstractions/2.2.0": {
         "type": "package",
@@ -1842,6 +1919,20 @@
         },
         "runtime": {
           "lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Windows.Core.dll": {}
+        }
+      },
+      "Plugin.FirebasePushNotification/2.3.6": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Firebase.iOS.CloudMessaging": "3.1.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.FirebasePushNotification.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.FirebasePushNotification.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.FirebasePushNotification.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.FirebasePushNotification.dll": {}
         }
       },
       "PropertyChanged.Fody/3.0.1": {
@@ -2410,16 +2501,67 @@
           "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
         }
       },
-      "Xamarin.Azure.NotificationHubs.iOS-updated/1.2.5.3": {
+      "Xam.Plugins.Settings/3.1.1": {
         "type": "package",
         "compile": {
-          "lib/Xamarin.iOS10/Xamarin.Azure.NotificationHubs.iOS.dll": {}
+          "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Settings.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Xamarin.Azure.NotificationHubs.iOS.dll": {}
+          "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Settings.dll": {}
         }
       },
-      "Xamarin.Forms/3.6.0.264807": {
+      "Xamarin.Build.Download/0.4.11": {
+        "type": "package",
+        "build": {
+          "build/Xamarin.Build.Download.props": {},
+          "build/Xamarin.Build.Download.targets": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.CloudMessaging/3.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.11",
+          "Xamarin.Firebase.iOS.Core": "5.1.3",
+          "Xamarin.Firebase.iOS.InstanceID": "3.2.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Firebase.CloudMessaging.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Firebase.CloudMessaging.dll": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.Core/5.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.11"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Firebase.Core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Firebase.Core.dll": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.InstanceID/3.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.11",
+          "Xamarin.Firebase.iOS.Core": "5.1.3"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Firebase.InstanceID.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Firebase.InstanceID.dll": {}
+        },
+        "build": {
+          "build/Xamarin.Firebase.iOS.InstanceID.targets": {}
+        }
+      },
+      "Xamarin.Forms/4.1.0.581479": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -2497,8 +2639,8 @@
           "lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll": {
             "locale": "pl"
           },
-          "lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll": {
-            "locale": "pt-BR"
+          "lib/Xamarin.iOS10/pt-br/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pt-br"
           },
           "lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll": {
             "locale": "pt"
@@ -2575,16 +2717,19 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Autofac": "4.9.2",
-          "Com.Airbnb.Xamarin.Forms.Lottie": "2.6.3",
+          "Com.Airbnb.Xamarin.Forms.Lottie": "3.0.0",
+          "Microsoft.AspNet.SignalR": "2.4.1",
           "Microsoft.AspNetCore.SignalR.Client": "1.1.0",
           "Microsoft.Azure.Mobile.Client": "4.1.1",
           "Microsoft.Azure.Mobile.Client.SQLiteStore": "4.1.1",
           "Microsoft.Azure.NotificationHubs": "3.1.0",
+          "Plugin.FirebasePushNotification": "2.3.6",
           "PropertyChanged.Fody": "3.0.1",
           "QRTrack.Chat.Messages": "1.0.0",
           "Xam.Plugin.Connectivity": "3.2.0",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
-          "Xamarin.Forms": "3.6.0.264807",
+          "Xam.Plugins.Settings": "3.1.1",
+          "Xamarin.Forms": "4.1.0.581479",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1",
           "sqlite-net-pcl": "1.5.231"
@@ -2599,6 +2744,9 @@
       "QRTrack.Chat.Messages/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
         "compile": {
           "bin/placeholder/QRTrack.Chat.Messages.dll": {}
         },
@@ -2617,7 +2765,7 @@
           "lib/netstandard2.0/Autofac.dll": {}
         }
       },
-      "Com.Airbnb.iOS.Lottie/2.5.4": {
+      "Com.Airbnb.iOS.Lottie/2.5.8": {
         "type": "package",
         "compile": {
           "lib/xamarinios10/Lottie.iOS.dll": {}
@@ -2626,11 +2774,11 @@
           "lib/xamarinios10/Lottie.iOS.dll": {}
         }
       },
-      "Com.Airbnb.Xamarin.Forms.Lottie/2.6.3": {
+      "Com.Airbnb.Xamarin.Forms.Lottie/3.0.0": {
         "type": "package",
         "dependencies": {
-          "Com.Airbnb.iOS.Lottie": "2.5.4",
-          "Xamarin.Forms": "3.1.0.697729"
+          "Com.Airbnb.iOS.Lottie": "2.5.8",
+          "Xamarin.Forms": "3.6.0.539721"
         },
         "compile": {
           "lib/xamarinios10/Lottie.Forms.dll": {}
@@ -2644,6 +2792,9 @@
         "build": {
           "build/_._": {}
         }
+      },
+      "Microsoft.AspNet.SignalR/2.4.1": {
+        "type": "package"
       },
       "Microsoft.AspNetCore.Connections.Abstractions/2.2.0": {
         "type": "package",
@@ -3113,6 +3264,20 @@
         },
         "runtime": {
           "lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Windows.Core.dll": {}
+        }
+      },
+      "Plugin.FirebasePushNotification/2.3.6": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Firebase.iOS.CloudMessaging": "3.1.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.FirebasePushNotification.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.FirebasePushNotification.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.FirebasePushNotification.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.FirebasePushNotification.dll": {}
         }
       },
       "PropertyChanged.Fody/3.0.1": {
@@ -3681,16 +3846,67 @@
           "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
         }
       },
-      "Xamarin.Azure.NotificationHubs.iOS-updated/1.2.5.3": {
+      "Xam.Plugins.Settings/3.1.1": {
         "type": "package",
         "compile": {
-          "lib/Xamarin.iOS10/Xamarin.Azure.NotificationHubs.iOS.dll": {}
+          "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Settings.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Xamarin.Azure.NotificationHubs.iOS.dll": {}
+          "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Settings.dll": {}
         }
       },
-      "Xamarin.Forms/3.6.0.264807": {
+      "Xamarin.Build.Download/0.4.11": {
+        "type": "package",
+        "build": {
+          "build/Xamarin.Build.Download.props": {},
+          "build/Xamarin.Build.Download.targets": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.CloudMessaging/3.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.11",
+          "Xamarin.Firebase.iOS.Core": "5.1.3",
+          "Xamarin.Firebase.iOS.InstanceID": "3.2.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Firebase.CloudMessaging.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Firebase.CloudMessaging.dll": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.Core/5.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.11"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Firebase.Core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Firebase.Core.dll": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.InstanceID/3.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.11",
+          "Xamarin.Firebase.iOS.Core": "5.1.3"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Firebase.InstanceID.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Firebase.InstanceID.dll": {}
+        },
+        "build": {
+          "build/Xamarin.Firebase.iOS.InstanceID.targets": {}
+        }
+      },
+      "Xamarin.Forms/4.1.0.581479": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -3768,8 +3984,8 @@
           "lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll": {
             "locale": "pl"
           },
-          "lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll": {
-            "locale": "pt-BR"
+          "lib/Xamarin.iOS10/pt-br/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pt-br"
           },
           "lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll": {
             "locale": "pt"
@@ -3846,16 +4062,19 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Autofac": "4.9.2",
-          "Com.Airbnb.Xamarin.Forms.Lottie": "2.6.3",
+          "Com.Airbnb.Xamarin.Forms.Lottie": "3.0.0",
+          "Microsoft.AspNet.SignalR": "2.4.1",
           "Microsoft.AspNetCore.SignalR.Client": "1.1.0",
           "Microsoft.Azure.Mobile.Client": "4.1.1",
           "Microsoft.Azure.Mobile.Client.SQLiteStore": "4.1.1",
           "Microsoft.Azure.NotificationHubs": "3.1.0",
+          "Plugin.FirebasePushNotification": "2.3.6",
           "PropertyChanged.Fody": "3.0.1",
           "QRTrack.Chat.Messages": "1.0.0",
           "Xam.Plugin.Connectivity": "3.2.0",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
-          "Xamarin.Forms": "3.6.0.264807",
+          "Xam.Plugins.Settings": "3.1.1",
+          "Xamarin.Forms": "4.1.0.581479",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1",
           "sqlite-net-pcl": "1.5.231"
@@ -3870,6 +4089,9 @@
       "QRTrack.Chat.Messages/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
         "compile": {
           "bin/placeholder/QRTrack.Chat.Messages.dll": {}
         },
@@ -3888,7 +4110,7 @@
           "lib/netstandard2.0/Autofac.dll": {}
         }
       },
-      "Com.Airbnb.iOS.Lottie/2.5.4": {
+      "Com.Airbnb.iOS.Lottie/2.5.8": {
         "type": "package",
         "compile": {
           "lib/xamarinios10/Lottie.iOS.dll": {}
@@ -3897,11 +4119,11 @@
           "lib/xamarinios10/Lottie.iOS.dll": {}
         }
       },
-      "Com.Airbnb.Xamarin.Forms.Lottie/2.6.3": {
+      "Com.Airbnb.Xamarin.Forms.Lottie/3.0.0": {
         "type": "package",
         "dependencies": {
-          "Com.Airbnb.iOS.Lottie": "2.5.4",
-          "Xamarin.Forms": "3.1.0.697729"
+          "Com.Airbnb.iOS.Lottie": "2.5.8",
+          "Xamarin.Forms": "3.6.0.539721"
         },
         "compile": {
           "lib/xamarinios10/Lottie.Forms.dll": {}
@@ -3915,6 +4137,9 @@
         "build": {
           "build/_._": {}
         }
+      },
+      "Microsoft.AspNet.SignalR/2.4.1": {
+        "type": "package"
       },
       "Microsoft.AspNetCore.Connections.Abstractions/2.2.0": {
         "type": "package",
@@ -4384,6 +4609,20 @@
         },
         "runtime": {
           "lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Windows.Core.dll": {}
+        }
+      },
+      "Plugin.FirebasePushNotification/2.3.6": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Firebase.iOS.CloudMessaging": "3.1.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.FirebasePushNotification.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.FirebasePushNotification.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.FirebasePushNotification.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.FirebasePushNotification.dll": {}
         }
       },
       "PropertyChanged.Fody/3.0.1": {
@@ -4952,16 +5191,67 @@
           "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
         }
       },
-      "Xamarin.Azure.NotificationHubs.iOS-updated/1.2.5.3": {
+      "Xam.Plugins.Settings/3.1.1": {
         "type": "package",
         "compile": {
-          "lib/Xamarin.iOS10/Xamarin.Azure.NotificationHubs.iOS.dll": {}
+          "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Settings.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Xamarin.Azure.NotificationHubs.iOS.dll": {}
+          "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Settings.dll": {}
         }
       },
-      "Xamarin.Forms/3.6.0.264807": {
+      "Xamarin.Build.Download/0.4.11": {
+        "type": "package",
+        "build": {
+          "build/Xamarin.Build.Download.props": {},
+          "build/Xamarin.Build.Download.targets": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.CloudMessaging/3.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.11",
+          "Xamarin.Firebase.iOS.Core": "5.1.3",
+          "Xamarin.Firebase.iOS.InstanceID": "3.2.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Firebase.CloudMessaging.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Firebase.CloudMessaging.dll": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.Core/5.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.11"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Firebase.Core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Firebase.Core.dll": {}
+        }
+      },
+      "Xamarin.Firebase.iOS.InstanceID/3.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.11",
+          "Xamarin.Firebase.iOS.Core": "5.1.3"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Firebase.InstanceID.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Firebase.InstanceID.dll": {}
+        },
+        "build": {
+          "build/Xamarin.Firebase.iOS.InstanceID.targets": {}
+        }
+      },
+      "Xamarin.Forms/4.1.0.581479": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -5039,8 +5329,8 @@
           "lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll": {
             "locale": "pl"
           },
-          "lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll": {
-            "locale": "pt-BR"
+          "lib/Xamarin.iOS10/pt-br/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pt-br"
           },
           "lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll": {
             "locale": "pt"
@@ -5117,16 +5407,19 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Autofac": "4.9.2",
-          "Com.Airbnb.Xamarin.Forms.Lottie": "2.6.3",
+          "Com.Airbnb.Xamarin.Forms.Lottie": "3.0.0",
+          "Microsoft.AspNet.SignalR": "2.4.1",
           "Microsoft.AspNetCore.SignalR.Client": "1.1.0",
           "Microsoft.Azure.Mobile.Client": "4.1.1",
           "Microsoft.Azure.Mobile.Client.SQLiteStore": "4.1.1",
           "Microsoft.Azure.NotificationHubs": "3.1.0",
+          "Plugin.FirebasePushNotification": "2.3.6",
           "PropertyChanged.Fody": "3.0.1",
           "QRTrack.Chat.Messages": "1.0.0",
           "Xam.Plugin.Connectivity": "3.2.0",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
-          "Xamarin.Forms": "3.6.0.264807",
+          "Xam.Plugins.Settings": "3.1.1",
+          "Xamarin.Forms": "4.1.0.581479",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1",
           "sqlite-net-pcl": "1.5.231"
@@ -5141,6 +5434,9 @@
       "QRTrack.Chat.Messages/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
         "compile": {
           "bin/placeholder/QRTrack.Chat.Messages.dll": {}
         },
@@ -5152,10 +5448,11 @@
   },
   "libraries": {
     "Autofac/4.9.2": {
-      "sha512": "1MrHauRcpaPW3CpVYIhQey8o9vodRool0XfK7QcUu8v2SgQVYF/uzUILF/Lwgx8qvkY5DycyWEDj1WYNsDNcDA==",
+      "sha512": "lfCcNOzU97f2WFtdo/+SkR0XtpdH20QA5Ob/T2Iv027wFMvDk7EZZ2oj6ERtWL+LBfPTOrbk9zyLj6Okx2CoHA==",
       "type": "package",
       "path": "autofac/4.9.2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "autofac.4.9.2.nupkg.sha512",
         "autofac.nuspec",
@@ -5170,13 +5467,14 @@
         "lib/netstandard2.0/Autofac.xml"
       ]
     },
-    "Com.Airbnb.iOS.Lottie/2.5.4": {
-      "sha512": "N2fMsUrhLGeXdiNJF5HzASIPuNbY7VO2HQWWUQzb3UnWw55AbjJ6VXYC2c50zbZQd9ZaYG43O4e91WnL5StJPg==",
+    "Com.Airbnb.iOS.Lottie/2.5.8": {
+      "sha512": "NMu+9IOQnV6dwv9432lpMdeTFwcTxnK/1O+Hwt7dOL1a2tvDUH80pwwd279nhO0fYmEL1w4/jC3In1d4lrOJEw==",
       "type": "package",
-      "path": "com.airbnb.ios.lottie/2.5.4",
+      "path": "com.airbnb.ios.lottie/2.5.8",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
-        "com.airbnb.ios.lottie.2.5.4.nupkg.sha512",
+        "com.airbnb.ios.lottie.2.5.8.nupkg.sha512",
         "com.airbnb.ios.lottie.nuspec",
         "lib/xamarinios10/Lottie.iOS.dll",
         "lib/xamarinios10/Lottie.iOS.pdb",
@@ -5190,17 +5488,18 @@
         "readme.txt"
       ]
     },
-    "Com.Airbnb.Xamarin.Forms.Lottie/2.6.3": {
-      "sha512": "BQJUg3Hrbbz8oagavkX7pIsMQpT59aLXZznExh5eovZR6DgWGp5yDtZ2RVqTJEduvY1qoZaYr6Izjr8MLXnQEA==",
+    "Com.Airbnb.Xamarin.Forms.Lottie/3.0.0": {
+      "sha512": "SjyXwM89wbSs8bpJ0o44TN3PCZp5ORqeFq00TlJTOljypME06KPka144h60MVmrbJ+Cz6IbeMA7kfCFKPGe7QA==",
       "type": "package",
-      "path": "com.airbnb.xamarin.forms.lottie/2.6.3",
+      "path": "com.airbnb.xamarin.forms.lottie/3.0.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
-        "com.airbnb.xamarin.forms.lottie.2.6.3.nupkg.sha512",
+        "com.airbnb.xamarin.forms.lottie.3.0.0.nupkg.sha512",
         "com.airbnb.xamarin.forms.lottie.nuspec",
-        "lib/monoandroid81/Lottie.Forms.dll",
-        "lib/monoandroid81/Lottie.Forms.pdb",
-        "lib/monoandroid81/Lottie.Forms.xml",
+        "lib/monoandroid90/Lottie.Forms.dll",
+        "lib/monoandroid90/Lottie.Forms.pdb",
+        "lib/monoandroid90/Lottie.Forms.xml",
         "lib/netstandard2.0/Lottie.Forms.dll",
         "lib/netstandard2.0/Lottie.Forms.pdb",
         "lib/netstandard2.0/Lottie.Forms.xml",
@@ -5211,14 +5510,18 @@
         "lib/xamarinios10/Lottie.Forms.dll",
         "lib/xamarinios10/Lottie.Forms.pdb",
         "lib/xamarinios10/Lottie.Forms.xml",
+        "lib/xamarinmac20/Lottie.Forms.dll",
+        "lib/xamarinmac20/Lottie.Forms.pdb",
+        "lib/xamarinmac20/Lottie.Forms.xml",
         "readme.txt"
       ]
     },
     "Fody/5.0.6": {
-      "sha512": "qLd3en9BgfKidsmXI9vxPttAR3pBcGO3n6vARrKloQ6My/uCskx2QhTKs9t1OYwQx3GN6ymqlnntuwR4tzTgIw==",
+      "sha512": "BO5/h7Xnee91hNzt+oAuNvQiMdf/eTgYuiNP0SokcwjaD2MUrW6d5BjWqH2ukwzJDfbyo1Q8UJBbwlC/Ax2GaA==",
       "type": "package",
       "path": "fody/5.0.6",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "build/Fody.targets",
         "fody.5.0.6.nupkg.sha512",
@@ -5245,11 +5548,23 @@
         "netstandardtask/Mono.Cecil.pdb"
       ]
     },
+    "Microsoft.AspNet.SignalR/2.4.1": {
+      "sha512": "aYbLVE5toZwv/qaQ0BiIZRRwN/00WKYzGjaYUWIQuI91xZ50nnAymWD1sxCZFN9XXDRq8bevM5ET9GmAeOI/Nw==",
+      "type": "package",
+      "path": "microsoft.aspnet.signalr/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "microsoft.aspnet.signalr.2.4.1.nupkg.sha512",
+        "microsoft.aspnet.signalr.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.Connections.Abstractions/2.2.0": {
-      "sha512": "Pr7Nqi4dqmcvEcQJn865oOEyGmvxz22QTxDxKLwTed3sfVXqqdn5H08ctwtFWTpdauPolko3e01gOQWJrq6/2g==",
+      "sha512": "Aqr/16Cu5XmGv7mLKJvXRxhhd05UJ7cTTSaUV4MZ3ynAzfgWjsAdpIU8FWuxwAjmVdmI8oOWuVDrbs+sRkhKnA==",
       "type": "package",
       "path": "microsoft.aspnetcore.connections.abstractions/2.2.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.AspNetCore.Connections.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Connections.Abstractions.xml",
@@ -5258,10 +5573,11 @@
       ]
     },
     "Microsoft.AspNetCore.Http.Connections.Client/1.1.0": {
-      "sha512": "Gd6ula8vhp9VwAlagKGvijO1e1n3mLPJVlF2nmuZoVg5fn3ckXH3KXsZ2nEOV5h6GQq+QuR9rlTpZzt/PVx+5g==",
+      "sha512": "mT4nYSuNG9dY48swtnT8mP4HX/QbF8J71MjhoUZVcf9ZY6DwW9sNq3tBKZngpVwPmUYRgR06VuIVzmo4f4HzGg==",
       "type": "package",
       "path": "microsoft.aspnetcore.http.connections.client/1.1.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netcoreapp2.2/Microsoft.AspNetCore.Http.Connections.Client.dll",
         "lib/netcoreapp2.2/Microsoft.AspNetCore.Http.Connections.Client.xml",
@@ -5272,10 +5588,11 @@
       ]
     },
     "Microsoft.AspNetCore.Http.Connections.Common/1.1.0": {
-      "sha512": "7TkyoUY+I01zXaF43dgaqF3Ej6NWWEXyiKjbJLovYInMEQ4Zwus2HdrayEPFTiiEH2hkCn9o5Vn162qux3NmhQ==",
+      "sha512": "mYk5QUUjyXQmlyDHWDjkLYDArt97plwe6KsDsNVhDEQ+HgZMKGjISyM6YSA7BERQNR25kXBTbIYfSy1vePGQgg==",
       "type": "package",
       "path": "microsoft.aspnetcore.http.connections.common/1.1.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Common.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Common.xml",
@@ -5284,10 +5601,11 @@
       ]
     },
     "Microsoft.AspNetCore.Http.Features/2.2.0": {
-      "sha512": "jvu74/kOgIDCnAH9Xu2/wITrSagDp1L4OJ+pTrxWzOdpNc7lDtfPrywBe7h9CUkAx/895L9i3r70vf5lgoBrcw==",
+      "sha512": "ziFz5zH8f33En4dX81LW84I6XrYXKf9jg6aM39cM+LffN9KJahViKZ61dGMSO2gd3e+qe5yBRwsesvyqlZaSMg==",
       "type": "package",
       "path": "microsoft.aspnetcore.http.features/2.2.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
@@ -5296,10 +5614,11 @@
       ]
     },
     "Microsoft.AspNetCore.SignalR.Client/1.1.0": {
-      "sha512": "Z3W5AqFHib4BV0AdZbeM1+f3esISArklGbptKxKm7n0IVlAllHmvGB8ItrxENtLx5Wf12976QheqnQsnB5Jghw==",
+      "sha512": "sJ59ETvqOZYcN1AaMsLt4lSraZ6B79GnLcA79UGYVe5Nbr0KoECyMR0QES9VQhS4SA12o4UnY/lXglOYQtZM1A==",
       "type": "package",
       "path": "microsoft.aspnetcore.signalr.client/1.1.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.xml",
@@ -5308,10 +5627,11 @@
       ]
     },
     "Microsoft.AspNetCore.SignalR.Client.Core/1.1.0": {
-      "sha512": "9FbQoZagonFPUvzn/G1uUntv0F0uYmX4pLFuOH7CSBGjMb3J9MVjnr9QRTLP1EOhxUmM1edubplY9ZiJHAOUBw==",
+      "sha512": "Ym4QER7Qp2dZnsrSGPQix8eKVrbK3tsV+jxc+RGbcdvFNjlpXiOfSjomPyuH7RLs6eb25aHRuXE+Rjisuo09GA==",
       "type": "package",
       "path": "microsoft.aspnetcore.signalr.client.core/1.1.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.Core.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.Core.xml",
@@ -5320,10 +5640,11 @@
       ]
     },
     "Microsoft.AspNetCore.SignalR.Common/1.1.0": {
-      "sha512": "vRCqB2eoixkiSBfdfShusVGcRBdSq5i0k1oKVYca8WJGv0n2B7mA8YFoEZD0jXKn3JmDVFSR5jddPVIw/11TDg==",
+      "sha512": "TyLgQ4y4RVUIxiYFnHT181/rJ33/tL/NcBWC9BwLpulDt5/yGCG4EvsToZ49EBQ7256zj+R6OGw6JF+jj6MdPQ==",
       "type": "package",
       "path": "microsoft.aspnetcore.signalr.common/1.1.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netcoreapp2.2/Microsoft.AspNetCore.SignalR.Common.dll",
         "lib/netcoreapp2.2/Microsoft.AspNetCore.SignalR.Common.xml",
@@ -5334,10 +5655,11 @@
       ]
     },
     "Microsoft.AspNetCore.SignalR.Protocols.Json/1.1.0": {
-      "sha512": "TJKljYF2w1k4iDx4+XFx9UgDCHQMIcavP4DP4pQreHEnf+io7TYQnS5JDDeBN50LJi9305So6TOi/az98K1MGA==",
+      "sha512": "BOsjatDJnvnnXCMajOlC0ISmiFnJi/EyJzMo0i//5fZJVCLrQ4fyV/HzrhhAhSJuwJOQDdDozKQ9MB9jHq84pg==",
       "type": "package",
       "path": "microsoft.aspnetcore.signalr.protocols.json/1.1.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Protocols.Json.xml",
@@ -5346,10 +5668,11 @@
       ]
     },
     "Microsoft.Azure.Mobile.Client/4.1.1": {
-      "sha512": "IFVi0DGTSfrc06h+rbkzy9aPrRSJK2qkenVuv5XUp7Qk9b4zjEuX4igKAiHatrjiIQfjQ7a14akdX3lar+8mEA==",
+      "sha512": "9Lga8xdWymUXHC4gqZ85cqtl1o6KdRaE5LfeUJ5n10qto9fCurq/eX/A5LciYPP6S5Zbes6PpDcqTpzxp73U8Q==",
       "type": "package",
       "path": "microsoft.azure.mobile.client/4.1.1",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/monoandroid70/Microsoft.Azure.Mobile.Client.dll",
         "lib/monoandroid70/Microsoft.Azure.Mobile.Client.xml",
@@ -5369,10 +5692,11 @@
       ]
     },
     "Microsoft.Azure.Mobile.Client.SQLiteStore/4.1.1": {
-      "sha512": "GwPWrYj69WxfDyvG1F7CmYtDnTQn6Xw0PUswZat6I1JDg0igoUGgBMWJs/4cON4bZozOS0HLzjLLvIWXDGx2eA==",
+      "sha512": "fe/5S/INPZYy79loBbH5RPA2bHOjDa7trwqrvRrkl70i9wrHlmLypai1goGNb9UaeC3QM/wu35s9qxLk+qYb4Q==",
       "type": "package",
       "path": "microsoft.azure.mobile.client.sqlitestore/4.1.1",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net45/Microsoft.Azure.Mobile.Client.SQLiteStore.dll",
         "lib/net45/Microsoft.Azure.Mobile.Client.SQLiteStore.xml",
@@ -5385,10 +5709,11 @@
       ]
     },
     "Microsoft.Azure.NotificationHubs/3.1.0": {
-      "sha512": "rkzMcm0yxb+5lgiK3p2iHRXgb1vzZuxJyBEXS/bv5iBuQTJRNu+KdUXQE7+jqAFugqcKG8uZeliOXnv+jcYbxQ==",
+      "sha512": "az/KEdcN3kpXvhZ92HoEihQh9nULhG+sjk3lKCAJ4SZ0KyAmpIC1D4XF/5NkabkDS7lDyi33JVpT4AY7z+vV+A==",
       "type": "package",
       "path": "microsoft.azure.notificationhubs/3.1.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Azure.NotificationHubs.dll",
         "lib/netstandard2.0/Microsoft.Azure.NotificationHubs.xml",
@@ -5397,10 +5722,11 @@
       ]
     },
     "Microsoft.Extensions.Caching.Abstractions/2.1.2": {
-      "sha512": "Q1tbLCLn8IEb31ue1cU/O/sGhHOSkbL5wyEojRj4azB5PjB1iDnIFJobx8/d1QnWQ1ymj17pkFs3tKqlSSAwPw==",
+      "sha512": "3d5xYNZhqosir31mohbApOE1Iuci/WOfWit+/Cj6ZxS5SR28SbgskgP8M+ZmBZ5Gy7l1DT7fYikgqpC2tQE/nA==",
       "type": "package",
       "path": "microsoft.extensions.caching.abstractions/2.1.2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.xml",
@@ -5409,10 +5735,11 @@
       ]
     },
     "Microsoft.Extensions.Caching.Memory/2.1.2": {
-      "sha512": "jbIW6MxWZxw9gvsEYoRvUrPSXky0cgAVFsDyG/2frE5zFdR5tHKkuhf7c1jWxl1iizzUOKynVhyokMqAqlmp/A==",
+      "sha512": "97bIvx+m0XZYdXHWZgOa+KDzzaa8y/eq8fBqBogFGzKdN1+g4P1izA/Ar724G5Oc5t0kvLq2iZR64Tz1UL+TLg==",
       "type": "package",
       "path": "microsoft.extensions.caching.memory/2.1.2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.xml",
@@ -5421,10 +5748,11 @@
       ]
     },
     "Microsoft.Extensions.Configuration/2.2.0": {
-      "sha512": "0MtJgCZ5tIw7LoxOlXlifwVTwfMd4YdMJ9+DVZyX/fqqXO9zseZ8hH2WxbJzDbBDp45nA8rwHlL4JH/6Z98B4w==",
+      "sha512": "nOP8R1mVb/6mZtm2qgAJXn/LFm/2kMjHDAg/QJLFG6CuWYJtaD3p1BwQhufBVvRzL9ceJ/xF0SQ0qsI2GkDQAA==",
       "type": "package",
       "path": "microsoft.extensions.configuration/2.2.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
@@ -5433,10 +5761,11 @@
       ]
     },
     "Microsoft.Extensions.Configuration.Abstractions/2.2.0": {
-      "sha512": "M6u4cMWXxPtqyJJ03oezyqTORmSgTPpa2gZRKkEGCXXHhyGnM1cHjPTzq5sevYS1VJEMb2TZj60mAc+hDoPPcQ==",
+      "sha512": "65MrmXCziWaQFrI0UHkQbesrX5wTwf9XPjY5yFm/VkgJKFJ5gqvXRoXjIZcf2wLi5ZlwGz/oMYfyURVCWbM5iw==",
       "type": "package",
       "path": "microsoft.extensions.configuration.abstractions/2.2.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
@@ -5445,10 +5774,11 @@
       ]
     },
     "Microsoft.Extensions.Configuration.Binder/2.2.0": {
-      "sha512": "6ANwTuQZqIIt0guKAdS9Mn6c+PfhOBpqRm7FslUJqtG000uo0Cd3pAndk92RQq0ygDFRub/ftiRy8DukWXqNzQ==",
+      "sha512": "vJ9xvOZCnUAIHcGC3SU35r3HKmHTVIeHzo6u/qzlHAqD8m6xv92MLin4oJntTvkpKxVX3vI1GFFkIQtU3AdlsQ==",
       "type": "package",
       "path": "microsoft.extensions.configuration.binder/2.2.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.xml",
@@ -5457,10 +5787,11 @@
       ]
     },
     "Microsoft.Extensions.DependencyInjection/2.2.0": {
-      "sha512": "ASF77AJjnyi9hL7IJU1KCAvnCTgI3JEwkU+D4gnKd53nFIYpibVjR6SW8tdTkkuZ+QkmIx2rPvKdTMNVPfVU9A==",
+      "sha512": "MZtBIwfDFork5vfjpJdG5g8wuJFt7d/y3LOSVVtDK/76wlbtz6cjltfKHqLx2TKVqTj5/c41t77m1+h20zqtPA==",
       "type": "package",
       "path": "microsoft.extensions.dependencyinjection/2.2.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net461/Microsoft.Extensions.DependencyInjection.dll",
         "lib/net461/Microsoft.Extensions.DependencyInjection.xml",
@@ -5473,10 +5804,11 @@
       ]
     },
     "Microsoft.Extensions.DependencyInjection.Abstractions/2.2.0": {
-      "sha512": "2xMk9LHz1EY+7gVG0lG4qBvkUiVjg8QNPqd2HYmEP5+PL7Ayo96EhBieAhd++Gx4yM+xN8kNqmhZdFMBHeG0HQ==",
+      "sha512": "f9hstgjVmr6rmrfGSpfsVOl2irKAgr1QjrSi3FgnS7kulxband50f2brRLwySAQTADPZeTdow0mpSMcoAdadCw==",
       "type": "package",
       "path": "microsoft.extensions.dependencyinjection.abstractions/2.2.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
@@ -5485,10 +5817,11 @@
       ]
     },
     "Microsoft.Extensions.Logging/2.2.0": {
-      "sha512": "wa1Uk8sVuEzHtwZPoDNhQiFDjlDe9t74+Iess26uqhIwn02T79v/GB/pLCJ08MOvuM953LfleJW6VPr/wVXCJw==",
+      "sha512": "Nxqhadc9FCmFHzU+fz3oc8sFlE6IadViYg8dfUdGzJZ2JUxnCsRghBhhOWdM4B2zSZqEc+0BjliBh/oNdRZuig==",
       "type": "package",
       "path": "microsoft.extensions.logging/2.2.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.xml",
@@ -5497,10 +5830,11 @@
       ]
     },
     "Microsoft.Extensions.Logging.Abstractions/2.2.0": {
-      "sha512": "1iYT6BAnJZGebfclQXiM/drK+JUztSikkpT3xcASBQW4og877bsXtjqrMM4EI71nf8UVtvHt6O8pMdYDEE8/Lw==",
+      "sha512": "B2WqEox8o+4KUOpL7rZPyh6qYjik8tHi2tN8Z9jZkHzED8ElYgZa/h6K+xliB435SqUcWT290Fr2aa8BtZjn8A==",
       "type": "package",
       "path": "microsoft.extensions.logging.abstractions/2.2.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
@@ -5509,10 +5843,11 @@
       ]
     },
     "Microsoft.Extensions.Options/2.2.0": {
-      "sha512": "67zpvElD/YPcfRs1Qm58LSntnSm+kYSA+0PA4+0Abo7NEH4RAvUkV54krspsa0+S4yBZ/m39gUOdn3PSzffazQ==",
+      "sha512": "UpZLNLBpIZ0GTebShui7xXYh6DmBHjWM8NxGxZbdQh/bPZ5e6YswqI+bru6BnEL5eWiOdodsXtEz3FROcgi/qg==",
       "type": "package",
       "path": "microsoft.extensions.options/2.2.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
@@ -5521,10 +5856,11 @@
       ]
     },
     "Microsoft.Extensions.Primitives/2.2.0": {
-      "sha512": "vpH+o7f8obVx65PiEtBXxTwL5RosK60fNIMy/y8WGE4/r4IvAqQGukOzMhxsp//Accvd7kmukyQTVkqVYdaDyA==",
+      "sha512": "azyQtqbm4fSaDzZHD/J+V6oWMFaf2tWP4WEGIYePLCMw3+b2RQdj9ybgbQyjCshcitQKQ4lEDOZjmSlTTrHxUg==",
       "type": "package",
       "path": "microsoft.extensions.primitives/2.2.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
@@ -5533,10 +5869,11 @@
       ]
     },
     "Microsoft.IdentityModel.Logging/1.1.4": {
-      "sha512": "0df1EwQx7+/gJEbG5TQaoHwTiorSIdNFw2ArgtlJ0ALx5TTP9R1KN6Z7iX4njEFpoG1WmGWn3A/GxWmGOZatDg==",
+      "sha512": "j7t22EsDOuo0IXqAbp6ijdB1GuaY8cu3YoPNZpymOhUMTVC+wRTV0IHqxL31HacCnJHU/igsqe70fDKZgZu3oA==",
       "type": "package",
       "path": "microsoft.identitymodel.logging/1.1.4",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net45/Microsoft.IdentityModel.Logging.dll",
         "lib/net45/Microsoft.IdentityModel.Logging.xml",
@@ -5549,10 +5886,11 @@
       ]
     },
     "Microsoft.IdentityModel.Tokens/5.1.4": {
-      "sha512": "l+I18wTVIXsrd/vlsLmcgxhff614MtJEIAMy9KriU/zhCd28yZaVMq8H2aQVFdswKEFefqAY0uZ9y91wAhN9hw==",
+      "sha512": "SsJbZVPvjSlKFDAQmR2wpL6ZD/vCFlIsf0jxRlBJwyzKXZy3Wi/Xo+fE2MzAerLsJgG1UCdtplRwqDyq1euayw==",
       "type": "package",
       "path": "microsoft.identitymodel.tokens/5.1.4",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net45/Microsoft.IdentityModel.Tokens.dll",
         "lib/net45/Microsoft.IdentityModel.Tokens.xml",
@@ -5565,10 +5903,11 @@
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "a/iSwnRZb+LHFk49hQOyThh/ZNC3vsbZsF65XwQIb863qF6msmhdQtxGXFL28Ob2NsCz/drEj28BJd/YPpLRBg==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -5579,10 +5918,11 @@
       ]
     },
     "Microsoft.Win32.Primitives/4.3.0": {
-      "sha512": "Nm8Hp51y9tYcK3xD6qk43Wjftrg1mdH24CCJsTb6gr7HS21U1uA+CKPGEtUcVZbjU1y8Kynzm5eoJ7Pnx5gm8A==",
+      "sha512": "9ZQKCWxH7Ijp9BfahvL2Zyf1cJIk8XYLF6Yjzr2yi0b2cOut/HQ31qf1ThHAgCc3WiZMdnWcfJCgN82/0UunxA==",
       "type": "package",
       "path": "microsoft.win32.primitives/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -5616,10 +5956,11 @@
       ]
     },
     "NETStandard.Library/1.6.1": {
-      "sha512": "CXLcLbtJJeiW9ivOLlnU5IY5Mg7jitMBbc1IX71pNqDtCAc61e7yphLf8F38OQ85MP/5552HoGBw7rgSgnfL0A==",
+      "sha512": "WcSp3+vP+yHNgS8EV5J7pZ9IRpeDuARBPN28by8zqff1wJQXm26PVU8L3/fYLBJVU7BtDyqNVWq2KlCVvSSR4A==",
       "type": "package",
       "path": "netstandard.library/1.6.1",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -5632,6 +5973,7 @@
       "type": "package",
       "path": "newtonsoft.json/11.0.2",
       "files": [
+        ".nupkg.metadata",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
@@ -5656,10 +5998,11 @@
       ]
     },
     "PCLCrypto/2.0.147": {
-      "sha512": "6OrER+34zF16Oy/SFRwOyPlb5S90oau3I4KGSi0MLphcIm5917eu0nOGlJqo8br1kpSdzwqIjyHw4FkD7lYpuA==",
+      "sha512": "OFNDBjhP+qPukqB8PiGbWDo70gHsEzSKupL47JisjYFQaGwlPPCnN8ah59QCzIvsg9IUr2AecGKXF3ONpyFL9g==",
       "type": "package",
       "path": "pclcrypto/2.0.147",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/MonoAndroid23/PCLCrypto.dll",
         "lib/MonoAndroid23/PCLCrypto.xml",
@@ -5680,10 +6023,11 @@
       ]
     },
     "PInvoke.BCrypt/0.3.2": {
-      "sha512": "tMQOWiVSboRj/jtJ3SU4hQdQ8lqj5mh2zdAkw9UpOrDGISAlwEjLVlEGKgKA6calRKalPnAQ9U+ZsVIZmT8jvQ==",
+      "sha512": "6nSjPx88F+dcQgxfbM/lkYhi/zQWxwBcGAS3de/Q7YmPr5QdLNv5ZMk2UEFpMQhlFNya4TdUy5i3HKA12uMa7Q==",
       "type": "package",
       "path": "pinvoke.bcrypt/0.3.2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net40/PInvoke.BCrypt.dll",
         "lib/net40/PInvoke.BCrypt.xml",
@@ -5696,10 +6040,11 @@
       ]
     },
     "PInvoke.Kernel32/0.3.2": {
-      "sha512": "MbxgOKWRdrpwlMX0QQQsjkS0cB0svIziyK2yXtg0SVSR2TNUx83WnGo3wAURimoGRIqnzzRSEmDcQM/hoMza5g==",
+      "sha512": "zkd5Vc5AQ9B489GMNlmd0wdKnRoLl1B/TnouwcjtaqWbDJ17TQSvBRnV7xjVEpBHQtL/248EaUTcDprJe9bZMA==",
       "type": "package",
       "path": "pinvoke.kernel32/0.3.2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net40/PInvoke.Kernel32.dll",
         "lib/net40/PInvoke.Kernel32.xml",
@@ -5712,10 +6057,11 @@
       ]
     },
     "PInvoke.NCrypt/0.3.2": {
-      "sha512": "/hP4+9iYAp3i2GfLVePZetLG3eXok5kGV9HCeRuqLQ+drcmhrvLaxTNMpnoCErYUq0KinEHRFxKCGVpqzUNWuQ==",
+      "sha512": "s7SIBXlr3qolZaM5mGEXG2sKBY4yFVHTWBlwhRC93le08Aj+n/IaFVnB9LBFv6mpCCivXdzad+9EX6HHds4PyQ==",
       "type": "package",
       "path": "pinvoke.ncrypt/0.3.2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net40/PInvoke.NCrypt.dll",
         "lib/net40/PInvoke.NCrypt.xml",
@@ -5728,10 +6074,11 @@
       ]
     },
     "PInvoke.Windows.Core/0.3.2": {
-      "sha512": "NIJtaR+xKX7AFRyMJltgvhYvEIotQ5DK98ssBQcRprEBQg7X9Dmudfd73yND4LmztHMxeUX3YXGs3xDz81iVSw==",
+      "sha512": "cLG8L2mBqeM6mwKxYg34uZnW5A4cAqyWY4nh+ogxon6BOPLcuQ2QSK/b1IKduUIQg6mDgf06rZUVbuVVPi9+fg==",
       "type": "package",
       "path": "pinvoke.windows.core/0.3.2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/portable-net40+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Windows.Core.dll",
         "lib/portable-net40+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Windows.Core.xml",
@@ -5741,11 +6088,54 @@
         "pinvoke.windows.core.nuspec"
       ]
     },
+    "Plugin.FirebasePushNotification/2.3.6": {
+      "sha512": "I0gpYTYPpbA8fikkUAV8u1mxmluigKsxls4Vzn7OrcIoqyF/TNgDI55GeJuMrBzI1UrkCoSV1vkZKgZIEXXLOQ==",
+      "type": "package",
+      "path": "plugin.firebasepushnotification/2.3.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid80/Plugin.FirebasePushNotification.Abstractions.dll",
+        "lib/MonoAndroid80/Plugin.FirebasePushNotification.Abstractions.pdb",
+        "lib/MonoAndroid80/Plugin.FirebasePushNotification.Abstractions.xml",
+        "lib/MonoAndroid80/Plugin.FirebasePushNotification.XML",
+        "lib/MonoAndroid80/Plugin.FirebasePushNotification.dll",
+        "lib/MonoAndroid80/Plugin.FirebasePushNotification.pdb",
+        "lib/MonoAndroid81/Plugin.FirebasePushNotification.Abstractions.dll",
+        "lib/MonoAndroid81/Plugin.FirebasePushNotification.Abstractions.dll.mdb",
+        "lib/MonoAndroid81/Plugin.FirebasePushNotification.Abstractions.pdb",
+        "lib/MonoAndroid81/Plugin.FirebasePushNotification.Abstractions.xml",
+        "lib/MonoAndroid81/Plugin.FirebasePushNotification.XML",
+        "lib/MonoAndroid81/Plugin.FirebasePushNotification.dll",
+        "lib/MonoAndroid81/Plugin.FirebasePushNotification.dll.mdb",
+        "lib/MonoAndroid81/Plugin.FirebasePushNotification.pdb",
+        "lib/MonoAndroid90/Plugin.FirebasePushNotification.Abstractions.dll",
+        "lib/MonoAndroid90/Plugin.FirebasePushNotification.Abstractions.pdb",
+        "lib/MonoAndroid90/Plugin.FirebasePushNotification.Abstractions.xml",
+        "lib/MonoAndroid90/Plugin.FirebasePushNotification.XML",
+        "lib/MonoAndroid90/Plugin.FirebasePushNotification.dll",
+        "lib/MonoAndroid90/Plugin.FirebasePushNotification.pdb",
+        "lib/Xamarin.iOS10/Plugin.FirebasePushNotification.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.FirebasePushNotification.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.FirebasePushNotification.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.FirebasePushNotification.XML",
+        "lib/Xamarin.iOS10/Plugin.FirebasePushNotification.dll",
+        "lib/netstandard1.0/Plugin.FirebasePushNotification.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.FirebasePushNotification.Abstractions.pdb",
+        "lib/netstandard1.0/Plugin.FirebasePushNotification.Abstractions.xml",
+        "lib/netstandard1.0/Plugin.FirebasePushNotification.deps.json",
+        "lib/netstandard1.0/Plugin.FirebasePushNotification.dll",
+        "lib/netstandard1.0/Plugin.FirebasePushNotification.xml",
+        "plugin.firebasepushnotification.2.3.6.nupkg.sha512",
+        "plugin.firebasepushnotification.nuspec"
+      ]
+    },
     "PropertyChanged.Fody/3.0.1": {
-      "sha512": "+6G+qCU3evuF3QEwn000cSFgxFPB7WwYiNJFKHFzfjSRCZPszDkoPyXvDISgFh7+l4QB3fNqr2kq76W/owdICw==",
+      "sha512": "k6ds4qRFDzQ7uHTMG2Xq/veHpO7fSPobsulsi2CuWPAX3XWsseCUPh2TaDb4f1YN6gld+UGCaSBjpFc1jpljwA==",
       "type": "package",
       "path": "propertychanged.fody/3.0.1",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "build/PropertyChanged.Fody.props",
         "lib/net452/PropertyChanged.dll",
@@ -5759,10 +6149,11 @@
       ]
     },
     "sqlite-net-pcl/1.5.231": {
-      "sha512": "Sy+K+Wm2RZ+4b1uLHsaXvfR92Or71XxPXa2Id6msSOVkZKh+c+PUk/HQOAgxyhm3lhvysL0mK6Gd6mI69NJ9AA==",
+      "sha512": "B9jScvqkishSMkpa9Mc4Q85LTHxRTzcUXZx9EQqgrvdz7MFEDHfpiPcKdjy1qXHdmHttEXfY4h6gu4FlgWP2Sw==",
       "type": "package",
       "path": "sqlite-net-pcl/1.5.231",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard1.1/SQLite-net.deps.json",
         "lib/netstandard1.1/SQLite-net.dll",
@@ -5774,10 +6165,11 @@
       ]
     },
     "SQLitePCLRaw.bundle_green/1.1.11": {
-      "sha512": "HOD1/Jg9VZtrOyPUCD9reQOXHq4r+fNe24qw5nghuiUcKch+9jePeRpt6MqGGUFhg2KW89KvE/RFlhpbfF8pKA==",
+      "sha512": "Hqp8IF/RLjbypkLm+t+1RqAX8EKuWEkj7wkLXplfENQoPnE127cvTmaDvaQKtt7a5QsD/HNjFDr1z5f9q2wdPg==",
       "type": "package",
       "path": "sqlitepclraw.bundle_green/1.1.11",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "build/wp8/SQLitePCLRaw.bundle_green.targets",
         "build/wp80/arm/SQLitePCLRaw.batteries_green.dll",
@@ -5820,10 +6212,11 @@
       ]
     },
     "SQLitePCLRaw.core/1.1.11": {
-      "sha512": "bWiOso10I1vDuc5rbzT69LQT0+oXfYnoqx8vKJ8zim/CJ4ytSd20QNTE/FE0dvWEgXGnvDp7gGJFu6PeWnhx9g==",
+      "sha512": "QT17CyQAQIbTCu6pW5+uVA8BXqRzquiDI1tr5Un6c1YZcQydPmGPuYYng9xMs2UHUDYHbTu+JDkp55WR+qo9bQ==",
       "type": "package",
       "path": "sqlitepclraw.core/1.1.11",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/MonoAndroid/SQLitePCLRaw.core.dll",
         "lib/Xamarin.Mac20/SQLitePCLRaw.core.dll",
@@ -5845,10 +6238,11 @@
       ]
     },
     "SQLitePCLRaw.provider.sqlite3.ios_unified/1.1.11": {
-      "sha512": "pgdrdeXCK6l5yLrRK9JjU0a6rVNJN64IKICKtDRI4zXc2Vv/4aBZNJfoivv/AFHaq/KJKR/1vAHI6mJTbeK8GA==",
+      "sha512": "hWk/vgFthsTedjorVFNErd5xk0x0UtlYr/ndmDUYhAcA9Y9g0IJXBMn1Z2QYsLMlvE6Qj5yVvjfkUOARhXezQw==",
       "type": "package",
       "path": "sqlitepclraw.provider.sqlite3.ios_unified/1.1.11",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll",
         "sqlitepclraw.provider.sqlite3.ios_unified.1.1.11.nupkg.sha512",
@@ -5856,10 +6250,11 @@
       ]
     },
     "System.AppContext/4.3.0": {
-      "sha512": "DW6mMAYwRwj+rizAWQ0s3Zkye2giEIIrsoA6yEL99NjVcXDXlHwAbuxLVofJQnaEeKfsEJdFRy85RtIwcySD6A==",
+      "sha512": "fKC+rmaLfeIzUhagxY17Q9siv/sPrjjKcfNg1Ic8IlQkZLipo8ljcaZQu4VtI4Jqbzjc2VTjzGLF6WmsRXAEgA==",
       "type": "package",
       "path": "system.appcontext/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -5910,10 +6305,11 @@
       ]
     },
     "System.Buffers/4.5.0": {
-      "sha512": "09yL/QiPEDZI9JLg0R0OcGe/0ycFm69QN16DCvXkqkIorCC1Y2EKwk5KvSlfMmGse+LcKkD3H+Cra7fFkxHXEg==",
+      "sha512": "pL2ChpaRRWI/p4LXyy4RgeWlYF2sgfj/pnVMvBqwNFr5cXg7CXNnWZWxrOONLg8VGdFB8oB+EG2Qw4MLgTOe+A==",
       "type": "package",
       "path": "system.buffers/4.5.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -5938,10 +6334,11 @@
       ]
     },
     "System.Collections/4.3.0": {
-      "sha512": "ynuVLTDaFIfKTkOqUigXte4m5+EFNwYoEBEvxnp1EnZsOdQC85S7BCbREIu8+bu2Tpzh9a9zbvIVpRo15V8FGw==",
+      "sha512": "3Dcj85/TBdVpL5Zr+gEEBUuFe2icOnLalmEh9hfck1PTYbbyWuZgh4fmm2ysCLTrqLQw6t3TgTyJ+VLp+Qb+Lw==",
       "type": "package",
       "path": "system.collections/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -6005,10 +6402,11 @@
       ]
     },
     "System.Collections.Concurrent/4.3.0": {
-      "sha512": "NcGqPmNiFv5dwuvrUEKT5prWNV0m4iRTrwYK+U2CefqpO9z+EnrssLMWx+fZGFvKxy6ZSYTv238thRXx9Vz2gg==",
+      "sha512": "ztl69Xp0Y/UXCL+3v3tEU+lIy+bvjKNUmopn1wep/a291pVPK7dxBd6T7WnlQqRog+d1a/hSsgRsmFnIBKTPLQ==",
       "type": "package",
       "path": "system.collections.concurrent/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -6072,10 +6470,11 @@
       ]
     },
     "System.ComponentModel.Annotations/4.5.0": {
-      "sha512": "f1ApUHGWq/lJC8PZE7JqbA3tiY7ZngZQO2mbYfCG0JlQVVUqqmVMAy0fMvAwEuG639M47ELdP6PQxc5OIo6i6A==",
+      "sha512": "UxYQ3FGUOtzJ7LfSdnYSFd7+oEv6M8NgUatatIN2HxNtDdlcvFAf+VIq4Of9cDMJEJC0aSRv/x898RYhB4Yppg==",
       "type": "package",
       "path": "system.componentmodel.annotations/4.5.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -6160,10 +6559,11 @@
       ]
     },
     "System.Console/4.3.0": {
-      "sha512": "oIpoSlg8mzJ4zjK+EAfa5JX52HJUZmOS95TvEgMHnzM819OIwolE/6NvtJ8Mi7IfQscPbh18HAOSDfbQ0RMMgg==",
+      "sha512": "DHDrIxiqk1h03m6khKWV2X8p/uvN79rgSqpilL6uzpmSfxfU5ng8VcPtW4qsDsQDHiTv6IPV9TmD5M/vElPNLg==",
       "type": "package",
       "path": "system.console/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -6197,10 +6597,11 @@
       ]
     },
     "System.Diagnostics.Debug/4.3.0": {
-      "sha512": "bFj+HjYY5/h2hMHOp+/H07Gb19+NJTX54ntixS9EHxG2eyEiXWvNYvQJ4CwqFiMcTbGb4zuPq1ubClyGYN2rJA==",
+      "sha512": "ZUhUOdqmaG5Jk3Xdb8xi5kIyQYAA4PnTNlHx1mu9ZY3qv4ELIdKbnL/akbGaKi2RnNUWaZsAs31rvzFdewTj2g==",
       "type": "package",
       "path": "system.diagnostics.debug/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -6264,10 +6665,11 @@
       ]
     },
     "System.Diagnostics.Tools/4.3.0": {
-      "sha512": "Fk1pd+chy860Tt57/XWwO42XceBCau+l1Axxhn6WQJL9xqaAi8vFVZ7XPsLFMsplfWR2r3mknKOth5uDZvE9kA==",
+      "sha512": "UUvkJfSYJMM6x527dJg2VyWPSRqIVB0Z7dbjHst1zmwTXz5CcXSYJFWRpuigfbO1Lf7yfZiIaEUesfnl/g5EyA==",
       "type": "package",
       "path": "system.diagnostics.tools/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -6320,10 +6722,11 @@
       ]
     },
     "System.Diagnostics.Tracing/4.3.0": {
-      "sha512": "0KXTDiYc1Ft9+rArf/vXa2TgybiS7YJuphSByYPAIIsFtpmBzXnpHNTlgR4c1MPOoGoa/OBYEezli+XkwgFp6g==",
+      "sha512": "rswfv0f/Cqkh78rA5S8eN8Neocz234+emGCtTF3lxPY96F+mmmUen6tbn0glN6PMvlKQb9bPAY5e9u7fgPTkKw==",
       "type": "package",
       "path": "system.diagnostics.tracing/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -6409,10 +6812,11 @@
       ]
     },
     "System.Globalization/4.3.0": {
-      "sha512": "gj0rowjLBztAoxRuzM0Nn9exYVrD+++xb3PYc+QR/YHDvch98gbT3H4vFMnNU6r8poSjVwwlRxKAqtqN6AXs4g==",
+      "sha512": "kYdVd2f2PAdFGblzFswE4hkNANJBKRmsfa2X5LG2AcWE1c7/4t0pYae1L8vfZ5xvE2nK/R9JprtToA61OSHWIg==",
       "type": "package",
       "path": "system.globalization/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -6476,10 +6880,11 @@
       ]
     },
     "System.Globalization.Calendars/4.3.0": {
-      "sha512": "6XGQIxQCs5N3S5Je/AKiv6QdHRF6F/uH2m45n1I0VGlidn6c2POZcO+kCOT0U80eZ1Giph42a8l0BuGwuKS+hg==",
+      "sha512": "GUlBtdOWT4LTV3I+9/PJW+56AnnChTaOqqTLFtdmype/L500M2LIyXgmtd9X2P2VOkmJd5c67H5SaC2QcL1bFA==",
       "type": "package",
       "path": "system.globalization.calendars/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -6513,10 +6918,11 @@
       ]
     },
     "System.IO/4.3.0": {
-      "sha512": "v8paIePhmGuXZbE9xvvNb4uJ5ME4OFXR1+8la/G/L1GIl2nbU2WFnddgb79kVK3U2us7q1aZT/uY/R0D/ovB5g==",
+      "sha512": "3qjaHvxQPDpSOYICjUoTsmoq5u6QJAFRUITgeT/4gqkF1bajbSmb1kwSxEA8AHlofqgcKJcM8udgieRNhaJ5Cg==",
       "type": "package",
       "path": "system.io/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -6593,10 +6999,11 @@
       ]
     },
     "System.IO.Compression/4.3.0": {
-      "sha512": "9UDuUaO7aUHN+6rOmpc41/eYai+Udw22H0Wojst+82tXHUwHQX3InNvpZVomK3zFmbCkt47/6pGBnhhhIbRIBw==",
+      "sha512": "YHndyoiV90iu4iKG115ibkhrG+S3jBm8Ap9OwoUAzO5oPDAWcr0SFwQFm0HjM8WkEZWo0zvLTyLmbvTkW1bXgg==",
       "type": "package",
       "path": "system.io.compression/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -6663,10 +7070,11 @@
       ]
     },
     "System.IO.Compression.ZipFile/4.3.0": {
-      "sha512": "GGBjRnJ2f4GPAZLsKydQaT8NOTkPO31ADMb9T250pcvtJ79J5ZgOyF/z4WHDD2GQ9wDjOaEEDBaZuH60qntnkg==",
+      "sha512": "G4HwjEsgIwy3JFBduZ9quBkAu+eUwjIdJleuNSgmUojbH6O3mlvEIme+GHx/cLlTAPcrnnL7GqvB9pTlWRfhOg==",
       "type": "package",
       "path": "system.io.compression.zipfile/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -6701,10 +7109,11 @@
       ]
     },
     "System.IO.FileSystem/4.3.0": {
-      "sha512": "T7WB1vhblSmgkaDpdGM3Uqo55Qsr5sip5eyowrwiXOoHBkzOx3ePd9+Zh97r9NzOwFCxqX7awO6RBxQuao7n7g==",
+      "sha512": "3wEMARTnuio+ulnvi+hkRNROYwa1kylvYahhcLk4HSoVdl+xxTFVeVlYOfLwrDPImGls0mDqbMhrza8qnWPTdA==",
       "type": "package",
       "path": "system.io.filesystem/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -6738,10 +7147,11 @@
       ]
     },
     "System.IO.FileSystem.Primitives/4.3.0": {
-      "sha512": "WIWVPQlYLP/Zc9I6IakpBk1y8ryVGK83MtZx//zGKKi2hvHQWKAB7moRQCOz5Is/wNDksiYpocf3FeA3le6e5Q==",
+      "sha512": "6QOb2XFLch7bEc4lIcJH49nJN2HV+OC3fHDgsLVsBVBk3Y4hFAnOBGzJ2lUu7CyDDFo9IBWkSsnbkT6IBwwiMw==",
       "type": "package",
       "path": "system.io.filesystem.primitives/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -6776,10 +7186,11 @@
       ]
     },
     "System.IO.Pipelines/4.5.2": {
-      "sha512": "w+rt22tsDE5mwCZ+erMQMXfkoGwJL1RWlZxq49WD2/tLDnzHjoV5b/a3ns0tJdtP+SyR7JJO+6IFe8EWOHjTIg==",
+      "sha512": "NOC/SO4gSX6t0tB25xxDPqPEzkksuzW7NVFBTQGAkjXXUPQl7ZtyE83T7tUCP2huFBbPombfCKvq1Ox1aG8D9w==",
       "type": "package",
       "path": "system.io.pipelines/4.5.2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -6797,10 +7208,11 @@
       ]
     },
     "System.Linq/4.3.0": {
-      "sha512": "6sx/4exSb0BfW6DmcfYW0OW+nBgo1UOp4vjGXfQJnWsupKn6LNrk80sXDcNxQvYOJn4TfKOfNQKB7XDS3GIEWA==",
+      "sha512": "5DbqIUpsDp0dFftytzuMmc0oeMdQwjcP/EWxsksIz/w1TcFRkZ3yKKz0PqiYFMmEwPSWw+qNVqD7PJ889JzHbw==",
       "type": "package",
       "path": "system.linq/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -6868,10 +7280,11 @@
       ]
     },
     "System.Linq.Expressions/4.3.0": {
-      "sha512": "YbkO+a5vd5+8intkg+6PVEnN0FyBsFI19wRH5lanOyqrfDQXhLmZ91MjdHRKcuLDpc0TgA6iNBf6wyzPrlzebQ==",
+      "sha512": "PGKkrd2khG4CnlyJwxwwaWWiSiWFNBGlgXvJpeO0xCXrZ89ODrQ6tjEWS/kOqZ8GwEOUATtKtzp1eRgmYNfclg==",
       "type": "package",
       "path": "system.linq.expressions/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -6951,10 +7364,11 @@
       ]
     },
     "System.Memory/4.5.1": {
-      "sha512": "oonnLQPZAGD21qtNMG4EtVmbYOInk2jV7M+g108B6OHOb67ZOaWnA/K8P5oQ6uK9wxKzB1iEXSChQOi2scKOqA==",
+      "sha512": "sDJYJpGtTgx+23Ayu5euxG5mAXWdkDb4+b0rD0Cab0M1oQS9H0HXGPriKcqpXuiJDTV7fTp/d+fMDJmnr6sNvA==",
       "type": "package",
       "path": "system.memory/4.5.1",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -6975,10 +7389,11 @@
       ]
     },
     "System.Net.Http/4.3.0": {
-      "sha512": "6BBc6BUa7pWFL7KUI/c8wb18IobTZHTtcQKksxJI5F9DRDShdtOvBEJzg5jJbFdTll7gRE+5yXUlq72ciLE+QQ==",
+      "sha512": "sYg+FtILtRQuYWSIAuNOELwVuVsxVyJGWQyOnlAzhV4xvhyFnON1bAzYYC+jjRW8JREM45R0R5Dgi8MTC5sEwA==",
       "type": "package",
       "path": "system.net.http/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -7056,10 +7471,11 @@
       ]
     },
     "System.Net.Primitives/4.3.0": {
-      "sha512": "n3/ezjMKgfMxLqfIBJJ4UkE77iySnzBmtzaZOAPfR8wGkvvKI2wiK/GdyPWbQvVPKkwA2ppNYk5FjaWHTRJ85g==",
+      "sha512": "qOu+hDwFwoZPbzPvwut2qATe3ygjeQBDQj91xlsaqGFQUI5i4ZnZb8yyQuLGpDGivEPIt8EJkd1BVzVoP31FXA==",
       "type": "package",
       "path": "system.net.primitives/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -7134,10 +7550,11 @@
       ]
     },
     "System.Net.Sockets/4.3.0": {
-      "sha512": "4y7ZUY6WMOme3PGWPD0OcEfqglKFPJJg61QDpCBhcK4o/SfrI5852k0tt2b4MLPr3J5NouaXviAkHZKAgiAJVQ==",
+      "sha512": "m6icV6TqQOAdgt5N/9I5KNpjom/5NFtkmGseEH+AK/hny8XrytLH3+b5M8zL/Ycg3fhIocFpUMyl/wpFnVRvdw==",
       "type": "package",
       "path": "system.net.sockets/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -7171,10 +7588,11 @@
       ]
     },
     "System.ObjectModel/4.3.0": {
-      "sha512": "QJvKPSE5vR0APHEUALotteV2u1TVk6pUHsNXbnsgKbYBWascWyxOc4kmexuV682MLwZNxuH1Pmk6rLFzfwZhIw==",
+      "sha512": "bdX+80eKv9bN6K4N+d77OankKHGn6CH711a6fcOpMQu2Fckp/Ft4L/kW9WznHpyR0NRAvJutzOMHNNlBGvxQzQ==",
       "type": "package",
       "path": "system.objectmodel/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -7240,10 +7658,11 @@
       ]
     },
     "System.Reflection/4.3.0": {
-      "sha512": "IyW2ftYNzgMCgHBk8lQiy+G3+ydbU5tE+6PEqM5JJvIdeFKaXDSzHAPYDREPe6zpr5WJ1Fcma+rAFCIAV6+DMw==",
+      "sha512": "KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
       "type": "package",
       "path": "system.reflection/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -7320,10 +7739,11 @@
       ]
     },
     "System.Reflection.Extensions/4.3.0": {
-      "sha512": "Bs/ZksjX/Zq2QyqwK+mBoBtlWChabiangloGTU78zgjZ5zRPA/oZsDOiRZ1CsLgOjBQAzjm0ehdShpq4glsEdQ==",
+      "sha512": "rJkrJD3kBI5B712aRu4DpSIiHRtr6QlfZSQsb0hYHrDCZORXCFjQfoipo2LaMUHoT9i1B7j7MnfaEKWDFmFQNQ==",
       "type": "package",
       "path": "system.reflection.extensions/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -7376,10 +7796,11 @@
       ]
     },
     "System.Reflection.Primitives/4.3.0": {
-      "sha512": "1LnMkF9aXKuQAgYzjoiQaL9mwY7oY6KdaO/zzeLMynNBEqKoUfLi5TiKIewoAF+hkxfGTZsjkjsF1jRL4uSeqg==",
+      "sha512": "5RXItQz5As4xN2/YUDxdpsEkMhvw3e6aNveFXUn4Hl/udNTCNhnKp8lT9fnc3MhvGKh1baak5CovpuQUXHAlIA==",
       "type": "package",
       "path": "system.reflection.primitives/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -7432,10 +7853,11 @@
       ]
     },
     "System.Resources.ResourceManager/4.3.0": {
-      "sha512": "kGfbKPHEjQj8Uq1Apgj4jBStkRJkZ0Hdr0Jv3+aL7WGrAZVLF5Rh5h0Yc3FgDB5uXDbHiJk/WhBaZPVwKmuB1A==",
+      "sha512": "/zrcPkkWdZmI4F92gL/TPumP98AVDu/Wxr3CSJGQQ+XN6wbRZcyfSKVoPo17ilb3iOr0cCRqJInGwNMolqhS8A==",
       "type": "package",
       "path": "system.resources.resourcemanager/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -7488,10 +7910,11 @@
       ]
     },
     "System.Runtime/4.3.0": {
-      "sha512": "kqsiSfCAc8+v3Ez719s21lGthxuNi6lhAGmCGH3jdL9KMK+T8V9zsFrzQ/enDL1ISwTWRlcFh2Nq5yFx6wcU+w==",
+      "sha512": "JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
       "type": "package",
       "path": "system.runtime/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -7579,10 +8002,11 @@
       ]
     },
     "System.Runtime.CompilerServices.Unsafe/4.5.1": {
-      "sha512": "9r+hFzL5qRJfAzR6AuccmYYtxTneKJTr+9aSf+A2G5EZloSG3FsAUZBOJMAAhNnhfP6mwCGpUwzTjaOjv4b5FA==",
+      "sha512": "Zh8t8oqolRaFa9vmOZfdQm/qKejdqz0J9kr7o2Fu0vPeoH3BL1EOXipKWwkWtLT1JPzjByrF19fGuFlNbmPpiw==",
       "type": "package",
       "path": "system.runtime.compilerservices.unsafe/4.5.1",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -7603,10 +8027,11 @@
       ]
     },
     "System.Runtime.Extensions/4.3.0": {
-      "sha512": "aAoysZwr1QJvhoeqU4KupPQytPAy+L3imfrLYYxW1XNpre9/fMjmCtgq48EuXdUHckkTY7+ARMd4d4YopmBbvA==",
+      "sha512": "guW0uK0fn5fcJJ1tJVXYd7/1h5F+pea1r7FLSOz/f8vPEqbR2ZAknuRDvTQ8PzAilDveOxNjSfr0CHfIQfFk8g==",
       "type": "package",
       "path": "system.runtime.extensions/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -7683,10 +8108,11 @@
       ]
     },
     "System.Runtime.Handles/4.3.0": {
-      "sha512": "CluvHdVUv54BvLTOCCyybugreDNk/rR8unMPruzXDtxSjvrQOU3M4R831/lQf4YI8VYp668FGQa/01E+Rq8PEQ==",
+      "sha512": "OKiSUN7DmTWeYb3l51A7EYaeNMnvxwE249YtZz7yooT4gOZhmTjIn48KgSsw2k2lYdLgTKNJw/ZIfSElwDRVgg==",
       "type": "package",
       "path": "system.runtime.handles/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -7720,10 +8146,11 @@
       ]
     },
     "System.Runtime.InteropServices/4.3.0": {
-      "sha512": "ZQeZw+ZU77ua1nFXycYM5G8oioFZe+N84qC/XUg1BEBl7z9luZcyjLu7+4H0yJuNfn1hOAiAAZ3u5us/lj9w2Q==",
+      "sha512": "uv1ynXqiMK8mp1GM3jDqPCFN66eJ5w5XNomaK2XD+TuCroNTLFGeZ+WCmBMcBDyTFKou3P6cR6J/QsaqDp7fGQ==",
       "type": "package",
       "path": "system.runtime.interopservices/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -7812,10 +8239,11 @@
       ]
     },
     "System.Runtime.InteropServices.RuntimeInformation/4.3.0": {
-      "sha512": "b0kFMpo8yeYtJ0yIXyde4xxa9Xpsn9GlCA0DnLdI4Cd77z3IzkKGPKx4NlCE4AoDInm/PStyVKSfP7FWaimtGw==",
+      "sha512": "cbz4YJMqRDR7oLeMRbdYv7mYzc++17lNhScCX0goO2XpGWdvAt60CGN+FHdePUEHCe/Jy9jUlvNAiNdM+7jsOw==",
       "type": "package",
       "path": "system.runtime.interopservices.runtimeinformation/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -7846,10 +8274,11 @@
       ]
     },
     "System.Runtime.Numerics/4.3.0": {
-      "sha512": "PjR/qo5+xITUgeU7HCGf4c40augniiFLRQjPDiM8Fie9nGxsfGVOjB9BQycYON3ZWT9joQQ1d62HxA45Kvf9NA==",
+      "sha512": "yMH+MfdzHjy17l2KESnPiF2dwq7T+xLnSJar7slyimAkUh/gTrS9/UQOtv7xarskJ2/XDSNvfLGOBQPjL7PaHQ==",
       "type": "package",
       "path": "system.runtime.numerics/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -7902,10 +8331,11 @@
       ]
     },
     "System.Security.Claims/4.3.0": {
-      "sha512": "q3K5CAH2wFGisxZFRI7r/KdGQrPPodUfgOIaDQ161E0zZt6hOTR+KFJ4G387roIN8Ww+sYiiyWJE3wU5Ttcshg==",
+      "sha512": "P/+BR/2lnc4PNDHt/TPBAWHVMLMRHsyYZbU1NphW4HIWzCggz8mJbTQQ3MKljFE7LS3WagmVFuBgoLcFzYXlkA==",
       "type": "package",
       "path": "system.security.claims/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -7940,10 +8370,11 @@
       ]
     },
     "System.Security.Cryptography.Algorithms/4.3.0": {
-      "sha512": "dkHXDCum83v0KdXZSb2kJ/B4CYwty4kk/XmyO7IsS5Vu8UI1Qi2LHMVyDLvMbP7olD1f+Hznq/DVTF6Lziql4g==",
+      "sha512": "W1kd2Y8mYSCgc3ULTAZ0hOP2dSdG5YauTb1089T0/kRcN2MpSAW1izOFROrJgxSlMn3ArsgHXagigyi+ibhevg==",
       "type": "package",
       "path": "system.security.cryptography.algorithms/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -7980,10 +8411,11 @@
       ]
     },
     "System.Security.Cryptography.Encoding/4.3.0": {
-      "sha512": "XCat0j5jVC83UG9fofcuiYDwN0PVKc2OWD0QVLjYpXn7dz+gNaANkHPbhNtr5PR8rDQNHrxtI912Hb29YAB14A==",
+      "sha512": "1DEWjZZly9ae9C79vFwqaO5kaOlI5q+3/55ohmq/7dpDyDfc8lYe7YVxJUZ5MF/NtbkRjwFRo14yM4OEo9EmDw==",
       "type": "package",
       "path": "system.security.cryptography.encoding/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -8020,10 +8452,11 @@
       ]
     },
     "System.Security.Cryptography.Primitives/4.3.0": {
-      "sha512": "WtgnP5mOu5zKL3vQMUPT9tV7XVYGV7Jtb0540DgBD7MMN5ojonwIcw8VybZvS6VloGmE7CRt/Hms8adBsN1DRw==",
+      "sha512": "7bDIyVFNL/xKeFHjhobUAQqSpJq9YTOpbEs6mR233Et01STBMXNAc/V+BM6dwYGc95gVh/Zf+iVXWzj3mE8DWg==",
       "type": "package",
       "path": "system.security.cryptography.primitives/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -8048,10 +8481,11 @@
       ]
     },
     "System.Security.Cryptography.X509Certificates/4.3.0": {
-      "sha512": "MY2Gq1Uo4rRE7D5LmCTBvoK7k9tRPqs0sjjkhviGxNdDEO2CwhEEAf5c15Dk2X9KAjoLLVwuKZUtP9AuQnNNAA==",
+      "sha512": "t2Tmu6Y2NtJ2um0RtcuhP7ZdNNxXEgUm2JeoA/0NvlMjAhKCnM1NX07TDl3244mVp3QU6LPEhT3HTtH1uF7IYw==",
       "type": "package",
       "path": "system.security.cryptography.x509certificates/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -8103,10 +8537,11 @@
       ]
     },
     "System.Text.Encoding/4.3.0": {
-      "sha512": "b/f+7HMTpxIfeV7H03bkuHKMFylCGfr9/U6gePnfFFW0aF8LOWLDgQCY6V1oWUqDksC3mdNuyChM1vy9TP4sZw==",
+      "sha512": "BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
       "type": "package",
       "path": "system.text.encoding/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -8170,10 +8605,11 @@
       ]
     },
     "System.Text.Encoding.Extensions/4.3.0": {
-      "sha512": "5kjF3HgeNc8AxcyOfkLoFbljz4+3iOioF/m1PjGLK0Li96VW6cPGS/L2ov1GFfJqtPDU63E6AVHnHgrz/pw+7Q==",
+      "sha512": "YVMK0Bt/A43RmwizJoZ22ei2nmrhobgeiYwFzC4YAN+nue8RF6djXDMog0UCn+brerQoYVyaS+ghy9P/MUVcmw==",
       "type": "package",
       "path": "system.text.encoding.extensions/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -8237,10 +8673,11 @@
       ]
     },
     "System.Text.RegularExpressions/4.3.0": {
-      "sha512": "gDU8FI3zDZosA+4QpiTZG2TXzMMhjLlmNEz6cGV/C1nIZ/7Sq5QFf2SrKBrZMYNT8lwjN1wA4TdrZYmuCnCq0w==",
+      "sha512": "RpT2DA+L660cBt1FssIE9CAGpLFdFPuheB7pLpKpn6ZXNby7jDERe8Ua/Ne2xGiwLVG2JOqziiaVCGDon5sKFA==",
       "type": "package",
       "path": "system.text.regularexpressions/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -8320,10 +8757,11 @@
       ]
     },
     "System.Threading/4.3.0": {
-      "sha512": "l6J1G9zmn6r5xU+DSp/Vxgx6eG+qUvQgdpgo28m1gEwfNyG6HqlF6h2ESDXZCYEPnngsmkTQ+q7MyyMMTNlaiA==",
+      "sha512": "VkUS0kOBcUf3Wwm0TSbrevDDZ6BlM+b/HRiapRFWjM5O0NS0LviG0glKmFK+hhPDd1XFeSdU1GmlLhb2CoVpIw==",
       "type": "package",
       "path": "system.threading/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -8390,10 +8828,11 @@
       ]
     },
     "System.Threading.Channels/4.5.0": {
-      "sha512": "61eqqmreCig10E4OhJ0/6VaoxR5DR0s+YcerLeP4I36Ua5I9F+AH4UVFfpccUnu2QWDqZvqCPhsMvOIZGlYSZA==",
+      "sha512": "MEH06N0rIGmRT4LOKQ2BmUO0IxfvmIY/PaouSq+DFQku72OL8cxfw8W99uGpTCFf2vx2QHLRSh374iSM3asdTA==",
       "type": "package",
       "path": "system.threading.channels/4.5.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -8410,10 +8849,11 @@
       ]
     },
     "System.Threading.Tasks/4.3.0": {
-      "sha512": "fUiP+CyyCjs872OA8trl6p97qma/da1xGq3h4zAbJZk8zyaU4zyEfqW5vbkP80xG/Nimun1vlWBboMEk7XxdEw==",
+      "sha512": "LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
       "type": "package",
       "path": "system.threading.tasks/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -8477,10 +8917,11 @@
       ]
     },
     "System.Threading.Tasks.Extensions/4.5.0": {
-      "sha512": "FATKkd2olMOskMaJ+XHuonIg8wlrIFARKEc9dbnuGFuYtd8E5zhrpgZfvOZ5CvKyisXwr2HxBwF/qelLvaOHtg==",
+      "sha512": "csAJe24tWCOTO/rXoJAuBGuOq7ZdHY60XtC6b/hNMHT9tuX+2J9HK7nciLEtNvnrRLMxBACLXO3R4y5+kCduMA==",
       "type": "package",
       "path": "system.threading.tasks.extensions/4.5.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -8505,10 +8946,11 @@
       ]
     },
     "System.Threading.Timer/4.3.0": {
-      "sha512": "1c6OJYt7574mj5ROIWIRlZSBBvV+bEbmmyiHxG9Wd2A2ixToQEa0vkRm7NCOzUywQBai/3lIy0ZAlgvvx6oXOQ==",
+      "sha512": "Z6YfyYTCg7lOZjJzBjONJTFKGN9/NIYKSxhU5GRd+DTwHSZyvWp1xuI5aR+dLg+ayyC5Xv57KiY4oJ0tMO89fQ==",
       "type": "package",
       "path": "system.threading.timer/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -8559,10 +9001,11 @@
       ]
     },
     "System.Xml.ReaderWriter/4.3.0": {
-      "sha512": "mREBSX+9OeQ/wwbKKApGUxiGivqNsfNLuHwmb+YfDIGg7DSnl7I27oI71g0RSbdZLe+W/gRKu1EYWO//6JDC5g==",
+      "sha512": "GrprA+Z0RUXaR4N7/eW71j1rgMnEnEVlgii49GZyAjTH7uliMnrOU3HNFBr6fEDBCJCIdlVNq9hHbaDR621XBA==",
       "type": "package",
       "path": "system.xml.readerwriter/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -8630,10 +9073,11 @@
       ]
     },
     "System.Xml.XDocument/4.3.0": {
-      "sha512": "wtkjamltryOim1MLmqUQ+4EwQWhaG7mpWEWlHmHYcKBhXpiLFQ9b4NCJbvlLEj6X+WyKQ+6BXPW5iXWTmGsREw==",
+      "sha512": "5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "type": "package",
       "path": "system.xml.xdocument/4.3.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -8699,10 +9143,12 @@
       ]
     },
     "Validation/2.2.8": {
-      "sha512": "iJw91U8iTBw5RqdK8lIHzDIc5M9vYH/JQbtJ5sIGm2CQGoO2Wh4l0hte/o55M6yrlz6MvaNxNK1dinB27ND7SA==",
+      "sha512": "DMNc7JhPlgRwnR+NNb+ldoluObL+RBw96aMoiZae/Looa4vgaAnIysmle/bV2OKqDNW9oUBDckPyfa2+sX6JdA==",
       "type": "package",
       "path": "validation/2.2.8",
+      "hasTools": true,
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "lib/dotnet/Validation.dll",
@@ -8722,15 +9168,17 @@
       ]
     },
     "Xam.Plugin.Connectivity/3.2.0": {
-      "sha512": "V0IKUjLnWO4zl1VI/7Keclez5kk21PIpVUqacbMtbl1Ky7PrUNUOrO8Xmfrxn5E38ihzrmgGpuC6TXCwL3Sl+Q==",
+      "sha512": "ZV45TaBTCJg7XQNEl3fPyyJcuMMhdDEQ6BCLc/5pMuTv38M226ER0WTu5sbmba8jlliDuzeRqkRFHwrGdWAgyg==",
       "type": "package",
       "path": "xam.plugin.connectivity/3.2.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.dll",
         "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.pdb",
         "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.xml",
         "lib/MonoAndroid10/Plugin.Connectivity.dll",
+        "lib/MonoAndroid10/Plugin.Connectivity.dll.mdb",
         "lib/MonoAndroid10/Plugin.Connectivity.pdb",
         "lib/MonoAndroid10/Plugin.Connectivity.xml",
         "lib/UAP10/Plugin.Connectivity.Abstractions.dll",
@@ -8788,10 +9236,11 @@
       ]
     },
     "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
-      "sha512": "in+ZqtkN2MC7oF/bQWqr84M/n6drISzFEL5QFB6fKLwF2yshTZRnmLvyhXtFGOCfy9ZpIfY1sDjSc6r2mbEwTw==",
+      "sha512": "59HyuAaUzuloQmu/PVCDCJQMRuuhqmIpCQ+d5hH5Qp8AZsa/vDi5ulrXDKRMZSZt/xbXsyZV+aZ/W/SZaYt2Mg==",
       "type": "package",
       "path": "xam.plugins.forms.imagecircle/3.0.0.5",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/monoandroid71/ImageCircle.Forms.Plugin.dll",
         "lib/monoandroid71/ImageCircle.Forms.Plugin.xml",
@@ -8808,22 +9257,139 @@
         "xam.plugins.forms.imagecircle.nuspec"
       ]
     },
-    "Xamarin.Azure.NotificationHubs.iOS-updated/1.2.5.3": {
-      "sha512": "AULA9XZ8Jx13apAsCv0eZTsYrHNjo1QZBLse+4+oMicQnte3hq2k5kwv7KwBh6VrYcdsGyaq3IHGS0BPr6JKtw==",
+    "Xam.Plugins.Settings/3.1.1": {
+      "sha512": "EQEYQJ64ZLqui5GWkLMavgqitHxwUHZHryTzUD1021UBuz1XwDSjPL45W0K4pPXjz9oKbg7YpRXKPR1luPr/5Q==",
       "type": "package",
-      "path": "xamarin.azure.notificationhubs.ios-updated/1.2.5.3",
+      "path": "xam.plugins.settings/3.1.1",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
-        "lib/Xamarin.iOS10/Xamarin.Azure.NotificationHubs.iOS.dll",
-        "xamarin.azure.notificationhubs.ios-updated.1.2.5.3.nupkg.sha512",
-        "xamarin.azure.notificationhubs.ios-updated.nuspec"
+        "content/MonoAndroid10/Helpers/Settings.cs.pp",
+        "content/UAP10/Helpers/Settings.cs.pp",
+        "content/Xamarin.Mac20/Helpers/Settings.cs.pp",
+        "content/Xamarin.iOS10/Helpers/Settings.cs.pp",
+        "content/net45/Helpers/Settings.cs.pp",
+        "content/netstandard1.0/Helpers/Settings.cs.pp",
+        "content/xamarintvOS/Helpers/Settings.cs.pp",
+        "content/xamarinwatchOS/Helpers/Settings.cs.pp",
+        "lib/MonoAndroid10/Plugin.Settings.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Settings.Abstractions.dll.mdb",
+        "lib/MonoAndroid10/Plugin.Settings.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Settings.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.Settings.dll",
+        "lib/MonoAndroid10/Plugin.Settings.dll.mdb",
+        "lib/MonoAndroid10/Plugin.Settings.pdb",
+        "lib/MonoAndroid10/Plugin.Settings.xml",
+        "lib/UAP10/Plugin.Settings.Abstractions.dll",
+        "lib/UAP10/Plugin.Settings.Abstractions.pdb",
+        "lib/UAP10/Plugin.Settings.Abstractions.xml",
+        "lib/UAP10/Plugin.Settings.XML",
+        "lib/UAP10/Plugin.Settings.dll",
+        "lib/UAP10/Plugin.Settings.pdb",
+        "lib/UAP10/Plugin.Settings.pri",
+        "lib/Xamarin.Mac20/Plugin.Settings.Abstractions.dll",
+        "lib/Xamarin.Mac20/Plugin.Settings.Abstractions.pdb",
+        "lib/Xamarin.Mac20/Plugin.Settings.Abstractions.xml",
+        "lib/Xamarin.Mac20/Plugin.Settings.XML",
+        "lib/Xamarin.Mac20/Plugin.Settings.dll",
+        "lib/Xamarin.Mac20/Plugin.Settings.pdb",
+        "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.Settings.dll",
+        "lib/Xamarin.iOS10/Plugin.Settings.xml",
+        "lib/net45/Plugin.Settings.Abstractions.dll",
+        "lib/net45/Plugin.Settings.Abstractions.pdb",
+        "lib/net45/Plugin.Settings.Abstractions.xml",
+        "lib/net45/Plugin.Settings.XML",
+        "lib/net45/Plugin.Settings.dll",
+        "lib/net45/Plugin.Settings.pdb",
+        "lib/netstandard1.0/Plugin.Settings.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.Settings.Abstractions.pdb",
+        "lib/netstandard1.0/Plugin.Settings.Abstractions.xml",
+        "lib/netstandard1.0/Plugin.Settings.deps.json",
+        "lib/netstandard1.0/Plugin.Settings.dll",
+        "lib/netstandard1.0/Plugin.Settings.xml",
+        "lib/xamarintvOS/Plugin.Settings.Abstractions.dll",
+        "lib/xamarintvOS/Plugin.Settings.Abstractions.pdb",
+        "lib/xamarintvOS/Plugin.Settings.Abstractions.xml",
+        "lib/xamarintvOS/Plugin.Settings.dll",
+        "lib/xamarintvOS/Plugin.Settings.pdb",
+        "lib/xamarintvOS/Plugin.Settings.xml",
+        "lib/xamarinwatchOS/Plugin.Settings.Abstractions.dll",
+        "lib/xamarinwatchOS/Plugin.Settings.Abstractions.pdb",
+        "lib/xamarinwatchOS/Plugin.Settings.Abstractions.xml",
+        "lib/xamarinwatchOS/Plugin.Settings.dll",
+        "lib/xamarinwatchOS/Plugin.Settings.pdb",
+        "lib/xamarinwatchOS/Plugin.Settings.xml",
+        "readme.txt",
+        "xam.plugins.settings.3.1.1.nupkg.sha512",
+        "xam.plugins.settings.nuspec"
       ]
     },
-    "Xamarin.Forms/3.6.0.264807": {
-      "sha512": "T7gYS3PoGNtp6D7GAX7fF4QzR7NC36NNQSiuEb5TXO8rEqkZGwpC4u/6S62rH0wL3dabWNVpJPPnL5jZvWeoVg==",
+    "Xamarin.Build.Download/0.4.11": {
+      "sha512": "svGAoBnMVQwUbIv1+j7vDypY+2R7jruefJRmVsxhuvSFXMP8dV+yZK3UGuZa3zV5ThKimk9eqHuvRcl/JVipbA==",
       "type": "package",
-      "path": "xamarin.forms/3.6.0.264807",
+      "path": "xamarin.build.download/0.4.11",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/Mono.Cecil.dll",
+        "build/Newtonsoft.Json.dll",
+        "build/System.Net.Http.Formatting.dll",
+        "build/Xamarin.Build.Download.dll",
+        "build/Xamarin.Build.Download.props",
+        "build/Xamarin.Build.Download.targets",
+        "xamarin.build.download.0.4.11.nupkg.sha512",
+        "xamarin.build.download.nuspec"
+      ]
+    },
+    "Xamarin.Firebase.iOS.CloudMessaging/3.1.2": {
+      "sha512": "d/ZkenBiY9xmEgaPDkr7UdMi4m9JqEDcYumajplQNFSevt6IhtTFlGF7ZpQNjz2/WPI+GkE0pKExNGBBT94cKQ==",
+      "type": "package",
+      "path": "xamarin.firebase.ios.cloudmessaging/3.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "THIRD-PARTY-NOTICES",
+        "lib/Xamarin.iOS10/Firebase.CloudMessaging.dll",
+        "xamarin.firebase.ios.cloudmessaging.3.1.2.nupkg.sha512",
+        "xamarin.firebase.ios.cloudmessaging.nuspec"
+      ]
+    },
+    "Xamarin.Firebase.iOS.Core/5.1.3": {
+      "sha512": "B676z2x99pBGc0+IEL5r8fCX9KT6xLlzUv6EbY4g87dFrDg/8AeixDAZNwiTV25sstz+qvm7OKVvndGkxM7uqQ==",
+      "type": "package",
+      "path": "xamarin.firebase.ios.core/5.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "THIRD-PARTY-NOTICES",
+        "lib/Xamarin.iOS10/Firebase.Core.dll",
+        "xamarin.firebase.ios.core.5.1.3.nupkg.sha512",
+        "xamarin.firebase.ios.core.nuspec"
+      ]
+    },
+    "Xamarin.Firebase.iOS.InstanceID/3.2.1": {
+      "sha512": "gRQppUZPkZpT70WmEjbj45EZZI4C7oPIap0tbIwNCTLAjs71VwwUU6kBbOSs+ONOHOsViYtHjwihVgZNRakfpQ==",
+      "type": "package",
+      "path": "xamarin.firebase.ios.instanceid/3.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Xamarin.Firebase.iOS.InstanceID.targets",
+        "lib/Xamarin.iOS10/Firebase.InstanceID.dll",
+        "xamarin.firebase.ios.instanceid.3.2.1.nupkg.sha512",
+        "xamarin.firebase.ios.instanceid.nuspec"
+      ]
+    },
+    "Xamarin.Forms/4.1.0.581479": {
+      "sha512": "wrO8AOW1xsFoGgT1SUvJ9OEeqAduJOm0xezZGNe0rCiAv2N9Qc/n5uywhlSia1s1k+Zy/hOrhZ4b7/EM6z9oog==",
+      "type": "package",
+      "path": "xamarin.forms/4.1.0.581479",
+      "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "build/MonoAndroid10/proguard.cfg",
         "build/Xamarin.Forms.DefaultItems.props",
@@ -8859,6 +9425,26 @@
         "lib/MonoAndroid81/Xamarin.Forms.Xaml.dll",
         "lib/MonoAndroid81/Xamarin.Forms.Xaml.pdb",
         "lib/MonoAndroid81/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/de/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/de/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/es/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/es/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/fr/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/fr/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/it/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/it/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/ja/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/ja/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/ko/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/ko/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/pt-br/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/pt-br/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/ru/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/ru/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/zh-Hans/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/zh-Hans/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/zh-Hant/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/zh-Hant/Xamarin.Forms.Xaml.xml",
         "lib/MonoAndroid90/Design/Xamarin.Forms.Core.Design.dll",
         "lib/MonoAndroid90/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/MonoAndroid90/FormsViewGroup.dll",
@@ -8872,6 +9458,26 @@
         "lib/MonoAndroid90/Xamarin.Forms.Xaml.dll",
         "lib/MonoAndroid90/Xamarin.Forms.Xaml.pdb",
         "lib/MonoAndroid90/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/de/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/de/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/es/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/es/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/fr/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/fr/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/it/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/it/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/ja/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/ja/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/ko/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/ko/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/pt-br/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/pt-br/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/ru/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/ru/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/zh-Hans/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/zh-Hans/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/zh-Hant/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/zh-Hant/Xamarin.Forms.Xaml.xml",
         "lib/Xamarin.Mac/Design/Xamarin.Forms.Core.Design.dll",
         "lib/Xamarin.Mac/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/Xamarin.Mac/Xamarin.Forms.Core.dll",
@@ -8893,27 +9499,43 @@
         "lib/Xamarin.iOS10/ca/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/cs/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/da/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/de/Xamarin.Forms.Core.xml",
         "lib/Xamarin.iOS10/de/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/de/Xamarin.Forms.Xaml.xml",
         "lib/Xamarin.iOS10/el/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/es/Xamarin.Forms.Core.xml",
         "lib/Xamarin.iOS10/es/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/es/Xamarin.Forms.Xaml.xml",
         "lib/Xamarin.iOS10/fi/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/fr/Xamarin.Forms.Core.xml",
         "lib/Xamarin.iOS10/fr/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/fr/Xamarin.Forms.Xaml.xml",
         "lib/Xamarin.iOS10/he/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/hi/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/hr/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/hu/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/id/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/it/Xamarin.Forms.Core.xml",
         "lib/Xamarin.iOS10/it/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/it/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/ja/Xamarin.Forms.Core.xml",
         "lib/Xamarin.iOS10/ja/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ja/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/ko/Xamarin.Forms.Core.xml",
         "lib/Xamarin.iOS10/ko/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ko/Xamarin.Forms.Xaml.xml",
         "lib/Xamarin.iOS10/ms/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/nb/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/nl/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll",
-        "lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/pt-br/Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/pt-br/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/pt-br/Xamarin.Forms.Xaml.xml",
         "lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/ro/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ru/Xamarin.Forms.Core.xml",
         "lib/Xamarin.iOS10/ru/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ru/Xamarin.Forms.Xaml.xml",
         "lib/Xamarin.iOS10/sk/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/sv/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/th/Xamarin.Forms.Platform.iOS.resources.dll",
@@ -8921,8 +9543,12 @@
         "lib/Xamarin.iOS10/uk/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/vi/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Core.xml",
         "lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Core.xml",
         "lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Xaml.xml",
         "lib/netstandard1.0/Design/Xamarin.Forms.Core.Design.dll",
         "lib/netstandard1.0/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/netstandard1.0/Xamarin.Forms.Core.dll",
@@ -8941,6 +9567,26 @@
         "lib/netstandard2.0/Xamarin.Forms.Xaml.dll",
         "lib/netstandard2.0/Xamarin.Forms.Xaml.pdb",
         "lib/netstandard2.0/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/de/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/de/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/es/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/es/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/fr/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/fr/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/it/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/it/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/ja/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/ja/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/ko/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/ko/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/pt-br/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/pt-br/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/ru/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/ru/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/zh-Hans/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/zh-Hans/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/zh-Hant/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/zh-Hant/Xamarin.Forms.Xaml.xml",
         "lib/tizen40/Design/Xamarin.Forms.Core.Design.dll",
         "lib/tizen40/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/tizen40/Xamarin.Forms.Core.dll",
@@ -8961,6 +9607,7 @@
         "lib/uap10.0/Xamarin.Forms.Platform.UAP.pdb",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP.pri",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/AutoSuggestStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsCheckBoxStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsCommandBarStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsEmbeddedPageWrapper.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsFlyout.xbf",
@@ -8979,15 +9626,16 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.3.6.0.264807.nupkg.sha512",
+        "xamarin.forms.4.1.0.581479.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
     "ZXing.Net.Mobile/2.4.1": {
-      "sha512": "UJVTeViJx6D5vqhMNzvWw6Jacsm6/mgAGQOMLYIG+DyYHLmY/+OPT5uiGY3CjdcmjnIoiPTXsTgM9YUsgsutVw==",
+      "sha512": "iCL2WcqOyUnC1iFFdzXijk0EXfoLMDqW88MyhoTZigSyhJZM2C5hKgSZVyfx9E35tgkde/IZwHkk8cVDnbQlYg==",
       "type": "package",
       "path": "zxing.net.mobile/2.4.1",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/MonoAndroid71/ZXing.Net.Mobile.Core.dll",
         "lib/MonoAndroid71/ZXingNetMobile.dll",
@@ -9008,10 +9656,11 @@
       ]
     },
     "ZXing.Net.Mobile.Forms/2.4.1": {
-      "sha512": "LD9SHG/6k+QzVD3gEujl5SF+Bz72VYbMjRos6pf1B3kG/TV5WJ9ygPuazibTTWg0OaKoftPhbmfQYSEfCIXWMA==",
+      "sha512": "7z+MfL8TbfE36s1GGvrnlkhLUOV5dgdn1gYhUb3GU2W6YXzpfF39k6EqkmFsyNm1O07evTaKFgh7UTOqcWub3g==",
       "type": "package",
       "path": "zxing.net.mobile.forms/2.4.1",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/MonoAndroid71/ZXing.Net.Mobile.Forms.Android.dll",
         "lib/MonoAndroid71/ZXing.Net.Mobile.Forms.dll",
@@ -9038,13 +9687,14 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
-      "Com.Airbnb.Xamarin.Forms.Lottie >= 2.6.3",
+      "Com.Airbnb.Xamarin.Forms.Lottie >= 3.0.0",
       "Microsoft.Azure.Mobile.Client >= 4.1.1",
       "Microsoft.Azure.Mobile.Client.SQLiteStore >= 4.1.1",
+      "Plugin.FirebasePushNotification >= 2.3.6",
       "QRTrack >= 1.0.0",
       "Xam.Plugin.Connectivity >= 3.2.0",
-      "Xamarin.Azure.NotificationHubs.iOS-updated >= 1.2.5.3",
-      "Xamarin.Forms >= 3.6.0.264807",
+      "Xam.Plugins.Settings >= 3.1.1",
+      "Xamarin.Forms >= 4.1.0.581479",
       "ZXing.Net.Mobile >= 2.4.1",
       "ZXing.Net.Mobile.Forms >= 2.4.1",
       "sqlite-net-pcl >= 1.5.231"
@@ -9087,7 +9737,7 @@
         "dependencies": {
           "Com.Airbnb.Xamarin.Forms.Lottie": {
             "target": "Package",
-            "version": "[2.6.3, )"
+            "version": "[3.0.0, )"
           },
           "Microsoft.Azure.Mobile.Client": {
             "target": "Package",
@@ -9097,17 +9747,21 @@
             "target": "Package",
             "version": "[4.1.1, )"
           },
+          "Plugin.FirebasePushNotification": {
+            "target": "Package",
+            "version": "[2.3.6, )"
+          },
           "Xam.Plugin.Connectivity": {
             "target": "Package",
             "version": "[3.2.0, )"
           },
-          "Xamarin.Azure.NotificationHubs.iOS-updated": {
+          "Xam.Plugins.Settings": {
             "target": "Package",
-            "version": "[1.2.5.3, )"
+            "version": "[3.1.1, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.6.0.264807, )"
+            "version": "[4.1.0.581479, )"
           },
           "ZXing.Net.Mobile": {
             "target": "Package",

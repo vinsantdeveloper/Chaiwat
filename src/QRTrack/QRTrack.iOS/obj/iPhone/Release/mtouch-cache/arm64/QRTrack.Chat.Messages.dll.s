@@ -119,99 +119,10 @@ jit_code_start:
 	.byte 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 .text
 	.align 4
-	.no_dead_strip QRTrack_Chat_Messages_LocalSimpleTextMessage__ctor_QRTrack_Chat_Messages_SimpleTextMessage
-QRTrack_Chat_Messages_LocalSimpleTextMessage__ctor_QRTrack_Chat_Messages_SimpleTextMessage:
-.file 1 "/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Chat.Messages/LocalSimpleTextMessage.cs"
-.loc 1 8 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xa9016bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-.word 0x3940035e
-.word 0xf9400f40
-.word 0xf9000f20
-.word 0x91006321
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_QRTrack_Chat_Messages_got@PAGE+0
-add x16, x16, mono_aot_QRTrack_Chat_Messages_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.loc 1 9 0
-.word 0x3940035e
-.word 0xf9401b40
-.word 0xf9001b20
-.word 0x9100c321
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_QRTrack_Chat_Messages_got@PAGE+0
-add x16, x16, mono_aot_QRTrack_Chat_Messages_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.loc 1 10 0
-.word 0x3940035e
-.word 0x9100a340
-.word 0xf9400000
-.word 0xf90013a0
-.word 0x9100a320
-.word 0xf94013a1
-.word 0xf9000001
-.loc 1 11 0
-.word 0x3940035e
-.word 0xf9401340
-.word 0xf9001320
-.word 0x91008321
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_QRTrack_Chat_Messages_got@PAGE+0
-add x16, x16, mono_aot_QRTrack_Chat_Messages_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.loc 1 12 0
-.word 0x3940035e
-.word 0xf9400b40
-.word 0xf9000b20
-.word 0x91004321
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_QRTrack_Chat_Messages_got@PAGE+0
-add x16, x16, mono_aot_QRTrack_Chat_Messages_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.loc 1 13 0
-.word 0xa9416bb9
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_0:
-.text
-	.align 4
-	.no_dead_strip QRTrack_Chat_Messages_Message_get_TypeInfo
-QRTrack_Chat_Messages_Message_get_TypeInfo:
-.file 2 "/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Chat.Messages/Message.cs"
-.loc 2 7 0 prologue_end
+	.no_dead_strip QRTrack_Chat_Messages_ChatMessageModel_get_TypeInfo
+QRTrack_Chat_Messages_ChatMessageModel_get_TypeInfo:
+.file 1 "/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Chat.Messages/ChatMessageModel.cs"
+.loc 1 9 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -221,12 +132,12 @@ QRTrack_Chat_Messages_Message_get_TypeInfo:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_1:
+Lme_0:
 .text
 	.align 4
-	.no_dead_strip QRTrack_Chat_Messages_Message_set_TypeInfo_System_Type
-QRTrack_Chat_Messages_Message_set_TypeInfo_System_Type:
-.loc 2 7 0 prologue_end
+	.no_dead_strip QRTrack_Chat_Messages_ChatMessageModel_set_TypeInfo_System_Type
+QRTrack_Chat_Messages_ChatMessageModel_set_TypeInfo_System_Type:
+.loc 1 9 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -250,12 +161,12 @@ ldr x2, [x16, #16]
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_2:
+Lme_1:
 .text
 	.align 4
-	.no_dead_strip QRTrack_Chat_Messages_Message_get_Id
-QRTrack_Chat_Messages_Message_get_Id:
-.loc 2 8 0 prologue_end
+	.no_dead_strip QRTrack_Chat_Messages_ChatMessageModel_get_Id
+QRTrack_Chat_Messages_ChatMessageModel_get_Id:
+.loc 1 11 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -265,12 +176,12 @@ QRTrack_Chat_Messages_Message_get_Id:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_3:
+Lme_2:
 .text
 	.align 4
-	.no_dead_strip QRTrack_Chat_Messages_Message_set_Id_string
-QRTrack_Chat_Messages_Message_set_Id_string:
-.loc 2 8 0 prologue_end
+	.no_dead_strip QRTrack_Chat_Messages_ChatMessageModel_set_Id_string
+QRTrack_Chat_Messages_ChatMessageModel_set_Id_string:
+.loc 1 11 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -294,12 +205,12 @@ ldr x2, [x16, #16]
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_4:
+Lme_3:
 .text
 	.align 4
-	.no_dead_strip QRTrack_Chat_Messages_Message_get_Username
-QRTrack_Chat_Messages_Message_get_Username:
-.loc 2 9 0 prologue_end
+	.no_dead_strip QRTrack_Chat_Messages_ChatMessageModel_get_SenderId
+QRTrack_Chat_Messages_ChatMessageModel_get_SenderId:
+.loc 1 12 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -309,12 +220,12 @@ QRTrack_Chat_Messages_Message_get_Username:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_5:
+Lme_4:
 .text
 	.align 4
-	.no_dead_strip QRTrack_Chat_Messages_Message_set_Username_string
-QRTrack_Chat_Messages_Message_set_Username_string:
-.loc 2 9 0 prologue_end
+	.no_dead_strip QRTrack_Chat_Messages_ChatMessageModel_set_SenderId_string
+QRTrack_Chat_Messages_ChatMessageModel_set_SenderId_string:
+.loc 1 12 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -338,166 +249,56 @@ ldr x2, [x16, #16]
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
+Lme_5:
+.text
+	.align 4
+	.no_dead_strip QRTrack_Chat_Messages_ChatMessageModel_get_SenderName
+QRTrack_Chat_Messages_ChatMessageModel_get_SenderName:
+.loc 1 13 0 prologue_end
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9400ba0
+.word 0xf9401400
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
 Lme_6:
 .text
 	.align 4
-	.no_dead_strip QRTrack_Chat_Messages_Message_get_Timestamp
-QRTrack_Chat_Messages_Message_get_Timestamp:
-.loc 2 10 0 prologue_end
-.word 0xa9bd7bfd
+	.no_dead_strip QRTrack_Chat_Messages_ChatMessageModel_set_SenderName_string
+QRTrack_Chat_Messages_ChatMessageModel_set_SenderName_string:
+.loc 1 13 0 prologue_end
+.word 0xa9be7bfd
 .word 0x910003fd
-.word 0xf90013a0
-.word 0xf94013a0
-.word 0x9100a000
-.word 0xf9400000
 .word 0xf9000ba0
-.word 0xf9400ba0
+.word 0xf9000fa1
+.word 0xf9400fa0
+.word 0xf9400ba1
+.word 0xf9001420
+.word 0x9100a021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_QRTrack_Chat_Messages_got@PAGE+0
+add x16, x16, mono_aot_QRTrack_Chat_Messages_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
 .word 0x910003bf
-.word 0xa8c37bfd
+.word 0xa8c27bfd
 .word 0xd65f03c0
 
 Lme_7:
 .text
 	.align 4
-	.no_dead_strip QRTrack_Chat_Messages_Message_set_Timestamp_System_DateTime
-QRTrack_Chat_Messages_Message_set_Timestamp_System_DateTime:
-.loc 2 10 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-.word 0xf9400ba0
-.word 0x9100a000
-.word 0xf9400fa1
-.word 0xf9000001
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_8:
-.text
-	.align 4
-	.no_dead_strip QRTrack_Chat_Messages_Message__ctor
-QRTrack_Chat_Messages_Message__ctor:
-.loc 2 12 0 prologue_end
-.word 0xa9be7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0x910003bf
-.word 0xa8c27bfd
-.word 0xd65f03c0
-
-Lme_9:
-.text
-	.align 4
-	.no_dead_strip QRTrack_Chat_Messages_Message__ctor_string_string
-QRTrack_Chat_Messages_Message__ctor_string_string:
-.loc 2 15 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000bb8
-.word 0xaa0003f8
-.word 0xf9000fa1
-.word 0xf90013a2
-.word 0xf94013a0
-.word 0xf9000f00
-.word 0x91006301
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_QRTrack_Chat_Messages_got@PAGE+0
-add x16, x16, mono_aot_QRTrack_Chat_Messages_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.loc 2 16 0
-.word 0xf9400300
-.word 0xf9400c00
-.word 0xf9000b00
-.word 0x91004301
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_QRTrack_Chat_Messages_got@PAGE+0
-add x16, x16, mono_aot_QRTrack_Chat_Messages_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.loc 2 17 0
-.word 0xf9400fa0
-.word 0xf9001300
-.word 0x91008301
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_QRTrack_Chat_Messages_got@PAGE+0
-add x16, x16, mono_aot_QRTrack_Chat_Messages_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.loc 2 18 0
-.word 0x9100a3a0
-.word 0xf9001ba0
-bl _p_1
-.word 0xf9401bbe
-.word 0xf90003c0
-.word 0x9100a300
-.word 0xf94017a1
-.word 0xf9000001
-.loc 2 19 0
-.word 0xf9400bb8
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_a:
-.text
-	.align 4
-	.no_dead_strip QRTrack_Chat_Messages_SimpleTextMessage__ctor
-QRTrack_Chat_Messages_SimpleTextMessage__ctor:
-.file 3 "/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Chat.Messages/SimpleTextMessage.cs"
-.loc 3 6 0 prologue_end
-.word 0xa9be7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0x910003bf
-.word 0xa8c27bfd
-.word 0xd65f03c0
-
-Lme_b:
-.text
-	.align 4
-	.no_dead_strip QRTrack_Chat_Messages_SimpleTextMessage__ctor_string_string
-QRTrack_Chat_Messages_SimpleTextMessage__ctor_string_string:
-.loc 3 7 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-.word 0xf90013a2
-.word 0xf9400ba0
-.word 0xf9400fa1
-.word 0xf94013a2
-bl _p_2
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_c:
-.text
-	.align 4
-	.no_dead_strip QRTrack_Chat_Messages_SimpleTextMessage_get_Text
-QRTrack_Chat_Messages_SimpleTextMessage_get_Text:
-.loc 3 8 0 prologue_end
+	.no_dead_strip QRTrack_Chat_Messages_ChatMessageModel_get_ReceiverId
+QRTrack_Chat_Messages_ChatMessageModel_get_ReceiverId:
+.loc 1 14 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -507,12 +308,12 @@ QRTrack_Chat_Messages_SimpleTextMessage_get_Text:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_d:
+Lme_8:
 .text
 	.align 4
-	.no_dead_strip QRTrack_Chat_Messages_SimpleTextMessage_set_Text_string
-QRTrack_Chat_Messages_SimpleTextMessage_set_Text_string:
-.loc 3 8 0 prologue_end
+	.no_dead_strip QRTrack_Chat_Messages_ChatMessageModel_set_ReceiverId_string
+QRTrack_Chat_Messages_ChatMessageModel_set_ReceiverId_string:
+.loc 1 14 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -536,12 +337,491 @@ ldr x2, [x16, #16]
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
+Lme_9:
+.text
+	.align 4
+	.no_dead_strip QRTrack_Chat_Messages_ChatMessageModel_get_ReceiverName
+QRTrack_Chat_Messages_ChatMessageModel_get_ReceiverName:
+.loc 1 15 0 prologue_end
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9400ba0
+.word 0xf9401c00
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_a:
+.text
+	.align 4
+	.no_dead_strip QRTrack_Chat_Messages_ChatMessageModel_set_ReceiverName_string
+QRTrack_Chat_Messages_ChatMessageModel_set_ReceiverName_string:
+.loc 1 15 0 prologue_end
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf9400fa0
+.word 0xf9400ba1
+.word 0xf9001c20
+.word 0x9100e021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_QRTrack_Chat_Messages_got@PAGE+0
+add x16, x16, mono_aot_QRTrack_Chat_Messages_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_b:
+.text
+	.align 4
+	.no_dead_strip QRTrack_Chat_Messages_ChatMessageModel_get_Message
+QRTrack_Chat_Messages_ChatMessageModel_get_Message:
+.loc 1 16 0 prologue_end
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9400ba0
+.word 0xf9402000
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_c:
+.text
+	.align 4
+	.no_dead_strip QRTrack_Chat_Messages_ChatMessageModel_set_Message_string
+QRTrack_Chat_Messages_ChatMessageModel_set_Message_string:
+.loc 1 16 0 prologue_end
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf9400fa0
+.word 0xf9400ba1
+.word 0xf9002020
+.word 0x91010021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_QRTrack_Chat_Messages_got@PAGE+0
+add x16, x16, mono_aot_QRTrack_Chat_Messages_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_d:
+.text
+	.align 4
+	.no_dead_strip QRTrack_Chat_Messages_ChatMessageModel_get_Timestamp
+QRTrack_Chat_Messages_ChatMessageModel_get_Timestamp:
+.loc 1 18 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf90013a0
+.word 0xf94013a0
+.word 0x91012000
+.word 0xf9400000
+.word 0xf9000ba0
+.word 0xf9400ba0
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
 Lme_e:
 .text
 	.align 4
-	.no_dead_strip QRTrack_Chat_Messages_UserConnectedMessage__ctor
-QRTrack_Chat_Messages_UserConnectedMessage__ctor:
-.file 4 "/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Chat.Messages/UserConnectedMessage.cs"
+	.no_dead_strip QRTrack_Chat_Messages_ChatMessageModel_set_Timestamp_System_DateTime
+QRTrack_Chat_Messages_ChatMessageModel_set_Timestamp_System_DateTime:
+.loc 1 18 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf9400ba0
+.word 0x91012000
+.word 0xf9400fa1
+.word 0xf9000001
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_f:
+.text
+	.align 4
+	.no_dead_strip QRTrack_Chat_Messages_ChatMessageModel__ctor
+QRTrack_Chat_Messages_ChatMessageModel__ctor:
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_10:
+.text
+	.align 4
+	.no_dead_strip QRTrack_Chat_Messages_LocalSimpleTextMessage__ctor_QRTrack_Chat_Messages_SimpleTextMessage
+QRTrack_Chat_Messages_LocalSimpleTextMessage__ctor_QRTrack_Chat_Messages_SimpleTextMessage:
+.file 2 "/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Chat.Messages/LocalSimpleTextMessage.cs"
+.loc 2 8 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xa9016bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+.word 0x3940035e
+.word 0xf9400f40
+.word 0xf9000f20
+.word 0x91006321
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_QRTrack_Chat_Messages_got@PAGE+0
+add x16, x16, mono_aot_QRTrack_Chat_Messages_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 2 9 0
+.word 0x3940035e
+.word 0xf9401b40
+.word 0xf9001b20
+.word 0x9100c321
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_QRTrack_Chat_Messages_got@PAGE+0
+add x16, x16, mono_aot_QRTrack_Chat_Messages_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 2 10 0
+.word 0x3940035e
+.word 0x9100a340
+.word 0xf9400000
+.word 0xf90013a0
+.word 0x9100a320
+.word 0xf94013a1
+.word 0xf9000001
+.loc 2 11 0
+.word 0x3940035e
+.word 0xf9401340
+.word 0xf9001320
+.word 0x91008321
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_QRTrack_Chat_Messages_got@PAGE+0
+add x16, x16, mono_aot_QRTrack_Chat_Messages_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 2 12 0
+.word 0x3940035e
+.word 0xf9400b40
+.word 0xf9000b20
+.word 0x91004321
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_QRTrack_Chat_Messages_got@PAGE+0
+add x16, x16, mono_aot_QRTrack_Chat_Messages_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 2 13 0
+.word 0xa9416bb9
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_11:
+.text
+	.align 4
+	.no_dead_strip QRTrack_Chat_Messages_Message_get_TypeInfo
+QRTrack_Chat_Messages_Message_get_TypeInfo:
+.file 3 "/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Chat.Messages/Message.cs"
+.loc 3 7 0 prologue_end
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9400ba0
+.word 0xf9400800
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_12:
+.text
+	.align 4
+	.no_dead_strip QRTrack_Chat_Messages_Message_set_TypeInfo_System_Type
+QRTrack_Chat_Messages_Message_set_TypeInfo_System_Type:
+.loc 3 7 0 prologue_end
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf9400fa0
+.word 0xf9400ba1
+.word 0xf9000820
+.word 0x91004021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_QRTrack_Chat_Messages_got@PAGE+0
+add x16, x16, mono_aot_QRTrack_Chat_Messages_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_13:
+.text
+	.align 4
+	.no_dead_strip QRTrack_Chat_Messages_Message_get_Id
+QRTrack_Chat_Messages_Message_get_Id:
+.loc 3 8 0 prologue_end
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9400ba0
+.word 0xf9400c00
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_14:
+.text
+	.align 4
+	.no_dead_strip QRTrack_Chat_Messages_Message_set_Id_string
+QRTrack_Chat_Messages_Message_set_Id_string:
+.loc 3 8 0 prologue_end
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf9400fa0
+.word 0xf9400ba1
+.word 0xf9000c20
+.word 0x91006021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_QRTrack_Chat_Messages_got@PAGE+0
+add x16, x16, mono_aot_QRTrack_Chat_Messages_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_15:
+.text
+	.align 4
+	.no_dead_strip QRTrack_Chat_Messages_Message_get_Username
+QRTrack_Chat_Messages_Message_get_Username:
+.loc 3 9 0 prologue_end
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9400ba0
+.word 0xf9401000
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_16:
+.text
+	.align 4
+	.no_dead_strip QRTrack_Chat_Messages_Message_set_Username_string
+QRTrack_Chat_Messages_Message_set_Username_string:
+.loc 3 9 0 prologue_end
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf9400fa0
+.word 0xf9400ba1
+.word 0xf9001020
+.word 0x91008021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_QRTrack_Chat_Messages_got@PAGE+0
+add x16, x16, mono_aot_QRTrack_Chat_Messages_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_17:
+.text
+	.align 4
+	.no_dead_strip QRTrack_Chat_Messages_Message_get_Timestamp
+QRTrack_Chat_Messages_Message_get_Timestamp:
+.loc 3 10 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf90013a0
+.word 0xf94013a0
+.word 0x9100a000
+.word 0xf9400000
+.word 0xf9000ba0
+.word 0xf9400ba0
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_18:
+.text
+	.align 4
+	.no_dead_strip QRTrack_Chat_Messages_Message_set_Timestamp_System_DateTime
+QRTrack_Chat_Messages_Message_set_Timestamp_System_DateTime:
+.loc 3 10 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf9400ba0
+.word 0x9100a000
+.word 0xf9400fa1
+.word 0xf9000001
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_19:
+.text
+	.align 4
+	.no_dead_strip QRTrack_Chat_Messages_Message__ctor
+QRTrack_Chat_Messages_Message__ctor:
+.loc 3 12 0 prologue_end
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_1a:
+.text
+	.align 4
+	.no_dead_strip QRTrack_Chat_Messages_Message__ctor_string_string
+QRTrack_Chat_Messages_Message__ctor_string_string:
+.loc 3 15 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bb8
+.word 0xaa0003f8
+.word 0xf9000fa1
+.word 0xf90013a2
+.word 0xf94013a0
+.word 0xf9000f00
+.word 0x91006301
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_QRTrack_Chat_Messages_got@PAGE+0
+add x16, x16, mono_aot_QRTrack_Chat_Messages_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 3 16 0
+.word 0xf9400300
+.word 0xf9400c00
+.word 0xf9000b00
+.word 0x91004301
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_QRTrack_Chat_Messages_got@PAGE+0
+add x16, x16, mono_aot_QRTrack_Chat_Messages_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 3 17 0
+.word 0xf9400fa0
+.word 0xf9001300
+.word 0x91008301
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_QRTrack_Chat_Messages_got@PAGE+0
+add x16, x16, mono_aot_QRTrack_Chat_Messages_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 3 18 0
+.word 0x9100a3a0
+.word 0xf9001ba0
+bl _p_1
+.word 0xf9401bbe
+.word 0xf90003c0
+.word 0x9100a300
+.word 0xf94017a1
+.word 0xf9000001
+.loc 3 19 0
+.word 0xf9400bb8
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_1b:
+.text
+	.align 4
+	.no_dead_strip QRTrack_Chat_Messages_SimpleTextMessage__ctor
+QRTrack_Chat_Messages_SimpleTextMessage__ctor:
+.file 4 "/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Chat.Messages/SimpleTextMessage.cs"
 .loc 4 6 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -550,11 +830,11 @@ QRTrack_Chat_Messages_UserConnectedMessage__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_f:
+Lme_1c:
 .text
 	.align 4
-	.no_dead_strip QRTrack_Chat_Messages_UserConnectedMessage__ctor_string_string
-QRTrack_Chat_Messages_UserConnectedMessage__ctor_string_string:
+	.no_dead_strip QRTrack_Chat_Messages_SimpleTextMessage__ctor_string_string
+QRTrack_Chat_Messages_SimpleTextMessage__ctor_string_string:
 .loc 4 7 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -569,7 +849,84 @@ bl _p_2
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_10:
+Lme_1d:
+.text
+	.align 4
+	.no_dead_strip QRTrack_Chat_Messages_SimpleTextMessage_get_Text
+QRTrack_Chat_Messages_SimpleTextMessage_get_Text:
+.loc 4 8 0 prologue_end
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9400ba0
+.word 0xf9401800
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_1e:
+.text
+	.align 4
+	.no_dead_strip QRTrack_Chat_Messages_SimpleTextMessage_set_Text_string
+QRTrack_Chat_Messages_SimpleTextMessage_set_Text_string:
+.loc 4 8 0 prologue_end
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf9400fa0
+.word 0xf9400ba1
+.word 0xf9001820
+.word 0x9100c021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_QRTrack_Chat_Messages_got@PAGE+0
+add x16, x16, mono_aot_QRTrack_Chat_Messages_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_1f:
+.text
+	.align 4
+	.no_dead_strip QRTrack_Chat_Messages_UserConnectedMessage__ctor
+QRTrack_Chat_Messages_UserConnectedMessage__ctor:
+.file 5 "/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Chat.Messages/UserConnectedMessage.cs"
+.loc 5 6 0 prologue_end
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_20:
+.text
+	.align 4
+	.no_dead_strip QRTrack_Chat_Messages_UserConnectedMessage__ctor_string_string
+QRTrack_Chat_Messages_UserConnectedMessage__ctor_string_string:
+.loc 5 7 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+.word 0xf9400ba0
+.word 0xf9400fa1
+.word 0xf94013a2
+bl _p_2
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_21:
 .text
 	.align 3
 jit_code_end:
@@ -579,6 +936,23 @@ jit_code_end:
 	.align 3
 method_addresses:
 	.no_dead_strip method_addresses
+bl QRTrack_Chat_Messages_ChatMessageModel_get_TypeInfo
+bl QRTrack_Chat_Messages_ChatMessageModel_set_TypeInfo_System_Type
+bl QRTrack_Chat_Messages_ChatMessageModel_get_Id
+bl QRTrack_Chat_Messages_ChatMessageModel_set_Id_string
+bl QRTrack_Chat_Messages_ChatMessageModel_get_SenderId
+bl QRTrack_Chat_Messages_ChatMessageModel_set_SenderId_string
+bl QRTrack_Chat_Messages_ChatMessageModel_get_SenderName
+bl QRTrack_Chat_Messages_ChatMessageModel_set_SenderName_string
+bl QRTrack_Chat_Messages_ChatMessageModel_get_ReceiverId
+bl QRTrack_Chat_Messages_ChatMessageModel_set_ReceiverId_string
+bl QRTrack_Chat_Messages_ChatMessageModel_get_ReceiverName
+bl QRTrack_Chat_Messages_ChatMessageModel_set_ReceiverName_string
+bl QRTrack_Chat_Messages_ChatMessageModel_get_Message
+bl QRTrack_Chat_Messages_ChatMessageModel_set_Message_string
+bl QRTrack_Chat_Messages_ChatMessageModel_get_Timestamp
+bl QRTrack_Chat_Messages_ChatMessageModel_set_Timestamp_System_DateTime
+bl QRTrack_Chat_Messages_ChatMessageModel__ctor
 bl QRTrack_Chat_Messages_LocalSimpleTextMessage__ctor_QRTrack_Chat_Messages_SimpleTextMessage
 bl QRTrack_Chat_Messages_Message_get_TypeInfo
 bl QRTrack_Chat_Messages_Message_set_TypeInfo_System_Type
@@ -614,8 +988,8 @@ unbox_trampoline_addresses:
 	.align 3
 unwind_info:
 
-	.byte 18,12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4,154,3,13,12,31,0,68,14,32,157,4,158,3,68,13
-	.byte 29,13,12,31,0,68,14,48,157,6,158,5,68,13,29,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6
+	.byte 13,12,31,0,68,14,32,157,4,158,3,68,13,29,13,12,31,0,68,14,48,157,6,158,5,68,13,29,18,12,31,0
+	.byte 68,14,48,157,6,158,5,68,13,29,68,153,4,154,3,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6
 
 .text
 	.align 4
@@ -628,7 +1002,7 @@ adrp x16, mono_aot_QRTrack_Chat_Messages_got@PAGE+0
 add x16, x16, mono_aot_QRTrack_Chat_Messages_got@PAGEOFF
 ldr x16, [x16, #200]
 br x16
-.word 317
+.word 351
 	.no_dead_strip plt_QRTrack_Chat_Messages_Message__ctor_string_string
 plt_QRTrack_Chat_Messages_Message__ctor_string_string:
 _p_2:
@@ -636,7 +1010,7 @@ adrp x16, mono_aot_QRTrack_Chat_Messages_got@PAGE+0
 add x16, x16, mono_aot_QRTrack_Chat_Messages_got@PAGEOFF
 ldr x16, [x16, #208]
 br x16
-.word 322
+.word 356
 plt_end:
 .section __DATA, __bss
 	.align 3
@@ -663,7 +1037,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "6051E4DF-559F-497F-87D1-23510C3D3F6D"
+	.asciz "8DA2233F-924C-4E3B-B778-07EDFABAF7AD"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -746,21 +1120,21 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 24,216,3,18,0,66,387000831,0
-	.long 474,128,8,8,8,9,8388607,0
-	.long 24,1056,576,384,200,0,304,352
-	.long 256,0,192,48,568,0,0,0
+	.long 24,216,3,35,0,66,387000831,0
+	.long 582,128,8,8,8,9,8388607,0
+	.long 24,1208,616,424,216,0,320,392
+	.long 272,0,208,64,608,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 148,81,182,95,59,59,12,250,106,193,243,117,141,24,4,236
+	.byte 194,150,237,212,12,24,94,35,120,67,234,191,87,128,178,95
 	.globl _mono_aot_module_QRTrack_Chat_Messages_info
 	.align 3
 _mono_aot_module_QRTrack_Chat_Messages_info:
 	.align 3
 	.quad _mono_aot_file_info
 .section __DWARF, __debug_info,regular,debug
-LTDIE_3:
+LTDIE_1:
 
 	.byte 17
 	.asciz "System_Object"
@@ -768,48 +1142,48 @@ LTDIE_3:
 	.byte 16,7
 	.asciz "System_Object"
 
-LDIFF_SYM3=LTDIE_3 - Ldebug_info_start
+LDIFF_SYM3=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM3
-LTDIE_3_POINTER:
+LTDIE_1_POINTER:
 
 	.byte 13
-LDIFF_SYM4=LTDIE_3 - Ldebug_info_start
+LDIFF_SYM4=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM4
-LTDIE_3_REFERENCE:
+LTDIE_1_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5=LTDIE_3 - Ldebug_info_start
+LDIFF_SYM5=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM5
-LTDIE_5:
+LTDIE_3:
 
 	.byte 5
 	.asciz "System_Reflection_MemberInfo"
 
 	.byte 16,16
-LDIFF_SYM6=LTDIE_3 - Ldebug_info_start
+LDIFF_SYM6=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM6
 	.byte 2,35,0,0,7
 	.asciz "System_Reflection_MemberInfo"
 
-LDIFF_SYM7=LTDIE_5 - Ldebug_info_start
+LDIFF_SYM7=LTDIE_3 - Ldebug_info_start
 	.long LDIFF_SYM7
-LTDIE_5_POINTER:
+LTDIE_3_POINTER:
 
 	.byte 13
-LDIFF_SYM8=LTDIE_5 - Ldebug_info_start
+LDIFF_SYM8=LTDIE_3 - Ldebug_info_start
 	.long LDIFF_SYM8
-LTDIE_5_REFERENCE:
+LTDIE_3_REFERENCE:
 
 	.byte 14
-LDIFF_SYM9=LTDIE_5 - Ldebug_info_start
+LDIFF_SYM9=LTDIE_3 - Ldebug_info_start
 	.long LDIFF_SYM9
-LTDIE_4:
+LTDIE_2:
 
 	.byte 5
 	.asciz "System_Type"
 
 	.byte 24,16
-LDIFF_SYM10=LTDIE_5 - Ldebug_info_start
+LDIFF_SYM10=LTDIE_3 - Ldebug_info_start
 	.long LDIFF_SYM10
 	.byte 2,35,0,6
 	.asciz "_impl"
@@ -819,30 +1193,30 @@ LDIFF_SYM11=LDIE_I4 - Ldebug_info_start
 	.byte 2,35,16,0,7
 	.asciz "System_Type"
 
-LDIFF_SYM12=LTDIE_4 - Ldebug_info_start
+LDIFF_SYM12=LTDIE_2 - Ldebug_info_start
 	.long LDIFF_SYM12
-LTDIE_4_POINTER:
+LTDIE_2_POINTER:
 
 	.byte 13
-LDIFF_SYM13=LTDIE_4 - Ldebug_info_start
+LDIFF_SYM13=LTDIE_2 - Ldebug_info_start
 	.long LDIFF_SYM13
-LTDIE_4_REFERENCE:
+LTDIE_2_REFERENCE:
 
 	.byte 14
-LDIFF_SYM14=LTDIE_4 - Ldebug_info_start
+LDIFF_SYM14=LTDIE_2 - Ldebug_info_start
 	.long LDIFF_SYM14
-LTDIE_2:
+LTDIE_0:
 
 	.byte 5
-	.asciz "QRTrack_Chat_Messages_Message"
+	.asciz "QRTrack_Chat_Messages_ChatMessageModel"
 
-	.byte 48,16
-LDIFF_SYM15=LTDIE_3 - Ldebug_info_start
+	.byte 80,16
+LDIFF_SYM15=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM15
 	.byte 2,35,0,6
 	.asciz "<TypeInfo>k__BackingField"
 
-LDIFF_SYM16=LTDIE_4_REFERENCE - Ldebug_info_start
+LDIFF_SYM16=LTDIE_2_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM16
 	.byte 2,35,16,6
 	.asciz "<Id>k__BackingField"
@@ -850,147 +1224,116 @@ LDIFF_SYM16=LTDIE_4_REFERENCE - Ldebug_info_start
 LDIFF_SYM17=LDIE_STRING - Ldebug_info_start
 	.long LDIFF_SYM17
 	.byte 2,35,24,6
-	.asciz "<Username>k__BackingField"
+	.asciz "<SenderId>k__BackingField"
 
 LDIFF_SYM18=LDIE_STRING - Ldebug_info_start
 	.long LDIFF_SYM18
 	.byte 2,35,32,6
+	.asciz "<SenderName>k__BackingField"
+
+LDIFF_SYM19=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM19
+	.byte 2,35,40,6
+	.asciz "<ReceiverId>k__BackingField"
+
+LDIFF_SYM20=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM20
+	.byte 2,35,48,6
+	.asciz "<ReceiverName>k__BackingField"
+
+LDIFF_SYM21=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM21
+	.byte 2,35,56,6
+	.asciz "<Message>k__BackingField"
+
+LDIFF_SYM22=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM22
+	.byte 2,35,64,6
 	.asciz "<Timestamp>k__BackingField"
 
-LDIFF_SYM19=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM19
-	.byte 2,35,40,0,7
-	.asciz "QRTrack_Chat_Messages_Message"
-
-LDIFF_SYM20=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM20
-LTDIE_2_POINTER:
-
-	.byte 13
-LDIFF_SYM21=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM21
-LTDIE_2_REFERENCE:
-
-	.byte 14
-LDIFF_SYM22=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM22
-LTDIE_1:
-
-	.byte 5
-	.asciz "QRTrack_Chat_Messages_SimpleTextMessage"
-
-	.byte 56,16
-LDIFF_SYM23=LTDIE_2 - Ldebug_info_start
+LDIFF_SYM23=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM23
-	.byte 2,35,0,6
-	.asciz "<Text>k__BackingField"
+	.byte 2,35,72,0,7
+	.asciz "QRTrack_Chat_Messages_ChatMessageModel"
 
-LDIFF_SYM24=LDIE_STRING - Ldebug_info_start
+LDIFF_SYM24=LTDIE_0 - Ldebug_info_start
 	.long LDIFF_SYM24
-	.byte 2,35,48,0,7
-	.asciz "QRTrack_Chat_Messages_SimpleTextMessage"
-
-LDIFF_SYM25=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM25
-LTDIE_1_POINTER:
-
-	.byte 13
-LDIFF_SYM26=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM26
-LTDIE_1_REFERENCE:
-
-	.byte 14
-LDIFF_SYM27=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM27
-LTDIE_0:
-
-	.byte 5
-	.asciz "QRTrack_Chat_Messages_LocalSimpleTextMessage"
-
-	.byte 56,16
-LDIFF_SYM28=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM28
-	.byte 2,35,0,0,7
-	.asciz "QRTrack_Chat_Messages_LocalSimpleTextMessage"
-
-LDIFF_SYM29=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM29
 LTDIE_0_POINTER:
 
 	.byte 13
-LDIFF_SYM30=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM30
+LDIFF_SYM25=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM25
 LTDIE_0_REFERENCE:
 
 	.byte 14
-LDIFF_SYM31=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM31
+LDIFF_SYM26=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM26
 	.byte 2
-	.asciz "QRTrack.Chat.Messages.LocalSimpleTextMessage:.ctor"
-	.asciz "QRTrack_Chat_Messages_LocalSimpleTextMessage__ctor_QRTrack_Chat_Messages_SimpleTextMessage"
+	.asciz "QRTrack.Chat.Messages.ChatMessageModel:get_TypeInfo"
+	.asciz "QRTrack_Chat_Messages_ChatMessageModel_get_TypeInfo"
 
-	.byte 1,6
-	.quad QRTrack_Chat_Messages_LocalSimpleTextMessage__ctor_QRTrack_Chat_Messages_SimpleTextMessage
+	.byte 1,9
+	.quad QRTrack_Chat_Messages_ChatMessageModel_get_TypeInfo
 	.quad Lme_0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM32=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM32
-	.byte 1,105,3
-	.asciz "message"
-
-LDIFF_SYM33=LTDIE_1_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM33
-	.byte 1,106,0
+LDIFF_SYM27=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM27
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM34=Lfde0_end - Lfde0_start
-	.long LDIFF_SYM34
+LDIFF_SYM28=Lfde0_end - Lfde0_start
+	.long LDIFF_SYM28
 Lfde0_start:
 
 	.long 0
 	.align 3
-	.quad QRTrack_Chat_Messages_LocalSimpleTextMessage__ctor_QRTrack_Chat_Messages_SimpleTextMessage
+	.quad QRTrack_Chat_Messages_ChatMessageModel_get_TypeInfo
 
-LDIFF_SYM35=Lme_0 - QRTrack_Chat_Messages_LocalSimpleTextMessage__ctor_QRTrack_Chat_Messages_SimpleTextMessage
-	.long LDIFF_SYM35
+LDIFF_SYM29=Lme_0 - QRTrack_Chat_Messages_ChatMessageModel_get_TypeInfo
+	.long LDIFF_SYM29
 	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4,154,3
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
 Lfde0_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "QRTrack.Chat.Messages.Message:get_TypeInfo"
-	.asciz "QRTrack_Chat_Messages_Message_get_TypeInfo"
+	.asciz "QRTrack.Chat.Messages.ChatMessageModel:set_TypeInfo"
+	.asciz "QRTrack_Chat_Messages_ChatMessageModel_set_TypeInfo_System_Type"
 
-	.byte 2,7
-	.quad QRTrack_Chat_Messages_Message_get_TypeInfo
+	.byte 1,9
+	.quad QRTrack_Chat_Messages_ChatMessageModel_set_TypeInfo_System_Type
 	.quad Lme_1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM36=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM36
-	.byte 2,141,16,0
+LDIFF_SYM30=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM30
+	.byte 2,141,16,3
+	.asciz "value"
+
+LDIFF_SYM31=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM31
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM37=Lfde1_end - Lfde1_start
-	.long LDIFF_SYM37
+LDIFF_SYM32=Lfde1_end - Lfde1_start
+	.long LDIFF_SYM32
 Lfde1_start:
 
 	.long 0
 	.align 3
-	.quad QRTrack_Chat_Messages_Message_get_TypeInfo
+	.quad QRTrack_Chat_Messages_ChatMessageModel_set_TypeInfo_System_Type
 
-LDIFF_SYM38=Lme_1 - QRTrack_Chat_Messages_Message_get_TypeInfo
-	.long LDIFF_SYM38
+LDIFF_SYM33=Lme_1 - QRTrack_Chat_Messages_ChatMessageModel_set_TypeInfo_System_Type
+	.long LDIFF_SYM33
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -999,37 +1342,32 @@ Lfde1_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "QRTrack.Chat.Messages.Message:set_TypeInfo"
-	.asciz "QRTrack_Chat_Messages_Message_set_TypeInfo_System_Type"
+	.asciz "QRTrack.Chat.Messages.ChatMessageModel:get_Id"
+	.asciz "QRTrack_Chat_Messages_ChatMessageModel_get_Id"
 
-	.byte 2,7
-	.quad QRTrack_Chat_Messages_Message_set_TypeInfo_System_Type
+	.byte 1,11
+	.quad QRTrack_Chat_Messages_ChatMessageModel_get_Id
 	.quad Lme_2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM39=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM39
-	.byte 2,141,16,3
-	.asciz "value"
-
-LDIFF_SYM40=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM40
-	.byte 2,141,24,0
+LDIFF_SYM34=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM34
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM41=Lfde2_end - Lfde2_start
-	.long LDIFF_SYM41
+LDIFF_SYM35=Lfde2_end - Lfde2_start
+	.long LDIFF_SYM35
 Lfde2_start:
 
 	.long 0
 	.align 3
-	.quad QRTrack_Chat_Messages_Message_set_TypeInfo_System_Type
+	.quad QRTrack_Chat_Messages_ChatMessageModel_get_Id
 
-LDIFF_SYM42=Lme_2 - QRTrack_Chat_Messages_Message_set_TypeInfo_System_Type
-	.long LDIFF_SYM42
+LDIFF_SYM36=Lme_2 - QRTrack_Chat_Messages_ChatMessageModel_get_Id
+	.long LDIFF_SYM36
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -1038,32 +1376,37 @@ Lfde2_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "QRTrack.Chat.Messages.Message:get_Id"
-	.asciz "QRTrack_Chat_Messages_Message_get_Id"
+	.asciz "QRTrack.Chat.Messages.ChatMessageModel:set_Id"
+	.asciz "QRTrack_Chat_Messages_ChatMessageModel_set_Id_string"
 
-	.byte 2,8
-	.quad QRTrack_Chat_Messages_Message_get_Id
+	.byte 1,11
+	.quad QRTrack_Chat_Messages_ChatMessageModel_set_Id_string
 	.quad Lme_3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM43=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM43
-	.byte 2,141,16,0
+LDIFF_SYM37=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM37
+	.byte 2,141,16,3
+	.asciz "value"
+
+LDIFF_SYM38=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM38
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM44=Lfde3_end - Lfde3_start
-	.long LDIFF_SYM44
+LDIFF_SYM39=Lfde3_end - Lfde3_start
+	.long LDIFF_SYM39
 Lfde3_start:
 
 	.long 0
 	.align 3
-	.quad QRTrack_Chat_Messages_Message_get_Id
+	.quad QRTrack_Chat_Messages_ChatMessageModel_set_Id_string
 
-LDIFF_SYM45=Lme_3 - QRTrack_Chat_Messages_Message_get_Id
-	.long LDIFF_SYM45
+LDIFF_SYM40=Lme_3 - QRTrack_Chat_Messages_ChatMessageModel_set_Id_string
+	.long LDIFF_SYM40
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -1072,37 +1415,32 @@ Lfde3_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "QRTrack.Chat.Messages.Message:set_Id"
-	.asciz "QRTrack_Chat_Messages_Message_set_Id_string"
+	.asciz "QRTrack.Chat.Messages.ChatMessageModel:get_SenderId"
+	.asciz "QRTrack_Chat_Messages_ChatMessageModel_get_SenderId"
 
-	.byte 2,8
-	.quad QRTrack_Chat_Messages_Message_set_Id_string
+	.byte 1,12
+	.quad QRTrack_Chat_Messages_ChatMessageModel_get_SenderId
 	.quad Lme_4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM46=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM46
-	.byte 2,141,16,3
-	.asciz "value"
-
-LDIFF_SYM47=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM47
-	.byte 2,141,24,0
+LDIFF_SYM41=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM41
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM48=Lfde4_end - Lfde4_start
-	.long LDIFF_SYM48
+LDIFF_SYM42=Lfde4_end - Lfde4_start
+	.long LDIFF_SYM42
 Lfde4_start:
 
 	.long 0
 	.align 3
-	.quad QRTrack_Chat_Messages_Message_set_Id_string
+	.quad QRTrack_Chat_Messages_ChatMessageModel_get_SenderId
 
-LDIFF_SYM49=Lme_4 - QRTrack_Chat_Messages_Message_set_Id_string
-	.long LDIFF_SYM49
+LDIFF_SYM43=Lme_4 - QRTrack_Chat_Messages_ChatMessageModel_get_SenderId
+	.long LDIFF_SYM43
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -1111,32 +1449,37 @@ Lfde4_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "QRTrack.Chat.Messages.Message:get_Username"
-	.asciz "QRTrack_Chat_Messages_Message_get_Username"
+	.asciz "QRTrack.Chat.Messages.ChatMessageModel:set_SenderId"
+	.asciz "QRTrack_Chat_Messages_ChatMessageModel_set_SenderId_string"
 
-	.byte 2,9
-	.quad QRTrack_Chat_Messages_Message_get_Username
+	.byte 1,12
+	.quad QRTrack_Chat_Messages_ChatMessageModel_set_SenderId_string
 	.quad Lme_5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM50=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM50
-	.byte 2,141,16,0
+LDIFF_SYM44=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM44
+	.byte 2,141,16,3
+	.asciz "value"
+
+LDIFF_SYM45=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM45
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM51=Lfde5_end - Lfde5_start
-	.long LDIFF_SYM51
+LDIFF_SYM46=Lfde5_end - Lfde5_start
+	.long LDIFF_SYM46
 Lfde5_start:
 
 	.long 0
 	.align 3
-	.quad QRTrack_Chat_Messages_Message_get_Username
+	.quad QRTrack_Chat_Messages_ChatMessageModel_set_SenderId_string
 
-LDIFF_SYM52=Lme_5 - QRTrack_Chat_Messages_Message_get_Username
-	.long LDIFF_SYM52
+LDIFF_SYM47=Lme_5 - QRTrack_Chat_Messages_ChatMessageModel_set_SenderId_string
+	.long LDIFF_SYM47
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -1145,37 +1488,32 @@ Lfde5_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "QRTrack.Chat.Messages.Message:set_Username"
-	.asciz "QRTrack_Chat_Messages_Message_set_Username_string"
+	.asciz "QRTrack.Chat.Messages.ChatMessageModel:get_SenderName"
+	.asciz "QRTrack_Chat_Messages_ChatMessageModel_get_SenderName"
 
-	.byte 2,9
-	.quad QRTrack_Chat_Messages_Message_set_Username_string
+	.byte 1,13
+	.quad QRTrack_Chat_Messages_ChatMessageModel_get_SenderName
 	.quad Lme_6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM53=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM53
-	.byte 2,141,16,3
-	.asciz "value"
-
-LDIFF_SYM54=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM54
-	.byte 2,141,24,0
+LDIFF_SYM48=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM48
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM55=Lfde6_end - Lfde6_start
-	.long LDIFF_SYM55
+LDIFF_SYM49=Lfde6_end - Lfde6_start
+	.long LDIFF_SYM49
 Lfde6_start:
 
 	.long 0
 	.align 3
-	.quad QRTrack_Chat_Messages_Message_set_Username_string
+	.quad QRTrack_Chat_Messages_ChatMessageModel_get_SenderName
 
-LDIFF_SYM56=Lme_6 - QRTrack_Chat_Messages_Message_set_Username_string
-	.long LDIFF_SYM56
+LDIFF_SYM50=Lme_6 - QRTrack_Chat_Messages_ChatMessageModel_get_SenderName
+	.long LDIFF_SYM50
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -1184,105 +1522,110 @@ Lfde6_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "QRTrack.Chat.Messages.Message:get_Timestamp"
-	.asciz "QRTrack_Chat_Messages_Message_get_Timestamp"
+	.asciz "QRTrack.Chat.Messages.ChatMessageModel:set_SenderName"
+	.asciz "QRTrack_Chat_Messages_ChatMessageModel_set_SenderName_string"
 
-	.byte 2,10
-	.quad QRTrack_Chat_Messages_Message_get_Timestamp
+	.byte 1,13
+	.quad QRTrack_Chat_Messages_ChatMessageModel_set_SenderName_string
 	.quad Lme_7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM57=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM57
-	.byte 2,141,32,0
+LDIFF_SYM51=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM51
+	.byte 2,141,16,3
+	.asciz "value"
+
+LDIFF_SYM52=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM52
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM58=Lfde7_end - Lfde7_start
-	.long LDIFF_SYM58
+LDIFF_SYM53=Lfde7_end - Lfde7_start
+	.long LDIFF_SYM53
 Lfde7_start:
 
 	.long 0
 	.align 3
-	.quad QRTrack_Chat_Messages_Message_get_Timestamp
+	.quad QRTrack_Chat_Messages_ChatMessageModel_set_SenderName_string
 
-LDIFF_SYM59=Lme_7 - QRTrack_Chat_Messages_Message_get_Timestamp
-	.long LDIFF_SYM59
+LDIFF_SYM54=Lme_7 - QRTrack_Chat_Messages_ChatMessageModel_set_SenderName_string
+	.long LDIFF_SYM54
 	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
 Lfde7_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "QRTrack.Chat.Messages.Message:set_Timestamp"
-	.asciz "QRTrack_Chat_Messages_Message_set_Timestamp_System_DateTime"
+	.asciz "QRTrack.Chat.Messages.ChatMessageModel:get_ReceiverId"
+	.asciz "QRTrack_Chat_Messages_ChatMessageModel_get_ReceiverId"
 
-	.byte 2,10
-	.quad QRTrack_Chat_Messages_Message_set_Timestamp_System_DateTime
+	.byte 1,14
+	.quad QRTrack_Chat_Messages_ChatMessageModel_get_ReceiverId
 	.quad Lme_8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM60=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM60
-	.byte 2,141,16,3
-	.asciz "value"
-
-LDIFF_SYM61=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM61
-	.byte 2,141,24,0
+LDIFF_SYM55=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM55
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM62=Lfde8_end - Lfde8_start
-	.long LDIFF_SYM62
+LDIFF_SYM56=Lfde8_end - Lfde8_start
+	.long LDIFF_SYM56
 Lfde8_start:
 
 	.long 0
 	.align 3
-	.quad QRTrack_Chat_Messages_Message_set_Timestamp_System_DateTime
+	.quad QRTrack_Chat_Messages_ChatMessageModel_get_ReceiverId
 
-LDIFF_SYM63=Lme_8 - QRTrack_Chat_Messages_Message_set_Timestamp_System_DateTime
-	.long LDIFF_SYM63
+LDIFF_SYM57=Lme_8 - QRTrack_Chat_Messages_ChatMessageModel_get_ReceiverId
+	.long LDIFF_SYM57
 	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
 Lfde8_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "QRTrack.Chat.Messages.Message:.ctor"
-	.asciz "QRTrack_Chat_Messages_Message__ctor"
+	.asciz "QRTrack.Chat.Messages.ChatMessageModel:set_ReceiverId"
+	.asciz "QRTrack_Chat_Messages_ChatMessageModel_set_ReceiverId_string"
 
-	.byte 2,12
-	.quad QRTrack_Chat_Messages_Message__ctor
+	.byte 1,14
+	.quad QRTrack_Chat_Messages_ChatMessageModel_set_ReceiverId_string
 	.quad Lme_9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM64=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM64
-	.byte 0,0
+LDIFF_SYM58=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM58
+	.byte 2,141,16,3
+	.asciz "value"
+
+LDIFF_SYM59=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM59
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM65=Lfde9_end - Lfde9_start
-	.long LDIFF_SYM65
+LDIFF_SYM60=Lfde9_end - Lfde9_start
+	.long LDIFF_SYM60
 Lfde9_start:
 
 	.long 0
 	.align 3
-	.quad QRTrack_Chat_Messages_Message__ctor
+	.quad QRTrack_Chat_Messages_ChatMessageModel_set_ReceiverId_string
 
-LDIFF_SYM66=Lme_9 - QRTrack_Chat_Messages_Message__ctor
-	.long LDIFF_SYM66
+LDIFF_SYM61=Lme_9 - QRTrack_Chat_Messages_ChatMessageModel_set_ReceiverId_string
+	.long LDIFF_SYM61
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -1291,76 +1634,71 @@ Lfde9_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "QRTrack.Chat.Messages.Message:.ctor"
-	.asciz "QRTrack_Chat_Messages_Message__ctor_string_string"
+	.asciz "QRTrack.Chat.Messages.ChatMessageModel:get_ReceiverName"
+	.asciz "QRTrack_Chat_Messages_ChatMessageModel_get_ReceiverName"
 
-	.byte 2,13
-	.quad QRTrack_Chat_Messages_Message__ctor_string_string
+	.byte 1,15
+	.quad QRTrack_Chat_Messages_ChatMessageModel_get_ReceiverName
 	.quad Lme_a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM67=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM67
-	.byte 1,104,3
-	.asciz "username"
-
-LDIFF_SYM68=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM68
-	.byte 2,141,24,3
-	.asciz "id"
-
-LDIFF_SYM69=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM69
-	.byte 2,141,32,0
+LDIFF_SYM62=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM62
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM70=Lfde10_end - Lfde10_start
-	.long LDIFF_SYM70
+LDIFF_SYM63=Lfde10_end - Lfde10_start
+	.long LDIFF_SYM63
 Lfde10_start:
 
 	.long 0
 	.align 3
-	.quad QRTrack_Chat_Messages_Message__ctor_string_string
+	.quad QRTrack_Chat_Messages_ChatMessageModel_get_ReceiverName
 
-LDIFF_SYM71=Lme_a - QRTrack_Chat_Messages_Message__ctor_string_string
-	.long LDIFF_SYM71
+LDIFF_SYM64=Lme_a - QRTrack_Chat_Messages_ChatMessageModel_get_ReceiverName
+	.long LDIFF_SYM64
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
 Lfde10_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "QRTrack.Chat.Messages.SimpleTextMessage:.ctor"
-	.asciz "QRTrack_Chat_Messages_SimpleTextMessage__ctor"
+	.asciz "QRTrack.Chat.Messages.ChatMessageModel:set_ReceiverName"
+	.asciz "QRTrack_Chat_Messages_ChatMessageModel_set_ReceiverName_string"
 
-	.byte 3,6
-	.quad QRTrack_Chat_Messages_SimpleTextMessage__ctor
+	.byte 1,15
+	.quad QRTrack_Chat_Messages_ChatMessageModel_set_ReceiverName_string
 	.quad Lme_b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM72=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM72
-	.byte 0,0
+LDIFF_SYM65=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM65
+	.byte 2,141,16,3
+	.asciz "value"
+
+LDIFF_SYM66=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM66
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM73=Lfde11_end - Lfde11_start
-	.long LDIFF_SYM73
+LDIFF_SYM67=Lfde11_end - Lfde11_start
+	.long LDIFF_SYM67
 Lfde11_start:
 
 	.long 0
 	.align 3
-	.quad QRTrack_Chat_Messages_SimpleTextMessage__ctor
+	.quad QRTrack_Chat_Messages_ChatMessageModel_set_ReceiverName_string
 
-LDIFF_SYM74=Lme_b - QRTrack_Chat_Messages_SimpleTextMessage__ctor
-	.long LDIFF_SYM74
+LDIFF_SYM68=Lme_b - QRTrack_Chat_Messages_ChatMessageModel_set_ReceiverName_string
+	.long LDIFF_SYM68
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -1369,76 +1707,71 @@ Lfde11_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "QRTrack.Chat.Messages.SimpleTextMessage:.ctor"
-	.asciz "QRTrack_Chat_Messages_SimpleTextMessage__ctor_string_string"
+	.asciz "QRTrack.Chat.Messages.ChatMessageModel:get_Message"
+	.asciz "QRTrack_Chat_Messages_ChatMessageModel_get_Message"
 
-	.byte 3,7
-	.quad QRTrack_Chat_Messages_SimpleTextMessage__ctor_string_string
+	.byte 1,16
+	.quad QRTrack_Chat_Messages_ChatMessageModel_get_Message
 	.quad Lme_c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM75=LTDIE_1_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM75
-	.byte 2,141,16,3
-	.asciz "username"
-
-LDIFF_SYM76=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM76
-	.byte 2,141,24,3
-	.asciz "id"
-
-LDIFF_SYM77=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM77
-	.byte 2,141,32,0
+LDIFF_SYM69=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM69
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM78=Lfde12_end - Lfde12_start
-	.long LDIFF_SYM78
+LDIFF_SYM70=Lfde12_end - Lfde12_start
+	.long LDIFF_SYM70
 Lfde12_start:
 
 	.long 0
 	.align 3
-	.quad QRTrack_Chat_Messages_SimpleTextMessage__ctor_string_string
+	.quad QRTrack_Chat_Messages_ChatMessageModel_get_Message
 
-LDIFF_SYM79=Lme_c - QRTrack_Chat_Messages_SimpleTextMessage__ctor_string_string
-	.long LDIFF_SYM79
+LDIFF_SYM71=Lme_c - QRTrack_Chat_Messages_ChatMessageModel_get_Message
+	.long LDIFF_SYM71
 	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
 Lfde12_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "QRTrack.Chat.Messages.SimpleTextMessage:get_Text"
-	.asciz "QRTrack_Chat_Messages_SimpleTextMessage_get_Text"
+	.asciz "QRTrack.Chat.Messages.ChatMessageModel:set_Message"
+	.asciz "QRTrack_Chat_Messages_ChatMessageModel_set_Message_string"
 
-	.byte 3,8
-	.quad QRTrack_Chat_Messages_SimpleTextMessage_get_Text
+	.byte 1,16
+	.quad QRTrack_Chat_Messages_ChatMessageModel_set_Message_string
 	.quad Lme_d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM80=LTDIE_1_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM80
-	.byte 2,141,16,0
+LDIFF_SYM72=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM72
+	.byte 2,141,16,3
+	.asciz "value"
+
+LDIFF_SYM73=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM73
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM81=Lfde13_end - Lfde13_start
-	.long LDIFF_SYM81
+LDIFF_SYM74=Lfde13_end - Lfde13_start
+	.long LDIFF_SYM74
 Lfde13_start:
 
 	.long 0
 	.align 3
-	.quad QRTrack_Chat_Messages_SimpleTextMessage_get_Text
+	.quad QRTrack_Chat_Messages_ChatMessageModel_set_Message_string
 
-LDIFF_SYM82=Lme_d - QRTrack_Chat_Messages_SimpleTextMessage_get_Text
-	.long LDIFF_SYM82
+LDIFF_SYM75=Lme_d - QRTrack_Chat_Messages_ChatMessageModel_set_Message_string
+	.long LDIFF_SYM75
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -1447,97 +1780,818 @@ Lfde13_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "QRTrack.Chat.Messages.SimpleTextMessage:set_Text"
-	.asciz "QRTrack_Chat_Messages_SimpleTextMessage_set_Text_string"
+	.asciz "QRTrack.Chat.Messages.ChatMessageModel:get_Timestamp"
+	.asciz "QRTrack_Chat_Messages_ChatMessageModel_get_Timestamp"
 
-	.byte 3,8
-	.quad QRTrack_Chat_Messages_SimpleTextMessage_set_Text_string
+	.byte 1,18
+	.quad QRTrack_Chat_Messages_ChatMessageModel_get_Timestamp
 	.quad Lme_e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM83=LTDIE_1_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM83
-	.byte 2,141,16,3
-	.asciz "value"
-
-LDIFF_SYM84=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM84
-	.byte 2,141,24,0
+LDIFF_SYM76=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM76
+	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM85=Lfde14_end - Lfde14_start
-	.long LDIFF_SYM85
+LDIFF_SYM77=Lfde14_end - Lfde14_start
+	.long LDIFF_SYM77
 Lfde14_start:
 
 	.long 0
 	.align 3
-	.quad QRTrack_Chat_Messages_SimpleTextMessage_set_Text_string
+	.quad QRTrack_Chat_Messages_ChatMessageModel_get_Timestamp
 
-LDIFF_SYM86=Lme_e - QRTrack_Chat_Messages_SimpleTextMessage_set_Text_string
-	.long LDIFF_SYM86
+LDIFF_SYM78=Lme_e - QRTrack_Chat_Messages_ChatMessageModel_get_Timestamp
+	.long LDIFF_SYM78
 	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde14_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_6:
 
-	.byte 5
-	.asciz "QRTrack_Chat_Messages_UserConnectedMessage"
-
-	.byte 48,16
-LDIFF_SYM87=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM87
-	.byte 2,35,0,0,7
-	.asciz "QRTrack_Chat_Messages_UserConnectedMessage"
-
-LDIFF_SYM88=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM88
-LTDIE_6_POINTER:
-
-	.byte 13
-LDIFF_SYM89=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM89
-LTDIE_6_REFERENCE:
-
-	.byte 14
-LDIFF_SYM90=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM90
 	.byte 2
-	.asciz "QRTrack.Chat.Messages.UserConnectedMessage:.ctor"
-	.asciz "QRTrack_Chat_Messages_UserConnectedMessage__ctor"
+	.asciz "QRTrack.Chat.Messages.ChatMessageModel:set_Timestamp"
+	.asciz "QRTrack_Chat_Messages_ChatMessageModel_set_Timestamp_System_DateTime"
 
-	.byte 4,6
-	.quad QRTrack_Chat_Messages_UserConnectedMessage__ctor
+	.byte 1,18
+	.quad QRTrack_Chat_Messages_ChatMessageModel_set_Timestamp_System_DateTime
 	.quad Lme_f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM91=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM91
+LDIFF_SYM79=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM79
+	.byte 2,141,16,3
+	.asciz "value"
+
+LDIFF_SYM80=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM80
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM81=Lfde15_end - Lfde15_start
+	.long LDIFF_SYM81
+Lfde15_start:
+
+	.long 0
+	.align 3
+	.quad QRTrack_Chat_Messages_ChatMessageModel_set_Timestamp_System_DateTime
+
+LDIFF_SYM82=Lme_f - QRTrack_Chat_Messages_ChatMessageModel_set_Timestamp_System_DateTime
+	.long LDIFF_SYM82
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde15_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "QRTrack.Chat.Messages.ChatMessageModel:.ctor"
+	.asciz "QRTrack_Chat_Messages_ChatMessageModel__ctor"
+
+	.byte 0,0
+	.quad QRTrack_Chat_Messages_ChatMessageModel__ctor
+	.quad Lme_10
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM83=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM83
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM92=Lfde15_end - Lfde15_start
+LDIFF_SYM84=Lfde16_end - Lfde16_start
+	.long LDIFF_SYM84
+Lfde16_start:
+
+	.long 0
+	.align 3
+	.quad QRTrack_Chat_Messages_ChatMessageModel__ctor
+
+LDIFF_SYM85=Lme_10 - QRTrack_Chat_Messages_ChatMessageModel__ctor
+	.long LDIFF_SYM85
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde16_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_6:
+
+	.byte 5
+	.asciz "QRTrack_Chat_Messages_Message"
+
+	.byte 48,16
+LDIFF_SYM86=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM86
+	.byte 2,35,0,6
+	.asciz "<TypeInfo>k__BackingField"
+
+LDIFF_SYM87=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM87
+	.byte 2,35,16,6
+	.asciz "<Id>k__BackingField"
+
+LDIFF_SYM88=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM88
+	.byte 2,35,24,6
+	.asciz "<Username>k__BackingField"
+
+LDIFF_SYM89=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM89
+	.byte 2,35,32,6
+	.asciz "<Timestamp>k__BackingField"
+
+LDIFF_SYM90=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM90
+	.byte 2,35,40,0,7
+	.asciz "QRTrack_Chat_Messages_Message"
+
+LDIFF_SYM91=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM91
+LTDIE_6_POINTER:
+
+	.byte 13
+LDIFF_SYM92=LTDIE_6 - Ldebug_info_start
 	.long LDIFF_SYM92
-Lfde15_start:
+LTDIE_6_REFERENCE:
+
+	.byte 14
+LDIFF_SYM93=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM93
+LTDIE_5:
+
+	.byte 5
+	.asciz "QRTrack_Chat_Messages_SimpleTextMessage"
+
+	.byte 56,16
+LDIFF_SYM94=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM94
+	.byte 2,35,0,6
+	.asciz "<Text>k__BackingField"
+
+LDIFF_SYM95=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM95
+	.byte 2,35,48,0,7
+	.asciz "QRTrack_Chat_Messages_SimpleTextMessage"
+
+LDIFF_SYM96=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM96
+LTDIE_5_POINTER:
+
+	.byte 13
+LDIFF_SYM97=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM97
+LTDIE_5_REFERENCE:
+
+	.byte 14
+LDIFF_SYM98=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM98
+LTDIE_4:
+
+	.byte 5
+	.asciz "QRTrack_Chat_Messages_LocalSimpleTextMessage"
+
+	.byte 56,16
+LDIFF_SYM99=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM99
+	.byte 2,35,0,0,7
+	.asciz "QRTrack_Chat_Messages_LocalSimpleTextMessage"
+
+LDIFF_SYM100=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM100
+LTDIE_4_POINTER:
+
+	.byte 13
+LDIFF_SYM101=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM101
+LTDIE_4_REFERENCE:
+
+	.byte 14
+LDIFF_SYM102=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM102
+	.byte 2
+	.asciz "QRTrack.Chat.Messages.LocalSimpleTextMessage:.ctor"
+	.asciz "QRTrack_Chat_Messages_LocalSimpleTextMessage__ctor_QRTrack_Chat_Messages_SimpleTextMessage"
+
+	.byte 2,6
+	.quad QRTrack_Chat_Messages_LocalSimpleTextMessage__ctor_QRTrack_Chat_Messages_SimpleTextMessage
+	.quad Lme_11
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM103=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM103
+	.byte 1,105,3
+	.asciz "message"
+
+LDIFF_SYM104=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM104
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM105=Lfde17_end - Lfde17_start
+	.long LDIFF_SYM105
+Lfde17_start:
+
+	.long 0
+	.align 3
+	.quad QRTrack_Chat_Messages_LocalSimpleTextMessage__ctor_QRTrack_Chat_Messages_SimpleTextMessage
+
+LDIFF_SYM106=Lme_11 - QRTrack_Chat_Messages_LocalSimpleTextMessage__ctor_QRTrack_Chat_Messages_SimpleTextMessage
+	.long LDIFF_SYM106
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4,154,3
+	.align 3
+Lfde17_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "QRTrack.Chat.Messages.Message:get_TypeInfo"
+	.asciz "QRTrack_Chat_Messages_Message_get_TypeInfo"
+
+	.byte 3,7
+	.quad QRTrack_Chat_Messages_Message_get_TypeInfo
+	.quad Lme_12
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM107=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM107
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM108=Lfde18_end - Lfde18_start
+	.long LDIFF_SYM108
+Lfde18_start:
+
+	.long 0
+	.align 3
+	.quad QRTrack_Chat_Messages_Message_get_TypeInfo
+
+LDIFF_SYM109=Lme_12 - QRTrack_Chat_Messages_Message_get_TypeInfo
+	.long LDIFF_SYM109
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde18_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "QRTrack.Chat.Messages.Message:set_TypeInfo"
+	.asciz "QRTrack_Chat_Messages_Message_set_TypeInfo_System_Type"
+
+	.byte 3,7
+	.quad QRTrack_Chat_Messages_Message_set_TypeInfo_System_Type
+	.quad Lme_13
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM110=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM110
+	.byte 2,141,16,3
+	.asciz "value"
+
+LDIFF_SYM111=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM111
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM112=Lfde19_end - Lfde19_start
+	.long LDIFF_SYM112
+Lfde19_start:
+
+	.long 0
+	.align 3
+	.quad QRTrack_Chat_Messages_Message_set_TypeInfo_System_Type
+
+LDIFF_SYM113=Lme_13 - QRTrack_Chat_Messages_Message_set_TypeInfo_System_Type
+	.long LDIFF_SYM113
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde19_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "QRTrack.Chat.Messages.Message:get_Id"
+	.asciz "QRTrack_Chat_Messages_Message_get_Id"
+
+	.byte 3,8
+	.quad QRTrack_Chat_Messages_Message_get_Id
+	.quad Lme_14
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM114=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM114
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM115=Lfde20_end - Lfde20_start
+	.long LDIFF_SYM115
+Lfde20_start:
+
+	.long 0
+	.align 3
+	.quad QRTrack_Chat_Messages_Message_get_Id
+
+LDIFF_SYM116=Lme_14 - QRTrack_Chat_Messages_Message_get_Id
+	.long LDIFF_SYM116
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde20_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "QRTrack.Chat.Messages.Message:set_Id"
+	.asciz "QRTrack_Chat_Messages_Message_set_Id_string"
+
+	.byte 3,8
+	.quad QRTrack_Chat_Messages_Message_set_Id_string
+	.quad Lme_15
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM117=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM117
+	.byte 2,141,16,3
+	.asciz "value"
+
+LDIFF_SYM118=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM118
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM119=Lfde21_end - Lfde21_start
+	.long LDIFF_SYM119
+Lfde21_start:
+
+	.long 0
+	.align 3
+	.quad QRTrack_Chat_Messages_Message_set_Id_string
+
+LDIFF_SYM120=Lme_15 - QRTrack_Chat_Messages_Message_set_Id_string
+	.long LDIFF_SYM120
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde21_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "QRTrack.Chat.Messages.Message:get_Username"
+	.asciz "QRTrack_Chat_Messages_Message_get_Username"
+
+	.byte 3,9
+	.quad QRTrack_Chat_Messages_Message_get_Username
+	.quad Lme_16
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM121=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM121
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM122=Lfde22_end - Lfde22_start
+	.long LDIFF_SYM122
+Lfde22_start:
+
+	.long 0
+	.align 3
+	.quad QRTrack_Chat_Messages_Message_get_Username
+
+LDIFF_SYM123=Lme_16 - QRTrack_Chat_Messages_Message_get_Username
+	.long LDIFF_SYM123
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde22_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "QRTrack.Chat.Messages.Message:set_Username"
+	.asciz "QRTrack_Chat_Messages_Message_set_Username_string"
+
+	.byte 3,9
+	.quad QRTrack_Chat_Messages_Message_set_Username_string
+	.quad Lme_17
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM124=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM124
+	.byte 2,141,16,3
+	.asciz "value"
+
+LDIFF_SYM125=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM125
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM126=Lfde23_end - Lfde23_start
+	.long LDIFF_SYM126
+Lfde23_start:
+
+	.long 0
+	.align 3
+	.quad QRTrack_Chat_Messages_Message_set_Username_string
+
+LDIFF_SYM127=Lme_17 - QRTrack_Chat_Messages_Message_set_Username_string
+	.long LDIFF_SYM127
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde23_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "QRTrack.Chat.Messages.Message:get_Timestamp"
+	.asciz "QRTrack_Chat_Messages_Message_get_Timestamp"
+
+	.byte 3,10
+	.quad QRTrack_Chat_Messages_Message_get_Timestamp
+	.quad Lme_18
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM128=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM128
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM129=Lfde24_end - Lfde24_start
+	.long LDIFF_SYM129
+Lfde24_start:
+
+	.long 0
+	.align 3
+	.quad QRTrack_Chat_Messages_Message_get_Timestamp
+
+LDIFF_SYM130=Lme_18 - QRTrack_Chat_Messages_Message_get_Timestamp
+	.long LDIFF_SYM130
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde24_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "QRTrack.Chat.Messages.Message:set_Timestamp"
+	.asciz "QRTrack_Chat_Messages_Message_set_Timestamp_System_DateTime"
+
+	.byte 3,10
+	.quad QRTrack_Chat_Messages_Message_set_Timestamp_System_DateTime
+	.quad Lme_19
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM131=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM131
+	.byte 2,141,16,3
+	.asciz "value"
+
+LDIFF_SYM132=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM132
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM133=Lfde25_end - Lfde25_start
+	.long LDIFF_SYM133
+Lfde25_start:
+
+	.long 0
+	.align 3
+	.quad QRTrack_Chat_Messages_Message_set_Timestamp_System_DateTime
+
+LDIFF_SYM134=Lme_19 - QRTrack_Chat_Messages_Message_set_Timestamp_System_DateTime
+	.long LDIFF_SYM134
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde25_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "QRTrack.Chat.Messages.Message:.ctor"
+	.asciz "QRTrack_Chat_Messages_Message__ctor"
+
+	.byte 3,12
+	.quad QRTrack_Chat_Messages_Message__ctor
+	.quad Lme_1a
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM135=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM135
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM136=Lfde26_end - Lfde26_start
+	.long LDIFF_SYM136
+Lfde26_start:
+
+	.long 0
+	.align 3
+	.quad QRTrack_Chat_Messages_Message__ctor
+
+LDIFF_SYM137=Lme_1a - QRTrack_Chat_Messages_Message__ctor
+	.long LDIFF_SYM137
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde26_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "QRTrack.Chat.Messages.Message:.ctor"
+	.asciz "QRTrack_Chat_Messages_Message__ctor_string_string"
+
+	.byte 3,13
+	.quad QRTrack_Chat_Messages_Message__ctor_string_string
+	.quad Lme_1b
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM138=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM138
+	.byte 1,104,3
+	.asciz "username"
+
+LDIFF_SYM139=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM139
+	.byte 2,141,24,3
+	.asciz "id"
+
+LDIFF_SYM140=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM140
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM141=Lfde27_end - Lfde27_start
+	.long LDIFF_SYM141
+Lfde27_start:
+
+	.long 0
+	.align 3
+	.quad QRTrack_Chat_Messages_Message__ctor_string_string
+
+LDIFF_SYM142=Lme_1b - QRTrack_Chat_Messages_Message__ctor_string_string
+	.long LDIFF_SYM142
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6
+	.align 3
+Lfde27_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "QRTrack.Chat.Messages.SimpleTextMessage:.ctor"
+	.asciz "QRTrack_Chat_Messages_SimpleTextMessage__ctor"
+
+	.byte 4,6
+	.quad QRTrack_Chat_Messages_SimpleTextMessage__ctor
+	.quad Lme_1c
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM143=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM143
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM144=Lfde28_end - Lfde28_start
+	.long LDIFF_SYM144
+Lfde28_start:
+
+	.long 0
+	.align 3
+	.quad QRTrack_Chat_Messages_SimpleTextMessage__ctor
+
+LDIFF_SYM145=Lme_1c - QRTrack_Chat_Messages_SimpleTextMessage__ctor
+	.long LDIFF_SYM145
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde28_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "QRTrack.Chat.Messages.SimpleTextMessage:.ctor"
+	.asciz "QRTrack_Chat_Messages_SimpleTextMessage__ctor_string_string"
+
+	.byte 4,7
+	.quad QRTrack_Chat_Messages_SimpleTextMessage__ctor_string_string
+	.quad Lme_1d
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM146=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM146
+	.byte 2,141,16,3
+	.asciz "username"
+
+LDIFF_SYM147=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM147
+	.byte 2,141,24,3
+	.asciz "id"
+
+LDIFF_SYM148=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM148
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM149=Lfde29_end - Lfde29_start
+	.long LDIFF_SYM149
+Lfde29_start:
+
+	.long 0
+	.align 3
+	.quad QRTrack_Chat_Messages_SimpleTextMessage__ctor_string_string
+
+LDIFF_SYM150=Lme_1d - QRTrack_Chat_Messages_SimpleTextMessage__ctor_string_string
+	.long LDIFF_SYM150
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde29_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "QRTrack.Chat.Messages.SimpleTextMessage:get_Text"
+	.asciz "QRTrack_Chat_Messages_SimpleTextMessage_get_Text"
+
+	.byte 4,8
+	.quad QRTrack_Chat_Messages_SimpleTextMessage_get_Text
+	.quad Lme_1e
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM151=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM151
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM152=Lfde30_end - Lfde30_start
+	.long LDIFF_SYM152
+Lfde30_start:
+
+	.long 0
+	.align 3
+	.quad QRTrack_Chat_Messages_SimpleTextMessage_get_Text
+
+LDIFF_SYM153=Lme_1e - QRTrack_Chat_Messages_SimpleTextMessage_get_Text
+	.long LDIFF_SYM153
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde30_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "QRTrack.Chat.Messages.SimpleTextMessage:set_Text"
+	.asciz "QRTrack_Chat_Messages_SimpleTextMessage_set_Text_string"
+
+	.byte 4,8
+	.quad QRTrack_Chat_Messages_SimpleTextMessage_set_Text_string
+	.quad Lme_1f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM154=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM154
+	.byte 2,141,16,3
+	.asciz "value"
+
+LDIFF_SYM155=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM155
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM156=Lfde31_end - Lfde31_start
+	.long LDIFF_SYM156
+Lfde31_start:
+
+	.long 0
+	.align 3
+	.quad QRTrack_Chat_Messages_SimpleTextMessage_set_Text_string
+
+LDIFF_SYM157=Lme_1f - QRTrack_Chat_Messages_SimpleTextMessage_set_Text_string
+	.long LDIFF_SYM157
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde31_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_7:
+
+	.byte 5
+	.asciz "QRTrack_Chat_Messages_UserConnectedMessage"
+
+	.byte 48,16
+LDIFF_SYM158=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM158
+	.byte 2,35,0,0,7
+	.asciz "QRTrack_Chat_Messages_UserConnectedMessage"
+
+LDIFF_SYM159=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM159
+LTDIE_7_POINTER:
+
+	.byte 13
+LDIFF_SYM160=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM160
+LTDIE_7_REFERENCE:
+
+	.byte 14
+LDIFF_SYM161=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM161
+	.byte 2
+	.asciz "QRTrack.Chat.Messages.UserConnectedMessage:.ctor"
+	.asciz "QRTrack_Chat_Messages_UserConnectedMessage__ctor"
+
+	.byte 5,6
+	.quad QRTrack_Chat_Messages_UserConnectedMessage__ctor
+	.quad Lme_20
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM162=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM162
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM163=Lfde32_end - Lfde32_start
+	.long LDIFF_SYM163
+Lfde32_start:
 
 	.long 0
 	.align 3
 	.quad QRTrack_Chat_Messages_UserConnectedMessage__ctor
 
-LDIFF_SYM93=Lme_f - QRTrack_Chat_Messages_UserConnectedMessage__ctor
-	.long LDIFF_SYM93
+LDIFF_SYM164=Lme_20 - QRTrack_Chat_Messages_UserConnectedMessage__ctor
+	.long LDIFF_SYM164
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde15_end:
+Lfde32_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -1545,43 +2599,43 @@ Lfde15_end:
 	.asciz "QRTrack.Chat.Messages.UserConnectedMessage:.ctor"
 	.asciz "QRTrack_Chat_Messages_UserConnectedMessage__ctor_string_string"
 
-	.byte 4,7
+	.byte 5,7
 	.quad QRTrack_Chat_Messages_UserConnectedMessage__ctor_string_string
-	.quad Lme_10
+	.quad Lme_21
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM94=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM94
+LDIFF_SYM165=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM165
 	.byte 2,141,16,3
 	.asciz "username"
 
-LDIFF_SYM95=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM95
+LDIFF_SYM166=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM166
 	.byte 2,141,24,3
 	.asciz "id"
 
-LDIFF_SYM96=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM96
+LDIFF_SYM167=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM167
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM97=Lfde16_end - Lfde16_start
-	.long LDIFF_SYM97
-Lfde16_start:
+LDIFF_SYM168=Lfde33_end - Lfde33_start
+	.long LDIFF_SYM168
+Lfde33_start:
 
 	.long 0
 	.align 3
 	.quad QRTrack_Chat_Messages_UserConnectedMessage__ctor_string_string
 
-LDIFF_SYM98=Lme_10 - QRTrack_Chat_Messages_UserConnectedMessage__ctor_string_string
-	.long LDIFF_SYM98
+LDIFF_SYM169=Lme_21 - QRTrack_Chat_Messages_UserConnectedMessage__ctor_string_string
+	.long LDIFF_SYM169
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde16_end:
+Lfde33_end:
 
 .section __DWARF, __debug_info,regular,debug
 

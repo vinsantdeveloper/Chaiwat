@@ -8,20 +8,34 @@ using QRTrack.UserViews;
 using QRTrack.AdminViews;
 using QRTrack.Services;
 using QRTrack.Models;
+using QRTrack.Helper;
 
 namespace QRTrack
 {
     public partial class MainPage : ContentPage
     {
-        private TaskForAzureAsync taskForAsure;
+     //   private TaskForAzureAsync taskForAsure;
         private List<User_Information> userInfoLists;
 
         public MainPage()
         {
             InitializeComponent();
 
-            taskForAsure = new TaskForAzureAsync();
+#if DEBUG
+            entry_username.Text = "SandAd@hot.com";
+            entry_password.Text = "1234";
+#endif
+            //Sand2@hot.com
+            //SandAD@hot.com
+
+          //  taskForAsure = new TaskForAzureAsync();
             userInfoLists = new List<User_Information>();
+        }
+
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+          await  App.TaskForAzureAsync.Initialize();
         }
 
         void user_button_Clicked(object sender, System.EventArgs e)
@@ -40,25 +54,45 @@ namespace QRTrack
         {
             activityIndicator.IsVisible = true;
 
-            userInfoLists = await taskForAsure.getAllUserFormDb();
+            userInfoLists = await App.TaskForAzureAsync.getAllUserFormDb();
 
-            if (userInfoLists != null) 
+            if (userInfoLists != null)
             {
-                User_Information userInfo = userInfoLists.Find(user => user.Email == entry_username.Text);
+                User_Information userInfo = userInfoLists.Find(user => user.Email.ToLower() == entry_username.Text.ToLower());
 
-                if (userInfo != null) 
+                if (userInfo != null)
                 {
-                    if (userInfo.Password == entry_password.Text) 
+                    UserDeviceTokenInformation userDeviceTokenInformation = new UserDeviceTokenInformation();
+                    userDeviceTokenInformation.UserId = userInfo.Id;
+                    userDeviceTokenInformation.Token = Settings.Token;
+                    userDeviceTokenInformation.IsAndroid = Device.RuntimePlatform == Device.Android;
+                    userDeviceTokenInformation.DateTime = DateTime.Now;
+
+                    if (userInfo.Password == entry_password.Text)
                     {
                         if (user_line.IsVisible && userInfo.UserStatus == 0)
                         {
+                            userDeviceTokenInformation.IsAdmin = false;
+                            await App.TaskForAzureAsync.AddUserDeviceTokenInfo(userDeviceTokenInformation);
+                            Settings.UserId = userInfo.Id;
+                            Settings.UserIsAndroid = Device.RuntimePlatform == Device.Android;
+                            Settings.Username = userInfo.Firstname;
+                            Settings.EmailAddress = userInfo.Email;
+
                             await Navigation.PushAsync(new HomeMasterPageUser(userInfo.Id));
                         }
-                        else if(admin_line.IsVisible && userInfo.UserStatus == 1)
+                        else if (admin_line.IsVisible && userInfo.UserStatus == 1)
                         {
+                            userDeviceTokenInformation.IsAdmin = true;
+                            await App.TaskForAzureAsync.AddUserDeviceTokenInfo(userDeviceTokenInformation);
+                            Settings.UserId = userInfo.Id;
+                            Settings.UserIsAndroid = Device.RuntimePlatform == Device.Android;
+                            Settings.Username = userInfo.Firstname;
+                            Settings.EmailAddress = userInfo.Email;
+
                             await Navigation.PushAsync(new HomeMasterPageAdmin(userInfo.Id));
                         }
-                        else 
+                        else
                         {
                             await DisplayAlert("wrong user status", "Please correctly use user status", "OK");
                         }

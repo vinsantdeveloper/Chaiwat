@@ -119,9 +119,22 @@ jit_code_start:
 	.byte 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 .text
 	.align 4
+	.no_dead_strip ThisAssembly__ctor
+ThisAssembly__ctor:
+.file 1 "<unknown>"
+.loc 1 1 0
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_0:
+.text
+	.align 4
 	.no_dead_strip Xamarin_Forms_Platform_Loader_Load
 Xamarin_Forms_Platform_Loader_Load:
-.file 1 "<unknown>"
 .loc 1 1 0
 .word 0xa9bf7bfd
 .word 0x910003fd
@@ -129,7 +142,7 @@ Xamarin_Forms_Platform_Loader_Load:
 .word 0xa8c17bfd
 .word 0xd65f03c0
 
-Lme_0:
+Lme_1:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Platform__BoxViewRenderer__ctor
@@ -142,7 +155,7 @@ Xamarin_Forms_Platform__BoxViewRenderer__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_1:
+Lme_2:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Platform__EntryRenderer__ctor
@@ -155,7 +168,7 @@ Xamarin_Forms_Platform__EntryRenderer__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_2:
+Lme_3:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Platform__EditorRenderer__ctor
@@ -168,7 +181,7 @@ Xamarin_Forms_Platform__EditorRenderer__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_3:
+Lme_4:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Platform__LabelRenderer__ctor
@@ -181,7 +194,7 @@ Xamarin_Forms_Platform__LabelRenderer__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_4:
+Lme_5:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Platform__ImageRenderer__ctor
@@ -194,7 +207,7 @@ Xamarin_Forms_Platform__ImageRenderer__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_5:
+Lme_6:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Platform__ButtonRenderer__ctor
@@ -207,7 +220,7 @@ Xamarin_Forms_Platform__ButtonRenderer__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_6:
+Lme_7:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Platform__ImageButtonRenderer__ctor
@@ -220,7 +233,7 @@ Xamarin_Forms_Platform__ImageButtonRenderer__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_7:
+Lme_8:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Platform__TableViewRenderer__ctor
@@ -233,7 +246,7 @@ Xamarin_Forms_Platform__TableViewRenderer__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_8:
+Lme_9:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Platform__ListViewRenderer__ctor
@@ -246,7 +259,7 @@ Xamarin_Forms_Platform__ListViewRenderer__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_9:
+Lme_a:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Platform__CollectionViewRenderer__ctor
@@ -259,7 +272,7 @@ Xamarin_Forms_Platform__CollectionViewRenderer__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_a:
+Lme_b:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Platform__CarouselViewRenderer__ctor
@@ -272,7 +285,7 @@ Xamarin_Forms_Platform__CarouselViewRenderer__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_b:
+Lme_c:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Platform__SliderRenderer__ctor
@@ -285,7 +298,7 @@ Xamarin_Forms_Platform__SliderRenderer__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_c:
+Lme_d:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Platform__WebViewRenderer__ctor
@@ -298,7 +311,7 @@ Xamarin_Forms_Platform__WebViewRenderer__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_d:
+Lme_e:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Platform__SearchBarRenderer__ctor
@@ -311,7 +324,7 @@ Xamarin_Forms_Platform__SearchBarRenderer__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_e:
+Lme_f:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Platform__SwitchRenderer__ctor
@@ -324,7 +337,7 @@ Xamarin_Forms_Platform__SwitchRenderer__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_f:
+Lme_10:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Platform__DatePickerRenderer__ctor
@@ -337,7 +350,7 @@ Xamarin_Forms_Platform__DatePickerRenderer__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_10:
+Lme_11:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Platform__TimePickerRenderer__ctor
@@ -350,7 +363,7 @@ Xamarin_Forms_Platform__TimePickerRenderer__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_11:
+Lme_12:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Platform__PickerRenderer__ctor
@@ -363,7 +376,7 @@ Xamarin_Forms_Platform__PickerRenderer__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_12:
+Lme_13:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Platform__StepperRenderer__ctor
@@ -376,7 +389,7 @@ Xamarin_Forms_Platform__StepperRenderer__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_13:
+Lme_14:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Platform__ProgressBarRenderer__ctor
@@ -389,7 +402,7 @@ Xamarin_Forms_Platform__ProgressBarRenderer__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_14:
+Lme_15:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Platform__ScrollViewRenderer__ctor
@@ -402,7 +415,7 @@ Xamarin_Forms_Platform__ScrollViewRenderer__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_15:
+Lme_16:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Platform__ActivityIndicatorRenderer__ctor
@@ -415,7 +428,7 @@ Xamarin_Forms_Platform__ActivityIndicatorRenderer__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_16:
+Lme_17:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Platform__FrameRenderer__ctor
@@ -428,7 +441,20 @@ Xamarin_Forms_Platform__FrameRenderer__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_17:
+Lme_18:
+.text
+	.align 4
+	.no_dead_strip Xamarin_Forms_Platform__CheckBoxRenderer__ctor
+Xamarin_Forms_Platform__CheckBoxRenderer__ctor:
+.loc 1 1 0
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_19:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Platform__OpenGLViewRenderer__ctor
@@ -441,7 +467,7 @@ Xamarin_Forms_Platform__OpenGLViewRenderer__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_18:
+Lme_1a:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Platform__TabbedPageRenderer__ctor
@@ -454,7 +480,7 @@ Xamarin_Forms_Platform__TabbedPageRenderer__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_19:
+Lme_1b:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Platform__NavigationPageRenderer__ctor
@@ -467,7 +493,7 @@ Xamarin_Forms_Platform__NavigationPageRenderer__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_1a:
+Lme_1c:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Platform__CarouselPageRenderer__ctor
@@ -480,7 +506,7 @@ Xamarin_Forms_Platform__CarouselPageRenderer__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_1b:
+Lme_1d:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Platform__PageRenderer__ctor
@@ -493,7 +519,7 @@ Xamarin_Forms_Platform__PageRenderer__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_1c:
+Lme_1e:
 .text
 	.align 4
 	.no_dead_strip Xamarin_Forms_Platform__MasterDetailPageRenderer__ctor
@@ -506,7 +532,46 @@ Xamarin_Forms_Platform__MasterDetailPageRenderer__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_1d:
+Lme_1f:
+.text
+	.align 4
+	.no_dead_strip ThisAssembly_Git__ctor
+ThisAssembly_Git__ctor:
+.loc 1 1 0
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_20:
+.text
+	.align 4
+	.no_dead_strip ThisAssembly_Git_BaseVersion__ctor
+ThisAssembly_Git_BaseVersion__ctor:
+.loc 1 1 0
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_21:
+.text
+	.align 4
+	.no_dead_strip ThisAssembly_Git_SemVer__ctor
+ThisAssembly_Git_SemVer__ctor:
+.loc 1 1 0
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_22:
 .text
 	.align 3
 jit_code_end:
@@ -516,6 +581,7 @@ jit_code_end:
 	.align 3
 method_addresses:
 	.no_dead_strip method_addresses
+bl ThisAssembly__ctor
 bl Xamarin_Forms_Platform_Loader_Load
 bl Xamarin_Forms_Platform__BoxViewRenderer__ctor
 bl Xamarin_Forms_Platform__EntryRenderer__ctor
@@ -540,12 +606,16 @@ bl Xamarin_Forms_Platform__ProgressBarRenderer__ctor
 bl Xamarin_Forms_Platform__ScrollViewRenderer__ctor
 bl Xamarin_Forms_Platform__ActivityIndicatorRenderer__ctor
 bl Xamarin_Forms_Platform__FrameRenderer__ctor
+bl Xamarin_Forms_Platform__CheckBoxRenderer__ctor
 bl Xamarin_Forms_Platform__OpenGLViewRenderer__ctor
 bl Xamarin_Forms_Platform__TabbedPageRenderer__ctor
 bl Xamarin_Forms_Platform__NavigationPageRenderer__ctor
 bl Xamarin_Forms_Platform__CarouselPageRenderer__ctor
 bl Xamarin_Forms_Platform__PageRenderer__ctor
 bl Xamarin_Forms_Platform__MasterDetailPageRenderer__ctor
+bl ThisAssembly_Git__ctor
+bl ThisAssembly_Git_BaseVersion__ctor
+bl ThisAssembly_Git_SemVer__ctor
 bl method_addresses
 method_addresses_end:
 
@@ -564,7 +634,7 @@ unbox_trampoline_addresses:
 	.align 3
 unwind_info:
 
-	.byte 13,12,31,0,68,14,16,157,2,158,1,68,13,29,13,12,31,0,68,14,32,157,4,158,3,68,13,29
+	.byte 13,12,31,0,68,14,32,157,4,158,3,68,13,29,13,12,31,0,68,14,16,157,2,158,1,68,13,29
 
 .text
 	.align 4
@@ -596,7 +666,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "77C88BAA-3958-4824-919A-A541FA721884"
+	.asciz "4D1AEAA2-BC81-43BA-B808-2590FD908F4C"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -679,48 +749,19 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 24,200,1,31,0,66,387000831,0
-	.long 1130,128,8,8,8,9,8388607,0
-	.long 24,2024,888,696,208,0,568,632
-	.long 520,0,200,56,880,0,0,0
+	.long 24,200,1,36,0,66,387000831,0
+	.long 1270,128,8,8,8,9,8388607,0
+	.long 24,2208,928,736,224,0,592,664
+	.long 544,0,216,72,920,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 74,189,28,41,178,57,81,70,11,149,63,253,72,184,18,27
+	.byte 156,245,118,158,23,103,99,83,16,65,203,175,50,112,71,67
 	.globl _mono_aot_module_Xamarin_Forms_Platform_info
 	.align 3
 _mono_aot_module_Xamarin_Forms_Platform_info:
 	.align 3
 	.quad _mono_aot_file_info
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "Xamarin.Forms.Platform.Loader:Load"
-	.asciz "Xamarin_Forms_Platform_Loader_Load"
-
-	.byte 0,0
-	.quad Xamarin_Forms_Platform_Loader_Load
-	.quad Lme_0
-
-	.byte 2,118,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM3=Lfde0_end - Lfde0_start
-	.long LDIFF_SYM3
-Lfde0_start:
-
-	.long 0
-	.align 3
-	.quad Xamarin_Forms_Platform_Loader_Load
-
-LDIFF_SYM4=Lme_0 - Xamarin_Forms_Platform_Loader_Load
-	.long LDIFF_SYM4
-	.long 0
-	.byte 12,31,0,68,14,16,157,2,158,1,68,13,29
-	.align 3
-Lfde0_end:
-
 .section __DWARF, __debug_info,regular,debug
 LTDIE_1:
 
@@ -730,55 +771,84 @@ LTDIE_1:
 	.byte 16,7
 	.asciz "System_Object"
 
-LDIFF_SYM5=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM5
+LDIFF_SYM3=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM3
 LTDIE_1_POINTER:
 
 	.byte 13
-LDIFF_SYM6=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM6
+LDIFF_SYM4=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM4
 LTDIE_1_REFERENCE:
 
 	.byte 14
-LDIFF_SYM7=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM7
+LDIFF_SYM5=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM5
 LTDIE_0:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Platform__BoxViewRenderer"
+	.asciz "_ThisAssembly"
 
 	.byte 16,16
-LDIFF_SYM8=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM8
+LDIFF_SYM6=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM6
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_Platform__BoxViewRenderer"
+	.asciz "_ThisAssembly"
 
-LDIFF_SYM9=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM9
+LDIFF_SYM7=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM7
 LTDIE_0_POINTER:
 
 	.byte 13
-LDIFF_SYM10=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM10
+LDIFF_SYM8=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM8
 LTDIE_0_REFERENCE:
 
 	.byte 14
-LDIFF_SYM11=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM11
+LDIFF_SYM9=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM9
 	.byte 2
-	.asciz "Xamarin.Forms.Platform._BoxViewRenderer:.ctor"
-	.asciz "Xamarin_Forms_Platform__BoxViewRenderer__ctor"
+	.asciz "ThisAssembly:.ctor"
+	.asciz "ThisAssembly__ctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Platform__BoxViewRenderer__ctor
-	.quad Lme_1
+	.quad ThisAssembly__ctor
+	.quad Lme_0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM12=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM12
+LDIFF_SYM10=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM10
 	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM11=Lfde0_end - Lfde0_start
+	.long LDIFF_SYM11
+Lfde0_start:
+
+	.long 0
+	.align 3
+	.quad ThisAssembly__ctor
+
+LDIFF_SYM12=Lme_0 - ThisAssembly__ctor
+	.long LDIFF_SYM12
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde0_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Xamarin.Forms.Platform.Loader:Load"
+	.asciz "Xamarin_Forms_Platform_Loader_Load"
+
+	.byte 0,0
+	.quad Xamarin_Forms_Platform_Loader_Load
+	.quad Lme_1
+
+	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -788,12 +858,12 @@ Lfde1_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Platform__BoxViewRenderer__ctor
+	.quad Xamarin_Forms_Platform_Loader_Load
 
-LDIFF_SYM14=Lme_1 - Xamarin_Forms_Platform__BoxViewRenderer__ctor
+LDIFF_SYM14=Lme_1 - Xamarin_Forms_Platform_Loader_Load
 	.long LDIFF_SYM14
 	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.byte 12,31,0,68,14,16,157,2,158,1,68,13,29
 	.align 3
 Lfde1_end:
 
@@ -801,13 +871,13 @@ Lfde1_end:
 LTDIE_2:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Platform__EntryRenderer"
+	.asciz "Xamarin_Forms_Platform__BoxViewRenderer"
 
 	.byte 16,16
 LDIFF_SYM15=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM15
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_Platform__EntryRenderer"
+	.asciz "Xamarin_Forms_Platform__BoxViewRenderer"
 
 LDIFF_SYM16=LTDIE_2 - Ldebug_info_start
 	.long LDIFF_SYM16
@@ -822,11 +892,11 @@ LTDIE_2_REFERENCE:
 LDIFF_SYM18=LTDIE_2 - Ldebug_info_start
 	.long LDIFF_SYM18
 	.byte 2
-	.asciz "Xamarin.Forms.Platform._EntryRenderer:.ctor"
-	.asciz "Xamarin_Forms_Platform__EntryRenderer__ctor"
+	.asciz "Xamarin.Forms.Platform._BoxViewRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__BoxViewRenderer__ctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Platform__EntryRenderer__ctor
+	.quad Xamarin_Forms_Platform__BoxViewRenderer__ctor
 	.quad Lme_2
 
 	.byte 2,118,16,3
@@ -844,9 +914,9 @@ Lfde2_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Platform__EntryRenderer__ctor
+	.quad Xamarin_Forms_Platform__BoxViewRenderer__ctor
 
-LDIFF_SYM21=Lme_2 - Xamarin_Forms_Platform__EntryRenderer__ctor
+LDIFF_SYM21=Lme_2 - Xamarin_Forms_Platform__BoxViewRenderer__ctor
 	.long LDIFF_SYM21
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -857,13 +927,13 @@ Lfde2_end:
 LTDIE_3:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Platform__EditorRenderer"
+	.asciz "Xamarin_Forms_Platform__EntryRenderer"
 
 	.byte 16,16
 LDIFF_SYM22=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM22
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_Platform__EditorRenderer"
+	.asciz "Xamarin_Forms_Platform__EntryRenderer"
 
 LDIFF_SYM23=LTDIE_3 - Ldebug_info_start
 	.long LDIFF_SYM23
@@ -878,11 +948,11 @@ LTDIE_3_REFERENCE:
 LDIFF_SYM25=LTDIE_3 - Ldebug_info_start
 	.long LDIFF_SYM25
 	.byte 2
-	.asciz "Xamarin.Forms.Platform._EditorRenderer:.ctor"
-	.asciz "Xamarin_Forms_Platform__EditorRenderer__ctor"
+	.asciz "Xamarin.Forms.Platform._EntryRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__EntryRenderer__ctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Platform__EditorRenderer__ctor
+	.quad Xamarin_Forms_Platform__EntryRenderer__ctor
 	.quad Lme_3
 
 	.byte 2,118,16,3
@@ -900,9 +970,9 @@ Lfde3_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Platform__EditorRenderer__ctor
+	.quad Xamarin_Forms_Platform__EntryRenderer__ctor
 
-LDIFF_SYM28=Lme_3 - Xamarin_Forms_Platform__EditorRenderer__ctor
+LDIFF_SYM28=Lme_3 - Xamarin_Forms_Platform__EntryRenderer__ctor
 	.long LDIFF_SYM28
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -913,13 +983,13 @@ Lfde3_end:
 LTDIE_4:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Platform__LabelRenderer"
+	.asciz "Xamarin_Forms_Platform__EditorRenderer"
 
 	.byte 16,16
 LDIFF_SYM29=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM29
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_Platform__LabelRenderer"
+	.asciz "Xamarin_Forms_Platform__EditorRenderer"
 
 LDIFF_SYM30=LTDIE_4 - Ldebug_info_start
 	.long LDIFF_SYM30
@@ -934,11 +1004,11 @@ LTDIE_4_REFERENCE:
 LDIFF_SYM32=LTDIE_4 - Ldebug_info_start
 	.long LDIFF_SYM32
 	.byte 2
-	.asciz "Xamarin.Forms.Platform._LabelRenderer:.ctor"
-	.asciz "Xamarin_Forms_Platform__LabelRenderer__ctor"
+	.asciz "Xamarin.Forms.Platform._EditorRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__EditorRenderer__ctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Platform__LabelRenderer__ctor
+	.quad Xamarin_Forms_Platform__EditorRenderer__ctor
 	.quad Lme_4
 
 	.byte 2,118,16,3
@@ -956,9 +1026,9 @@ Lfde4_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Platform__LabelRenderer__ctor
+	.quad Xamarin_Forms_Platform__EditorRenderer__ctor
 
-LDIFF_SYM35=Lme_4 - Xamarin_Forms_Platform__LabelRenderer__ctor
+LDIFF_SYM35=Lme_4 - Xamarin_Forms_Platform__EditorRenderer__ctor
 	.long LDIFF_SYM35
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -969,13 +1039,13 @@ Lfde4_end:
 LTDIE_5:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Platform__ImageRenderer"
+	.asciz "Xamarin_Forms_Platform__LabelRenderer"
 
 	.byte 16,16
 LDIFF_SYM36=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM36
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_Platform__ImageRenderer"
+	.asciz "Xamarin_Forms_Platform__LabelRenderer"
 
 LDIFF_SYM37=LTDIE_5 - Ldebug_info_start
 	.long LDIFF_SYM37
@@ -990,11 +1060,11 @@ LTDIE_5_REFERENCE:
 LDIFF_SYM39=LTDIE_5 - Ldebug_info_start
 	.long LDIFF_SYM39
 	.byte 2
-	.asciz "Xamarin.Forms.Platform._ImageRenderer:.ctor"
-	.asciz "Xamarin_Forms_Platform__ImageRenderer__ctor"
+	.asciz "Xamarin.Forms.Platform._LabelRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__LabelRenderer__ctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Platform__ImageRenderer__ctor
+	.quad Xamarin_Forms_Platform__LabelRenderer__ctor
 	.quad Lme_5
 
 	.byte 2,118,16,3
@@ -1012,9 +1082,9 @@ Lfde5_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Platform__ImageRenderer__ctor
+	.quad Xamarin_Forms_Platform__LabelRenderer__ctor
 
-LDIFF_SYM42=Lme_5 - Xamarin_Forms_Platform__ImageRenderer__ctor
+LDIFF_SYM42=Lme_5 - Xamarin_Forms_Platform__LabelRenderer__ctor
 	.long LDIFF_SYM42
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -1025,13 +1095,13 @@ Lfde5_end:
 LTDIE_6:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Platform__ButtonRenderer"
+	.asciz "Xamarin_Forms_Platform__ImageRenderer"
 
 	.byte 16,16
 LDIFF_SYM43=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM43
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_Platform__ButtonRenderer"
+	.asciz "Xamarin_Forms_Platform__ImageRenderer"
 
 LDIFF_SYM44=LTDIE_6 - Ldebug_info_start
 	.long LDIFF_SYM44
@@ -1046,11 +1116,11 @@ LTDIE_6_REFERENCE:
 LDIFF_SYM46=LTDIE_6 - Ldebug_info_start
 	.long LDIFF_SYM46
 	.byte 2
-	.asciz "Xamarin.Forms.Platform._ButtonRenderer:.ctor"
-	.asciz "Xamarin_Forms_Platform__ButtonRenderer__ctor"
+	.asciz "Xamarin.Forms.Platform._ImageRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__ImageRenderer__ctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Platform__ButtonRenderer__ctor
+	.quad Xamarin_Forms_Platform__ImageRenderer__ctor
 	.quad Lme_6
 
 	.byte 2,118,16,3
@@ -1068,9 +1138,9 @@ Lfde6_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Platform__ButtonRenderer__ctor
+	.quad Xamarin_Forms_Platform__ImageRenderer__ctor
 
-LDIFF_SYM49=Lme_6 - Xamarin_Forms_Platform__ButtonRenderer__ctor
+LDIFF_SYM49=Lme_6 - Xamarin_Forms_Platform__ImageRenderer__ctor
 	.long LDIFF_SYM49
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -1081,13 +1151,13 @@ Lfde6_end:
 LTDIE_7:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Platform__ImageButtonRenderer"
+	.asciz "Xamarin_Forms_Platform__ButtonRenderer"
 
 	.byte 16,16
 LDIFF_SYM50=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM50
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_Platform__ImageButtonRenderer"
+	.asciz "Xamarin_Forms_Platform__ButtonRenderer"
 
 LDIFF_SYM51=LTDIE_7 - Ldebug_info_start
 	.long LDIFF_SYM51
@@ -1102,11 +1172,11 @@ LTDIE_7_REFERENCE:
 LDIFF_SYM53=LTDIE_7 - Ldebug_info_start
 	.long LDIFF_SYM53
 	.byte 2
-	.asciz "Xamarin.Forms.Platform._ImageButtonRenderer:.ctor"
-	.asciz "Xamarin_Forms_Platform__ImageButtonRenderer__ctor"
+	.asciz "Xamarin.Forms.Platform._ButtonRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__ButtonRenderer__ctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Platform__ImageButtonRenderer__ctor
+	.quad Xamarin_Forms_Platform__ButtonRenderer__ctor
 	.quad Lme_7
 
 	.byte 2,118,16,3
@@ -1124,9 +1194,9 @@ Lfde7_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Platform__ImageButtonRenderer__ctor
+	.quad Xamarin_Forms_Platform__ButtonRenderer__ctor
 
-LDIFF_SYM56=Lme_7 - Xamarin_Forms_Platform__ImageButtonRenderer__ctor
+LDIFF_SYM56=Lme_7 - Xamarin_Forms_Platform__ButtonRenderer__ctor
 	.long LDIFF_SYM56
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -1137,13 +1207,13 @@ Lfde7_end:
 LTDIE_8:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Platform__TableViewRenderer"
+	.asciz "Xamarin_Forms_Platform__ImageButtonRenderer"
 
 	.byte 16,16
 LDIFF_SYM57=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM57
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_Platform__TableViewRenderer"
+	.asciz "Xamarin_Forms_Platform__ImageButtonRenderer"
 
 LDIFF_SYM58=LTDIE_8 - Ldebug_info_start
 	.long LDIFF_SYM58
@@ -1158,11 +1228,11 @@ LTDIE_8_REFERENCE:
 LDIFF_SYM60=LTDIE_8 - Ldebug_info_start
 	.long LDIFF_SYM60
 	.byte 2
-	.asciz "Xamarin.Forms.Platform._TableViewRenderer:.ctor"
-	.asciz "Xamarin_Forms_Platform__TableViewRenderer__ctor"
+	.asciz "Xamarin.Forms.Platform._ImageButtonRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__ImageButtonRenderer__ctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Platform__TableViewRenderer__ctor
+	.quad Xamarin_Forms_Platform__ImageButtonRenderer__ctor
 	.quad Lme_8
 
 	.byte 2,118,16,3
@@ -1180,9 +1250,9 @@ Lfde8_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Platform__TableViewRenderer__ctor
+	.quad Xamarin_Forms_Platform__ImageButtonRenderer__ctor
 
-LDIFF_SYM63=Lme_8 - Xamarin_Forms_Platform__TableViewRenderer__ctor
+LDIFF_SYM63=Lme_8 - Xamarin_Forms_Platform__ImageButtonRenderer__ctor
 	.long LDIFF_SYM63
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -1193,13 +1263,13 @@ Lfde8_end:
 LTDIE_9:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Platform__ListViewRenderer"
+	.asciz "Xamarin_Forms_Platform__TableViewRenderer"
 
 	.byte 16,16
 LDIFF_SYM64=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM64
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_Platform__ListViewRenderer"
+	.asciz "Xamarin_Forms_Platform__TableViewRenderer"
 
 LDIFF_SYM65=LTDIE_9 - Ldebug_info_start
 	.long LDIFF_SYM65
@@ -1214,11 +1284,11 @@ LTDIE_9_REFERENCE:
 LDIFF_SYM67=LTDIE_9 - Ldebug_info_start
 	.long LDIFF_SYM67
 	.byte 2
-	.asciz "Xamarin.Forms.Platform._ListViewRenderer:.ctor"
-	.asciz "Xamarin_Forms_Platform__ListViewRenderer__ctor"
+	.asciz "Xamarin.Forms.Platform._TableViewRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__TableViewRenderer__ctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Platform__ListViewRenderer__ctor
+	.quad Xamarin_Forms_Platform__TableViewRenderer__ctor
 	.quad Lme_9
 
 	.byte 2,118,16,3
@@ -1236,9 +1306,9 @@ Lfde9_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Platform__ListViewRenderer__ctor
+	.quad Xamarin_Forms_Platform__TableViewRenderer__ctor
 
-LDIFF_SYM70=Lme_9 - Xamarin_Forms_Platform__ListViewRenderer__ctor
+LDIFF_SYM70=Lme_9 - Xamarin_Forms_Platform__TableViewRenderer__ctor
 	.long LDIFF_SYM70
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -1249,13 +1319,13 @@ Lfde9_end:
 LTDIE_10:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Platform__CollectionViewRenderer"
+	.asciz "Xamarin_Forms_Platform__ListViewRenderer"
 
 	.byte 16,16
 LDIFF_SYM71=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM71
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_Platform__CollectionViewRenderer"
+	.asciz "Xamarin_Forms_Platform__ListViewRenderer"
 
 LDIFF_SYM72=LTDIE_10 - Ldebug_info_start
 	.long LDIFF_SYM72
@@ -1270,11 +1340,11 @@ LTDIE_10_REFERENCE:
 LDIFF_SYM74=LTDIE_10 - Ldebug_info_start
 	.long LDIFF_SYM74
 	.byte 2
-	.asciz "Xamarin.Forms.Platform._CollectionViewRenderer:.ctor"
-	.asciz "Xamarin_Forms_Platform__CollectionViewRenderer__ctor"
+	.asciz "Xamarin.Forms.Platform._ListViewRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__ListViewRenderer__ctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Platform__CollectionViewRenderer__ctor
+	.quad Xamarin_Forms_Platform__ListViewRenderer__ctor
 	.quad Lme_a
 
 	.byte 2,118,16,3
@@ -1292,9 +1362,9 @@ Lfde10_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Platform__CollectionViewRenderer__ctor
+	.quad Xamarin_Forms_Platform__ListViewRenderer__ctor
 
-LDIFF_SYM77=Lme_a - Xamarin_Forms_Platform__CollectionViewRenderer__ctor
+LDIFF_SYM77=Lme_a - Xamarin_Forms_Platform__ListViewRenderer__ctor
 	.long LDIFF_SYM77
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -1305,13 +1375,13 @@ Lfde10_end:
 LTDIE_11:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Platform__CarouselViewRenderer"
+	.asciz "Xamarin_Forms_Platform__CollectionViewRenderer"
 
 	.byte 16,16
 LDIFF_SYM78=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM78
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_Platform__CarouselViewRenderer"
+	.asciz "Xamarin_Forms_Platform__CollectionViewRenderer"
 
 LDIFF_SYM79=LTDIE_11 - Ldebug_info_start
 	.long LDIFF_SYM79
@@ -1326,11 +1396,11 @@ LTDIE_11_REFERENCE:
 LDIFF_SYM81=LTDIE_11 - Ldebug_info_start
 	.long LDIFF_SYM81
 	.byte 2
-	.asciz "Xamarin.Forms.Platform._CarouselViewRenderer:.ctor"
-	.asciz "Xamarin_Forms_Platform__CarouselViewRenderer__ctor"
+	.asciz "Xamarin.Forms.Platform._CollectionViewRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__CollectionViewRenderer__ctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Platform__CarouselViewRenderer__ctor
+	.quad Xamarin_Forms_Platform__CollectionViewRenderer__ctor
 	.quad Lme_b
 
 	.byte 2,118,16,3
@@ -1348,9 +1418,9 @@ Lfde11_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Platform__CarouselViewRenderer__ctor
+	.quad Xamarin_Forms_Platform__CollectionViewRenderer__ctor
 
-LDIFF_SYM84=Lme_b - Xamarin_Forms_Platform__CarouselViewRenderer__ctor
+LDIFF_SYM84=Lme_b - Xamarin_Forms_Platform__CollectionViewRenderer__ctor
 	.long LDIFF_SYM84
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -1361,13 +1431,13 @@ Lfde11_end:
 LTDIE_12:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Platform__SliderRenderer"
+	.asciz "Xamarin_Forms_Platform__CarouselViewRenderer"
 
 	.byte 16,16
 LDIFF_SYM85=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM85
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_Platform__SliderRenderer"
+	.asciz "Xamarin_Forms_Platform__CarouselViewRenderer"
 
 LDIFF_SYM86=LTDIE_12 - Ldebug_info_start
 	.long LDIFF_SYM86
@@ -1382,11 +1452,11 @@ LTDIE_12_REFERENCE:
 LDIFF_SYM88=LTDIE_12 - Ldebug_info_start
 	.long LDIFF_SYM88
 	.byte 2
-	.asciz "Xamarin.Forms.Platform._SliderRenderer:.ctor"
-	.asciz "Xamarin_Forms_Platform__SliderRenderer__ctor"
+	.asciz "Xamarin.Forms.Platform._CarouselViewRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__CarouselViewRenderer__ctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Platform__SliderRenderer__ctor
+	.quad Xamarin_Forms_Platform__CarouselViewRenderer__ctor
 	.quad Lme_c
 
 	.byte 2,118,16,3
@@ -1404,9 +1474,9 @@ Lfde12_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Platform__SliderRenderer__ctor
+	.quad Xamarin_Forms_Platform__CarouselViewRenderer__ctor
 
-LDIFF_SYM91=Lme_c - Xamarin_Forms_Platform__SliderRenderer__ctor
+LDIFF_SYM91=Lme_c - Xamarin_Forms_Platform__CarouselViewRenderer__ctor
 	.long LDIFF_SYM91
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -1417,13 +1487,13 @@ Lfde12_end:
 LTDIE_13:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Platform__WebViewRenderer"
+	.asciz "Xamarin_Forms_Platform__SliderRenderer"
 
 	.byte 16,16
 LDIFF_SYM92=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM92
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_Platform__WebViewRenderer"
+	.asciz "Xamarin_Forms_Platform__SliderRenderer"
 
 LDIFF_SYM93=LTDIE_13 - Ldebug_info_start
 	.long LDIFF_SYM93
@@ -1438,11 +1508,11 @@ LTDIE_13_REFERENCE:
 LDIFF_SYM95=LTDIE_13 - Ldebug_info_start
 	.long LDIFF_SYM95
 	.byte 2
-	.asciz "Xamarin.Forms.Platform._WebViewRenderer:.ctor"
-	.asciz "Xamarin_Forms_Platform__WebViewRenderer__ctor"
+	.asciz "Xamarin.Forms.Platform._SliderRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__SliderRenderer__ctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Platform__WebViewRenderer__ctor
+	.quad Xamarin_Forms_Platform__SliderRenderer__ctor
 	.quad Lme_d
 
 	.byte 2,118,16,3
@@ -1460,9 +1530,9 @@ Lfde13_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Platform__WebViewRenderer__ctor
+	.quad Xamarin_Forms_Platform__SliderRenderer__ctor
 
-LDIFF_SYM98=Lme_d - Xamarin_Forms_Platform__WebViewRenderer__ctor
+LDIFF_SYM98=Lme_d - Xamarin_Forms_Platform__SliderRenderer__ctor
 	.long LDIFF_SYM98
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -1473,13 +1543,13 @@ Lfde13_end:
 LTDIE_14:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Platform__SearchBarRenderer"
+	.asciz "Xamarin_Forms_Platform__WebViewRenderer"
 
 	.byte 16,16
 LDIFF_SYM99=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM99
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_Platform__SearchBarRenderer"
+	.asciz "Xamarin_Forms_Platform__WebViewRenderer"
 
 LDIFF_SYM100=LTDIE_14 - Ldebug_info_start
 	.long LDIFF_SYM100
@@ -1494,11 +1564,11 @@ LTDIE_14_REFERENCE:
 LDIFF_SYM102=LTDIE_14 - Ldebug_info_start
 	.long LDIFF_SYM102
 	.byte 2
-	.asciz "Xamarin.Forms.Platform._SearchBarRenderer:.ctor"
-	.asciz "Xamarin_Forms_Platform__SearchBarRenderer__ctor"
+	.asciz "Xamarin.Forms.Platform._WebViewRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__WebViewRenderer__ctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Platform__SearchBarRenderer__ctor
+	.quad Xamarin_Forms_Platform__WebViewRenderer__ctor
 	.quad Lme_e
 
 	.byte 2,118,16,3
@@ -1516,9 +1586,9 @@ Lfde14_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Platform__SearchBarRenderer__ctor
+	.quad Xamarin_Forms_Platform__WebViewRenderer__ctor
 
-LDIFF_SYM105=Lme_e - Xamarin_Forms_Platform__SearchBarRenderer__ctor
+LDIFF_SYM105=Lme_e - Xamarin_Forms_Platform__WebViewRenderer__ctor
 	.long LDIFF_SYM105
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -1529,13 +1599,13 @@ Lfde14_end:
 LTDIE_15:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Platform__SwitchRenderer"
+	.asciz "Xamarin_Forms_Platform__SearchBarRenderer"
 
 	.byte 16,16
 LDIFF_SYM106=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM106
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_Platform__SwitchRenderer"
+	.asciz "Xamarin_Forms_Platform__SearchBarRenderer"
 
 LDIFF_SYM107=LTDIE_15 - Ldebug_info_start
 	.long LDIFF_SYM107
@@ -1550,11 +1620,11 @@ LTDIE_15_REFERENCE:
 LDIFF_SYM109=LTDIE_15 - Ldebug_info_start
 	.long LDIFF_SYM109
 	.byte 2
-	.asciz "Xamarin.Forms.Platform._SwitchRenderer:.ctor"
-	.asciz "Xamarin_Forms_Platform__SwitchRenderer__ctor"
+	.asciz "Xamarin.Forms.Platform._SearchBarRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__SearchBarRenderer__ctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Platform__SwitchRenderer__ctor
+	.quad Xamarin_Forms_Platform__SearchBarRenderer__ctor
 	.quad Lme_f
 
 	.byte 2,118,16,3
@@ -1572,9 +1642,9 @@ Lfde15_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Platform__SwitchRenderer__ctor
+	.quad Xamarin_Forms_Platform__SearchBarRenderer__ctor
 
-LDIFF_SYM112=Lme_f - Xamarin_Forms_Platform__SwitchRenderer__ctor
+LDIFF_SYM112=Lme_f - Xamarin_Forms_Platform__SearchBarRenderer__ctor
 	.long LDIFF_SYM112
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -1585,13 +1655,13 @@ Lfde15_end:
 LTDIE_16:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Platform__DatePickerRenderer"
+	.asciz "Xamarin_Forms_Platform__SwitchRenderer"
 
 	.byte 16,16
 LDIFF_SYM113=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM113
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_Platform__DatePickerRenderer"
+	.asciz "Xamarin_Forms_Platform__SwitchRenderer"
 
 LDIFF_SYM114=LTDIE_16 - Ldebug_info_start
 	.long LDIFF_SYM114
@@ -1606,11 +1676,11 @@ LTDIE_16_REFERENCE:
 LDIFF_SYM116=LTDIE_16 - Ldebug_info_start
 	.long LDIFF_SYM116
 	.byte 2
-	.asciz "Xamarin.Forms.Platform._DatePickerRenderer:.ctor"
-	.asciz "Xamarin_Forms_Platform__DatePickerRenderer__ctor"
+	.asciz "Xamarin.Forms.Platform._SwitchRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__SwitchRenderer__ctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Platform__DatePickerRenderer__ctor
+	.quad Xamarin_Forms_Platform__SwitchRenderer__ctor
 	.quad Lme_10
 
 	.byte 2,118,16,3
@@ -1628,9 +1698,9 @@ Lfde16_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Platform__DatePickerRenderer__ctor
+	.quad Xamarin_Forms_Platform__SwitchRenderer__ctor
 
-LDIFF_SYM119=Lme_10 - Xamarin_Forms_Platform__DatePickerRenderer__ctor
+LDIFF_SYM119=Lme_10 - Xamarin_Forms_Platform__SwitchRenderer__ctor
 	.long LDIFF_SYM119
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -1641,13 +1711,13 @@ Lfde16_end:
 LTDIE_17:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Platform__TimePickerRenderer"
+	.asciz "Xamarin_Forms_Platform__DatePickerRenderer"
 
 	.byte 16,16
 LDIFF_SYM120=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM120
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_Platform__TimePickerRenderer"
+	.asciz "Xamarin_Forms_Platform__DatePickerRenderer"
 
 LDIFF_SYM121=LTDIE_17 - Ldebug_info_start
 	.long LDIFF_SYM121
@@ -1662,11 +1732,11 @@ LTDIE_17_REFERENCE:
 LDIFF_SYM123=LTDIE_17 - Ldebug_info_start
 	.long LDIFF_SYM123
 	.byte 2
-	.asciz "Xamarin.Forms.Platform._TimePickerRenderer:.ctor"
-	.asciz "Xamarin_Forms_Platform__TimePickerRenderer__ctor"
+	.asciz "Xamarin.Forms.Platform._DatePickerRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__DatePickerRenderer__ctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Platform__TimePickerRenderer__ctor
+	.quad Xamarin_Forms_Platform__DatePickerRenderer__ctor
 	.quad Lme_11
 
 	.byte 2,118,16,3
@@ -1684,9 +1754,9 @@ Lfde17_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Platform__TimePickerRenderer__ctor
+	.quad Xamarin_Forms_Platform__DatePickerRenderer__ctor
 
-LDIFF_SYM126=Lme_11 - Xamarin_Forms_Platform__TimePickerRenderer__ctor
+LDIFF_SYM126=Lme_11 - Xamarin_Forms_Platform__DatePickerRenderer__ctor
 	.long LDIFF_SYM126
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -1697,13 +1767,13 @@ Lfde17_end:
 LTDIE_18:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Platform__PickerRenderer"
+	.asciz "Xamarin_Forms_Platform__TimePickerRenderer"
 
 	.byte 16,16
 LDIFF_SYM127=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM127
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_Platform__PickerRenderer"
+	.asciz "Xamarin_Forms_Platform__TimePickerRenderer"
 
 LDIFF_SYM128=LTDIE_18 - Ldebug_info_start
 	.long LDIFF_SYM128
@@ -1718,11 +1788,11 @@ LTDIE_18_REFERENCE:
 LDIFF_SYM130=LTDIE_18 - Ldebug_info_start
 	.long LDIFF_SYM130
 	.byte 2
-	.asciz "Xamarin.Forms.Platform._PickerRenderer:.ctor"
-	.asciz "Xamarin_Forms_Platform__PickerRenderer__ctor"
+	.asciz "Xamarin.Forms.Platform._TimePickerRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__TimePickerRenderer__ctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Platform__PickerRenderer__ctor
+	.quad Xamarin_Forms_Platform__TimePickerRenderer__ctor
 	.quad Lme_12
 
 	.byte 2,118,16,3
@@ -1740,9 +1810,9 @@ Lfde18_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Platform__PickerRenderer__ctor
+	.quad Xamarin_Forms_Platform__TimePickerRenderer__ctor
 
-LDIFF_SYM133=Lme_12 - Xamarin_Forms_Platform__PickerRenderer__ctor
+LDIFF_SYM133=Lme_12 - Xamarin_Forms_Platform__TimePickerRenderer__ctor
 	.long LDIFF_SYM133
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -1753,13 +1823,13 @@ Lfde18_end:
 LTDIE_19:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Platform__StepperRenderer"
+	.asciz "Xamarin_Forms_Platform__PickerRenderer"
 
 	.byte 16,16
 LDIFF_SYM134=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM134
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_Platform__StepperRenderer"
+	.asciz "Xamarin_Forms_Platform__PickerRenderer"
 
 LDIFF_SYM135=LTDIE_19 - Ldebug_info_start
 	.long LDIFF_SYM135
@@ -1774,11 +1844,11 @@ LTDIE_19_REFERENCE:
 LDIFF_SYM137=LTDIE_19 - Ldebug_info_start
 	.long LDIFF_SYM137
 	.byte 2
-	.asciz "Xamarin.Forms.Platform._StepperRenderer:.ctor"
-	.asciz "Xamarin_Forms_Platform__StepperRenderer__ctor"
+	.asciz "Xamarin.Forms.Platform._PickerRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__PickerRenderer__ctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Platform__StepperRenderer__ctor
+	.quad Xamarin_Forms_Platform__PickerRenderer__ctor
 	.quad Lme_13
 
 	.byte 2,118,16,3
@@ -1796,9 +1866,9 @@ Lfde19_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Platform__StepperRenderer__ctor
+	.quad Xamarin_Forms_Platform__PickerRenderer__ctor
 
-LDIFF_SYM140=Lme_13 - Xamarin_Forms_Platform__StepperRenderer__ctor
+LDIFF_SYM140=Lme_13 - Xamarin_Forms_Platform__PickerRenderer__ctor
 	.long LDIFF_SYM140
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -1809,13 +1879,13 @@ Lfde19_end:
 LTDIE_20:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Platform__ProgressBarRenderer"
+	.asciz "Xamarin_Forms_Platform__StepperRenderer"
 
 	.byte 16,16
 LDIFF_SYM141=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM141
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_Platform__ProgressBarRenderer"
+	.asciz "Xamarin_Forms_Platform__StepperRenderer"
 
 LDIFF_SYM142=LTDIE_20 - Ldebug_info_start
 	.long LDIFF_SYM142
@@ -1830,11 +1900,11 @@ LTDIE_20_REFERENCE:
 LDIFF_SYM144=LTDIE_20 - Ldebug_info_start
 	.long LDIFF_SYM144
 	.byte 2
-	.asciz "Xamarin.Forms.Platform._ProgressBarRenderer:.ctor"
-	.asciz "Xamarin_Forms_Platform__ProgressBarRenderer__ctor"
+	.asciz "Xamarin.Forms.Platform._StepperRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__StepperRenderer__ctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Platform__ProgressBarRenderer__ctor
+	.quad Xamarin_Forms_Platform__StepperRenderer__ctor
 	.quad Lme_14
 
 	.byte 2,118,16,3
@@ -1852,9 +1922,9 @@ Lfde20_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Platform__ProgressBarRenderer__ctor
+	.quad Xamarin_Forms_Platform__StepperRenderer__ctor
 
-LDIFF_SYM147=Lme_14 - Xamarin_Forms_Platform__ProgressBarRenderer__ctor
+LDIFF_SYM147=Lme_14 - Xamarin_Forms_Platform__StepperRenderer__ctor
 	.long LDIFF_SYM147
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -1865,13 +1935,13 @@ Lfde20_end:
 LTDIE_21:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Platform__ScrollViewRenderer"
+	.asciz "Xamarin_Forms_Platform__ProgressBarRenderer"
 
 	.byte 16,16
 LDIFF_SYM148=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM148
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_Platform__ScrollViewRenderer"
+	.asciz "Xamarin_Forms_Platform__ProgressBarRenderer"
 
 LDIFF_SYM149=LTDIE_21 - Ldebug_info_start
 	.long LDIFF_SYM149
@@ -1886,11 +1956,11 @@ LTDIE_21_REFERENCE:
 LDIFF_SYM151=LTDIE_21 - Ldebug_info_start
 	.long LDIFF_SYM151
 	.byte 2
-	.asciz "Xamarin.Forms.Platform._ScrollViewRenderer:.ctor"
-	.asciz "Xamarin_Forms_Platform__ScrollViewRenderer__ctor"
+	.asciz "Xamarin.Forms.Platform._ProgressBarRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__ProgressBarRenderer__ctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Platform__ScrollViewRenderer__ctor
+	.quad Xamarin_Forms_Platform__ProgressBarRenderer__ctor
 	.quad Lme_15
 
 	.byte 2,118,16,3
@@ -1908,9 +1978,9 @@ Lfde21_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Platform__ScrollViewRenderer__ctor
+	.quad Xamarin_Forms_Platform__ProgressBarRenderer__ctor
 
-LDIFF_SYM154=Lme_15 - Xamarin_Forms_Platform__ScrollViewRenderer__ctor
+LDIFF_SYM154=Lme_15 - Xamarin_Forms_Platform__ProgressBarRenderer__ctor
 	.long LDIFF_SYM154
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -1921,13 +1991,13 @@ Lfde21_end:
 LTDIE_22:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Platform__ActivityIndicatorRenderer"
+	.asciz "Xamarin_Forms_Platform__ScrollViewRenderer"
 
 	.byte 16,16
 LDIFF_SYM155=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM155
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_Platform__ActivityIndicatorRenderer"
+	.asciz "Xamarin_Forms_Platform__ScrollViewRenderer"
 
 LDIFF_SYM156=LTDIE_22 - Ldebug_info_start
 	.long LDIFF_SYM156
@@ -1942,11 +2012,11 @@ LTDIE_22_REFERENCE:
 LDIFF_SYM158=LTDIE_22 - Ldebug_info_start
 	.long LDIFF_SYM158
 	.byte 2
-	.asciz "Xamarin.Forms.Platform._ActivityIndicatorRenderer:.ctor"
-	.asciz "Xamarin_Forms_Platform__ActivityIndicatorRenderer__ctor"
+	.asciz "Xamarin.Forms.Platform._ScrollViewRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__ScrollViewRenderer__ctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Platform__ActivityIndicatorRenderer__ctor
+	.quad Xamarin_Forms_Platform__ScrollViewRenderer__ctor
 	.quad Lme_16
 
 	.byte 2,118,16,3
@@ -1964,9 +2034,9 @@ Lfde22_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Platform__ActivityIndicatorRenderer__ctor
+	.quad Xamarin_Forms_Platform__ScrollViewRenderer__ctor
 
-LDIFF_SYM161=Lme_16 - Xamarin_Forms_Platform__ActivityIndicatorRenderer__ctor
+LDIFF_SYM161=Lme_16 - Xamarin_Forms_Platform__ScrollViewRenderer__ctor
 	.long LDIFF_SYM161
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -1977,13 +2047,13 @@ Lfde22_end:
 LTDIE_23:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Platform__FrameRenderer"
+	.asciz "Xamarin_Forms_Platform__ActivityIndicatorRenderer"
 
 	.byte 16,16
 LDIFF_SYM162=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM162
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_Platform__FrameRenderer"
+	.asciz "Xamarin_Forms_Platform__ActivityIndicatorRenderer"
 
 LDIFF_SYM163=LTDIE_23 - Ldebug_info_start
 	.long LDIFF_SYM163
@@ -1998,11 +2068,11 @@ LTDIE_23_REFERENCE:
 LDIFF_SYM165=LTDIE_23 - Ldebug_info_start
 	.long LDIFF_SYM165
 	.byte 2
-	.asciz "Xamarin.Forms.Platform._FrameRenderer:.ctor"
-	.asciz "Xamarin_Forms_Platform__FrameRenderer__ctor"
+	.asciz "Xamarin.Forms.Platform._ActivityIndicatorRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__ActivityIndicatorRenderer__ctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Platform__FrameRenderer__ctor
+	.quad Xamarin_Forms_Platform__ActivityIndicatorRenderer__ctor
 	.quad Lme_17
 
 	.byte 2,118,16,3
@@ -2020,9 +2090,9 @@ Lfde23_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Platform__FrameRenderer__ctor
+	.quad Xamarin_Forms_Platform__ActivityIndicatorRenderer__ctor
 
-LDIFF_SYM168=Lme_17 - Xamarin_Forms_Platform__FrameRenderer__ctor
+LDIFF_SYM168=Lme_17 - Xamarin_Forms_Platform__ActivityIndicatorRenderer__ctor
 	.long LDIFF_SYM168
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -2033,13 +2103,13 @@ Lfde23_end:
 LTDIE_24:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Platform__OpenGLViewRenderer"
+	.asciz "Xamarin_Forms_Platform__FrameRenderer"
 
 	.byte 16,16
 LDIFF_SYM169=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM169
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_Platform__OpenGLViewRenderer"
+	.asciz "Xamarin_Forms_Platform__FrameRenderer"
 
 LDIFF_SYM170=LTDIE_24 - Ldebug_info_start
 	.long LDIFF_SYM170
@@ -2054,11 +2124,11 @@ LTDIE_24_REFERENCE:
 LDIFF_SYM172=LTDIE_24 - Ldebug_info_start
 	.long LDIFF_SYM172
 	.byte 2
-	.asciz "Xamarin.Forms.Platform._OpenGLViewRenderer:.ctor"
-	.asciz "Xamarin_Forms_Platform__OpenGLViewRenderer__ctor"
+	.asciz "Xamarin.Forms.Platform._FrameRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__FrameRenderer__ctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Platform__OpenGLViewRenderer__ctor
+	.quad Xamarin_Forms_Platform__FrameRenderer__ctor
 	.quad Lme_18
 
 	.byte 2,118,16,3
@@ -2076,9 +2146,9 @@ Lfde24_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Platform__OpenGLViewRenderer__ctor
+	.quad Xamarin_Forms_Platform__FrameRenderer__ctor
 
-LDIFF_SYM175=Lme_18 - Xamarin_Forms_Platform__OpenGLViewRenderer__ctor
+LDIFF_SYM175=Lme_18 - Xamarin_Forms_Platform__FrameRenderer__ctor
 	.long LDIFF_SYM175
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -2089,13 +2159,13 @@ Lfde24_end:
 LTDIE_25:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Platform__TabbedPageRenderer"
+	.asciz "Xamarin_Forms_Platform__CheckBoxRenderer"
 
 	.byte 16,16
 LDIFF_SYM176=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM176
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_Platform__TabbedPageRenderer"
+	.asciz "Xamarin_Forms_Platform__CheckBoxRenderer"
 
 LDIFF_SYM177=LTDIE_25 - Ldebug_info_start
 	.long LDIFF_SYM177
@@ -2110,11 +2180,11 @@ LTDIE_25_REFERENCE:
 LDIFF_SYM179=LTDIE_25 - Ldebug_info_start
 	.long LDIFF_SYM179
 	.byte 2
-	.asciz "Xamarin.Forms.Platform._TabbedPageRenderer:.ctor"
-	.asciz "Xamarin_Forms_Platform__TabbedPageRenderer__ctor"
+	.asciz "Xamarin.Forms.Platform._CheckBoxRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__CheckBoxRenderer__ctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Platform__TabbedPageRenderer__ctor
+	.quad Xamarin_Forms_Platform__CheckBoxRenderer__ctor
 	.quad Lme_19
 
 	.byte 2,118,16,3
@@ -2132,9 +2202,9 @@ Lfde25_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Platform__TabbedPageRenderer__ctor
+	.quad Xamarin_Forms_Platform__CheckBoxRenderer__ctor
 
-LDIFF_SYM182=Lme_19 - Xamarin_Forms_Platform__TabbedPageRenderer__ctor
+LDIFF_SYM182=Lme_19 - Xamarin_Forms_Platform__CheckBoxRenderer__ctor
 	.long LDIFF_SYM182
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -2145,13 +2215,13 @@ Lfde25_end:
 LTDIE_26:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Platform__NavigationPageRenderer"
+	.asciz "Xamarin_Forms_Platform__OpenGLViewRenderer"
 
 	.byte 16,16
 LDIFF_SYM183=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM183
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_Platform__NavigationPageRenderer"
+	.asciz "Xamarin_Forms_Platform__OpenGLViewRenderer"
 
 LDIFF_SYM184=LTDIE_26 - Ldebug_info_start
 	.long LDIFF_SYM184
@@ -2166,11 +2236,11 @@ LTDIE_26_REFERENCE:
 LDIFF_SYM186=LTDIE_26 - Ldebug_info_start
 	.long LDIFF_SYM186
 	.byte 2
-	.asciz "Xamarin.Forms.Platform._NavigationPageRenderer:.ctor"
-	.asciz "Xamarin_Forms_Platform__NavigationPageRenderer__ctor"
+	.asciz "Xamarin.Forms.Platform._OpenGLViewRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__OpenGLViewRenderer__ctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Platform__NavigationPageRenderer__ctor
+	.quad Xamarin_Forms_Platform__OpenGLViewRenderer__ctor
 	.quad Lme_1a
 
 	.byte 2,118,16,3
@@ -2188,9 +2258,9 @@ Lfde26_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Platform__NavigationPageRenderer__ctor
+	.quad Xamarin_Forms_Platform__OpenGLViewRenderer__ctor
 
-LDIFF_SYM189=Lme_1a - Xamarin_Forms_Platform__NavigationPageRenderer__ctor
+LDIFF_SYM189=Lme_1a - Xamarin_Forms_Platform__OpenGLViewRenderer__ctor
 	.long LDIFF_SYM189
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -2201,13 +2271,13 @@ Lfde26_end:
 LTDIE_27:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Platform__CarouselPageRenderer"
+	.asciz "Xamarin_Forms_Platform__TabbedPageRenderer"
 
 	.byte 16,16
 LDIFF_SYM190=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM190
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_Platform__CarouselPageRenderer"
+	.asciz "Xamarin_Forms_Platform__TabbedPageRenderer"
 
 LDIFF_SYM191=LTDIE_27 - Ldebug_info_start
 	.long LDIFF_SYM191
@@ -2222,11 +2292,11 @@ LTDIE_27_REFERENCE:
 LDIFF_SYM193=LTDIE_27 - Ldebug_info_start
 	.long LDIFF_SYM193
 	.byte 2
-	.asciz "Xamarin.Forms.Platform._CarouselPageRenderer:.ctor"
-	.asciz "Xamarin_Forms_Platform__CarouselPageRenderer__ctor"
+	.asciz "Xamarin.Forms.Platform._TabbedPageRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__TabbedPageRenderer__ctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Platform__CarouselPageRenderer__ctor
+	.quad Xamarin_Forms_Platform__TabbedPageRenderer__ctor
 	.quad Lme_1b
 
 	.byte 2,118,16,3
@@ -2244,9 +2314,9 @@ Lfde27_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Platform__CarouselPageRenderer__ctor
+	.quad Xamarin_Forms_Platform__TabbedPageRenderer__ctor
 
-LDIFF_SYM196=Lme_1b - Xamarin_Forms_Platform__CarouselPageRenderer__ctor
+LDIFF_SYM196=Lme_1b - Xamarin_Forms_Platform__TabbedPageRenderer__ctor
 	.long LDIFF_SYM196
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -2257,13 +2327,13 @@ Lfde27_end:
 LTDIE_28:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Platform__PageRenderer"
+	.asciz "Xamarin_Forms_Platform__NavigationPageRenderer"
 
 	.byte 16,16
 LDIFF_SYM197=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM197
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_Platform__PageRenderer"
+	.asciz "Xamarin_Forms_Platform__NavigationPageRenderer"
 
 LDIFF_SYM198=LTDIE_28 - Ldebug_info_start
 	.long LDIFF_SYM198
@@ -2278,11 +2348,11 @@ LTDIE_28_REFERENCE:
 LDIFF_SYM200=LTDIE_28 - Ldebug_info_start
 	.long LDIFF_SYM200
 	.byte 2
-	.asciz "Xamarin.Forms.Platform._PageRenderer:.ctor"
-	.asciz "Xamarin_Forms_Platform__PageRenderer__ctor"
+	.asciz "Xamarin.Forms.Platform._NavigationPageRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__NavigationPageRenderer__ctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Platform__PageRenderer__ctor
+	.quad Xamarin_Forms_Platform__NavigationPageRenderer__ctor
 	.quad Lme_1c
 
 	.byte 2,118,16,3
@@ -2300,9 +2370,9 @@ Lfde28_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Platform__PageRenderer__ctor
+	.quad Xamarin_Forms_Platform__NavigationPageRenderer__ctor
 
-LDIFF_SYM203=Lme_1c - Xamarin_Forms_Platform__PageRenderer__ctor
+LDIFF_SYM203=Lme_1c - Xamarin_Forms_Platform__NavigationPageRenderer__ctor
 	.long LDIFF_SYM203
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -2313,13 +2383,13 @@ Lfde28_end:
 LTDIE_29:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Platform__MasterDetailPageRenderer"
+	.asciz "Xamarin_Forms_Platform__CarouselPageRenderer"
 
 	.byte 16,16
 LDIFF_SYM204=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM204
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_Platform__MasterDetailPageRenderer"
+	.asciz "Xamarin_Forms_Platform__CarouselPageRenderer"
 
 LDIFF_SYM205=LTDIE_29 - Ldebug_info_start
 	.long LDIFF_SYM205
@@ -2334,11 +2404,11 @@ LTDIE_29_REFERENCE:
 LDIFF_SYM207=LTDIE_29 - Ldebug_info_start
 	.long LDIFF_SYM207
 	.byte 2
-	.asciz "Xamarin.Forms.Platform._MasterDetailPageRenderer:.ctor"
-	.asciz "Xamarin_Forms_Platform__MasterDetailPageRenderer__ctor"
+	.asciz "Xamarin.Forms.Platform._CarouselPageRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__CarouselPageRenderer__ctor"
 
 	.byte 0,0
-	.quad Xamarin_Forms_Platform__MasterDetailPageRenderer__ctor
+	.quad Xamarin_Forms_Platform__CarouselPageRenderer__ctor
 	.quad Lme_1d
 
 	.byte 2,118,16,3
@@ -2356,14 +2426,294 @@ Lfde29_start:
 
 	.long 0
 	.align 3
-	.quad Xamarin_Forms_Platform__MasterDetailPageRenderer__ctor
+	.quad Xamarin_Forms_Platform__CarouselPageRenderer__ctor
 
-LDIFF_SYM210=Lme_1d - Xamarin_Forms_Platform__MasterDetailPageRenderer__ctor
+LDIFF_SYM210=Lme_1d - Xamarin_Forms_Platform__CarouselPageRenderer__ctor
 	.long LDIFF_SYM210
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
 Lfde29_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_30:
+
+	.byte 5
+	.asciz "Xamarin_Forms_Platform__PageRenderer"
+
+	.byte 16,16
+LDIFF_SYM211=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM211
+	.byte 2,35,0,0,7
+	.asciz "Xamarin_Forms_Platform__PageRenderer"
+
+LDIFF_SYM212=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM212
+LTDIE_30_POINTER:
+
+	.byte 13
+LDIFF_SYM213=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM213
+LTDIE_30_REFERENCE:
+
+	.byte 14
+LDIFF_SYM214=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM214
+	.byte 2
+	.asciz "Xamarin.Forms.Platform._PageRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__PageRenderer__ctor"
+
+	.byte 0,0
+	.quad Xamarin_Forms_Platform__PageRenderer__ctor
+	.quad Lme_1e
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM215=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM215
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM216=Lfde30_end - Lfde30_start
+	.long LDIFF_SYM216
+Lfde30_start:
+
+	.long 0
+	.align 3
+	.quad Xamarin_Forms_Platform__PageRenderer__ctor
+
+LDIFF_SYM217=Lme_1e - Xamarin_Forms_Platform__PageRenderer__ctor
+	.long LDIFF_SYM217
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde30_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_31:
+
+	.byte 5
+	.asciz "Xamarin_Forms_Platform__MasterDetailPageRenderer"
+
+	.byte 16,16
+LDIFF_SYM218=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM218
+	.byte 2,35,0,0,7
+	.asciz "Xamarin_Forms_Platform__MasterDetailPageRenderer"
+
+LDIFF_SYM219=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM219
+LTDIE_31_POINTER:
+
+	.byte 13
+LDIFF_SYM220=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM220
+LTDIE_31_REFERENCE:
+
+	.byte 14
+LDIFF_SYM221=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM221
+	.byte 2
+	.asciz "Xamarin.Forms.Platform._MasterDetailPageRenderer:.ctor"
+	.asciz "Xamarin_Forms_Platform__MasterDetailPageRenderer__ctor"
+
+	.byte 0,0
+	.quad Xamarin_Forms_Platform__MasterDetailPageRenderer__ctor
+	.quad Lme_1f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM222=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM222
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM223=Lfde31_end - Lfde31_start
+	.long LDIFF_SYM223
+Lfde31_start:
+
+	.long 0
+	.align 3
+	.quad Xamarin_Forms_Platform__MasterDetailPageRenderer__ctor
+
+LDIFF_SYM224=Lme_1f - Xamarin_Forms_Platform__MasterDetailPageRenderer__ctor
+	.long LDIFF_SYM224
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde31_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_32:
+
+	.byte 5
+	.asciz "_Git"
+
+	.byte 16,16
+LDIFF_SYM225=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM225
+	.byte 2,35,0,0,7
+	.asciz "_Git"
+
+LDIFF_SYM226=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM226
+LTDIE_32_POINTER:
+
+	.byte 13
+LDIFF_SYM227=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM227
+LTDIE_32_REFERENCE:
+
+	.byte 14
+LDIFF_SYM228=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM228
+	.byte 2
+	.asciz "ThisAssembly/Git:.ctor"
+	.asciz "ThisAssembly_Git__ctor"
+
+	.byte 0,0
+	.quad ThisAssembly_Git__ctor
+	.quad Lme_20
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM229=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM229
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM230=Lfde32_end - Lfde32_start
+	.long LDIFF_SYM230
+Lfde32_start:
+
+	.long 0
+	.align 3
+	.quad ThisAssembly_Git__ctor
+
+LDIFF_SYM231=Lme_20 - ThisAssembly_Git__ctor
+	.long LDIFF_SYM231
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde32_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_33:
+
+	.byte 5
+	.asciz "_BaseVersion"
+
+	.byte 16,16
+LDIFF_SYM232=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM232
+	.byte 2,35,0,0,7
+	.asciz "_BaseVersion"
+
+LDIFF_SYM233=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM233
+LTDIE_33_POINTER:
+
+	.byte 13
+LDIFF_SYM234=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM234
+LTDIE_33_REFERENCE:
+
+	.byte 14
+LDIFF_SYM235=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM235
+	.byte 2
+	.asciz "ThisAssembly/Git/BaseVersion:.ctor"
+	.asciz "ThisAssembly_Git_BaseVersion__ctor"
+
+	.byte 0,0
+	.quad ThisAssembly_Git_BaseVersion__ctor
+	.quad Lme_21
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM236=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM236
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM237=Lfde33_end - Lfde33_start
+	.long LDIFF_SYM237
+Lfde33_start:
+
+	.long 0
+	.align 3
+	.quad ThisAssembly_Git_BaseVersion__ctor
+
+LDIFF_SYM238=Lme_21 - ThisAssembly_Git_BaseVersion__ctor
+	.long LDIFF_SYM238
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde33_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_34:
+
+	.byte 5
+	.asciz "_SemVer"
+
+	.byte 16,16
+LDIFF_SYM239=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM239
+	.byte 2,35,0,0,7
+	.asciz "_SemVer"
+
+LDIFF_SYM240=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM240
+LTDIE_34_POINTER:
+
+	.byte 13
+LDIFF_SYM241=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM241
+LTDIE_34_REFERENCE:
+
+	.byte 14
+LDIFF_SYM242=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM242
+	.byte 2
+	.asciz "ThisAssembly/Git/SemVer:.ctor"
+	.asciz "ThisAssembly_Git_SemVer__ctor"
+
+	.byte 0,0
+	.quad ThisAssembly_Git_SemVer__ctor
+	.quad Lme_22
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM243=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM243
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM244=Lfde34_end - Lfde34_start
+	.long LDIFF_SYM244
+Lfde34_start:
+
+	.long 0
+	.align 3
+	.quad ThisAssembly_Git_SemVer__ctor
+
+LDIFF_SYM245=Lme_22 - ThisAssembly_Git_SemVer__ctor
+	.long LDIFF_SYM245
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde34_end:
 
 .section __DWARF, __debug_info,regular,debug
 

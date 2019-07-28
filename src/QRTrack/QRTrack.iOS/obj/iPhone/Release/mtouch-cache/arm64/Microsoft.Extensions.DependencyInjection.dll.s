@@ -42394,7 +42394,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 187,52,163,203,0,231,91,105,176,184,185,194,127,29,203,40
+	.byte 152,58,57,228,178,173,62,233,7,89,194,76,171,115,231,214
 	.globl _mono_aot_module_Microsoft_Extensions_DependencyInjection_info
 	.align 3
 _mono_aot_module_Microsoft_Extensions_DependencyInjection_info:

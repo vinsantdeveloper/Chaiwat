@@ -81335,9 +81335,9 @@ ldr x16, [x16, #1016]
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2886ba0
+.word 0xd2887a20
 .word 0xf2a00020
-.word 0xd2886ba0
+.word 0xd2887a20
 .word 0xf2a00020
 bl _p_961
 .word 0xaa0003e1
@@ -81492,9 +81492,9 @@ ldr x16, [x16, #1032]
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2886ba0
+.word 0xd2887a20
 .word 0xf2a00020
-.word 0xd2886ba0
+.word 0xd2887a20
 .word 0xf2a00020
 bl _p_961
 .word 0xaa0003e1
@@ -82461,9 +82461,9 @@ bl _mono_gsharedvt_value_copy
 .word 0xf941aa31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd291f380
+.word 0xd2920080
 .word 0xf2a00020
-.word 0xd291f380
+.word 0xd2920080
 .word 0xf2a00020
 bl _p_961
 .word 0xaa0003e1
@@ -88890,9 +88890,9 @@ bl _p_49
 .word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2886e20
+.word 0xd2887ca0
 .word 0xf2a00020
-.word 0xd2886e20
+.word 0xd2887ca0
 .word 0xf2a00020
 bl _p_961
 .word 0xaa0003e1
@@ -88986,9 +88986,9 @@ bl _p_49
 .word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2886e20
+.word 0xd2887ca0
 .word 0xf2a00020
-.word 0xd2886e20
+.word 0xd2887ca0
 .word 0xf2a00020
 bl _p_961
 .word 0xaa0003e1
@@ -89365,9 +89365,9 @@ bl _p_1290
 .word 0xf9427231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd291f8c0
+.word 0xd29205c0
 .word 0xf2a00020
-.word 0xd291f8c0
+.word 0xd29205c0
 .word 0xf2a00020
 bl _p_961
 bl _p_1291
@@ -89444,9 +89444,9 @@ ldr x16, [x16, #1992]
 .word 0xf9408a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2886ba0
+.word 0xd2887a20
 .word 0xf2a00020
-.word 0xd2886ba0
+.word 0xd2887a20
 .word 0xf2a00020
 bl _p_961
 .word 0xaa0003e1
@@ -89571,9 +89571,9 @@ bl _p_984
 .word 0xf9426631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd291f8c0
+.word 0xd29205c0
 .word 0xf2a00020
-.word 0xd291f8c0
+.word 0xd29205c0
 .word 0xf2a00020
 bl _p_961
 bl _p_1291
@@ -90096,9 +90096,9 @@ bl _p_1297
 .word 0xf9428a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd291f8c0
+.word 0xd29205c0
 .word 0xf2a00020
-.word 0xd291f8c0
+.word 0xd29205c0
 .word 0xf2a00020
 bl _p_961
 bl _p_1291
@@ -90279,9 +90279,9 @@ ldr x16, [x16, #2056]
 .word 0xf9408631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2886ba0
+.word 0xd2887a20
 .word 0xf2a00020
-.word 0xd2886ba0
+.word 0xd2887a20
 .word 0xf2a00020
 bl _p_961
 .word 0xaa0003e1
@@ -90407,9 +90407,9 @@ bl _p_984
 .word 0xf9426231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd291f8c0
+.word 0xd29205c0
 .word 0xf2a00020
-.word 0xd291f8c0
+.word 0xd29205c0
 .word 0xf2a00020
 bl _p_961
 bl _p_1291
@@ -101162,9 +101162,9 @@ bl _p_950
 .word 0xf9428a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd291f8c0
+.word 0xd29205c0
 .word 0xf2a00020
-.word 0xd291f8c0
+.word 0xd29205c0
 .word 0xf2a00020
 bl _p_961
 bl _p_1291
@@ -101345,9 +101345,9 @@ ldr x16, [x16, #3208]
 .word 0xf9408631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2886ba0
+.word 0xd2887a20
 .word 0xf2a00020
-.word 0xd2886ba0
+.word 0xd2887a20
 .word 0xf2a00020
 bl _p_961
 .word 0xaa0003e1
@@ -101473,9 +101473,9 @@ bl _p_984
 .word 0xf9426231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd291f8c0
+.word 0xd29205c0
 .word 0xf2a00020
-.word 0xd291f8c0
+.word 0xd29205c0
 .word 0xf2a00020
 bl _p_961
 bl _p_1291
@@ -101927,9 +101927,9 @@ ldr x16, [x16, #3312]
 .word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2886ba0
+.word 0xd2887a20
 .word 0xf2a00020
-.word 0xd2886ba0
+.word 0xd2887a20
 .word 0xf2a00020
 bl _p_961
 .word 0xaa0003e1
@@ -107389,9 +107389,9 @@ bl _p_49
 .word 0xf9409231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2886e20
+.word 0xd2887ca0
 .word 0xf2a00020
-.word 0xd2886e20
+.word 0xd2887ca0
 .word 0xf2a00020
 bl _p_961
 .word 0xaa0003e1
@@ -121253,7 +121253,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 26,206,228,211,86,135,172,252,246,118,131,133,34,254,147,191
+	.byte 106,92,41,131,61,138,84,35,5,26,236,163,123,185,27,135
 	.globl _mono_aot_module_System_Threading_Channels_info
 	.align 3
 _mono_aot_module_System_Threading_Channels_info:

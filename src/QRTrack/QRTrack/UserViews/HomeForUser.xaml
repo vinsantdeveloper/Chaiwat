@@ -43,7 +43,8 @@
                 <StackLayout Spacing="5"
                              HorizontalOptions="FillAndExpand"
                              VerticalOptions="FillAndExpand">
-                    <forms:AnimationView Animation="no_calling_button.json"
+                    <forms:AnimationView x:Name="bt_lottie_Calling"
+                                         Animation="no_calling_button.json"
                                          AutoPlay="true"
                                          Loop="true"
                                          IsVisible="true"
@@ -52,7 +53,8 @@
                                          HorizontalOptions="Center"
                                          VerticalOptions="Center"
                                          OnClick="bt_calling_bt_OnClickAsync"/>
-                    <Label Text="No Calling" 
+                    <Label x:Name="tb_calling_status"
+                           Text="No Calling" 
                            TextColor="{StaticResource textGlayColor}" 
                            FontFamily="{StaticResource Avenir_NormalFont}" 
                            FontSize="{StaticResource Avenir_FontBigSize}"

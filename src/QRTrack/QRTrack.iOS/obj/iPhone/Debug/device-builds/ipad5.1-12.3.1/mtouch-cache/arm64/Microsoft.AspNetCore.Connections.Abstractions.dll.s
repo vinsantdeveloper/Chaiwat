@@ -18306,7 +18306,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 207,148,31,55,121,96,98,224,155,218,119,180,28,234,75,206
+	.byte 75,208,166,70,136,250,177,97,193,147,236,126,144,161,156,54
 	.globl _mono_aot_module_Microsoft_AspNetCore_Connections_Abstractions_info
 	.align 3
 _mono_aot_module_Microsoft_AspNetCore_Connections_Abstractions_info:

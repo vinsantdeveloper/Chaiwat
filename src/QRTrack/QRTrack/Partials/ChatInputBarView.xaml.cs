@@ -9,23 +9,47 @@ namespace QRTrack.Partials
     {
         public ChatInputBarView()
         {
-            InitializeComponent();
-
-            if (Device.RuntimePlatform == Device.iOS)
+            try
             {
-                this.SetBinding(HeightRequestProperty, new Binding("Height", BindingMode.OneWay, null, null, null, chatTextInput));
+                InitializeComponent();
+
+                if (Device.RuntimePlatform == Device.iOS)
+                {
+                    this.SetBinding(HeightRequestProperty, new Binding("Height", BindingMode.OneWay, null, null, null, chatTextInput));
+                }
             }
+            catch(Exception ex)
+            {
+
+            }
+            
         }
 
         public void Handle_Completed(object sender, EventArgs e)
         {
-            (this.Parent.Parent.BindingContext as ChatPageViewModel).OnSendCommand.Execute(null);
-            chatTextInput.Focus();
+            try
+            {
+               // (this.Parent.Parent.BindingContext as ChatPageViewModel).OnSendCommand.Execute(null);
+                chatTextInput.Focus();
+            }
+            catch (Exception ex)
+            {
+
+            }
+           
         }
 
         public void UnFocusEntry()
         {
-            chatTextInput?.Unfocus();
+            try
+            {
+                chatTextInput?.Unfocus();
+
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
     }
 }

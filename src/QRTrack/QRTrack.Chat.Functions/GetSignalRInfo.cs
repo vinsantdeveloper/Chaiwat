@@ -10,7 +10,7 @@ namespace QRTrack.Chat.Functions
     {
         [FunctionName("GetSignalRInfo")]
         public static SignalRConnectionInfo GetSignalRInfo(
-             [HttpTrigger(AuthorizationLevel.Anonymous)] HttpRequest req,
+             [HttpTrigger(AuthorizationLevel.Anonymous , "get", Route = "GetSignalRInfo")] HttpRequest req,
              [SignalRConnectionInfo(HubName = "chat")] SignalRConnectionInfo connectionInfo)
         {
             return connectionInfo;

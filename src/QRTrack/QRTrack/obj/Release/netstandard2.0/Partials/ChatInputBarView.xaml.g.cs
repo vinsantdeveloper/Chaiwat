@@ -16,13 +16,13 @@ namespace QRTrack.Partials {
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Partials/ChatInputBarView.xaml")]
     public partial class ChatInputBarView : global::Xamarin.Forms.ContentView {
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::QRTrack.Controls.ExtendedEditorControl chatTextInput;
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Entry chatTextInput;
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ChatInputBarView));
-            chatTextInput = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::QRTrack.Controls.ExtendedEditorControl>(this, "chatTextInput");
+            chatTextInput = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "chatTextInput");
         }
     }
 }

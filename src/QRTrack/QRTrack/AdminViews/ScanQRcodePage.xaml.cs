@@ -6,6 +6,9 @@ using ZXing.Net.Mobile.Forms;
 using System.Diagnostics;
 using System.Net.Http;
 using System.Text;
+using System.Linq;
+using QRTrack.Services;
+using QRTrack.Helper;
 
 namespace QRTrack.AdminViews
 {
@@ -39,12 +42,62 @@ namespace QRTrack.AdminViews
             await Navigation.PopAsync(true);
         }
 
-        protected override void OnAppearing()
+        protected override async void OnAppearing()
         {
             base.OnAppearing();
 
+            try
+            {
+
+#if __ANDROID__
+             //    Initialize the scanner first so it can track the current context
+                MobileBarcodeScanner.Initialize(Application);
+#endif
+
+                var scanner = new ZXing.Mobile.MobileBarcodeScanner();
+
+                var result = await scanner.Scan();
+
+                string id = "";
+#if DEBUG
+                id = "f303d84a1ebe49efb1ed99c07ded19f6";
+#endif
+
+                var userDeviceTokenList = await App.TaskForAzureAsync.GetAllUserDeviceTokenDb();
+                var tokenList = userDeviceTokenList.Where(s => s.UserId == id).ToList().OrderByDescending(s => s.DateTime);
+
+                if (tokenList.Any())
+                {
+                    var token = tokenList.FirstOrDefault();
+
+                    var message = $"{Settings.UserId}/{Settings.UserIsAndroid}/Testing Message";
+
+                    if (token.IsAndroid)
+                    {
+                        PushNotiificationSenderService.SendAndroidPushNotification(token.Token, message);
+                    }
+                    else
+                    {
+                        //PushNotiificationSenderService.SendIOSNotification(token.Token, message);
+                    }
+
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+
+            }
+
             IsScanning = true;
         }
+
+
+        
+
+
 
         protected override void OnDisappearing()
         {

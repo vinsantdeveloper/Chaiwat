@@ -150,7 +150,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 56,197,143,180,24,146,162,113,15,187,66,16,216,185,66,248
+	.byte 32,185,35,207,251,218,99,51,119,65,61,233,54,104,58,9
 	.globl _mono_aot_module_System_ComponentModel_Composition_info
 	.align 3
 _mono_aot_module_System_ComponentModel_Composition_info:

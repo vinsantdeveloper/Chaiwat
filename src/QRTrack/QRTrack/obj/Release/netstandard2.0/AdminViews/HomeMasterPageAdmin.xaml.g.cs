@@ -16,10 +16,10 @@ namespace QRTrack.AdminViews {
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("AdminViews/HomeMasterPageAdmin.xaml")]
     public partial class HomeMasterPageAdmin : global::Xamarin.Forms.MasterDetailPage {
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::QRTrack.AdminViews.MasterDetailMenuAdmin MasterDetailMenuAdmin;
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(HomeMasterPageAdmin));
             MasterDetailMenuAdmin = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::QRTrack.AdminViews.MasterDetailMenuAdmin>(this, "MasterDetailMenuAdmin");

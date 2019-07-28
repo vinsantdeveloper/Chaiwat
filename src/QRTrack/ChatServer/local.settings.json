@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureSignalRConnectionString": "Endpoint=https://qrtracksignalr.service.signalr.net;AccessKey=7CisMatvGRgKYbScVEvftkqc0Z4t7pys2q8vPTFXZbw=;Version=1.0;"
+  },
+  "Host": {
+    "LocalHttpPort": 7071,
+    "CORS": "*",
+    "CORSCredentials": false
+  }
+}

@@ -1,7 +1,15 @@
+E:/QRTrack/QRTrack.Chat.Messages/bin/Release/netstandard2.0/QRTrack.Chat.Messages.deps.json
+E:/QRTrack/QRTrack.Chat.Messages/bin/Release/netstandard2.0/QRTrack.Chat.Messages.dll
+E:/QRTrack/QRTrack.Chat.Messages/bin/Release/netstandard2.0/QRTrack.Chat.Messages.pdb
+E:/QRTrack/QRTrack.Chat.Messages/obj/Release/netstandard2.0/QRTrack.Chat.Messages.csprojAssemblyReference.cache
+E:/QRTrack/QRTrack.Chat.Messages/obj/Release/netstandard2.0/QRTrack.Chat.Messages.csproj.CoreCompileInputs.cache
+E:/QRTrack/QRTrack.Chat.Messages/obj/Release/netstandard2.0/QRTrack.Chat.Messages.AssemblyInfoInputs.cache
+E:/QRTrack/QRTrack.Chat.Messages/obj/Release/netstandard2.0/QRTrack.Chat.Messages.AssemblyInfo.cs
+E:/QRTrack/QRTrack.Chat.Messages/obj/Release/netstandard2.0/QRTrack.Chat.Messages.dll
+E:/QRTrack/QRTrack.Chat.Messages/obj/Release/netstandard2.0/QRTrack.Chat.Messages.pdb
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Chat.Messages/bin/Release/netstandard2.0/QRTrack.Chat.Messages.deps.json
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Chat.Messages/bin/Release/netstandard2.0/QRTrack.Chat.Messages.dll
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Chat.Messages/bin/Release/netstandard2.0/QRTrack.Chat.Messages.pdb
-/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Chat.Messages/obj/Release/netstandard2.0/QRTrack.Chat.Messages.csprojAssemblyReference.cache
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Chat.Messages/obj/Release/netstandard2.0/QRTrack.Chat.Messages.csproj.CoreCompileInputs.cache
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Chat.Messages/obj/Release/netstandard2.0/QRTrack.Chat.Messages.AssemblyInfoInputs.cache
 /Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack/QRTrack.Chat.Messages/obj/Release/netstandard2.0/QRTrack.Chat.Messages.AssemblyInfo.cs

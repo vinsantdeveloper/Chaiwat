@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack_backup_20190716/QRTrack.Backend3/QRTrack.Backend3.csproj": {}
+  },
+  "projects": {
+    "/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack_backup_20190716/QRTrack.Backend3/QRTrack.Backend3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack_backup_20190716/QRTrack.Backend3/QRTrack.Backend3.csproj",
+        "projectName": "QRTrack.Backend3",
+        "projectPath": "/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack_backup_20190716/QRTrack.Backend3/QRTrack.Backend3.csproj",
+        "packagesPath": "/Users/kasanapopsrirabut/.nuget/packages/",
+        "outputPath": "/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/QRTrack_backup_20190716/QRTrack.Backend3/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/kasanapopsrirabut/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNet.WebApi.Owin": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.Azure.NotificationHubs": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Owin": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

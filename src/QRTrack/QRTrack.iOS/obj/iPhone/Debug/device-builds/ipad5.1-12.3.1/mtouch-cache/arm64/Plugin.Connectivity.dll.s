@@ -9472,9 +9472,9 @@ bl _p_120
 .word 0xf9428e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd291f8c0
+.word 0xd29205c0
 .word 0xf2a00020
-.word 0xd291f8c0
+.word 0xd29205c0
 .word 0xf2a00020
 bl _p_99
 bl _p_121
@@ -9656,9 +9656,9 @@ ldr x16, [x16, #1400]
 .word 0xf9408a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2886ba0
+.word 0xd2887a20
 .word 0xf2a00020
-.word 0xd2886ba0
+.word 0xd2887a20
 .word 0xf2a00020
 bl _p_99
 .word 0xaa0003e1
@@ -9788,9 +9788,9 @@ bl _p_128
 .word 0xf9427a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd291f8c0
+.word 0xd29205c0
 .word 0xf2a00020
-.word 0xd291f8c0
+.word 0xd29205c0
 .word 0xf2a00020
 bl _p_99
 bl _p_121
@@ -16028,9 +16028,9 @@ bl _mono_gsharedvt_value_copy
 .word 0xf941aa31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd291f380
+.word 0xd2920080
 .word 0xf2a00020
-.word 0xd291f380
+.word 0xd2920080
 .word 0xf2a00020
 bl _p_99
 .word 0xaa0003e1
@@ -16322,9 +16322,9 @@ ldr x16, [x16, #2104]
 .word 0xf940e231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd291f380
+.word 0xd2920080
 .word 0xf2a00020
-.word 0xd291f380
+.word 0xd2920080
 .word 0xf2a00020
 bl _p_99
 .word 0xaa0003e1
@@ -16486,9 +16486,9 @@ ldr x16, [x16, #2112]
 .word 0xf940e231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd291f380
+.word 0xd2920080
 .word 0xf2a00020
-.word 0xd291f380
+.word 0xd2920080
 .word 0xf2a00020
 bl _p_99
 .word 0xaa0003e1
@@ -22984,7 +22984,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 184,13,54,120,229,170,218,241,123,30,164,188,152,22,56,65
+	.byte 130,241,112,215,16,184,149,168,8,17,192,27,98,243,79,47
 	.globl _mono_aot_module_Plugin_Connectivity_info
 	.align 3
 _mono_aot_module_Plugin_Connectivity_info:

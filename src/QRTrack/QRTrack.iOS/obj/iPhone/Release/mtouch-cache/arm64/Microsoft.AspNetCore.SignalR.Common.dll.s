@@ -26981,7 +26981,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Microsoft_AspNetCor
 .word 0xf9401c00
 .word 0xf9002fa0
 .word 0x14000009
-.word 0xd291f380
+.word 0xd2920080
 .word 0xf2a00020
 bl _p_165
 .word 0xaa0003e1
@@ -30926,7 +30926,7 @@ bl _p_773
 .word 0xa8c37bfd
 .word 0xd65f03c0
 .loc 19 610 0
-.word 0xd291f8c0
+.word 0xd29205c0
 .word 0xf2a00020
 bl _p_165
 .word 0xaa0003e1
@@ -31061,7 +31061,7 @@ bl _p_790
 .word 0xa8c47bfd
 .word 0xd65f03c0
 .loc 19 649 0
-.word 0xd2886ba0
+.word 0xd2887a20
 .word 0xf2a00020
 bl _p_165
 .word 0xaa0003e1
@@ -31070,7 +31070,7 @@ bl _p_165
 bl _mono_create_corlib_exception_1
 bl _p_12
 .loc 19 675 0
-.word 0xd291f8c0
+.word 0xd29205c0
 .word 0xf2a00020
 bl _p_165
 .word 0xaa0003e1
@@ -42350,7 +42350,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 25,245,87,116,95,15,181,66,212,19,58,183,19,177,120,202
+	.byte 59,158,123,18,198,74,26,8,161,162,5,156,47,77,68,180
 	.globl _mono_aot_module_Microsoft_AspNetCore_SignalR_Common_info
 	.align 3
 _mono_aot_module_Microsoft_AspNetCore_SignalR_Common_info:

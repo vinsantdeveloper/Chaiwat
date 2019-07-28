@@ -7462,7 +7462,7 @@ ldr x1, [x16, #1192]
 .word 0xd2800001
 .word 0xd2800002
 .word 0xf9400323
-.word 0xf941bc70
+.word 0xf941d070
 .word 0xd63f0200
 .word 0xf9400bb9
 .word 0x910003bf
@@ -7632,7 +7632,7 @@ ldr x1, [x16, #1192]
 .word 0xd2800021
 .word 0xd2800002
 .word 0xf9400343
-.word 0xf941bc70
+.word 0xf941d070
 .word 0xd63f0200
 .word 0xf9400bba
 .word 0x910003bf
@@ -8636,7 +8636,7 @@ ldr x2, [x16, #16]
 .word 0xb9802ba1
 .word 0xaa1803e2
 .word 0xf9400343
-.word 0xf941bc70
+.word 0xf941d070
 .word 0xd63f0200
 .word 0x14000021
 .word 0xf9001ba0
@@ -27740,13 +27740,13 @@ _mono_aot_file_info:
 	.quad unbox_trampoline_addresses
 
 	.long 308,5632,396,416,27,66,387000831,0
-	.long 17585,128,8,8,8,9,8388607,0
-	.long 24,25176,7584,7040,5608,0,6344,6976
+	.long 17627,128,8,8,8,9,8388607,0
+	.long 24,25224,7584,7040,5608,0,6344,6976
 	.long 5920,0,4112,632,7576,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 25,189,245,151,152,69,93,121,228,223,72,55,237,238,137,232
+	.byte 105,58,183,241,236,15,2,251,44,31,2,219,31,15,76,223
 	.globl _mono_aot_module_ZXingNetMobile_info
 	.align 3
 _mono_aot_module_ZXingNetMobile_info:

@@ -16,17 +16,21 @@ namespace QRTrack.ChatViews {
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("ChatViews/ChatPage.xaml")]
     public partial class ChatPage : global::Xamarin.Forms.ContentPage {
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::QRTrack.Controls.ExtendedListView ChatList;
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::QRTrack.Partials.ChatInputBarView chatInput;
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.ActivityIndicator activityIndicator;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ChatPage));
             ChatList = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::QRTrack.Controls.ExtendedListView>(this, "ChatList");
             chatInput = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::QRTrack.Partials.ChatInputBarView>(this, "chatInput");
+            activityIndicator = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ActivityIndicator>(this, "activityIndicator");
         }
     }
 }

@@ -5511,8 +5511,8 @@ bl _p_35
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940a7a0
-.word 0xf900f300
-.word 0x91078301
+.word 0xf900f700
+.word 0x9107a301
 .word 0xd349fc21
 .word 0xd29ffffe
 .word 0xf2a00ffe
@@ -5529,7 +5529,7 @@ ldr x2, [x16, #16]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
-.word 0xf940f300
+.word 0xf940f700
 .word 0xf9009fa0
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
@@ -5581,7 +5581,7 @@ bl _p_37
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
-.word 0xf940f300
+.word 0xf940f700
 .word 0xf9008fa0
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
@@ -5633,7 +5633,7 @@ bl _p_37
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
-.word 0xf940f300
+.word 0xf940f700
 .word 0xf9007fa0
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
@@ -5685,7 +5685,7 @@ bl _p_37
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
-.word 0xf940f300
+.word 0xf940f700
 .word 0xf9006fa0
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
@@ -5737,7 +5737,7 @@ bl _p_37
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
-.word 0xf940f300
+.word 0xf940f700
 .word 0xf9005fa0
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
@@ -5789,7 +5789,7 @@ bl _p_37
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
-.word 0xf940f300
+.word 0xf940f700
 .word 0xf90053a0
 .word 0xaa1803e0
 .word 0xeb1f031f
@@ -5888,8 +5888,8 @@ bl _p_35
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9408ba0
-.word 0xf900f700
-.word 0x9107a301
+.word 0xf900fb00
+.word 0x9107c301
 .word 0xd349fc21
 .word 0xd29ffffe
 .word 0xf2a00ffe
@@ -5906,7 +5906,7 @@ ldr x2, [x16, #16]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
-.word 0xf940f700
+.word 0xf940fb00
 .word 0xf90083a0
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
@@ -5958,7 +5958,7 @@ bl _p_37
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
-.word 0xf940f700
+.word 0xf940fb00
 .word 0xf90073a0
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
@@ -6010,7 +6010,7 @@ bl _p_37
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
-.word 0xf940f700
+.word 0xf940fb00
 .word 0xf90063a0
 
 adrp x16, mono_aot_ZXing_Net_Mobile_Forms_got@PAGE+0
@@ -6113,7 +6113,7 @@ bl _p_51
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
-.word 0xf940f700
+.word 0xf940fb00
 .word 0xf90053a0
 .word 0xaa1803e0
 .word 0xeb1f031f
@@ -6177,7 +6177,7 @@ bl _p_52
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1803e0
-.word 0xf940f701
+.word 0xf940fb01
 .word 0xaa1803e0
 bl _p_53
 .word 0xf9402bb1
@@ -6282,7 +6282,7 @@ bl _p_28
 .word 0xd63f0220
 .word 0xf9405ba2
 .word 0xaa1803e0
-.word 0xf940f301
+.word 0xf940f701
 .word 0xaa0203e0
 .word 0xf9400042
 
@@ -6806,7 +6806,7 @@ ldr x16, [x16, #1312]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
-.word 0xf940fb20
+.word 0xf940ff20
 .word 0xaa0003f8
 .word 0xf94027b1
 .word 0xf9400231
@@ -6854,7 +6854,7 @@ ldr x1, [x16, #1320]
 .word 0xeb1f033f
 .word 0x10000011
 .word 0x540006e0
-.word 0x9107c320
+.word 0x9107e320
 .word 0xaa1503e1
 .word 0xaa1703e1
 
@@ -6953,7 +6953,7 @@ ldr x16, [x16, #1336]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
-.word 0xf940fb20
+.word 0xf940ff20
 .word 0xaa0003f8
 .word 0xf94027b1
 .word 0xf9400231
@@ -7001,7 +7001,7 @@ ldr x1, [x16, #1320]
 .word 0xeb1f033f
 .word 0x10000011
 .word 0x540006e0
-.word 0x9107c320
+.word 0x9107e320
 .word 0xaa1503e1
 .word 0xaa1703e1
 
@@ -7093,7 +7093,7 @@ ldr x16, [x16, #1344]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-.word 0xf940fc00
+.word 0xf9410000
 .word 0xf9001ba0
 .word 0xf94013b1
 .word 0xf9400231
@@ -7143,8 +7143,8 @@ ldr x16, [x16, #1352]
 .word 0xd63f0220
 .word 0xf9400ba1
 .word 0xf9400fa0
-.word 0xf900fc20
-.word 0x9107e021
+.word 0xf9010020
+.word 0x91080021
 .word 0xd349fc21
 .word 0xd29ffffe
 .word 0xf2a00ffe
@@ -7198,14 +7198,14 @@ ldr x16, [x16, #1360]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-.word 0xf940f340
+.word 0xf940f740
 .word 0xb40001c0
 .word 0xf9400fb1
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-.word 0xf940f341
+.word 0xf940f741
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_56
@@ -7271,7 +7271,7 @@ bl _p_57
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-.word 0xf940f342
+.word 0xf940f742
 .word 0xd2800020
 .word 0xaa0203e0
 .word 0xd2800021
@@ -7324,7 +7324,7 @@ ldr x16, [x16, #1376]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-.word 0xf940f342
+.word 0xf940f742
 .word 0xd2800000
 .word 0xaa0203e0
 .word 0xd2800001
@@ -7388,14 +7388,14 @@ ldr x16, [x16, #1384]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-.word 0xf940f340
+.word 0xf940f740
 .word 0xb4000200
 .word 0xf9400fb1
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-.word 0xf940f342
+.word 0xf940f742
 .word 0xd2800000
 .word 0xaa0203e0
 .word 0xd2800001
@@ -7452,14 +7452,14 @@ ldr x16, [x16, #1392]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-.word 0xf940f340
+.word 0xf940f740
 .word 0xb4000200
 .word 0xf9400fb1
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-.word 0xf940f342
+.word 0xf940f742
 .word 0xd2800020
 .word 0xaa0203e0
 .word 0xd2800021
@@ -7516,14 +7516,14 @@ ldr x16, [x16, #1400]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-.word 0xf940f340
+.word 0xf940f740
 .word 0xb40001c0
 .word 0xf9400fb1
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-.word 0xf940f341
+.word 0xf940f741
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_61
@@ -7580,14 +7580,14 @@ ldr x16, [x16, #1408]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
-.word 0xf940f300
+.word 0xf940f700
 .word 0xb4000200
 .word 0xf94017b1
 .word 0xf9407a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
-.word 0xf940f303
+.word 0xf940f703
 .word 0xb9801ba1
 .word 0xb98023a2
 .word 0xaa0303e0
@@ -8808,7 +8808,7 @@ ldr x16, [x16, #1552]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013a0
-.word 0xf940f800
+.word 0xf940fc00
 .word 0xaa0003f8
 .word 0xaa1803e0
 .word 0xaa1803e1
@@ -8874,10 +8874,10 @@ ldr x16, [x16, #1560]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-.word 0xf940f340
+.word 0xf940f740
 .word 0xf90027a0
 .word 0xaa1a03e0
-.word 0xf940f341
+.word 0xf940f741
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_10
@@ -12928,13 +12928,13 @@ _mono_aot_file_info:
 	.quad unbox_trampoline_addresses
 
 	.long 239,2536,78,114,12,70,387000831,0
-	.long 19131,128,8,8,8,9,8388607,0
-	.long 24,21256,2112,1568,904,0,1320,1536
+	.long 19219,128,8,8,8,9,8388607,0
+	.long 24,21344,2112,1568,904,0,1320,1536
 	.long 992,0,696,184,2104,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 245,126,235,77,89,130,105,83,239,61,250,199,89,69,144,207
+	.byte 129,99,138,200,186,179,15,232,220,225,148,171,220,219,198,22
 	.globl _mono_aot_module_ZXing_Net_Mobile_Forms_info
 	.align 3
 _mono_aot_module_ZXing_Net_Mobile_Forms_info:
@@ -13466,13 +13466,13 @@ LDIFF_SYM97=LTDIE_14 - Ldebug_info_start
 LTDIE_22:
 
 	.byte 5
-	.asciz "System_EventHandler"
+	.asciz "Xamarin_Forms_PropertyChangingEventHandler"
 
 	.byte 128,1,16
 LDIFF_SYM98=LTDIE_15 - Ldebug_info_start
 	.long LDIFF_SYM98
 	.byte 2,35,0,0,7
-	.asciz "System_EventHandler"
+	.asciz "Xamarin_Forms_PropertyChangingEventHandler"
 
 LDIFF_SYM99=LTDIE_22 - Ldebug_info_start
 	.long LDIFF_SYM99
@@ -13489,13 +13489,13 @@ LDIFF_SYM101=LTDIE_22 - Ldebug_info_start
 LTDIE_23:
 
 	.byte 5
-	.asciz "Xamarin_Forms_PropertyChangingEventHandler"
+	.asciz "System_EventHandler"
 
 	.byte 128,1,16
 LDIFF_SYM102=LTDIE_15 - Ldebug_info_start
 	.long LDIFF_SYM102
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_PropertyChangingEventHandler"
+	.asciz "System_EventHandler"
 
 LDIFF_SYM103=LTDIE_23 - Ldebug_info_start
 	.long LDIFF_SYM103
@@ -13538,12 +13538,12 @@ LDIFF_SYM109=LDIE_OBJECT - Ldebug_info_start
 LDIFF_SYM110=LTDIE_14_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM110
 	.byte 2,35,32,6
-	.asciz "BindingContextChanged"
+	.asciz "PropertyChanging"
 
 LDIFF_SYM111=LTDIE_22_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM111
 	.byte 2,35,40,6
-	.asciz "PropertyChanging"
+	.asciz "BindingContextChanged"
 
 LDIFF_SYM112=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM112
@@ -13937,7 +13937,7 @@ LDIFF_SYM181=LTDIE_31 - Ldebug_info_start
 	.byte 2,35,0,6
 	.asciz "Clearing"
 
-LDIFF_SYM182=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM182=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM182
 	.byte 2,35,64,0,7
 	.asciz "Xamarin_Forms_TrackableCollection`1"
@@ -14078,7 +14078,7 @@ LDIFF_SYM207=LTDIE_36_REFERENCE - Ldebug_info_start
 	.byte 3,35,152,1,6
 	.asciz "ParentSet"
 
-LDIFF_SYM208=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM208=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM208
 	.byte 3,35,160,1,6
 	.asciz "_platform"
@@ -14088,7 +14088,7 @@ LDIFF_SYM209=LTDIE_37_REFERENCE - Ldebug_info_start
 	.byte 3,35,168,1,6
 	.asciz "PlatformSet"
 
-LDIFF_SYM210=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM210=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM210
 	.byte 3,35,176,1,6
 	.asciz "_cssFallbackTypeName"
@@ -15639,7 +15639,7 @@ LDIFF_SYM440=LTDIE_52_REFERENCE - Ldebug_info_start
 	.byte 3,35,248,1,6
 	.asciz "ChildrenReordered"
 
-LDIFF_SYM441=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM441=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM441
 	.byte 3,35,128,2,6
 	.asciz "Focused"
@@ -15649,12 +15649,12 @@ LDIFF_SYM442=LTDIE_69_REFERENCE - Ldebug_info_start
 	.byte 3,35,136,2,6
 	.asciz "MeasureInvalidated"
 
-LDIFF_SYM443=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM443=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM443
 	.byte 3,35,144,2,6
 	.asciz "SizeChanged"
 
-LDIFF_SYM444=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM444=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM444
 	.byte 3,35,152,2,6
 	.asciz "Unfocused"
@@ -17399,7 +17399,7 @@ LDIFF_SYM678=LTDIE_92_REFERENCE - Ldebug_info_start
 	.byte 3,35,136,3,6
 	.asciz "LayoutChanged"
 
-LDIFF_SYM679=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM679=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM679
 	.byte 3,35,144,3,0,7
 	.asciz "Xamarin_Forms_Layout"
@@ -18875,17 +18875,17 @@ LDIFF_SYM941=LTDIE_131_REFERENCE - Ldebug_info_start
 	.byte 3,35,128,3,6
 	.asciz "Clicked"
 
-LDIFF_SYM942=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM942=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM942
 	.byte 3,35,136,3,6
 	.asciz "Pressed"
 
-LDIFF_SYM943=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM943=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM943
 	.byte 3,35,144,3,6
 	.asciz "Released"
 
-LDIFF_SYM944=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM944=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM944
 	.byte 3,35,152,3,6
 	.asciz "cornerOrBorderRadiusSetting"
@@ -19721,17 +19721,17 @@ LDIFF_SYM1052=LTDIE_92_REFERENCE - Ldebug_info_start
 	.byte 3,35,144,3,6
 	.asciz "LayoutChanged"
 
-LDIFF_SYM1053=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM1053=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1053
 	.byte 3,35,152,3,6
 	.asciz "Appearing"
 
-LDIFF_SYM1054=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM1054=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1054
 	.byte 3,35,160,3,6
 	.asciz "Disappearing"
 
-LDIFF_SYM1055=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM1055=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1055
 	.byte 3,35,168,3,0,7
 	.asciz "Xamarin_Forms_Page"
@@ -19753,113 +19753,118 @@ LTDIE_138:
 	.byte 5
 	.asciz "Xamarin_Forms_TemplatedPage"
 
-	.byte 224,3,16
+	.byte 232,3,16
 LDIFF_SYM1059=LTDIE_139 - Ldebug_info_start
 	.long LDIFF_SYM1059
-	.byte 2,35,0,0,7
+	.byte 2,35,0,6
+	.asciz "<Xamarin.Forms.IControlTemplated.TemplateRoot>k__BackingField"
+
+LDIFF_SYM1060=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1060
+	.byte 3,35,224,3,0,7
 	.asciz "Xamarin_Forms_TemplatedPage"
 
-LDIFF_SYM1060=LTDIE_138 - Ldebug_info_start
-	.long LDIFF_SYM1060
+LDIFF_SYM1061=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM1061
 LTDIE_138_POINTER:
 
 	.byte 13
-LDIFF_SYM1061=LTDIE_138 - Ldebug_info_start
-	.long LDIFF_SYM1061
+LDIFF_SYM1062=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM1062
 LTDIE_138_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1062=LTDIE_138 - Ldebug_info_start
-	.long LDIFF_SYM1062
+LDIFF_SYM1063=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM1063
 LTDIE_137:
 
 	.byte 5
 	.asciz "Xamarin_Forms_ContentPage"
 
-	.byte 224,3,16
-LDIFF_SYM1063=LTDIE_138 - Ldebug_info_start
-	.long LDIFF_SYM1063
+	.byte 232,3,16
+LDIFF_SYM1064=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM1064
 	.byte 2,35,0,0,7
 	.asciz "Xamarin_Forms_ContentPage"
 
-LDIFF_SYM1064=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM1064
+LDIFF_SYM1065=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM1065
 LTDIE_137_POINTER:
 
 	.byte 13
-LDIFF_SYM1065=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM1065
+LDIFF_SYM1066=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM1066
 LTDIE_137_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1066=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM1066
+LDIFF_SYM1067=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM1067
 LTDIE_144:
 
 	.byte 5
 	.asciz "_ScanResultDelegate"
 
 	.byte 128,1,16
-LDIFF_SYM1067=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1067
+LDIFF_SYM1068=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1068
 	.byte 2,35,0,0,7
 	.asciz "_ScanResultDelegate"
 
-LDIFF_SYM1068=LTDIE_144 - Ldebug_info_start
-	.long LDIFF_SYM1068
+LDIFF_SYM1069=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM1069
 LTDIE_144_POINTER:
 
 	.byte 13
-LDIFF_SYM1069=LTDIE_144 - Ldebug_info_start
-	.long LDIFF_SYM1069
+LDIFF_SYM1070=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM1070
 LTDIE_144_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1070=LTDIE_144 - Ldebug_info_start
-	.long LDIFF_SYM1070
+LDIFF_SYM1071=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM1071
 LTDIE_136:
 
 	.byte 5
 	.asciz "ZXing_Net_Mobile_Forms_ZXingScannerPage"
 
-	.byte 128,4,16
-LDIFF_SYM1071=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM1071
+	.byte 136,4,16
+LDIFF_SYM1072=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM1072
 	.byte 2,35,0,6
 	.asciz "zxing"
 
-LDIFF_SYM1072=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1072
-	.byte 3,35,224,3,6
-	.asciz "defaultOverlay"
-
-LDIFF_SYM1073=LTDIE_86_REFERENCE - Ldebug_info_start
+LDIFF_SYM1073=LTDIE_0_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1073
 	.byte 3,35,232,3,6
-	.asciz "OnScanResult"
+	.asciz "defaultOverlay"
 
-LDIFF_SYM1074=LTDIE_144_REFERENCE - Ldebug_info_start
+LDIFF_SYM1074=LTDIE_86_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1074
 	.byte 3,35,240,3,6
+	.asciz "OnScanResult"
+
+LDIFF_SYM1075=LTDIE_144_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1075
+	.byte 3,35,248,3,6
 	.asciz "<Overlay>k__BackingField"
 
-LDIFF_SYM1075=LTDIE_1_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1075
-	.byte 3,35,248,3,0,7
+LDIFF_SYM1076=LTDIE_1_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1076
+	.byte 3,35,128,4,0,7
 	.asciz "ZXing_Net_Mobile_Forms_ZXingScannerPage"
 
-LDIFF_SYM1076=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM1076
+LDIFF_SYM1077=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM1077
 LTDIE_136_POINTER:
 
 	.byte 13
-LDIFF_SYM1077=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM1077
+LDIFF_SYM1078=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM1078
 LTDIE_136_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1078=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM1078
+LDIFF_SYM1079=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM1079
 	.byte 2
 	.asciz "ZXing.Net.Mobile.Forms.ZXingScannerPage:.ctor"
 	.asciz "ZXing_Net_Mobile_Forms_ZXingScannerPage__ctor_ZXing_Mobile_MobileBarcodeScanningOptions_Xamarin_Forms_View"
@@ -19871,37 +19876,37 @@ LDIFF_SYM1078=LTDIE_136 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1079=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1079
+LDIFF_SYM1080=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1080
 	.byte 1,104,3
 	.asciz "options"
 
-LDIFF_SYM1080=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1080
+LDIFF_SYM1081=LTDIE_82_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1081
 	.byte 3,141,200,0,3
 	.asciz "customOverlay"
 
-LDIFF_SYM1081=LTDIE_1_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1081
+LDIFF_SYM1082=LTDIE_1_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1082
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1082=LTDIE_87_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1082
+LDIFF_SYM1083=LTDIE_87_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1083
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1083=Lfde37_end - Lfde37_start
-	.long LDIFF_SYM1083
+LDIFF_SYM1084=Lfde37_end - Lfde37_start
+	.long LDIFF_SYM1084
 Lfde37_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage__ctor_ZXing_Mobile_MobileBarcodeScanningOptions_Xamarin_Forms_View
 
-LDIFF_SYM1084=Lme_2d - ZXing_Net_Mobile_Forms_ZXingScannerPage__ctor_ZXing_Mobile_MobileBarcodeScanningOptions_Xamarin_Forms_View
-	.long LDIFF_SYM1084
+LDIFF_SYM1085=Lme_2d - ZXing_Net_Mobile_Forms_ZXingScannerPage__ctor_ZXing_Mobile_MobileBarcodeScanningOptions_Xamarin_Forms_View
+	.long LDIFF_SYM1085
 	.long 0
 	.byte 12,31,0,68,14,240,2,157,46,158,45,68,13,29,68,147,44,148,43,68,149,42,150,41,68,151,40,152,39,68,154,38
 	.align 3
@@ -19920,22 +19925,22 @@ Lfde37_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1085=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1085
+LDIFF_SYM1086=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1086
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1086=Lfde38_end - Lfde38_start
-	.long LDIFF_SYM1086
+LDIFF_SYM1087=Lfde38_end - Lfde38_start
+	.long LDIFF_SYM1087
 Lfde38_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage_get_DefaultOverlayTopText
 
-LDIFF_SYM1087=Lme_2e - ZXing_Net_Mobile_Forms_ZXingScannerPage_get_DefaultOverlayTopText
-	.long LDIFF_SYM1087
+LDIFF_SYM1088=Lme_2e - ZXing_Net_Mobile_Forms_ZXingScannerPage_get_DefaultOverlayTopText
+	.long LDIFF_SYM1088
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
@@ -19954,27 +19959,27 @@ Lfde38_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1088=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1088
+LDIFF_SYM1089=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1089
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM1089=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1089
+LDIFF_SYM1090=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1090
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1090=Lfde39_end - Lfde39_start
-	.long LDIFF_SYM1090
+LDIFF_SYM1091=Lfde39_end - Lfde39_start
+	.long LDIFF_SYM1091
 Lfde39_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage_set_DefaultOverlayTopText_string
 
-LDIFF_SYM1091=Lme_2f - ZXing_Net_Mobile_Forms_ZXingScannerPage_set_DefaultOverlayTopText_string
-	.long LDIFF_SYM1091
+LDIFF_SYM1092=Lme_2f - ZXing_Net_Mobile_Forms_ZXingScannerPage_set_DefaultOverlayTopText_string
+	.long LDIFF_SYM1092
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -19993,22 +19998,22 @@ Lfde39_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1092=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1092
+LDIFF_SYM1093=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1093
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1093=Lfde40_end - Lfde40_start
-	.long LDIFF_SYM1093
+LDIFF_SYM1094=Lfde40_end - Lfde40_start
+	.long LDIFF_SYM1094
 Lfde40_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage_get_DefaultOverlayBottomText
 
-LDIFF_SYM1094=Lme_30 - ZXing_Net_Mobile_Forms_ZXingScannerPage_get_DefaultOverlayBottomText
-	.long LDIFF_SYM1094
+LDIFF_SYM1095=Lme_30 - ZXing_Net_Mobile_Forms_ZXingScannerPage_get_DefaultOverlayBottomText
+	.long LDIFF_SYM1095
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
@@ -20027,27 +20032,27 @@ Lfde40_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1095=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1095
+LDIFF_SYM1096=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1096
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM1096=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1096
+LDIFF_SYM1097=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1097
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1097=Lfde41_end - Lfde41_start
-	.long LDIFF_SYM1097
+LDIFF_SYM1098=Lfde41_end - Lfde41_start
+	.long LDIFF_SYM1098
 Lfde41_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage_set_DefaultOverlayBottomText_string
 
-LDIFF_SYM1098=Lme_31 - ZXing_Net_Mobile_Forms_ZXingScannerPage_set_DefaultOverlayBottomText_string
-	.long LDIFF_SYM1098
+LDIFF_SYM1099=Lme_31 - ZXing_Net_Mobile_Forms_ZXingScannerPage_set_DefaultOverlayBottomText_string
+	.long LDIFF_SYM1099
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -20066,22 +20071,22 @@ Lfde41_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1099=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1099
+LDIFF_SYM1100=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1100
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1100=Lfde42_end - Lfde42_start
-	.long LDIFF_SYM1100
+LDIFF_SYM1101=Lfde42_end - Lfde42_start
+	.long LDIFF_SYM1101
 Lfde42_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage_get_DefaultOverlayShowFlashButton
 
-LDIFF_SYM1101=Lme_32 - ZXing_Net_Mobile_Forms_ZXingScannerPage_get_DefaultOverlayShowFlashButton
-	.long LDIFF_SYM1101
+LDIFF_SYM1102=Lme_32 - ZXing_Net_Mobile_Forms_ZXingScannerPage_get_DefaultOverlayShowFlashButton
+	.long LDIFF_SYM1102
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -20100,27 +20105,27 @@ Lfde42_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1102=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1102
+LDIFF_SYM1103=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1103
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM1103=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1103
+LDIFF_SYM1104=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1104
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1104=Lfde43_end - Lfde43_start
-	.long LDIFF_SYM1104
+LDIFF_SYM1105=Lfde43_end - Lfde43_start
+	.long LDIFF_SYM1105
 Lfde43_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage_set_DefaultOverlayShowFlashButton_bool
 
-LDIFF_SYM1105=Lme_33 - ZXing_Net_Mobile_Forms_ZXingScannerPage_set_DefaultOverlayShowFlashButton_bool
-	.long LDIFF_SYM1105
+LDIFF_SYM1106=Lme_33 - ZXing_Net_Mobile_Forms_ZXingScannerPage_set_DefaultOverlayShowFlashButton_bool
+	.long LDIFF_SYM1106
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
@@ -20139,42 +20144,42 @@ Lfde43_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1106=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1106
+LDIFF_SYM1107=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1107
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1107=LTDIE_144_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1107
+LDIFF_SYM1108=LTDIE_144_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1108
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1108=LTDIE_144_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1108
+LDIFF_SYM1109=LTDIE_144_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1109
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1109=LTDIE_144_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1109
+LDIFF_SYM1110=LTDIE_144_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1110
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1110=LTDIE_144_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1110
+LDIFF_SYM1111=LTDIE_144_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1111
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1111=Lfde44_end - Lfde44_start
-	.long LDIFF_SYM1111
+LDIFF_SYM1112=Lfde44_end - Lfde44_start
+	.long LDIFF_SYM1112
 Lfde44_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage_add_OnScanResult_ZXing_Net_Mobile_Forms_ZXingScannerPage_ScanResultDelegate
 
-LDIFF_SYM1112=Lme_34 - ZXing_Net_Mobile_Forms_ZXingScannerPage_add_OnScanResult_ZXing_Net_Mobile_Forms_ZXingScannerPage_ScanResultDelegate
-	.long LDIFF_SYM1112
+LDIFF_SYM1113=Lme_34 - ZXing_Net_Mobile_Forms_ZXingScannerPage_add_OnScanResult_ZXing_Net_Mobile_Forms_ZXingScannerPage_ScanResultDelegate
+	.long LDIFF_SYM1113
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7
 	.align 3
@@ -20193,42 +20198,42 @@ Lfde44_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1113=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1113
+LDIFF_SYM1114=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1114
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1114=LTDIE_144_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1114
+LDIFF_SYM1115=LTDIE_144_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1115
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1115=LTDIE_144_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1115
+LDIFF_SYM1116=LTDIE_144_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1116
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1116=LTDIE_144_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1116
+LDIFF_SYM1117=LTDIE_144_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1117
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1117=LTDIE_144_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1117
+LDIFF_SYM1118=LTDIE_144_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1118
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1118=Lfde45_end - Lfde45_start
-	.long LDIFF_SYM1118
+LDIFF_SYM1119=Lfde45_end - Lfde45_start
+	.long LDIFF_SYM1119
 Lfde45_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage_remove_OnScanResult_ZXing_Net_Mobile_Forms_ZXingScannerPage_ScanResultDelegate
 
-LDIFF_SYM1119=Lme_35 - ZXing_Net_Mobile_Forms_ZXingScannerPage_remove_OnScanResult_ZXing_Net_Mobile_Forms_ZXingScannerPage_ScanResultDelegate
-	.long LDIFF_SYM1119
+LDIFF_SYM1120=Lme_35 - ZXing_Net_Mobile_Forms_ZXingScannerPage_remove_OnScanResult_ZXing_Net_Mobile_Forms_ZXingScannerPage_ScanResultDelegate
+	.long LDIFF_SYM1120
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7
 	.align 3
@@ -20247,22 +20252,22 @@ Lfde45_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1120=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1120
+LDIFF_SYM1121=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1121
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1121=Lfde46_end - Lfde46_start
-	.long LDIFF_SYM1121
+LDIFF_SYM1122=Lfde46_end - Lfde46_start
+	.long LDIFF_SYM1122
 Lfde46_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage_get_Overlay
 
-LDIFF_SYM1122=Lme_36 - ZXing_Net_Mobile_Forms_ZXingScannerPage_get_Overlay
-	.long LDIFF_SYM1122
+LDIFF_SYM1123=Lme_36 - ZXing_Net_Mobile_Forms_ZXingScannerPage_get_Overlay
+	.long LDIFF_SYM1123
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -20281,27 +20286,27 @@ Lfde46_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1123=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1123
+LDIFF_SYM1124=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1124
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM1124=LTDIE_1_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1124
+LDIFF_SYM1125=LTDIE_1_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1125
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1125=Lfde47_end - Lfde47_start
-	.long LDIFF_SYM1125
+LDIFF_SYM1126=Lfde47_end - Lfde47_start
+	.long LDIFF_SYM1126
 Lfde47_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage_set_Overlay_Xamarin_Forms_View
 
-LDIFF_SYM1126=Lme_37 - ZXing_Net_Mobile_Forms_ZXingScannerPage_set_Overlay_Xamarin_Forms_View
-	.long LDIFF_SYM1126
+LDIFF_SYM1127=Lme_37 - ZXing_Net_Mobile_Forms_ZXingScannerPage_set_Overlay_Xamarin_Forms_View
+	.long LDIFF_SYM1127
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -20320,22 +20325,22 @@ Lfde47_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1127=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1127
+LDIFF_SYM1128=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1128
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1128=Lfde48_end - Lfde48_start
-	.long LDIFF_SYM1128
+LDIFF_SYM1129=Lfde48_end - Lfde48_start
+	.long LDIFF_SYM1129
 Lfde48_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage_ToggleTorch
 
-LDIFF_SYM1129=Lme_38 - ZXing_Net_Mobile_Forms_ZXingScannerPage_ToggleTorch
-	.long LDIFF_SYM1129
+LDIFF_SYM1130=Lme_38 - ZXing_Net_Mobile_Forms_ZXingScannerPage_ToggleTorch
+	.long LDIFF_SYM1130
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
@@ -20354,22 +20359,22 @@ Lfde48_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1130=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1130
+LDIFF_SYM1131=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1131
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1131=Lfde49_end - Lfde49_start
-	.long LDIFF_SYM1131
+LDIFF_SYM1132=Lfde49_end - Lfde49_start
+	.long LDIFF_SYM1132
 Lfde49_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage_OnAppearing
 
-LDIFF_SYM1132=Lme_39 - ZXing_Net_Mobile_Forms_ZXingScannerPage_OnAppearing
-	.long LDIFF_SYM1132
+LDIFF_SYM1133=Lme_39 - ZXing_Net_Mobile_Forms_ZXingScannerPage_OnAppearing
+	.long LDIFF_SYM1133
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
@@ -20388,22 +20393,22 @@ Lfde49_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1133=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1133
+LDIFF_SYM1134=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1134
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1134=Lfde50_end - Lfde50_start
-	.long LDIFF_SYM1134
+LDIFF_SYM1135=Lfde50_end - Lfde50_start
+	.long LDIFF_SYM1135
 Lfde50_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage_OnDisappearing
 
-LDIFF_SYM1135=Lme_3a - ZXing_Net_Mobile_Forms_ZXingScannerPage_OnDisappearing
-	.long LDIFF_SYM1135
+LDIFF_SYM1136=Lme_3a - ZXing_Net_Mobile_Forms_ZXingScannerPage_OnDisappearing
+	.long LDIFF_SYM1136
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
@@ -20422,22 +20427,22 @@ Lfde50_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1136=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1136
+LDIFF_SYM1137=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1137
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1137=Lfde51_end - Lfde51_start
-	.long LDIFF_SYM1137
+LDIFF_SYM1138=Lfde51_end - Lfde51_start
+	.long LDIFF_SYM1138
 Lfde51_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage_PauseAnalysis
 
-LDIFF_SYM1138=Lme_3b - ZXing_Net_Mobile_Forms_ZXingScannerPage_PauseAnalysis
-	.long LDIFF_SYM1138
+LDIFF_SYM1139=Lme_3b - ZXing_Net_Mobile_Forms_ZXingScannerPage_PauseAnalysis
+	.long LDIFF_SYM1139
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
@@ -20456,22 +20461,22 @@ Lfde51_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1139=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1139
+LDIFF_SYM1140=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1140
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1140=Lfde52_end - Lfde52_start
-	.long LDIFF_SYM1140
+LDIFF_SYM1141=Lfde52_end - Lfde52_start
+	.long LDIFF_SYM1141
 Lfde52_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage_ResumeAnalysis
 
-LDIFF_SYM1141=Lme_3c - ZXing_Net_Mobile_Forms_ZXingScannerPage_ResumeAnalysis
-	.long LDIFF_SYM1141
+LDIFF_SYM1142=Lme_3c - ZXing_Net_Mobile_Forms_ZXingScannerPage_ResumeAnalysis
+	.long LDIFF_SYM1142
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
@@ -20490,22 +20495,22 @@ Lfde52_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1142=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1142
+LDIFF_SYM1143=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1143
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1143=Lfde53_end - Lfde53_start
-	.long LDIFF_SYM1143
+LDIFF_SYM1144=Lfde53_end - Lfde53_start
+	.long LDIFF_SYM1144
 Lfde53_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage_AutoFocus
 
-LDIFF_SYM1144=Lme_3d - ZXing_Net_Mobile_Forms_ZXingScannerPage_AutoFocus
-	.long LDIFF_SYM1144
+LDIFF_SYM1145=Lme_3d - ZXing_Net_Mobile_Forms_ZXingScannerPage_AutoFocus
+	.long LDIFF_SYM1145
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
@@ -20524,32 +20529,32 @@ Lfde53_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1145=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1145
+LDIFF_SYM1146=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1146
 	.byte 1,104,3
 	.asciz "x"
 
-LDIFF_SYM1146=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1146
+LDIFF_SYM1147=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1147
 	.byte 2,141,24,3
 	.asciz "y"
 
-LDIFF_SYM1147=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1147
+LDIFF_SYM1148=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1148
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1148=Lfde54_end - Lfde54_start
-	.long LDIFF_SYM1148
+LDIFF_SYM1149=Lfde54_end - Lfde54_start
+	.long LDIFF_SYM1149
 Lfde54_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage_AutoFocus_int_int
 
-LDIFF_SYM1149=Lme_3e - ZXing_Net_Mobile_Forms_ZXingScannerPage_AutoFocus_int_int
-	.long LDIFF_SYM1149
+LDIFF_SYM1150=Lme_3e - ZXing_Net_Mobile_Forms_ZXingScannerPage_AutoFocus_int_int
+	.long LDIFF_SYM1150
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6
 	.align 3
@@ -20568,22 +20573,22 @@ Lfde54_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1150=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1150
+LDIFF_SYM1151=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1151
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1151=Lfde55_end - Lfde55_start
-	.long LDIFF_SYM1151
+LDIFF_SYM1152=Lfde55_end - Lfde55_start
+	.long LDIFF_SYM1152
 Lfde55_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage_get_IsTorchOn
 
-LDIFF_SYM1152=Lme_3f - ZXing_Net_Mobile_Forms_ZXingScannerPage_get_IsTorchOn
-	.long LDIFF_SYM1152
+LDIFF_SYM1153=Lme_3f - ZXing_Net_Mobile_Forms_ZXingScannerPage_get_IsTorchOn
+	.long LDIFF_SYM1153
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -20602,27 +20607,27 @@ Lfde55_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1153=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1153
+LDIFF_SYM1154=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1154
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM1154=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1154
+LDIFF_SYM1155=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1155
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1155=Lfde56_end - Lfde56_start
-	.long LDIFF_SYM1155
+LDIFF_SYM1156=Lfde56_end - Lfde56_start
+	.long LDIFF_SYM1156
 Lfde56_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage_set_IsTorchOn_bool
 
-LDIFF_SYM1156=Lme_40 - ZXing_Net_Mobile_Forms_ZXingScannerPage_set_IsTorchOn_bool
-	.long LDIFF_SYM1156
+LDIFF_SYM1157=Lme_40 - ZXing_Net_Mobile_Forms_ZXingScannerPage_set_IsTorchOn_bool
+	.long LDIFF_SYM1157
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
@@ -20641,22 +20646,22 @@ Lfde56_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1157=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1157
+LDIFF_SYM1158=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1158
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1158=Lfde57_end - Lfde57_start
-	.long LDIFF_SYM1158
+LDIFF_SYM1159=Lfde57_end - Lfde57_start
+	.long LDIFF_SYM1159
 Lfde57_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage_get_IsAnalyzing
 
-LDIFF_SYM1159=Lme_41 - ZXing_Net_Mobile_Forms_ZXingScannerPage_get_IsAnalyzing
-	.long LDIFF_SYM1159
+LDIFF_SYM1160=Lme_41 - ZXing_Net_Mobile_Forms_ZXingScannerPage_get_IsAnalyzing
+	.long LDIFF_SYM1160
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -20675,27 +20680,27 @@ Lfde57_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1160=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1160
+LDIFF_SYM1161=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1161
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM1161=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1161
+LDIFF_SYM1162=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1162
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1162=Lfde58_end - Lfde58_start
-	.long LDIFF_SYM1162
+LDIFF_SYM1163=Lfde58_end - Lfde58_start
+	.long LDIFF_SYM1163
 Lfde58_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage_set_IsAnalyzing_bool
 
-LDIFF_SYM1163=Lme_42 - ZXing_Net_Mobile_Forms_ZXingScannerPage_set_IsAnalyzing_bool
-	.long LDIFF_SYM1163
+LDIFF_SYM1164=Lme_42 - ZXing_Net_Mobile_Forms_ZXingScannerPage_set_IsAnalyzing_bool
+	.long LDIFF_SYM1164
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
@@ -20714,22 +20719,22 @@ Lfde58_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1164=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1164
+LDIFF_SYM1165=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1165
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1165=Lfde59_end - Lfde59_start
-	.long LDIFF_SYM1165
+LDIFF_SYM1166=Lfde59_end - Lfde59_start
+	.long LDIFF_SYM1166
 Lfde59_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage_get_IsScanning
 
-LDIFF_SYM1166=Lme_43 - ZXing_Net_Mobile_Forms_ZXingScannerPage_get_IsScanning
-	.long LDIFF_SYM1166
+LDIFF_SYM1167=Lme_43 - ZXing_Net_Mobile_Forms_ZXingScannerPage_get_IsScanning
+	.long LDIFF_SYM1167
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -20748,27 +20753,27 @@ Lfde59_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1167=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1167
+LDIFF_SYM1168=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1168
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM1168=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1168
+LDIFF_SYM1169=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1169
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1169=Lfde60_end - Lfde60_start
-	.long LDIFF_SYM1169
+LDIFF_SYM1170=Lfde60_end - Lfde60_start
+	.long LDIFF_SYM1170
 Lfde60_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage_set_IsScanning_bool
 
-LDIFF_SYM1170=Lme_44 - ZXing_Net_Mobile_Forms_ZXingScannerPage_set_IsScanning_bool
-	.long LDIFF_SYM1170
+LDIFF_SYM1171=Lme_44 - ZXing_Net_Mobile_Forms_ZXingScannerPage_set_IsScanning_bool
+	.long LDIFF_SYM1171
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
@@ -20787,22 +20792,22 @@ Lfde60_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1171=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1171
+LDIFF_SYM1172=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1172
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1172=Lfde61_end - Lfde61_start
-	.long LDIFF_SYM1172
+LDIFF_SYM1173=Lfde61_end - Lfde61_start
+	.long LDIFF_SYM1173
 Lfde61_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage_get_HasTorch
 
-LDIFF_SYM1173=Lme_45 - ZXing_Net_Mobile_Forms_ZXingScannerPage_get_HasTorch
-	.long LDIFF_SYM1173
+LDIFF_SYM1174=Lme_45 - ZXing_Net_Mobile_Forms_ZXingScannerPage_get_HasTorch
+	.long LDIFF_SYM1174
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -20821,27 +20826,27 @@ Lfde61_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1174=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1174
+LDIFF_SYM1175=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1175
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM1175=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1175
+LDIFF_SYM1176=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1176
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1176=Lfde62_end - Lfde62_start
-	.long LDIFF_SYM1176
+LDIFF_SYM1177=Lfde62_end - Lfde62_start
+	.long LDIFF_SYM1177
 Lfde62_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage_set_HasTorch_bool
 
-LDIFF_SYM1177=Lme_46 - ZXing_Net_Mobile_Forms_ZXingScannerPage_set_HasTorch_bool
-	.long LDIFF_SYM1177
+LDIFF_SYM1178=Lme_46 - ZXing_Net_Mobile_Forms_ZXingScannerPage_set_HasTorch_bool
+	.long LDIFF_SYM1178
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
@@ -20860,22 +20865,22 @@ Lfde62_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1178=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1178
+LDIFF_SYM1179=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1179
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1179=Lfde63_end - Lfde63_start
-	.long LDIFF_SYM1179
+LDIFF_SYM1180=Lfde63_end - Lfde63_start
+	.long LDIFF_SYM1180
 Lfde63_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage_get_Result
 
-LDIFF_SYM1180=Lme_47 - ZXing_Net_Mobile_Forms_ZXingScannerPage_get_Result
-	.long LDIFF_SYM1180
+LDIFF_SYM1181=Lme_47 - ZXing_Net_Mobile_Forms_ZXingScannerPage_get_Result
+	.long LDIFF_SYM1181
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
@@ -20894,27 +20899,27 @@ Lfde63_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1181=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1181
+LDIFF_SYM1182=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1182
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM1182=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1182
+LDIFF_SYM1183=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1183
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1183=Lfde64_end - Lfde64_start
-	.long LDIFF_SYM1183
+LDIFF_SYM1184=Lfde64_end - Lfde64_start
+	.long LDIFF_SYM1184
 Lfde64_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage_set_Result_ZXing_Result
 
-LDIFF_SYM1184=Lme_48 - ZXing_Net_Mobile_Forms_ZXingScannerPage_set_Result_ZXing_Result
-	.long LDIFF_SYM1184
+LDIFF_SYM1185=Lme_48 - ZXing_Net_Mobile_Forms_ZXingScannerPage_set_Result_ZXing_Result
+	.long LDIFF_SYM1185
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -20934,16 +20939,16 @@ Lfde64_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1185=Lfde65_end - Lfde65_start
-	.long LDIFF_SYM1185
+LDIFF_SYM1186=Lfde65_end - Lfde65_start
+	.long LDIFF_SYM1186
 Lfde65_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage__cctor
 
-LDIFF_SYM1186=Lme_49 - ZXing_Net_Mobile_Forms_ZXingScannerPage__cctor
-	.long LDIFF_SYM1186
+LDIFF_SYM1187=Lme_49 - ZXing_Net_Mobile_Forms_ZXingScannerPage__cctor
+	.long LDIFF_SYM1187
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29
 	.align 3
@@ -20962,27 +20967,27 @@ Lfde65_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1187=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1187
+LDIFF_SYM1188=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1188
 	.byte 2,141,32,3
 	.asciz "result"
 
-LDIFF_SYM1188=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1188
+LDIFF_SYM1189=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1189
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1189=Lfde66_end - Lfde66_start
-	.long LDIFF_SYM1189
+LDIFF_SYM1190=Lfde66_end - Lfde66_start
+	.long LDIFF_SYM1190
 Lfde66_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage___ctorb__2_0_ZXing_Result
 
-LDIFF_SYM1190=Lme_4a - ZXing_Net_Mobile_Forms_ZXingScannerPage___ctorb__2_0_ZXing_Result
-	.long LDIFF_SYM1190
+LDIFF_SYM1191=Lme_4a - ZXing_Net_Mobile_Forms_ZXingScannerPage___ctorb__2_0_ZXing_Result
+	.long LDIFF_SYM1191
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,151,8,152,7
 	.align 3
@@ -21001,32 +21006,32 @@ Lfde66_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1191=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1191
+LDIFF_SYM1192=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1192
 	.byte 1,106,3
 	.asciz "sender"
 
-LDIFF_SYM1192=LTDIE_130_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1192
+LDIFF_SYM1193=LTDIE_130_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1193
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM1193=LTDIE_135_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1193
+LDIFF_SYM1194=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1194
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1194=Lfde67_end - Lfde67_start
-	.long LDIFF_SYM1194
+LDIFF_SYM1195=Lfde67_end - Lfde67_start
+	.long LDIFF_SYM1195
 Lfde67_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingScannerPage___ctorb__2_1_Xamarin_Forms_Button_System_EventArgs
 
-LDIFF_SYM1195=Lme_4b - ZXing_Net_Mobile_Forms_ZXingScannerPage___ctorb__2_1_Xamarin_Forms_Button_System_EventArgs
-	.long LDIFF_SYM1195
+LDIFF_SYM1196=Lme_4b - ZXing_Net_Mobile_Forms_ZXingScannerPage___ctorb__2_1_Xamarin_Forms_Button_System_EventArgs
+	.long LDIFF_SYM1196
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -21039,145 +21044,145 @@ LTDIE_148:
 	.asciz "System_Func`1"
 
 	.byte 128,1,16
-LDIFF_SYM1196=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1196
+LDIFF_SYM1197=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1197
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM1197=LTDIE_148 - Ldebug_info_start
-	.long LDIFF_SYM1197
+LDIFF_SYM1198=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM1198
 LTDIE_148_POINTER:
 
 	.byte 13
-LDIFF_SYM1198=LTDIE_148 - Ldebug_info_start
-	.long LDIFF_SYM1198
+LDIFF_SYM1199=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM1199
 LTDIE_148_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1199=LTDIE_148 - Ldebug_info_start
-	.long LDIFF_SYM1199
+LDIFF_SYM1200=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM1200
 LTDIE_149:
 
 	.byte 5
 	.asciz "Xamarin_Forms_PlatformConfigurationRegistry`1"
 
 	.byte 32,16
-LDIFF_SYM1200=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM1200
+LDIFF_SYM1201=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM1201
 	.byte 2,35,0,6
 	.asciz "_element"
 
-LDIFF_SYM1201=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1201
+LDIFF_SYM1202=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1202
 	.byte 2,35,16,6
 	.asciz "_platformSpecifics"
 
-LDIFF_SYM1202=LTDIE_120_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1202
+LDIFF_SYM1203=LTDIE_120_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1203
 	.byte 2,35,24,0,7
 	.asciz "Xamarin_Forms_PlatformConfigurationRegistry`1"
 
-LDIFF_SYM1203=LTDIE_149 - Ldebug_info_start
-	.long LDIFF_SYM1203
+LDIFF_SYM1204=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM1204
 LTDIE_149_POINTER:
 
 	.byte 13
-LDIFF_SYM1204=LTDIE_149 - Ldebug_info_start
-	.long LDIFF_SYM1204
+LDIFF_SYM1205=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM1205
 LTDIE_149_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1205=LTDIE_149 - Ldebug_info_start
-	.long LDIFF_SYM1205
+LDIFF_SYM1206=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM1206
 LTDIE_147:
 
 	.byte 5
 	.asciz "System_Lazy`1"
 
 	.byte 40,16
-LDIFF_SYM1206=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM1206
+LDIFF_SYM1207=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM1207
 	.byte 2,35,0,6
 	.asciz "_state"
 
-LDIFF_SYM1207=LTDIE_99_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1207
+LDIFF_SYM1208=LTDIE_99_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1208
 	.byte 2,35,16,6
 	.asciz "_factory"
 
-LDIFF_SYM1208=LTDIE_148_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1208
+LDIFF_SYM1209=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1209
 	.byte 2,35,24,6
 	.asciz "_value"
 
-LDIFF_SYM1209=LTDIE_149_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1209
+LDIFF_SYM1210=LTDIE_149_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1210
 	.byte 2,35,32,0,7
 	.asciz "System_Lazy`1"
 
-LDIFF_SYM1210=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM1210
+LDIFF_SYM1211=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM1211
 LTDIE_147_POINTER:
 
 	.byte 13
-LDIFF_SYM1211=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM1211
+LDIFF_SYM1212=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM1212
 LTDIE_147_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1212=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM1212
+LDIFF_SYM1213=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM1213
 LTDIE_146:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Image"
 
 	.byte 136,3,16
-LDIFF_SYM1213=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1213
+LDIFF_SYM1214=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1214
 	.byte 2,35,0,6
 	.asciz "_platformConfigurationRegistry"
 
-LDIFF_SYM1214=LTDIE_147_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1214
+LDIFF_SYM1215=LTDIE_147_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1215
 	.byte 3,35,128,3,0,7
 	.asciz "Xamarin_Forms_Image"
 
-LDIFF_SYM1215=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM1215
+LDIFF_SYM1216=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM1216
 LTDIE_146_POINTER:
 
 	.byte 13
-LDIFF_SYM1216=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM1216
+LDIFF_SYM1217=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM1217
 LTDIE_146_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1217=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM1217
+LDIFF_SYM1218=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM1218
 LTDIE_145:
 
 	.byte 5
 	.asciz "ZXing_Net_Mobile_Forms_ZXingBarcodeImageView"
 
 	.byte 136,3,16
-LDIFF_SYM1218=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM1218
+LDIFF_SYM1219=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM1219
 	.byte 2,35,0,0,7
 	.asciz "ZXing_Net_Mobile_Forms_ZXingBarcodeImageView"
 
-LDIFF_SYM1219=LTDIE_145 - Ldebug_info_start
-	.long LDIFF_SYM1219
+LDIFF_SYM1220=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM1220
 LTDIE_145_POINTER:
 
 	.byte 13
-LDIFF_SYM1220=LTDIE_145 - Ldebug_info_start
-	.long LDIFF_SYM1220
+LDIFF_SYM1221=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM1221
 LTDIE_145_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1221=LTDIE_145 - Ldebug_info_start
-	.long LDIFF_SYM1221
+LDIFF_SYM1222=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM1222
 	.byte 2
 	.asciz "ZXing.Net.Mobile.Forms.ZXingBarcodeImageView:.ctor"
 	.asciz "ZXing_Net_Mobile_Forms_ZXingBarcodeImageView__ctor"
@@ -21189,22 +21194,22 @@ LDIFF_SYM1221=LTDIE_145 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1222=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1222
+LDIFF_SYM1223=LTDIE_145_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1223
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1223=Lfde68_end - Lfde68_start
-	.long LDIFF_SYM1223
+LDIFF_SYM1224=Lfde68_end - Lfde68_start
+	.long LDIFF_SYM1224
 Lfde68_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingBarcodeImageView__ctor
 
-LDIFF_SYM1224=Lme_50 - ZXing_Net_Mobile_Forms_ZXingBarcodeImageView__ctor
-	.long LDIFF_SYM1224
+LDIFF_SYM1225=Lme_50 - ZXing_Net_Mobile_Forms_ZXingBarcodeImageView__ctor
+	.long LDIFF_SYM1225
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -21223,22 +21228,22 @@ Lfde68_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1225=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1225
+LDIFF_SYM1226=LTDIE_145_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1226
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1226=Lfde69_end - Lfde69_start
-	.long LDIFF_SYM1226
+LDIFF_SYM1227=Lfde69_end - Lfde69_start
+	.long LDIFF_SYM1227
 Lfde69_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingBarcodeImageView_get_BarcodeFormat
 
-LDIFF_SYM1227=Lme_51 - ZXing_Net_Mobile_Forms_ZXingBarcodeImageView_get_BarcodeFormat
-	.long LDIFF_SYM1227
+LDIFF_SYM1228=Lme_51 - ZXing_Net_Mobile_Forms_ZXingBarcodeImageView_get_BarcodeFormat
+	.long LDIFF_SYM1228
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -21257,27 +21262,27 @@ Lfde69_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1228=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1228
+LDIFF_SYM1229=LTDIE_145_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1229
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM1229=LTDIE_79 - Ldebug_info_start
-	.long LDIFF_SYM1229
+LDIFF_SYM1230=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM1230
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1230=Lfde70_end - Lfde70_start
-	.long LDIFF_SYM1230
+LDIFF_SYM1231=Lfde70_end - Lfde70_start
+	.long LDIFF_SYM1231
 Lfde70_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingBarcodeImageView_set_BarcodeFormat_ZXing_BarcodeFormat
 
-LDIFF_SYM1231=Lme_52 - ZXing_Net_Mobile_Forms_ZXingBarcodeImageView_set_BarcodeFormat_ZXing_BarcodeFormat
-	.long LDIFF_SYM1231
+LDIFF_SYM1232=Lme_52 - ZXing_Net_Mobile_Forms_ZXingBarcodeImageView_set_BarcodeFormat_ZXing_BarcodeFormat
+	.long LDIFF_SYM1232
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
@@ -21296,22 +21301,22 @@ Lfde70_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1232=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1232
+LDIFF_SYM1233=LTDIE_145_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1233
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1233=Lfde71_end - Lfde71_start
-	.long LDIFF_SYM1233
+LDIFF_SYM1234=Lfde71_end - Lfde71_start
+	.long LDIFF_SYM1234
 Lfde71_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingBarcodeImageView_get_BarcodeValue
 
-LDIFF_SYM1234=Lme_53 - ZXing_Net_Mobile_Forms_ZXingBarcodeImageView_get_BarcodeValue
-	.long LDIFF_SYM1234
+LDIFF_SYM1235=Lme_53 - ZXing_Net_Mobile_Forms_ZXingBarcodeImageView_get_BarcodeValue
+	.long LDIFF_SYM1235
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
@@ -21330,27 +21335,27 @@ Lfde71_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1235=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1235
+LDIFF_SYM1236=LTDIE_145_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1236
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM1236=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1236
+LDIFF_SYM1237=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1237
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1237=Lfde72_end - Lfde72_start
-	.long LDIFF_SYM1237
+LDIFF_SYM1238=Lfde72_end - Lfde72_start
+	.long LDIFF_SYM1238
 Lfde72_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingBarcodeImageView_set_BarcodeValue_string
 
-LDIFF_SYM1238=Lme_54 - ZXing_Net_Mobile_Forms_ZXingBarcodeImageView_set_BarcodeValue_string
-	.long LDIFF_SYM1238
+LDIFF_SYM1239=Lme_54 - ZXing_Net_Mobile_Forms_ZXingBarcodeImageView_set_BarcodeValue_string
+	.long LDIFF_SYM1239
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -21369,22 +21374,22 @@ Lfde72_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1239=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1239
+LDIFF_SYM1240=LTDIE_145_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1240
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1240=Lfde73_end - Lfde73_start
-	.long LDIFF_SYM1240
+LDIFF_SYM1241=Lfde73_end - Lfde73_start
+	.long LDIFF_SYM1241
 Lfde73_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingBarcodeImageView_get_BarcodeOptions
 
-LDIFF_SYM1241=Lme_55 - ZXing_Net_Mobile_Forms_ZXingBarcodeImageView_get_BarcodeOptions
-	.long LDIFF_SYM1241
+LDIFF_SYM1242=Lme_55 - ZXing_Net_Mobile_Forms_ZXingBarcodeImageView_get_BarcodeOptions
+	.long LDIFF_SYM1242
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
@@ -21399,46 +21404,46 @@ LTDIE_151:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IDictionary`2"
 
-LDIFF_SYM1242=LTDIE_151 - Ldebug_info_start
-	.long LDIFF_SYM1242
+LDIFF_SYM1243=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM1243
 LTDIE_151_POINTER:
 
 	.byte 13
-LDIFF_SYM1243=LTDIE_151 - Ldebug_info_start
-	.long LDIFF_SYM1243
+LDIFF_SYM1244=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM1244
 LTDIE_151_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1244=LTDIE_151 - Ldebug_info_start
-	.long LDIFF_SYM1244
+LDIFF_SYM1245=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM1245
 LTDIE_150:
 
 	.byte 5
 	.asciz "ZXing_Common_EncodingOptions"
 
 	.byte 24,16
-LDIFF_SYM1245=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM1245
+LDIFF_SYM1246=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM1246
 	.byte 2,35,0,6
 	.asciz "<Hints>k__BackingField"
 
-LDIFF_SYM1246=LTDIE_151_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1246
+LDIFF_SYM1247=LTDIE_151_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1247
 	.byte 2,35,16,0,7
 	.asciz "ZXing_Common_EncodingOptions"
 
-LDIFF_SYM1247=LTDIE_150 - Ldebug_info_start
-	.long LDIFF_SYM1247
+LDIFF_SYM1248=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM1248
 LTDIE_150_POINTER:
 
 	.byte 13
-LDIFF_SYM1248=LTDIE_150 - Ldebug_info_start
-	.long LDIFF_SYM1248
+LDIFF_SYM1249=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM1249
 LTDIE_150_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1249=LTDIE_150 - Ldebug_info_start
-	.long LDIFF_SYM1249
+LDIFF_SYM1250=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM1250
 	.byte 2
 	.asciz "ZXing.Net.Mobile.Forms.ZXingBarcodeImageView:set_BarcodeOptions"
 	.asciz "ZXing_Net_Mobile_Forms_ZXingBarcodeImageView_set_BarcodeOptions_ZXing_Common_EncodingOptions"
@@ -21450,27 +21455,27 @@ LDIFF_SYM1249=LTDIE_150 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1250=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1250
+LDIFF_SYM1251=LTDIE_145_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1251
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM1251=LTDIE_150_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1251
+LDIFF_SYM1252=LTDIE_150_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1252
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1252=Lfde74_end - Lfde74_start
-	.long LDIFF_SYM1252
+LDIFF_SYM1253=Lfde74_end - Lfde74_start
+	.long LDIFF_SYM1253
 Lfde74_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingBarcodeImageView_set_BarcodeOptions_ZXing_Common_EncodingOptions
 
-LDIFF_SYM1253=Lme_56 - ZXing_Net_Mobile_Forms_ZXingBarcodeImageView_set_BarcodeOptions_ZXing_Common_EncodingOptions
-	.long LDIFF_SYM1253
+LDIFF_SYM1254=Lme_56 - ZXing_Net_Mobile_Forms_ZXingBarcodeImageView_set_BarcodeOptions_ZXing_Common_EncodingOptions
+	.long LDIFF_SYM1254
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -21490,16 +21495,16 @@ Lfde74_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1254=Lfde75_end - Lfde75_start
-	.long LDIFF_SYM1254
+LDIFF_SYM1255=Lfde75_end - Lfde75_start
+	.long LDIFF_SYM1255
 Lfde75_start:
 
 	.long 0
 	.align 3
 	.quad ZXing_Net_Mobile_Forms_ZXingBarcodeImageView__cctor
 
-LDIFF_SYM1255=Lme_57 - ZXing_Net_Mobile_Forms_ZXingBarcodeImageView__cctor
-	.long LDIFF_SYM1255
+LDIFF_SYM1256=Lme_57 - ZXing_Net_Mobile_Forms_ZXingBarcodeImageView__cctor
+	.long LDIFF_SYM1256
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29
 	.align 3
@@ -21512,23 +21517,23 @@ LTDIE_152:
 	.asciz "System_Array"
 
 	.byte 16,16
-LDIFF_SYM1256=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM1256
+LDIFF_SYM1257=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM1257
 	.byte 2,35,0,0,7
 	.asciz "System_Array"
 
-LDIFF_SYM1257=LTDIE_152 - Ldebug_info_start
-	.long LDIFF_SYM1257
+LDIFF_SYM1258=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM1258
 LTDIE_152_POINTER:
 
 	.byte 13
-LDIFF_SYM1258=LTDIE_152 - Ldebug_info_start
-	.long LDIFF_SYM1258
+LDIFF_SYM1259=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM1259
 LTDIE_152_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1259=LTDIE_152 - Ldebug_info_start
-	.long LDIFF_SYM1259
+LDIFF_SYM1260=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM1260
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`2<int,_int>:invoke_void_T1_T2"
 	.asciz "wrapper_delegate_invoke_System_Action_2_int_int_invoke_void_T1_T2_int_int"
@@ -21540,57 +21545,57 @@ LDIFF_SYM1259=LTDIE_152 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1260=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1260
+LDIFF_SYM1261=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1261
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1261=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1261
+LDIFF_SYM1262=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1262
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1262=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1262
+LDIFF_SYM1263=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1263
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1263=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1263
+LDIFF_SYM1264=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1264
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1264=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1264
+LDIFF_SYM1265=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1265
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1265=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1265
+LDIFF_SYM1266=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1266
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM1266=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1266
+LDIFF_SYM1267=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1267
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM1267=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1267
+LDIFF_SYM1268=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1268
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1268=Lfde76_end - Lfde76_start
-	.long LDIFF_SYM1268
+LDIFF_SYM1269=Lfde76_end - Lfde76_start
+	.long LDIFF_SYM1269
 Lfde76_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_2_int_int_invoke_void_T1_T2_int_int
 
-LDIFF_SYM1269=Lme_5d - wrapper_delegate_invoke_System_Action_2_int_int_invoke_void_T1_T2_int_int
-	.long LDIFF_SYM1269
+LDIFF_SYM1270=Lme_5d - wrapper_delegate_invoke_System_Action_2_int_int_invoke_void_T1_T2_int_int
+	.long LDIFF_SYM1270
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -21610,22 +21615,22 @@ Lfde76_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1270=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1270
+LDIFF_SYM1271=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1271
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1271=Lfde77_end - Lfde77_start
-	.long LDIFF_SYM1271
+LDIFF_SYM1272=Lfde77_end - Lfde77_start
+	.long LDIFF_SYM1272
 Lfde77_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 
-LDIFF_SYM1272=Lme_5e - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
-	.long LDIFF_SYM1272
+LDIFF_SYM1273=Lme_5e - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
+	.long LDIFF_SYM1273
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
 	.align 3
@@ -21644,22 +21649,22 @@ Lfde77_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1273=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1273
+LDIFF_SYM1274=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1274
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1274=Lfde78_end - Lfde78_start
-	.long LDIFF_SYM1274
+LDIFF_SYM1275=Lfde78_end - Lfde78_start
+	.long LDIFF_SYM1275
 Lfde78_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_get_Count
 
-LDIFF_SYM1275=Lme_5f - System_Array_InternalArray__ICollection_get_Count
-	.long LDIFF_SYM1275
+LDIFF_SYM1276=Lme_5f - System_Array_InternalArray__ICollection_get_Count
+	.long LDIFF_SYM1276
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -21678,22 +21683,22 @@ Lfde78_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1276=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1276
+LDIFF_SYM1277=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1277
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1277=Lfde79_end - Lfde79_start
-	.long LDIFF_SYM1277
+LDIFF_SYM1278=Lfde79_end - Lfde79_start
+	.long LDIFF_SYM1278
 Lfde79_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_get_IsReadOnly
 
-LDIFF_SYM1278=Lme_60 - System_Array_InternalArray__ICollection_get_IsReadOnly
-	.long LDIFF_SYM1278
+LDIFF_SYM1279=Lme_60 - System_Array_InternalArray__ICollection_get_IsReadOnly
+	.long LDIFF_SYM1279
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -21712,22 +21717,22 @@ Lfde79_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1279=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1279
+LDIFF_SYM1280=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1280
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1280=Lfde80_end - Lfde80_start
-	.long LDIFF_SYM1280
+LDIFF_SYM1281=Lfde80_end - Lfde80_start
+	.long LDIFF_SYM1281
 Lfde80_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Clear
 
-LDIFF_SYM1281=Lme_61 - System_Array_InternalArray__ICollection_Clear
-	.long LDIFF_SYM1281
+LDIFF_SYM1282=Lme_61 - System_Array_InternalArray__ICollection_Clear
+	.long LDIFF_SYM1282
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -21746,27 +21751,27 @@ Lfde80_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1282=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1282
+LDIFF_SYM1283=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1283
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM1283=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1283
+LDIFF_SYM1284=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1284
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1284=Lfde81_end - Lfde81_start
-	.long LDIFF_SYM1284
+LDIFF_SYM1285=Lfde81_end - Lfde81_start
+	.long LDIFF_SYM1285
 Lfde81_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Add_T_REF_T_REF
 
-LDIFF_SYM1285=Lme_62 - System_Array_InternalArray__ICollection_Add_T_REF_T_REF
-	.long LDIFF_SYM1285
+LDIFF_SYM1286=Lme_62 - System_Array_InternalArray__ICollection_Add_T_REF_T_REF
+	.long LDIFF_SYM1286
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -21785,27 +21790,27 @@ Lfde81_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1286=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1286
+LDIFF_SYM1287=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1287
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM1287=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1287
+LDIFF_SYM1288=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1288
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1288=Lfde82_end - Lfde82_start
-	.long LDIFF_SYM1288
+LDIFF_SYM1289=Lfde82_end - Lfde82_start
+	.long LDIFF_SYM1289
 Lfde82_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
 
-LDIFF_SYM1289=Lme_63 - System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
-	.long LDIFF_SYM1289
+LDIFF_SYM1290=Lme_63 - System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
+	.long LDIFF_SYM1290
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -21824,42 +21829,42 @@ Lfde82_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1290=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1290
+LDIFF_SYM1291=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1291
 	.byte 1,106,3
 	.asciz "item"
 
-LDIFF_SYM1291=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1291
+LDIFF_SYM1292=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1292
 	.byte 2,141,40,11
 	.asciz "length"
 
-LDIFF_SYM1292=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1292
+LDIFF_SYM1293=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1293
 	.byte 1,105,11
 	.asciz "i"
 
-LDIFF_SYM1293=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1293
+LDIFF_SYM1294=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1294
 	.byte 1,104,11
 	.asciz "value"
 
-LDIFF_SYM1294=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1294
+LDIFF_SYM1295=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1295
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1295=Lfde83_end - Lfde83_start
-	.long LDIFF_SYM1295
+LDIFF_SYM1296=Lfde83_end - Lfde83_start
+	.long LDIFF_SYM1296
 Lfde83_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
 
-LDIFF_SYM1296=Lme_64 - System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
-	.long LDIFF_SYM1296
+LDIFF_SYM1297=Lme_64 - System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
+	.long LDIFF_SYM1297
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,68,154,10
 	.align 3
@@ -21878,32 +21883,32 @@ Lfde83_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1297=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1297
+LDIFF_SYM1298=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1298
 	.byte 1,104,3
 	.asciz "array"
 
-LDIFF_SYM1298=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1298
+LDIFF_SYM1299=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1299
 	.byte 2,141,40,3
 	.asciz "arrayIndex"
 
-LDIFF_SYM1299=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1299
+LDIFF_SYM1300=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1300
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1300=Lfde84_end - Lfde84_start
-	.long LDIFF_SYM1300
+LDIFF_SYM1301=Lfde84_end - Lfde84_start
+	.long LDIFF_SYM1301
 Lfde84_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
 
-LDIFF_SYM1301=Lme_65 - System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
-	.long LDIFF_SYM1301
+LDIFF_SYM1302=Lme_65 - System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
+	.long LDIFF_SYM1302
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,152,12
 	.align 3
@@ -21916,61 +21921,61 @@ LTDIE_153:
 	.asciz "System_Predicate`1"
 
 	.byte 128,1,16
-LDIFF_SYM1302=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1302
+LDIFF_SYM1303=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1303
 	.byte 2,35,0,0,7
 	.asciz "System_Predicate`1"
 
-LDIFF_SYM1303=LTDIE_153 - Ldebug_info_start
-	.long LDIFF_SYM1303
+LDIFF_SYM1304=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM1304
 LTDIE_153_POINTER:
 
 	.byte 13
-LDIFF_SYM1304=LTDIE_153 - Ldebug_info_start
-	.long LDIFF_SYM1304
+LDIFF_SYM1305=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM1305
 LTDIE_153_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1305=LTDIE_153 - Ldebug_info_start
-	.long LDIFF_SYM1305
+LDIFF_SYM1306=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM1306
 LTDIE_154:
 
 	.byte 5
 	.asciz "Xamarin_Forms_RowDefinition"
 
 	.byte 88,16
-LDIFF_SYM1306=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM1306
+LDIFF_SYM1307=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1307
 	.byte 2,35,0,6
 	.asciz "<ActualHeight>k__BackingField"
 
-LDIFF_SYM1307=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1307
+LDIFF_SYM1308=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1308
 	.byte 2,35,72,6
 	.asciz "<MinimumHeight>k__BackingField"
 
-LDIFF_SYM1308=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1308
+LDIFF_SYM1309=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1309
 	.byte 2,35,80,6
 	.asciz "SizeChanged"
 
-LDIFF_SYM1309=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1309
+LDIFF_SYM1310=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1310
 	.byte 2,35,64,0,7
 	.asciz "Xamarin_Forms_RowDefinition"
 
-LDIFF_SYM1310=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM1310
+LDIFF_SYM1311=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1311
 LTDIE_154_POINTER:
 
 	.byte 13
-LDIFF_SYM1311=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM1311
+LDIFF_SYM1312=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1312
 LTDIE_154_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1312=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM1312
+LDIFF_SYM1313=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1313
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Predicate`1<Xamarin.Forms.RowDefinition>:invoke_bool_T"
 	.asciz "wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_RowDefinition_invoke_bool_T_Xamarin_Forms_RowDefinition"
@@ -21982,57 +21987,57 @@ LDIFF_SYM1312=LTDIE_154 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1313=LTDIE_153_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1313
+LDIFF_SYM1314=LTDIE_153_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1314
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1314=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1314
+LDIFF_SYM1315=LTDIE_154_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1315
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1315=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1315
+LDIFF_SYM1316=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1316
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1316=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1316
+LDIFF_SYM1317=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1317
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1317=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1317
+LDIFF_SYM1318=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1318
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1318=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1318
+LDIFF_SYM1319=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1319
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1319=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1319
+LDIFF_SYM1320=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1320
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1320=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1320
+LDIFF_SYM1321=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1321
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1321=Lfde85_end - Lfde85_start
-	.long LDIFF_SYM1321
+LDIFF_SYM1322=Lfde85_end - Lfde85_start
+	.long LDIFF_SYM1322
 Lfde85_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_RowDefinition_invoke_bool_T_Xamarin_Forms_RowDefinition
 
-LDIFF_SYM1322=Lme_66 - wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_RowDefinition_invoke_bool_T_Xamarin_Forms_RowDefinition
-	.long LDIFF_SYM1322
+LDIFF_SYM1323=Lme_66 - wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_RowDefinition_invoke_bool_T_Xamarin_Forms_RowDefinition
+	.long LDIFF_SYM1323
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -22046,23 +22051,23 @@ LTDIE_155:
 	.asciz "System_Action`1"
 
 	.byte 128,1,16
-LDIFF_SYM1323=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1323
+LDIFF_SYM1324=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1324
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM1324=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM1324
+LDIFF_SYM1325=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1325
 LTDIE_155_POINTER:
 
 	.byte 13
-LDIFF_SYM1325=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM1325
+LDIFF_SYM1326=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1326
 LTDIE_155_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1326=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM1326
+LDIFF_SYM1327=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1327
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<Xamarin.Forms.RowDefinition>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_RowDefinition_invoke_void_T_Xamarin_Forms_RowDefinition"
@@ -22074,52 +22079,52 @@ LDIFF_SYM1326=LTDIE_155 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1327=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1327
+LDIFF_SYM1328=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1328
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1328=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1328
+LDIFF_SYM1329=LTDIE_154_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1329
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1329=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1329
+LDIFF_SYM1330=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1330
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1330=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1330
+LDIFF_SYM1331=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1331
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1331=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1331
+LDIFF_SYM1332=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1332
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1332=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1332
+LDIFF_SYM1333=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1333
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1333=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1333
+LDIFF_SYM1334=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1334
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1334=Lfde86_end - Lfde86_start
-	.long LDIFF_SYM1334
+LDIFF_SYM1335=Lfde86_end - Lfde86_start
+	.long LDIFF_SYM1335
 Lfde86_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_RowDefinition_invoke_void_T_Xamarin_Forms_RowDefinition
 
-LDIFF_SYM1335=Lme_67 - wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_RowDefinition_invoke_void_T_Xamarin_Forms_RowDefinition
-	.long LDIFF_SYM1335
+LDIFF_SYM1336=Lme_67 - wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_RowDefinition_invoke_void_T_Xamarin_Forms_RowDefinition
+	.long LDIFF_SYM1336
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
@@ -22133,23 +22138,23 @@ LTDIE_156:
 	.asciz "System_Comparison`1"
 
 	.byte 128,1,16
-LDIFF_SYM1336=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1336
+LDIFF_SYM1337=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1337
 	.byte 2,35,0,0,7
 	.asciz "System_Comparison`1"
 
-LDIFF_SYM1337=LTDIE_156 - Ldebug_info_start
-	.long LDIFF_SYM1337
+LDIFF_SYM1338=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM1338
 LTDIE_156_POINTER:
 
 	.byte 13
-LDIFF_SYM1338=LTDIE_156 - Ldebug_info_start
-	.long LDIFF_SYM1338
+LDIFF_SYM1339=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM1339
 LTDIE_156_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1339=LTDIE_156 - Ldebug_info_start
-	.long LDIFF_SYM1339
+LDIFF_SYM1340=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM1340
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Comparison`1<Xamarin.Forms.RowDefinition>:invoke_int_T_T"
 	.asciz "wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_RowDefinition_invoke_int_T_T_Xamarin_Forms_RowDefinition_Xamarin_Forms_RowDefinition"
@@ -22161,62 +22166,62 @@ LDIFF_SYM1339=LTDIE_156 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1340=LTDIE_156_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1340
+LDIFF_SYM1341=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1341
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1341=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1341
+LDIFF_SYM1342=LTDIE_154_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1342
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1342=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1342
+LDIFF_SYM1343=LTDIE_154_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1343
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1343=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1343
+LDIFF_SYM1344=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1344
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1344=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1344
+LDIFF_SYM1345=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1345
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1345=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1345
+LDIFF_SYM1346=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1346
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM1346=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1346
+LDIFF_SYM1347=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1347
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM1347=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1347
+LDIFF_SYM1348=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1348
 	.byte 1,99,11
 	.asciz "V_5"
 
-LDIFF_SYM1348=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1348
+LDIFF_SYM1349=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1349
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1349=Lfde87_end - Lfde87_start
-	.long LDIFF_SYM1349
+LDIFF_SYM1350=Lfde87_end - Lfde87_start
+	.long LDIFF_SYM1350
 Lfde87_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_RowDefinition_invoke_int_T_T_Xamarin_Forms_RowDefinition_Xamarin_Forms_RowDefinition
 
-LDIFF_SYM1350=Lme_68 - wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_RowDefinition_invoke_int_T_T_Xamarin_Forms_RowDefinition_Xamarin_Forms_RowDefinition
-	.long LDIFF_SYM1350
+LDIFF_SYM1351=Lme_68 - wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_RowDefinition_invoke_int_T_T_Xamarin_Forms_RowDefinition_Xamarin_Forms_RowDefinition
+	.long LDIFF_SYM1351
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -22230,61 +22235,61 @@ LTDIE_157:
 	.asciz "System_Predicate`1"
 
 	.byte 128,1,16
-LDIFF_SYM1351=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1351
+LDIFF_SYM1352=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1352
 	.byte 2,35,0,0,7
 	.asciz "System_Predicate`1"
 
-LDIFF_SYM1352=LTDIE_157 - Ldebug_info_start
-	.long LDIFF_SYM1352
+LDIFF_SYM1353=LTDIE_157 - Ldebug_info_start
+	.long LDIFF_SYM1353
 LTDIE_157_POINTER:
 
 	.byte 13
-LDIFF_SYM1353=LTDIE_157 - Ldebug_info_start
-	.long LDIFF_SYM1353
+LDIFF_SYM1354=LTDIE_157 - Ldebug_info_start
+	.long LDIFF_SYM1354
 LTDIE_157_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1354=LTDIE_157 - Ldebug_info_start
-	.long LDIFF_SYM1354
+LDIFF_SYM1355=LTDIE_157 - Ldebug_info_start
+	.long LDIFF_SYM1355
 LTDIE_158:
 
 	.byte 5
 	.asciz "Xamarin_Forms_ColumnDefinition"
 
 	.byte 88,16
-LDIFF_SYM1355=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM1355
+LDIFF_SYM1356=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1356
 	.byte 2,35,0,6
 	.asciz "<ActualWidth>k__BackingField"
 
-LDIFF_SYM1356=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1356
+LDIFF_SYM1357=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1357
 	.byte 2,35,72,6
 	.asciz "<MinimumWidth>k__BackingField"
 
-LDIFF_SYM1357=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1357
+LDIFF_SYM1358=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1358
 	.byte 2,35,80,6
 	.asciz "SizeChanged"
 
-LDIFF_SYM1358=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1358
+LDIFF_SYM1359=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1359
 	.byte 2,35,64,0,7
 	.asciz "Xamarin_Forms_ColumnDefinition"
 
-LDIFF_SYM1359=LTDIE_158 - Ldebug_info_start
-	.long LDIFF_SYM1359
+LDIFF_SYM1360=LTDIE_158 - Ldebug_info_start
+	.long LDIFF_SYM1360
 LTDIE_158_POINTER:
 
 	.byte 13
-LDIFF_SYM1360=LTDIE_158 - Ldebug_info_start
-	.long LDIFF_SYM1360
+LDIFF_SYM1361=LTDIE_158 - Ldebug_info_start
+	.long LDIFF_SYM1361
 LTDIE_158_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1361=LTDIE_158 - Ldebug_info_start
-	.long LDIFF_SYM1361
+LDIFF_SYM1362=LTDIE_158 - Ldebug_info_start
+	.long LDIFF_SYM1362
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Predicate`1<Xamarin.Forms.ColumnDefinition>:invoke_bool_T"
 	.asciz "wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_ColumnDefinition_invoke_bool_T_Xamarin_Forms_ColumnDefinition"
@@ -22296,57 +22301,57 @@ LDIFF_SYM1361=LTDIE_158 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1362=LTDIE_157_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1362
+LDIFF_SYM1363=LTDIE_157_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1363
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1363=LTDIE_158_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1363
+LDIFF_SYM1364=LTDIE_158_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1364
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1364=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1364
+LDIFF_SYM1365=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1365
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1365=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1365
+LDIFF_SYM1366=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1366
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1366=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1366
+LDIFF_SYM1367=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1367
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1367=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1367
+LDIFF_SYM1368=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1368
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1368=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1368
+LDIFF_SYM1369=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1369
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1369=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1369
+LDIFF_SYM1370=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1370
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1370=Lfde88_end - Lfde88_start
-	.long LDIFF_SYM1370
+LDIFF_SYM1371=Lfde88_end - Lfde88_start
+	.long LDIFF_SYM1371
 Lfde88_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_ColumnDefinition_invoke_bool_T_Xamarin_Forms_ColumnDefinition
 
-LDIFF_SYM1371=Lme_69 - wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_ColumnDefinition_invoke_bool_T_Xamarin_Forms_ColumnDefinition
-	.long LDIFF_SYM1371
+LDIFF_SYM1372=Lme_69 - wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_ColumnDefinition_invoke_bool_T_Xamarin_Forms_ColumnDefinition
+	.long LDIFF_SYM1372
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -22360,23 +22365,23 @@ LTDIE_159:
 	.asciz "System_Action`1"
 
 	.byte 128,1,16
-LDIFF_SYM1372=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1372
+LDIFF_SYM1373=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1373
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM1373=LTDIE_159 - Ldebug_info_start
-	.long LDIFF_SYM1373
+LDIFF_SYM1374=LTDIE_159 - Ldebug_info_start
+	.long LDIFF_SYM1374
 LTDIE_159_POINTER:
 
 	.byte 13
-LDIFF_SYM1374=LTDIE_159 - Ldebug_info_start
-	.long LDIFF_SYM1374
+LDIFF_SYM1375=LTDIE_159 - Ldebug_info_start
+	.long LDIFF_SYM1375
 LTDIE_159_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1375=LTDIE_159 - Ldebug_info_start
-	.long LDIFF_SYM1375
+LDIFF_SYM1376=LTDIE_159 - Ldebug_info_start
+	.long LDIFF_SYM1376
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<Xamarin.Forms.ColumnDefinition>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_ColumnDefinition_invoke_void_T_Xamarin_Forms_ColumnDefinition"
@@ -22388,52 +22393,52 @@ LDIFF_SYM1375=LTDIE_159 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1376=LTDIE_159_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1376
+LDIFF_SYM1377=LTDIE_159_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1377
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1377=LTDIE_158_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1377
+LDIFF_SYM1378=LTDIE_158_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1378
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1378=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1378
+LDIFF_SYM1379=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1379
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1379=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1379
+LDIFF_SYM1380=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1380
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1380=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1380
+LDIFF_SYM1381=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1381
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1381=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1381
+LDIFF_SYM1382=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1382
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1382=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1382
+LDIFF_SYM1383=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1383
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1383=Lfde89_end - Lfde89_start
-	.long LDIFF_SYM1383
+LDIFF_SYM1384=Lfde89_end - Lfde89_start
+	.long LDIFF_SYM1384
 Lfde89_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_ColumnDefinition_invoke_void_T_Xamarin_Forms_ColumnDefinition
 
-LDIFF_SYM1384=Lme_6a - wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_ColumnDefinition_invoke_void_T_Xamarin_Forms_ColumnDefinition
-	.long LDIFF_SYM1384
+LDIFF_SYM1385=Lme_6a - wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_ColumnDefinition_invoke_void_T_Xamarin_Forms_ColumnDefinition
+	.long LDIFF_SYM1385
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
@@ -22447,23 +22452,23 @@ LTDIE_160:
 	.asciz "System_Comparison`1"
 
 	.byte 128,1,16
-LDIFF_SYM1385=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1385
+LDIFF_SYM1386=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1386
 	.byte 2,35,0,0,7
 	.asciz "System_Comparison`1"
 
-LDIFF_SYM1386=LTDIE_160 - Ldebug_info_start
-	.long LDIFF_SYM1386
+LDIFF_SYM1387=LTDIE_160 - Ldebug_info_start
+	.long LDIFF_SYM1387
 LTDIE_160_POINTER:
 
 	.byte 13
-LDIFF_SYM1387=LTDIE_160 - Ldebug_info_start
-	.long LDIFF_SYM1387
+LDIFF_SYM1388=LTDIE_160 - Ldebug_info_start
+	.long LDIFF_SYM1388
 LTDIE_160_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1388=LTDIE_160 - Ldebug_info_start
-	.long LDIFF_SYM1388
+LDIFF_SYM1389=LTDIE_160 - Ldebug_info_start
+	.long LDIFF_SYM1389
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Comparison`1<Xamarin.Forms.ColumnDefinition>:invoke_int_T_T"
 	.asciz "wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_ColumnDefinition_invoke_int_T_T_Xamarin_Forms_ColumnDefinition_Xamarin_Forms_ColumnDefinition"
@@ -22475,62 +22480,62 @@ LDIFF_SYM1388=LTDIE_160 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1389=LTDIE_160_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1389
+LDIFF_SYM1390=LTDIE_160_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1390
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1390=LTDIE_158_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1390
+LDIFF_SYM1391=LTDIE_158_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1391
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1391=LTDIE_158_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1391
+LDIFF_SYM1392=LTDIE_158_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1392
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1392=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1392
+LDIFF_SYM1393=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1393
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1393=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1393
+LDIFF_SYM1394=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1394
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1394=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1394
+LDIFF_SYM1395=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1395
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM1395=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1395
+LDIFF_SYM1396=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1396
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM1396=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1396
+LDIFF_SYM1397=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1397
 	.byte 1,99,11
 	.asciz "V_5"
 
-LDIFF_SYM1397=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1397
+LDIFF_SYM1398=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1398
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1398=Lfde90_end - Lfde90_start
-	.long LDIFF_SYM1398
+LDIFF_SYM1399=Lfde90_end - Lfde90_start
+	.long LDIFF_SYM1399
 Lfde90_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_ColumnDefinition_invoke_int_T_T_Xamarin_Forms_ColumnDefinition_Xamarin_Forms_ColumnDefinition
 
-LDIFF_SYM1399=Lme_6b - wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_ColumnDefinition_invoke_int_T_T_Xamarin_Forms_ColumnDefinition_Xamarin_Forms_ColumnDefinition
-	.long LDIFF_SYM1399
+LDIFF_SYM1400=Lme_6b - wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_ColumnDefinition_invoke_int_T_T_Xamarin_Forms_ColumnDefinition_Xamarin_Forms_ColumnDefinition
+	.long LDIFF_SYM1400
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -22546,18 +22551,18 @@ LTDIE_161:
 	.byte 16,7
 	.asciz "_<Module>"
 
-LDIFF_SYM1400=LTDIE_161 - Ldebug_info_start
-	.long LDIFF_SYM1400
+LDIFF_SYM1401=LTDIE_161 - Ldebug_info_start
+	.long LDIFF_SYM1401
 LTDIE_161_POINTER:
 
 	.byte 13
-LDIFF_SYM1401=LTDIE_161 - Ldebug_info_start
-	.long LDIFF_SYM1401
+LDIFF_SYM1402=LTDIE_161 - Ldebug_info_start
+	.long LDIFF_SYM1402
 LTDIE_161_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1402=LTDIE_161 - Ldebug_info_start
-	.long LDIFF_SYM1402
+LDIFF_SYM1403=LTDIE_161 - Ldebug_info_start
+	.long LDIFF_SYM1403
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_<Module>:invoke_void_Result"
 	.asciz "wrapper_delegate_invoke__Module_invoke_void_Result_ZXing_Result"
@@ -22569,52 +22574,52 @@ LDIFF_SYM1402=LTDIE_161 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1403=LTDIE_161_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1403
+LDIFF_SYM1404=LTDIE_161_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1404
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1404=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1404
+LDIFF_SYM1405=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1405
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1405=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1405
+LDIFF_SYM1406=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1406
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1406=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1406
+LDIFF_SYM1407=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1407
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1407=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1407
+LDIFF_SYM1408=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1408
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1408=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1408
+LDIFF_SYM1409=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1409
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1409=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1409
+LDIFF_SYM1410=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1410
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1410=Lfde91_end - Lfde91_start
-	.long LDIFF_SYM1410
+LDIFF_SYM1411=Lfde91_end - Lfde91_start
+	.long LDIFF_SYM1411
 Lfde91_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke__Module_invoke_void_Result_ZXing_Result
 
-LDIFF_SYM1411=Lme_6c - wrapper_delegate_invoke__Module_invoke_void_Result_ZXing_Result
-	.long LDIFF_SYM1411
+LDIFF_SYM1412=Lme_6c - wrapper_delegate_invoke__Module_invoke_void_Result_ZXing_Result
+	.long LDIFF_SYM1412
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
@@ -22628,23 +22633,23 @@ LTDIE_162:
 	.asciz "System_AsyncCallback"
 
 	.byte 128,1,16
-LDIFF_SYM1412=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1412
+LDIFF_SYM1413=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1413
 	.byte 2,35,0,0,7
 	.asciz "System_AsyncCallback"
 
-LDIFF_SYM1413=LTDIE_162 - Ldebug_info_start
-	.long LDIFF_SYM1413
+LDIFF_SYM1414=LTDIE_162 - Ldebug_info_start
+	.long LDIFF_SYM1414
 LTDIE_162_POINTER:
 
 	.byte 13
-LDIFF_SYM1414=LTDIE_162 - Ldebug_info_start
-	.long LDIFF_SYM1414
+LDIFF_SYM1415=LTDIE_162 - Ldebug_info_start
+	.long LDIFF_SYM1415
 LTDIE_162_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1415=LTDIE_162 - Ldebug_info_start
-	.long LDIFF_SYM1415
+LDIFF_SYM1416=LTDIE_162 - Ldebug_info_start
+	.long LDIFF_SYM1416
 	.byte 2
 	.asciz "(wrapper_delegate-begin-invoke)_<Module>:begin_invoke_IAsyncResult__this___Result_AsyncCallback_object"
 	.asciz "wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___Result_AsyncCallback_object_ZXing_Result_System_AsyncCallback_object"
@@ -22656,47 +22661,47 @@ LDIFF_SYM1415=LTDIE_162 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1416=LTDIE_161_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1416
+LDIFF_SYM1417=LTDIE_161_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1417
 	.byte 2,141,48,3
 	.asciz "param0"
 
-LDIFF_SYM1417=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1417
+LDIFF_SYM1418=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1418
 	.byte 2,141,56,3
 	.asciz "param1"
 
-LDIFF_SYM1418=LTDIE_162_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1418
+LDIFF_SYM1419=LTDIE_162_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1419
 	.byte 3,141,192,0,3
 	.asciz "param2"
 
-LDIFF_SYM1419=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1419
+LDIFF_SYM1420=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1420
 	.byte 3,141,200,0,11
 	.asciz "V_0"
 
-LDIFF_SYM1420=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1420
+LDIFF_SYM1421=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1421
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1421=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1421
+LDIFF_SYM1422=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1422
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1422=Lfde92_end - Lfde92_start
-	.long LDIFF_SYM1422
+LDIFF_SYM1423=Lfde92_end - Lfde92_start
+	.long LDIFF_SYM1423
 Lfde92_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___Result_AsyncCallback_object_ZXing_Result_System_AsyncCallback_object
 
-LDIFF_SYM1423=Lme_6d - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___Result_AsyncCallback_object_ZXing_Result_System_AsyncCallback_object
-	.long LDIFF_SYM1423
+LDIFF_SYM1424=Lme_6d - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___Result_AsyncCallback_object_ZXing_Result_System_AsyncCallback_object
+	.long LDIFF_SYM1424
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,150,14,151,13,68,152,12,153,11
 	.align 3
@@ -22711,18 +22716,18 @@ LTDIE_163:
 	.byte 16,7
 	.asciz "System_IAsyncResult"
 
-LDIFF_SYM1424=LTDIE_163 - Ldebug_info_start
-	.long LDIFF_SYM1424
+LDIFF_SYM1425=LTDIE_163 - Ldebug_info_start
+	.long LDIFF_SYM1425
 LTDIE_163_POINTER:
 
 	.byte 13
-LDIFF_SYM1425=LTDIE_163 - Ldebug_info_start
-	.long LDIFF_SYM1425
+LDIFF_SYM1426=LTDIE_163 - Ldebug_info_start
+	.long LDIFF_SYM1426
 LTDIE_163_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1426=LTDIE_163 - Ldebug_info_start
-	.long LDIFF_SYM1426
+LDIFF_SYM1427=LTDIE_163 - Ldebug_info_start
+	.long LDIFF_SYM1427
 	.byte 2
 	.asciz "(wrapper_delegate-end-invoke)_<Module>:end_invoke_void__this___IAsyncResult"
 	.asciz "wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult"
@@ -22734,37 +22739,37 @@ LDIFF_SYM1426=LTDIE_163 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1427=LTDIE_161_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1427
+LDIFF_SYM1428=LTDIE_161_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1428
 	.byte 2,141,48,3
 	.asciz "param0"
 
-LDIFF_SYM1428=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1428
+LDIFF_SYM1429=LTDIE_163_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1429
 	.byte 2,141,56,11
 	.asciz "V_0"
 
-LDIFF_SYM1429=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1429
+LDIFF_SYM1430=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1430
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1430=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1430
+LDIFF_SYM1431=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1431
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1431=Lfde93_end - Lfde93_start
-	.long LDIFF_SYM1431
+LDIFF_SYM1432=Lfde93_end - Lfde93_start
+	.long LDIFF_SYM1432
 Lfde93_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
 
-LDIFF_SYM1432=Lme_6e - wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
-	.long LDIFF_SYM1432
+LDIFF_SYM1433=Lme_6e - wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
+	.long LDIFF_SYM1433
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7
 	.align 3
@@ -22783,57 +22788,57 @@ Lfde93_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1433=LTDIE_161_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1433
+LDIFF_SYM1434=LTDIE_161_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1434
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1434=LTDIE_130_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1434
+LDIFF_SYM1435=LTDIE_130_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1435
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1435=LTDIE_135_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1435
+LDIFF_SYM1436=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1436
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1436=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1436
+LDIFF_SYM1437=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1437
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1437=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1437
+LDIFF_SYM1438=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1438
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1438=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1438
+LDIFF_SYM1439=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1439
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM1439=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1439
+LDIFF_SYM1440=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1440
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM1440=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1440
+LDIFF_SYM1441=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1441
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1441=Lfde94_end - Lfde94_start
-	.long LDIFF_SYM1441
+LDIFF_SYM1442=Lfde94_end - Lfde94_start
+	.long LDIFF_SYM1442
 Lfde94_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke__Module_invoke_void_Button_EventArgs_Xamarin_Forms_Button_System_EventArgs
 
-LDIFF_SYM1442=Lme_6f - wrapper_delegate_invoke__Module_invoke_void_Button_EventArgs_Xamarin_Forms_Button_System_EventArgs
-	.long LDIFF_SYM1442
+LDIFF_SYM1443=Lme_6f - wrapper_delegate_invoke__Module_invoke_void_Button_EventArgs_Xamarin_Forms_Button_System_EventArgs
+	.long LDIFF_SYM1443
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -22853,52 +22858,52 @@ Lfde94_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1443=LTDIE_161_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1443
+LDIFF_SYM1444=LTDIE_161_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1444
 	.byte 2,141,48,3
 	.asciz "param0"
 
-LDIFF_SYM1444=LTDIE_130_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1444
+LDIFF_SYM1445=LTDIE_130_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1445
 	.byte 2,141,56,3
 	.asciz "param1"
 
-LDIFF_SYM1445=LTDIE_135_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1445
+LDIFF_SYM1446=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1446
 	.byte 3,141,192,0,3
 	.asciz "param2"
 
-LDIFF_SYM1446=LTDIE_162_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1446
+LDIFF_SYM1447=LTDIE_162_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1447
 	.byte 3,141,200,0,3
 	.asciz "param3"
 
-LDIFF_SYM1447=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1447
+LDIFF_SYM1448=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1448
 	.byte 3,141,208,0,11
 	.asciz "V_0"
 
-LDIFF_SYM1448=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1448
+LDIFF_SYM1449=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1449
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1449=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1449
+LDIFF_SYM1450=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1450
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1450=Lfde95_end - Lfde95_start
-	.long LDIFF_SYM1450
+LDIFF_SYM1451=Lfde95_end - Lfde95_start
+	.long LDIFF_SYM1451
 Lfde95_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___Button_EventArgs_AsyncCallback_object_Xamarin_Forms_Button_System_EventArgs_System_AsyncCallback_object
 
-LDIFF_SYM1451=Lme_70 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___Button_EventArgs_AsyncCallback_object_Xamarin_Forms_Button_System_EventArgs_System_AsyncCallback_object
-	.long LDIFF_SYM1451
+LDIFF_SYM1452=Lme_70 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___Button_EventArgs_AsyncCallback_object_Xamarin_Forms_Button_System_EventArgs_System_AsyncCallback_object
+	.long LDIFF_SYM1452
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,150,14,151,13,68,152,12,153,11
 	.align 3
@@ -22911,33 +22916,33 @@ LTDIE_164:
 	.asciz "_InternalEnumerator`1"
 
 	.byte 32,16
-LDIFF_SYM1452=LTDIE_9 - Ldebug_info_start
-	.long LDIFF_SYM1452
+LDIFF_SYM1453=LTDIE_9 - Ldebug_info_start
+	.long LDIFF_SYM1453
 	.byte 2,35,0,6
 	.asciz "array"
 
-LDIFF_SYM1453=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1453
+LDIFF_SYM1454=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1454
 	.byte 2,35,16,6
 	.asciz "idx"
 
-LDIFF_SYM1454=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1454
+LDIFF_SYM1455=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1455
 	.byte 2,35,24,0,7
 	.asciz "_InternalEnumerator`1"
 
-LDIFF_SYM1455=LTDIE_164 - Ldebug_info_start
-	.long LDIFF_SYM1455
+LDIFF_SYM1456=LTDIE_164 - Ldebug_info_start
+	.long LDIFF_SYM1456
 LTDIE_164_POINTER:
 
 	.byte 13
-LDIFF_SYM1456=LTDIE_164 - Ldebug_info_start
-	.long LDIFF_SYM1456
+LDIFF_SYM1457=LTDIE_164 - Ldebug_info_start
+	.long LDIFF_SYM1457
 LTDIE_164_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1457=LTDIE_164 - Ldebug_info_start
-	.long LDIFF_SYM1457
+LDIFF_SYM1458=LTDIE_164 - Ldebug_info_start
+	.long LDIFF_SYM1458
 	.byte 2
 	.asciz "System.Array/InternalEnumerator`1<T_REF>:.ctor"
 	.asciz "System_Array_InternalEnumerator_1_T_REF__ctor_System_Array"
@@ -22949,27 +22954,27 @@ LDIFF_SYM1457=LTDIE_164 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1458=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1458
+LDIFF_SYM1459=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1459
 	.byte 1,105,3
 	.asciz "array"
 
-LDIFF_SYM1459=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1459
+LDIFF_SYM1460=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1460
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1460=Lfde96_end - Lfde96_start
-	.long LDIFF_SYM1460
+LDIFF_SYM1461=Lfde96_end - Lfde96_start
+	.long LDIFF_SYM1461
 Lfde96_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 
-LDIFF_SYM1461=Lme_71 - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.long LDIFF_SYM1461
+LDIFF_SYM1462=Lme_71 - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+	.long LDIFF_SYM1462
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3

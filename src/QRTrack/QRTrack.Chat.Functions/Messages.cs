@@ -21,15 +21,11 @@ namespace QRTrack.Chat.Functions
             //if (msg.TypeInfo.Name == nameof(PhotoMessage))
             //{
             //    var photoMessage = jsonObject.ToObject<PhotoMessage>();
-
             //    var bytes = Convert.FromBase64String(photoMessage.Base64Photo);
-
             //    var stream = new MemoryStream(bytes);
             //    var subscriptionKey = Environment.GetEnvironmentVariable("ComputerVisionKey");
             //    var computerVision = new ComputerVisionClient(new ApiKeyServiceClientCredentials(subscriptionKey), new DelegatingHandler[] { });
-
             //    computerVision.Endpoint = Environment.GetEnvironmentVariable("ComputerVisionEndpoint");
-
             //    var features = new List<VisualFeatureTypes>() { VisualFeatureTypes.Adult };
 
             //    var result = await computerVision.AnalyzeImageInStreamAsync(stream, features);

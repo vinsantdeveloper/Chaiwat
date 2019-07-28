@@ -4665,9 +4665,9 @@ ldr x16, [x16, #648]
 .word 0xf940f231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd291f380
+.word 0xd2920080
 .word 0xf2a00020
-.word 0xd291f380
+.word 0xd2920080
 .word 0xf2a00020
 bl _p_38
 .word 0xaa0003e1
@@ -5606,7 +5606,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 235,242,154,7,146,13,162,56,98,106,206,223,222,87,202,175
+	.byte 94,229,181,189,124,130,97,90,5,113,42,48,48,115,201,199
 	.globl _mono_aot_module_Microsoft_AspNetCore_SignalR_Client_info
 	.align 3
 _mono_aot_module_Microsoft_AspNetCore_SignalR_Client_info:

@@ -10384,7 +10384,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 9,95,245,18,183,165,116,25,191,175,129,7,235,159,136,184
+	.byte 19,57,108,131,216,41,107,207,225,191,84,230,42,30,130,3
 	.globl _mono_aot_module_Microsoft_AspNetCore_Http_Features_info
 	.align 3
 _mono_aot_module_Microsoft_AspNetCore_Http_Features_info:

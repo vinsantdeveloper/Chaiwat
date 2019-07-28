@@ -9,7 +9,7 @@ namespace QRTrack
 {
     public partial class SignupPage : ContentPage
     {
-        private AzureMobileService azureServiceOj;
+       /// private AzureMobileService azureServiceOj;
         private User_Information userModelOj;
         private List<User_Information> userInfoLists;
 
@@ -17,13 +17,13 @@ namespace QRTrack
         {
             InitializeComponent();
 
-            azureServiceOj = DependencyService.Get<AzureMobileService>();
+          //  azureServiceOj = DependencyService.Get<AzureMobileService>();
             userModelOj = new User_Information();
         }
 
         private async Task getAllUserFormDb() 
         {
-            var userInfoListsTask = await azureServiceOj.GetAllUserInfo();
+            var userInfoListsTask = await App.TaskForAzureAsync.getAllUserFormDb();
             userInfoLists = userInfoListsTask;
         }
 
@@ -40,7 +40,7 @@ namespace QRTrack
 
                 if(userInfoLists != null) 
                 {
-                    if (userInfoLists.FindAll(f => f.Email == signup_entry_email.Text).Count == 0) 
+                    if (userInfoLists.FindAll(f => f.Email.ToLower() == signup_entry_email.Text.ToLower()).Count == 0) 
                     {
                         userModelOj.Firstname = signup_entry_firstname.Text;
                         userModelOj.Lastname = signup_entry_lastname.Text;
@@ -56,7 +56,7 @@ namespace QRTrack
                             userModelOj.UserStatus = 0;
                         }
 
-                        var sendUserInfo = await azureServiceOj.AddUserInfo(userModelOj);
+                        var sendUserInfo = await App.TaskForAzureAsync.AddUserInfoTask(userModelOj);
                         if (!sendUserInfo) 
                         {
                             await DisplayAlert("Alert", "Cannot connect with database", "OK");

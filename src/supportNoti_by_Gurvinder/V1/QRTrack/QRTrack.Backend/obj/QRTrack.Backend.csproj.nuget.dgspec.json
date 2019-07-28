@@ -1,0 +1,108 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/supportNoti_by_Gurvinder/V1/QRTrack/QRTrack.Backend/QRTrack.Backend.csproj": {}
+  },
+  "projects": {
+    "/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/supportNoti_by_Gurvinder/V1/QRTrack/QRTrack.Backend/QRTrack.Backend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/supportNoti_by_Gurvinder/V1/QRTrack/QRTrack.Backend/QRTrack.Backend.csproj",
+        "projectName": "QRTrack.Backend",
+        "projectPath": "/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/supportNoti_by_Gurvinder/V1/QRTrack/QRTrack.Backend/QRTrack.Backend.csproj",
+        "packagesPath": "/Users/kasanapopsrirabut/.nuget/packages/",
+        "outputPath": "/Users/kasanapopsrirabut/Documents/developer/git/Chaiwat/src/supportNoti_by_Gurvinder/V1/QRTrack/QRTrack.Backend/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/kasanapopsrirabut/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Owin": {
+              "target": "Package",
+              "version": "[5.2.3, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.Azure.Mobile.Server": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.Azure.Mobile.Server.Authentication": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.Azure.Mobile.Server.CrossDomain": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.Azure.Mobile.Server.Entity": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.Azure.Mobile.Server.Home": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.Azure.Mobile.Server.Notifications": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.Azure.Mobile.Server.Quickstart": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.Azure.NotificationHubs": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Owin": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

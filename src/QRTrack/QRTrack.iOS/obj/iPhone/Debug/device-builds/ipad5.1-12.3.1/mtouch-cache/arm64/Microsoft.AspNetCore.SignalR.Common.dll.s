@@ -53826,9 +53826,9 @@ ldr x16, [x16, #496]
 .word 0xf940e231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd291f380
+.word 0xd2920080
 .word 0xf2a00020
-.word 0xd291f380
+.word 0xd2920080
 .word 0xf2a00020
 bl _p_224
 .word 0xaa0003e1
@@ -63269,9 +63269,9 @@ bl _p_960
 .word 0xf9428a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd291f8c0
+.word 0xd29205c0
 .word 0xf2a00020
-.word 0xd291f8c0
+.word 0xd29205c0
 .word 0xf2a00020
 bl _p_224
 bl _p_1001
@@ -63452,9 +63452,9 @@ ldr x16, [x16, #1440]
 .word 0xf9408631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2886ba0
+.word 0xd2887a20
 .word 0xf2a00020
-.word 0xd2886ba0
+.word 0xd2887a20
 .word 0xf2a00020
 bl _p_224
 .word 0xaa0003e1
@@ -63580,9 +63580,9 @@ bl _p_980
 .word 0xf9426231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd291f8c0
+.word 0xd29205c0
 .word 0xf2a00020
-.word 0xd291f8c0
+.word 0xd29205c0
 .word 0xf2a00020
 bl _p_224
 bl _p_1001
@@ -80414,7 +80414,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 88,237,26,212,84,70,211,28,95,49,58,195,84,95,249,61
+	.byte 248,226,107,174,24,4,217,228,190,66,3,180,30,177,20,33
 	.globl _mono_aot_module_Microsoft_AspNetCore_SignalR_Common_info
 	.align 3
 _mono_aot_module_Microsoft_AspNetCore_SignalR_Common_info:

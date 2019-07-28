@@ -15,22 +15,22 @@ namespace QRTrack.Helper
 
         public ChatTemplateSelector()
         {
-            MessagingCenter.Subscribe<HomeMasterPageAdmin, string>(this, "AdminLogin", (sender, args) =>
-            {
-                userId = args as string;
-            });
+            //MessagingCenter.Subscribe<HomeMasterPageAdmin, string>(this, "AdminLogin", (sender, args) =>
+            //{
+            //    userId = args as string;
+            //});
             this.incomingDataTemplate = new DataTemplate(typeof(IncomingViewCell));
             this.outgoingDataTemplate = new DataTemplate(typeof(OutgoingViewCell));
         }
 
         protected override DataTemplate OnSelectTemplate(object item, BindableObject container)
         {
-            var messageVm = item as Message;
+            var messageVm = item as ChatMessageModel;
             if (messageVm == null)
                 return null;
 
 
-            return (messageVm.Id == userId) ? incomingDataTemplate : outgoingDataTemplate;
+            return (messageVm.SenderId == Settings.EmailAddress) ? incomingDataTemplate : outgoingDataTemplate;
         }
     }
 }

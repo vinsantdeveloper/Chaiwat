@@ -16,7 +16,7 @@ namespace QRTrack.AdminViews {
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("AdminViews/ScanQRcodePage.xaml")]
     public partial class ScanQRcodePage : global::ZXing.Net.Mobile.Forms.ZXingScannerPage {
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ScanQRcodePage));
         }

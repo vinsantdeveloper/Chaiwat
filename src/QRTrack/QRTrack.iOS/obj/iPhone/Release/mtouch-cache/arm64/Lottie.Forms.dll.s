@@ -903,6 +903,76 @@ bl _p_4
 Lme_15:
 .text
 	.align 4
+	.no_dead_strip _Lottie_Forms_AnimationView_get_HardwareAcceleration
+_Lottie_Forms_AnimationView_get_HardwareAcceleration:
+.loc 1 1 0
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x0, [x16, #344]
+.word 0xf9400001
+.word 0xf9400ba0
+bl _p_1
+.word 0xf9400001
+.word 0x3940b022
+.word 0xeb1f005f
+.word 0x10000011
+.word 0x540001a1
+.word 0xf9400021
+.word 0xf9400021
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x2, [x16, #264]
+.word 0xeb02003f
+.word 0x10000011
+.word 0x540000a1
+.word 0x39404000
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+.word 0xd2801580
+.word 0xaa1103e1
+bl _p_2
+
+Lme_16:
+.text
+	.align 4
+	.no_dead_strip _Lottie_Forms_AnimationView_set_HardwareAcceleration_bool
+_Lottie_Forms_AnimationView_set_HardwareAcceleration_bool:
+.loc 1 1 0
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x0, [x16, #344]
+.word 0xf9400000
+.word 0xf90013a0
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x0, [x16, #272]
+.word 0xd2800221
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94013a1
+.word 0x394063a0
+.word 0x39004040
+.word 0xf9400ba0
+bl _p_4
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_17:
+.text
+	.align 4
 	.no_dead_strip _Lottie_Forms_AnimationView_add_OnPlay_System_EventHandler
 _Lottie_Forms_AnimationView_add_OnPlay_System_EventHandler:
 .loc 1 1 0
@@ -927,7 +997,7 @@ bl _p_5
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x1, [x16, #344]
+ldr x1, [x16, #352]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540004c1
@@ -939,7 +1009,7 @@ ldr x1, [x16, #344]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #352]
+ldr x0, [x16, #360]
 .word 0xc85f7c30
 .word 0xeb18021f
 .word 0x54000061
@@ -974,7 +1044,7 @@ bl _p_2
 .word 0xaa1103e1
 bl _p_2
 
-Lme_16:
+Lme_18:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_AnimationView_remove_OnPlay_System_EventHandler
@@ -1001,7 +1071,7 @@ bl _p_6
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x1, [x16, #344]
+ldr x1, [x16, #352]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540004c1
@@ -1013,116 +1083,7 @@ ldr x1, [x16, #344]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #352]
-.word 0xc85f7c30
-.word 0xeb18021f
-.word 0x54000061
-.word 0xc811fc36
-.word 0x35ffff91
-.word 0xd5033bbf
-.word 0xaa1003e0
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
-add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.word 0xaa0003f8
-.word 0xeb17001f
-.word 0x54fffaa1
-.word 0xa9415bb5
-.word 0xa94263b7
-.word 0xa9436bb9
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-.word 0xd28017a0
-.word 0xaa1103e1
-bl _p_2
-.word 0xd2801580
-.word 0xaa1103e1
-bl _p_2
-
-Lme_17:
-.text
-	.align 4
-	.no_dead_strip _Lottie_Forms_AnimationView_Play
-_Lottie_Forms_AnimationView_Play:
-.loc 1 1 0
-.word 0xa9be7bfd
-.word 0x910003fd
-.word 0xa9016bb9
-.word 0xaa0003fa
-.word 0xf940c340
-.word 0xaa0003f9
-.word 0xb5000040
-.word 0x1400000b
-
-adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
-add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x0, [x16, #360]
-.word 0xd2800201
-bl _p_3
-.word 0xaa0003e2
-.word 0xaa1903e0
-.word 0xaa1a03e1
-.word 0xf9400f30
-.word 0xd63f0200
-.word 0xaa1a03e0
-bl _p_7
-.word 0xaa0003e1
-.word 0xaa1a03e0
-bl _p_8
-.word 0xa9416bb9
-.word 0x910003bf
-.word 0xa8c27bfd
-.word 0xd65f03c0
-
-Lme_18:
-.text
-	.align 4
-	.no_dead_strip _Lottie_Forms_AnimationView_add_OnPlayProgressSegment_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs
-_Lottie_Forms_AnimationView_add_OnPlayProgressSegment_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs:
-.loc 1 1 0
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xa9015bb5
-.word 0xa90263b7
-.word 0xa9036bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-.word 0xf940c738
-.word 0xaa1803f7
-.word 0xaa1803e0
-.word 0xaa1a03e1
-bl _p_5
-.word 0xaa0003f6
-.word 0xb4000176
-.word 0xf94002c0
-.word 0xf9400000
-.word 0xf9400800
-.word 0xf9400c00
-
-adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
-add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x1, [x16, #368]
-.word 0xeb01001f
-.word 0x10000011
-.word 0x540004c1
-.word 0xaa1603f5
-.word 0xeb1f033f
-.word 0x10000011
-.word 0x540003e0
-.word 0x91062321
-
-adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
-add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #376]
 .word 0xc85f7c30
 .word 0xeb18021f
 .word 0x54000061
@@ -1160,8 +1121,43 @@ bl _p_2
 Lme_19:
 .text
 	.align 4
-	.no_dead_strip _Lottie_Forms_AnimationView_remove_OnPlayProgressSegment_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs
-_Lottie_Forms_AnimationView_remove_OnPlayProgressSegment_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs:
+	.no_dead_strip _Lottie_Forms_AnimationView_Play
+_Lottie_Forms_AnimationView_Play:
+.loc 1 1 0
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xa9016bb9
+.word 0xaa0003fa
+.word 0xf940c340
+.word 0xaa0003f9
+.word 0xb5000040
+.word 0x1400000b
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x0, [x16, #368]
+.word 0xd2800201
+bl _p_3
+.word 0xaa0003e2
+.word 0xaa1903e0
+.word 0xaa1a03e1
+.word 0xf9400f30
+.word 0xd63f0200
+.word 0xaa1a03e0
+bl _p_7
+.word 0xaa0003e1
+.word 0xaa1a03e0
+bl _p_8
+.word 0xa9416bb9
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_1a:
+.text
+	.align 4
+	.no_dead_strip _Lottie_Forms_AnimationView_add_OnPlayProgressSegment_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs
+_Lottie_Forms_AnimationView_add_OnPlayProgressSegment_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs:
 .loc 1 1 0
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -1174,7 +1170,7 @@ _Lottie_Forms_AnimationView_remove_OnPlayProgressSegment_System_EventHandler_1_L
 .word 0xaa1803f7
 .word 0xaa1803e0
 .word 0xaa1a03e1
-bl _p_6
+bl _p_5
 .word 0xaa0003f6
 .word 0xb4000176
 .word 0xf94002c0
@@ -1184,7 +1180,7 @@ bl _p_6
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x1, [x16, #368]
+ldr x1, [x16, #376]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540004c1
@@ -1196,7 +1192,7 @@ ldr x1, [x16, #368]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #376]
+ldr x0, [x16, #384]
 .word 0xc85f7c30
 .word 0xeb18021f
 .word 0x54000061
@@ -1231,7 +1227,81 @@ bl _p_2
 .word 0xaa1103e1
 bl _p_2
 
-Lme_1a:
+Lme_1b:
+.text
+	.align 4
+	.no_dead_strip _Lottie_Forms_AnimationView_remove_OnPlayProgressSegment_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs
+_Lottie_Forms_AnimationView_remove_OnPlayProgressSegment_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs:
+.loc 1 1 0
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xa9015bb5
+.word 0xa90263b7
+.word 0xa9036bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+.word 0xf940c738
+.word 0xaa1803f7
+.word 0xaa1803e0
+.word 0xaa1a03e1
+bl _p_6
+.word 0xaa0003f6
+.word 0xb4000176
+.word 0xf94002c0
+.word 0xf9400000
+.word 0xf9400800
+.word 0xf9400c00
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x1, [x16, #376]
+.word 0xeb01001f
+.word 0x10000011
+.word 0x540004c1
+.word 0xaa1603f5
+.word 0xeb1f033f
+.word 0x10000011
+.word 0x540003e0
+.word 0x91062321
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x0, [x16, #384]
+.word 0xc85f7c30
+.word 0xeb18021f
+.word 0x54000061
+.word 0xc811fc36
+.word 0x35ffff91
+.word 0xd5033bbf
+.word 0xaa1003e0
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xaa0003f8
+.word 0xeb17001f
+.word 0x54fffaa1
+.word 0xa9415bb5
+.word 0xa94263b7
+.word 0xa9436bb9
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+.word 0xd28017a0
+.word 0xaa1103e1
+bl _p_2
+.word 0xd2801580
+.word 0xaa1103e1
+bl _p_2
+
+Lme_1c:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_AnimationView_PlayProgressSegment_single_single
@@ -1326,7 +1396,7 @@ bl _p_10
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #384]
+ldr x0, [x16, #392]
 .word 0xd2800301
 bl _p_3
 .word 0xfd401fa0
@@ -1350,7 +1420,7 @@ bl _p_8
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_1b:
+Lme_1d:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_AnimationView_add_OnPlayFrameSegment_System_EventHandler_1_Lottie_Forms_EventArguments_FrameSegmentEventArgs
@@ -1377,7 +1447,7 @@ bl _p_5
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x1, [x16, #392]
+ldr x1, [x16, #400]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540004c1
@@ -1389,7 +1459,7 @@ ldr x1, [x16, #392]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #400]
+ldr x0, [x16, #408]
 .word 0xc85f7c30
 .word 0xeb18021f
 .word 0x54000061
@@ -1424,7 +1494,7 @@ bl _p_2
 .word 0xaa1103e1
 bl _p_2
 
-Lme_1c:
+Lme_1e:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_AnimationView_remove_OnPlayFrameSegment_System_EventHandler_1_Lottie_Forms_EventArguments_FrameSegmentEventArgs
@@ -1451,7 +1521,7 @@ bl _p_6
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x1, [x16, #392]
+ldr x1, [x16, #400]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540004c1
@@ -1463,7 +1533,7 @@ ldr x1, [x16, #392]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #400]
+ldr x0, [x16, #408]
 .word 0xc85f7c30
 .word 0xeb18021f
 .word 0x54000061
@@ -1498,7 +1568,7 @@ bl _p_2
 .word 0xaa1103e1
 bl _p_2
 
-Lme_1d:
+Lme_1f:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_AnimationView_PlayFrameSegment_int_int
@@ -1523,7 +1593,7 @@ _Lottie_Forms_AnimationView_PlayFrameSegment_int_int:
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #408]
+ldr x0, [x16, #416]
 .word 0xd2800301
 bl _p_3
 .word 0xf9001ba0
@@ -1583,7 +1653,7 @@ bl _p_9
 bl _mono_create_corlib_exception_2
 bl _p_10
 
-Lme_1e:
+Lme_20:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_AnimationView_add_OnPause_System_EventHandler
@@ -1610,7 +1680,7 @@ bl _p_5
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x1, [x16, #344]
+ldr x1, [x16, #352]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540004c1
@@ -1622,7 +1692,7 @@ ldr x1, [x16, #344]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #352]
+ldr x0, [x16, #360]
 .word 0xc85f7c30
 .word 0xeb18021f
 .word 0x54000061
@@ -1657,7 +1727,7 @@ bl _p_2
 .word 0xaa1103e1
 bl _p_2
 
-Lme_1f:
+Lme_21:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_AnimationView_remove_OnPause_System_EventHandler
@@ -1684,7 +1754,7 @@ bl _p_6
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x1, [x16, #344]
+ldr x1, [x16, #352]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540004c1
@@ -1696,112 +1766,7 @@ ldr x1, [x16, #344]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #352]
-.word 0xc85f7c30
-.word 0xeb18021f
-.word 0x54000061
-.word 0xc811fc36
-.word 0x35ffff91
-.word 0xd5033bbf
-.word 0xaa1003e0
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
-add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.word 0xaa0003f8
-.word 0xeb17001f
-.word 0x54fffaa1
-.word 0xa9415bb5
-.word 0xa94263b7
-.word 0xa9436bb9
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-.word 0xd28017a0
-.word 0xaa1103e1
-bl _p_2
-.word 0xd2801580
-.word 0xaa1103e1
-bl _p_2
-
-Lme_20:
-.text
-	.align 4
-	.no_dead_strip _Lottie_Forms_AnimationView_Pause
-_Lottie_Forms_AnimationView_Pause:
-.loc 1 1 0
-.word 0xa9be7bfd
-.word 0x910003fd
-.word 0xf9000bb9
-.word 0xf9000fa0
-.word 0xf9400fa0
-.word 0xf940cc00
-.word 0xaa0003f9
-.word 0xb5000040
-.word 0x1400000b
-
-adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
-add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x0, [x16, #360]
-.word 0xd2800201
-bl _p_3
-.word 0xaa0003e2
-.word 0xaa1903e0
-.word 0xf9400fa1
-.word 0xf9400f30
-.word 0xd63f0200
-.word 0xf9400bb9
-.word 0x910003bf
-.word 0xa8c27bfd
-.word 0xd65f03c0
-
-Lme_21:
-.text
-	.align 4
-	.no_dead_strip _Lottie_Forms_AnimationView_add_OnClick_System_EventHandler
-_Lottie_Forms_AnimationView_add_OnClick_System_EventHandler:
-.loc 1 1 0
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xa9015bb5
-.word 0xa90263b7
-.word 0xa9036bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-.word 0xf940d338
-.word 0xaa1803f7
-.word 0xaa1803e0
-.word 0xaa1a03e1
-bl _p_5
-.word 0xaa0003f6
-.word 0xb4000176
-.word 0xf94002c0
-.word 0xf9400000
-.word 0xf9400800
-.word 0xf9400c00
-
-adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
-add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x1, [x16, #344]
-.word 0xeb01001f
-.word 0x10000011
-.word 0x540004c1
-.word 0xaa1603f5
-.word 0xeb1f033f
-.word 0x10000011
-.word 0x540003e0
-.word 0x91068321
-
-adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
-add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #352]
 .word 0xc85f7c30
 .word 0xeb18021f
 .word 0x54000061
@@ -1839,8 +1804,39 @@ bl _p_2
 Lme_22:
 .text
 	.align 4
-	.no_dead_strip _Lottie_Forms_AnimationView_remove_OnClick_System_EventHandler
-_Lottie_Forms_AnimationView_remove_OnClick_System_EventHandler:
+	.no_dead_strip _Lottie_Forms_AnimationView_Pause
+_Lottie_Forms_AnimationView_Pause:
+.loc 1 1 0
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xf9000bb9
+.word 0xf9000fa0
+.word 0xf9400fa0
+.word 0xf940cc00
+.word 0xaa0003f9
+.word 0xb5000040
+.word 0x1400000b
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x0, [x16, #368]
+.word 0xd2800201
+bl _p_3
+.word 0xaa0003e2
+.word 0xaa1903e0
+.word 0xf9400fa1
+.word 0xf9400f30
+.word 0xd63f0200
+.word 0xf9400bb9
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_23:
+.text
+	.align 4
+	.no_dead_strip _Lottie_Forms_AnimationView_add_OnClick_System_EventHandler
+_Lottie_Forms_AnimationView_add_OnClick_System_EventHandler:
 .loc 1 1 0
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -1853,7 +1849,7 @@ _Lottie_Forms_AnimationView_remove_OnClick_System_EventHandler:
 .word 0xaa1803f7
 .word 0xaa1803e0
 .word 0xaa1a03e1
-bl _p_6
+bl _p_5
 .word 0xaa0003f6
 .word 0xb4000176
 .word 0xf94002c0
@@ -1863,7 +1859,7 @@ bl _p_6
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x1, [x16, #344]
+ldr x1, [x16, #352]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540004c1
@@ -1875,7 +1871,7 @@ ldr x1, [x16, #344]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #352]
+ldr x0, [x16, #360]
 .word 0xc85f7c30
 .word 0xeb18021f
 .word 0x54000061
@@ -1910,46 +1906,11 @@ bl _p_2
 .word 0xaa1103e1
 bl _p_2
 
-Lme_23:
-.text
-	.align 4
-	.no_dead_strip _Lottie_Forms_AnimationView_Click
-_Lottie_Forms_AnimationView_Click:
-.loc 1 1 0
-.word 0xa9be7bfd
-.word 0x910003fd
-.word 0xa9016bb9
-.word 0xaa0003fa
-.word 0xf940d340
-.word 0xaa0003f9
-.word 0xb5000040
-.word 0x1400000b
-
-adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
-add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #360]
-.word 0xd2800201
-bl _p_3
-.word 0xaa0003e2
-.word 0xaa1903e0
-.word 0xaa1a03e1
-.word 0xf9400f30
-.word 0xd63f0200
-.word 0xaa1a03e0
-bl _p_13
-.word 0xaa0003e1
-.word 0xaa1a03e0
-bl _p_8
-.word 0xa9416bb9
-.word 0x910003bf
-.word 0xa8c27bfd
-.word 0xd65f03c0
-
 Lme_24:
 .text
 	.align 4
-	.no_dead_strip _Lottie_Forms_AnimationView_add_OnFinish_System_EventHandler
-_Lottie_Forms_AnimationView_add_OnFinish_System_EventHandler:
+	.no_dead_strip _Lottie_Forms_AnimationView_remove_OnClick_System_EventHandler
+_Lottie_Forms_AnimationView_remove_OnClick_System_EventHandler:
 .loc 1 1 0
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -1958,11 +1919,11 @@ _Lottie_Forms_AnimationView_add_OnFinish_System_EventHandler:
 .word 0xa9036bb9
 .word 0xaa0003f9
 .word 0xaa0103fa
-.word 0xf940d738
+.word 0xf940d338
 .word 0xaa1803f7
 .word 0xaa1803e0
 .word 0xaa1a03e1
-bl _p_5
+bl _p_6
 .word 0xaa0003f6
 .word 0xb4000176
 .word 0xf94002c0
@@ -1972,7 +1933,7 @@ bl _p_5
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x1, [x16, #344]
+ldr x1, [x16, #352]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540004c1
@@ -1980,11 +1941,11 @@ ldr x1, [x16, #344]
 .word 0xeb1f033f
 .word 0x10000011
 .word 0x540003e0
-.word 0x9106a321
+.word 0x91068321
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #352]
+ldr x0, [x16, #360]
 .word 0xc85f7c30
 .word 0xeb18021f
 .word 0x54000061
@@ -2022,8 +1983,43 @@ bl _p_2
 Lme_25:
 .text
 	.align 4
-	.no_dead_strip _Lottie_Forms_AnimationView_remove_OnFinish_System_EventHandler
-_Lottie_Forms_AnimationView_remove_OnFinish_System_EventHandler:
+	.no_dead_strip _Lottie_Forms_AnimationView_Click
+_Lottie_Forms_AnimationView_Click:
+.loc 1 1 0
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xa9016bb9
+.word 0xaa0003fa
+.word 0xf940d340
+.word 0xaa0003f9
+.word 0xb5000040
+.word 0x1400000b
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x0, [x16, #368]
+.word 0xd2800201
+bl _p_3
+.word 0xaa0003e2
+.word 0xaa1903e0
+.word 0xaa1a03e1
+.word 0xf9400f30
+.word 0xd63f0200
+.word 0xaa1a03e0
+bl _p_13
+.word 0xaa0003e1
+.word 0xaa1a03e0
+bl _p_8
+.word 0xa9416bb9
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_26:
+.text
+	.align 4
+	.no_dead_strip _Lottie_Forms_AnimationView_add_OnFinish_System_EventHandler
+_Lottie_Forms_AnimationView_add_OnFinish_System_EventHandler:
 .loc 1 1 0
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -2036,7 +2032,7 @@ _Lottie_Forms_AnimationView_remove_OnFinish_System_EventHandler:
 .word 0xaa1803f7
 .word 0xaa1803e0
 .word 0xaa1a03e1
-bl _p_6
+bl _p_5
 .word 0xaa0003f6
 .word 0xb4000176
 .word 0xf94002c0
@@ -2046,7 +2042,7 @@ bl _p_6
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x1, [x16, #344]
+ldr x1, [x16, #352]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540004c1
@@ -2058,7 +2054,7 @@ ldr x1, [x16, #344]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #352]
+ldr x0, [x16, #360]
 .word 0xc85f7c30
 .word 0xeb18021f
 .word 0x54000061
@@ -2093,7 +2089,81 @@ bl _p_2
 .word 0xaa1103e1
 bl _p_2
 
-Lme_26:
+Lme_27:
+.text
+	.align 4
+	.no_dead_strip _Lottie_Forms_AnimationView_remove_OnFinish_System_EventHandler
+_Lottie_Forms_AnimationView_remove_OnFinish_System_EventHandler:
+.loc 1 1 0
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xa9015bb5
+.word 0xa90263b7
+.word 0xa9036bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+.word 0xf940d738
+.word 0xaa1803f7
+.word 0xaa1803e0
+.word 0xaa1a03e1
+bl _p_6
+.word 0xaa0003f6
+.word 0xb4000176
+.word 0xf94002c0
+.word 0xf9400000
+.word 0xf9400800
+.word 0xf9400c00
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x1, [x16, #352]
+.word 0xeb01001f
+.word 0x10000011
+.word 0x540004c1
+.word 0xaa1603f5
+.word 0xeb1f033f
+.word 0x10000011
+.word 0x540003e0
+.word 0x9106a321
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x0, [x16, #360]
+.word 0xc85f7c30
+.word 0xeb18021f
+.word 0x54000061
+.word 0xc811fc36
+.word 0x35ffff91
+.word 0xd5033bbf
+.word 0xaa1003e0
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xaa0003f8
+.word 0xeb17001f
+.word 0x54fffaa1
+.word 0xa9415bb5
+.word 0xa94263b7
+.word 0xa9436bb9
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+.word 0xd28017a0
+.word 0xaa1103e1
+bl _p_2
+.word 0xd2801580
+.word 0xaa1103e1
+bl _p_2
+
+Lme_28:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_AnimationView_PlaybackFinished
@@ -2110,7 +2180,7 @@ _Lottie_Forms_AnimationView_PlaybackFinished:
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #416]
+ldr x0, [x16, #424]
 .word 0xf9400002
 .word 0xaa1903e0
 .word 0xaa1a03e1
@@ -2126,7 +2196,7 @@ bl _p_8
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_27:
+Lme_29:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_AnimationView_ExecuteCommandIfPossible_System_Windows_Input_ICommand
@@ -2144,7 +2214,7 @@ _Lottie_Forms_AnimationView_ExecuteCommandIfPossible_System_Windows_Input_IComma
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x15, [x16, #424]
+ldr x15, [x16, #432]
 .word 0x928003f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -2157,7 +2227,7 @@ ldr x15, [x16, #424]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x15, [x16, #432]
+ldr x15, [x16, #440]
 .word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -2167,7 +2237,7 @@ ldr x15, [x16, #432]
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_28:
+Lme_2a:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_AnimationView__ctor
@@ -2182,13 +2252,13 @@ bl _p_15
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_29:
+Lme_2b:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_AnimationView__cctor
 _Lottie_Forms_AnimationView__cctor:
 .loc 1 1 0
-.word 0xa9b47bfd
+.word 0xa9b27bfd
 .word 0x910003fd
 .word 0xd2800210
 .word 0x910003f1
@@ -2197,22 +2267,22 @@ _Lottie_Forms_AnimationView__cctor:
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #440]
-.word 0xf90053a0
-
-adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
-add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x0, [x16, #448]
-.word 0xf90057a0
+.word 0xf9005fa0
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x0, [x16, #456]
-.word 0xf9005ba0
+.word 0xf90063a0
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x0, [x16, #464]
+.word 0xf90067a0
 .word 0xd280001e
 .word 0x9e6703d0
 .word 0x1e22c200
-.word 0xfd005fa0
+.word 0xfd006ba0
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
@@ -2220,10 +2290,10 @@ ldr x0, [x16, #208]
 .word 0xd2800281
 bl _p_3
 .word 0xaa0003e3
-.word 0xf94053a0
-.word 0xf94057a1
-.word 0xf9405ba2
-.word 0xfd405fa0
+.word 0xf9405fa0
+.word 0xf94063a1
+.word 0xf94067a2
+.word 0xfd406ba0
 .word 0x1e624010
 .word 0xbd001070
 .word 0xd2800044
@@ -2242,17 +2312,56 @@ ldr x0, [x16, #192]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x0, [x16, #472]
+.word 0xf90053a0
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x0, [x16, #480]
+.word 0xf90057a0
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x0, [x16, #464]
+.word 0xf9005ba0
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x0, [x16, #272]
+.word 0xd2800221
+bl _p_3
+.word 0xaa0003e3
+.word 0xf94053a0
+.word 0xf94057a1
+.word 0xf9405ba2
+.word 0x3900407f
+.word 0xd2800044
+.word 0xd2800005
+.word 0xd2800006
+.word 0xd2800007
+.word 0xf90003ff
+.word 0xf90007ff
+bl _p_16
+.word 0xaa0003e1
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x0, [x16, #256]
+.word 0xf9000001
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x0, [x16, #488]
 .word 0xf90047a0
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #472]
+ldr x0, [x16, #480]
 .word 0xf9004ba0
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #456]
+ldr x0, [x16, #464]
 .word 0xf9004fa0
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
@@ -2276,62 +2385,23 @@ bl _p_16
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #256]
-.word 0xf9000001
-
-adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
-add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #480]
-.word 0xf9003ba0
-
-adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
-add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #472]
-.word 0xf9003fa0
-
-adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
-add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #456]
-.word 0xf90043a0
-
-adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
-add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #272]
-.word 0xd2800221
-bl _p_3
-.word 0xaa0003e3
-.word 0xf9403ba0
-.word 0xf9403fa1
-.word 0xf94043a2
-.word 0x3900407f
-.word 0xd2800044
-.word 0xd2800005
-.word 0xd2800006
-.word 0xd2800007
-.word 0xf90003ff
-.word 0xf90007ff
-bl _p_16
-.word 0xaa0003e1
-
-adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
-add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x0, [x16, #288]
 .word 0xf9000001
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #488]
-.word 0xf9002fa0
-
-adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
-add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x0, [x16, #496]
-.word 0xf90033a0
+.word 0xf9003ba0
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #456]
-.word 0xf90037a0
+ldr x0, [x16, #504]
+.word 0xf9003fa0
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x0, [x16, #464]
+.word 0xf90043a0
 .word 0xf9000bbf
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
@@ -2340,9 +2410,9 @@ ldr x0, [x16, #248]
 .word 0xd2800301
 bl _p_3
 .word 0xaa0003e3
-.word 0xf9402fa0
-.word 0xf94033a1
-.word 0xf94037a2
+.word 0xf9403ba0
+.word 0xf9403fa1
+.word 0xf94043a2
 .word 0x91004064
 .word 0xf9400ba5
 .word 0xf9000085
@@ -2362,15 +2432,15 @@ ldr x0, [x16, #232]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #504]
+ldr x0, [x16, #512]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x1, [x16, #512]
+ldr x1, [x16, #520]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x2, [x16, #456]
+ldr x2, [x16, #464]
 .word 0xd2800003
 .word 0xd2800044
 .word 0xd2800005
@@ -2388,18 +2458,18 @@ ldr x0, [x16, #216]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #520]
-.word 0xf90023a0
+ldr x0, [x16, #528]
+.word 0xf9002fa0
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #472]
-.word 0xf90027a0
+ldr x0, [x16, #480]
+.word 0xf90033a0
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #456]
-.word 0xf9002ba0
+ldr x0, [x16, #464]
+.word 0xf90037a0
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
@@ -2407,9 +2477,9 @@ ldr x0, [x16, #272]
 .word 0xd2800221
 bl _p_3
 .word 0xaa0003e3
-.word 0xf94023a0
-.word 0xf94027a1
-.word 0xf9402ba2
+.word 0xf9402fa0
+.word 0xf94033a1
+.word 0xf94037a2
 .word 0x3900407f
 .word 0xd2800044
 .word 0xd2800005
@@ -2427,23 +2497,23 @@ ldr x0, [x16, #280]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #528]
-.word 0xf90013a0
-
-adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
-add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #448]
-.word 0xf90017a0
+ldr x0, [x16, #536]
+.word 0xf9001fa0
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x0, [x16, #456]
-.word 0xf9001ba0
+.word 0xf90023a0
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x0, [x16, #464]
+.word 0xf90027a0
 .word 0xd280001e
 .word 0xf2a7f01e
 .word 0x9e6703d0
 .word 0x1e22c200
-.word 0xfd001fa0
+.word 0xfd002ba0
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
@@ -2451,10 +2521,10 @@ ldr x0, [x16, #208]
 .word 0xd2800281
 bl _p_3
 .word 0xaa0003e3
-.word 0xf94013a0
-.word 0xf94017a1
-.word 0xf9401ba2
-.word 0xfd401fa0
+.word 0xf9401fa0
+.word 0xf94023a1
+.word 0xf94027a2
+.word 0xfd402ba0
 .word 0x1e624010
 .word 0xbd001070
 .word 0xd2800044
@@ -2473,15 +2543,15 @@ ldr x0, [x16, #296]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #536]
+ldr x0, [x16, #544]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x1, [x16, #544]
+ldr x1, [x16, #552]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x2, [x16, #456]
+ldr x2, [x16, #464]
 .word 0xd2800003
 .word 0xd2800044
 .word 0xd2800005
@@ -2499,15 +2569,15 @@ ldr x0, [x16, #304]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #552]
+ldr x0, [x16, #560]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x1, [x16, #544]
+ldr x1, [x16, #552]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x2, [x16, #456]
+ldr x2, [x16, #464]
 .word 0xd2800003
 .word 0xd2800044
 .word 0xd2800005
@@ -2525,15 +2595,15 @@ ldr x0, [x16, #320]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #560]
+ldr x0, [x16, #568]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x1, [x16, #544]
+ldr x1, [x16, #552]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x2, [x16, #456]
+ldr x2, [x16, #464]
 .word 0xd2800003
 .word 0xd2800044
 .word 0xd2800005
@@ -2551,15 +2621,15 @@ ldr x0, [x16, #328]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #568]
+ldr x0, [x16, #576]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x1, [x16, #512]
+ldr x1, [x16, #520]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x2, [x16, #456]
+ldr x2, [x16, #464]
 .word 0xd2800003
 .word 0xd2800044
 .word 0xd2800005
@@ -2574,11 +2644,50 @@ adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x0, [x16, #336]
 .word 0xf9000001
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x0, [x16, #584]
+.word 0xf90013a0
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x0, [x16, #480]
+.word 0xf90017a0
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x0, [x16, #464]
+.word 0xf9001ba0
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x0, [x16, #272]
+.word 0xd2800221
+bl _p_3
+.word 0xaa0003e3
+.word 0xf94013a0
+.word 0xf94017a1
+.word 0xf9401ba2
+.word 0x3900407f
+.word 0xd2800044
+.word 0xd2800005
+.word 0xd2800006
+.word 0xd2800007
+.word 0xf90003ff
+.word 0xf90007ff
+bl _p_16
+.word 0xaa0003e1
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x0, [x16, #344]
+.word 0xf9000001
 .word 0x910003bf
-.word 0xa8cc7bfd
+.word 0xa8ce7bfd
 .word 0xd65f03c0
 
-Lme_2a:
+Lme_2c:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_Init
@@ -2589,23 +2698,22 @@ _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_Init:
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #576]
+ldr x0, [x16, #592]
 bl _p_17
 bl _p_18
 .word 0x910003bf
 .word 0xa8c17bfd
 .word 0xd65f03c0
 
-Lme_2b:
+Lme_2d:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnElementChanged_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Lottie_Forms_AnimationView
 _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnElementChanged_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Lottie_Forms_AnimationView:
 .loc 1 1 0
-.word 0xa9bb7bfd
+.word 0xa9bc7bfd
 .word 0x910003fd
-.word 0xa90167b8
-.word 0xf90013ba
+.word 0xa9016bb9
 .word 0xaa0003f9
 .word 0xaa0103fa
 .word 0xaa1903e0
@@ -2613,24 +2721,24 @@ _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnElementChanged_Xamarin_Forms
 bl _p_19
 .word 0x3940035e
 .word 0xf9400f40
-.word 0xb40017a0
+.word 0xb40017e0
 .word 0x3940035e
 .word 0xf9400f40
-.word 0xf90027a0
+.word 0xf9001fa0
 .word 0xeb1f033f
 .word 0x10000011
-.word 0x54003240
+.word 0x54003160
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #584]
+ldr x0, [x16, #600]
 .word 0xd2801001
 bl _p_3
 .word 0xaa0003e1
-.word 0xf94027a2
+.word 0xf9401fa2
 .word 0xeb1f033f
 .word 0x10000011
-.word 0x540030a0
+.word 0x54002fc0
 .word 0xf9001039
 .word 0x91008020
 .word 0xd349fc00
@@ -2647,17 +2755,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #592]
+ldr x0, [x16, #608]
 .word 0xf9001420
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #600]
+ldr x0, [x16, #616]
 .word 0xf9002020
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #608]
+ldr x0, [x16, #624]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -2668,21 +2776,21 @@ ldr x0, [x16, #608]
 bl _p_20
 .word 0x3940035e
 .word 0xf9400f40
-.word 0xf90023a0
+.word 0xf9001ba0
 .word 0xeb1f033f
 .word 0x10000011
-.word 0x54002c60
+.word 0x54002b80
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #584]
+ldr x0, [x16, #600]
 .word 0xd2801001
 bl _p_3
 .word 0xaa0003e1
-.word 0xf94023a2
+.word 0xf9401ba2
 .word 0xeb1f033f
 .word 0x10000011
-.word 0x54002ac0
+.word 0x540029e0
 .word 0xf9001039
 .word 0x91008020
 .word 0xd349fc00
@@ -2699,17 +2807,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #616]
+ldr x0, [x16, #632]
 .word 0xf9001420
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #624]
+ldr x0, [x16, #640]
 .word 0xf9002020
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #632]
+ldr x0, [x16, #648]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -2720,21 +2828,21 @@ ldr x0, [x16, #632]
 bl _p_21
 .word 0x3940035e
 .word 0xf9400f40
-.word 0xf9001fa0
+.word 0xf90017a0
 .word 0xeb1f033f
 .word 0x10000011
-.word 0x54002680
+.word 0x540025a0
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #640]
+ldr x0, [x16, #656]
 .word 0xd2801001
 bl _p_3
 .word 0xaa0003e1
-.word 0xf9401fa2
+.word 0xf94017a2
 .word 0xeb1f033f
 .word 0x10000011
-.word 0x540024e0
+.word 0x54002400
 .word 0xf9001039
 .word 0x91008020
 .word 0xd349fc00
@@ -2751,17 +2859,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #648]
+ldr x0, [x16, #664]
 .word 0xf9001420
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #656]
+ldr x0, [x16, #672]
 .word 0xf9002020
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #664]
+ldr x0, [x16, #680]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -2772,21 +2880,21 @@ ldr x0, [x16, #664]
 bl _p_22
 .word 0x3940035e
 .word 0xf9400f40
-.word 0xf9001ba0
+.word 0xf90013a0
 .word 0xeb1f033f
 .word 0x10000011
-.word 0x540020a0
+.word 0x54001fc0
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #672]
+ldr x0, [x16, #688]
 .word 0xd2801001
 bl _p_3
 .word 0xaa0003e1
-.word 0xf9401ba2
+.word 0xf94013a2
 .word 0xeb1f033f
 .word 0x10000011
-.word 0x54001f00
+.word 0x54001e20
 .word 0xf9001039
 .word 0x91008020
 .word 0xd349fc00
@@ -2803,17 +2911,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #680]
+ldr x0, [x16, #696]
 .word 0xf9001420
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #688]
+ldr x0, [x16, #704]
 .word 0xf9002020
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #696]
+ldr x0, [x16, #712]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -2822,78 +2930,28 @@ ldr x0, [x16, #696]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_23
+.word 0xaa1903e0
+bl _p_24
 .word 0x3940035e
 .word 0xf9400b40
-.word 0xb4001a20
+.word 0xb4001920
 .word 0x3940035e
 .word 0xf9400b40
-.word 0xf90027a0
+.word 0xf9001fa0
 .word 0xeb1f033f
 .word 0x10000011
-.word 0x54001a60
-
-adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
-add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #584]
-.word 0xd2801001
-bl _p_3
-.word 0xaa0003e1
-.word 0xf94027a2
-.word 0xeb1f033f
-.word 0x10000011
-.word 0x540018c0
-.word 0xf9001039
-.word 0x91008020
-.word 0xd349fc00
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0000
-
-adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
-add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x3, [x16, #16]
-.word 0x8b030000
-.word 0xd280003e
-.word 0x3900001e
-
-adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
-add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #592]
-.word 0xf9001420
+.word 0x54001940
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x0, [x16, #600]
-.word 0xf9002020
-
-adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
-add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #608]
-.word 0xf9401403
-.word 0xf9000c23
-.word 0xf9401000
-.word 0xf9000820
-.word 0x3901c03f
-.word 0xaa0203e0
-.word 0x3940005e
-bl _p_24
-.word 0x3940035e
-.word 0xf9400b40
-.word 0xf90023a0
-.word 0xeb1f033f
-.word 0x10000011
-.word 0x54001480
-
-adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
-add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #584]
 .word 0xd2801001
 bl _p_3
 .word 0xaa0003e1
-.word 0xf94023a2
+.word 0xf9401fa2
 .word 0xeb1f033f
 .word 0x10000011
-.word 0x540012e0
+.word 0x540017a0
 .word 0xf9001039
 .word 0x91008020
 .word 0xd349fc00
@@ -2910,17 +2968,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #616]
+ldr x0, [x16, #608]
 .word 0xf9001420
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #624]
+ldr x0, [x16, #616]
 .word 0xf9002020
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #632]
+ldr x0, [x16, #624]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -2931,21 +2989,21 @@ ldr x0, [x16, #632]
 bl _p_25
 .word 0x3940035e
 .word 0xf9400b40
-.word 0xf9001fa0
+.word 0xf9001ba0
 .word 0xeb1f033f
 .word 0x10000011
-.word 0x54000ea0
+.word 0x54001360
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #640]
+ldr x0, [x16, #600]
 .word 0xd2801001
 bl _p_3
 .word 0xaa0003e1
-.word 0xf9401fa2
+.word 0xf9401ba2
 .word 0xeb1f033f
 .word 0x10000011
-.word 0x54000d00
+.word 0x540011c0
 .word 0xf9001039
 .word 0x91008020
 .word 0xd349fc00
@@ -2962,17 +3020,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #648]
+ldr x0, [x16, #632]
 .word 0xf9001420
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #656]
+ldr x0, [x16, #640]
 .word 0xf9002020
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #664]
+ldr x0, [x16, #648]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -2983,21 +3041,21 @@ ldr x0, [x16, #664]
 bl _p_26
 .word 0x3940035e
 .word 0xf9400b40
-.word 0xf9001ba0
+.word 0xf90017a0
 .word 0xeb1f033f
 .word 0x10000011
-.word 0x540008c0
+.word 0x54000d80
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #672]
+ldr x0, [x16, #656]
 .word 0xd2801001
 bl _p_3
 .word 0xaa0003e1
-.word 0xf9401ba2
+.word 0xf94017a2
 .word 0xeb1f033f
 .word 0x10000011
-.word 0x54000720
+.word 0x54000be0
 .word 0xf9001039
 .word 0x91008020
 .word 0xd349fc00
@@ -3014,17 +3072,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #680]
+ldr x0, [x16, #664]
 .word 0xf9001420
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #688]
+ldr x0, [x16, #672]
 .word 0xf9002020
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #696]
+ldr x0, [x16, #680]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -3034,29 +3092,72 @@ ldr x0, [x16, #696]
 .word 0x3940005e
 bl _p_27
 .word 0x3940035e
+.word 0xf9400b40
+.word 0xf90013a0
+.word 0xeb1f033f
+.word 0x10000011
+.word 0x540007a0
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x0, [x16, #688]
+.word 0xd2801001
+bl _p_3
+.word 0xaa0003e1
+.word 0xf94013a2
+.word 0xeb1f033f
+.word 0x10000011
+.word 0x54000600
+.word 0xf9001039
+.word 0x91008020
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030000
+.word 0xd280003e
+.word 0x3900001e
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x0, [x16, #696]
+.word 0xf9001420
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x0, [x16, #704]
+.word 0xf9002020
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x0, [x16, #712]
+.word 0xf9401403
+.word 0xf9000c23
+.word 0xf9401000
+.word 0xf9000820
+.word 0x3901c03f
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_28
+.word 0x3940035e
 .word 0xf9400b41
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_28
-.word 0xaa0003f8
-.word 0xb40000f8
-.word 0xd2800000
-.word 0xb9801301
-.word 0x6b01001f
-.word 0x54000062
-.word 0xd2800018
-.word 0x14000002
-.word 0xd2800038
-.word 0x53001f00
+bl _p_29
+bl _p_30
+.word 0x53001c00
 .word 0x350000a0
 .word 0x3940035e
 .word 0xf9400b41
 .word 0xaa1903e0
-bl _p_29
-.word 0xa94167b8
-.word 0xf94013ba
+bl _p_31
+.word 0xa9416bb9
 .word 0x910003bf
-.word 0xa8c57bfd
+.word 0xa8c47bfd
 .word 0xd65f03c0
 .word 0xd28017a0
 .word 0xaa1103e1
@@ -3065,7 +3166,7 @@ bl _p_2
 .word 0xaa1103e1
 bl _p_2
 
-Lme_2c:
+Lme_2e:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnPlay_object_System_EventArgs
@@ -3087,7 +3188,7 @@ _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnPlay_object_System_EventArgs
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #704]
+ldr x0, [x16, #720]
 .word 0xd2801001
 bl _p_3
 .word 0xaa0003e1
@@ -3110,17 +3211,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #712]
+ldr x0, [x16, #728]
 .word 0xf9001420
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #720]
+ldr x0, [x16, #736]
 .word 0xf9002020
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #728]
+ldr x0, [x16, #744]
 .word 0xf9401402
 .word 0xf9000c22
 .word 0xf9401000
@@ -3128,13 +3229,13 @@ ldr x0, [x16, #728]
 .word 0x3901c03f
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf942a850
+.word 0xf942b050
 .word 0xd63f0200
 .word 0xf9403f42
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
-bl _p_30
+bl _p_32
 .word 0xa9416bb9
 .word 0x910003bf
 .word 0xa8c37bfd
@@ -3146,7 +3247,7 @@ bl _p_2
 .word 0xaa1103e1
 bl _p_2
 
-Lme_2d:
+Lme_2f:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnPlayProgressSegment_object_Lottie_Forms_EventArguments_ProgressSegmentEventArgs
@@ -3185,7 +3286,7 @@ _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnPlayProgressSegment_object_L
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #704]
+ldr x0, [x16, #720]
 .word 0xd2801001
 bl _p_3
 .word 0xaa0003e1
@@ -3210,17 +3311,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #712]
+ldr x0, [x16, #728]
 .word 0xf9001420
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #720]
+ldr x0, [x16, #736]
 .word 0xf9002020
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #728]
+ldr x0, [x16, #744]
 .word 0xf9401402
 .word 0xf9000c22
 .word 0xf9401000
@@ -3228,13 +3329,13 @@ ldr x0, [x16, #728]
 .word 0x3901c03f
 .word 0xaa1803e0
 .word 0xf9400302
-.word 0xf942b450
+.word 0xf942bc50
 .word 0xd63f0200
 .word 0xf9403f22
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
-bl _p_30
+bl _p_32
 .word 0xa94167b8
 .word 0xf94013ba
 .word 0x910003bf
@@ -3247,7 +3348,7 @@ bl _p_2
 .word 0xaa1103e1
 bl _p_2
 
-Lme_2e:
+Lme_30:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnPlayFrameSegment_object_Lottie_Forms_EventArguments_FrameSegmentEventArgs
@@ -3266,11 +3367,11 @@ _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnPlayFrameSegment_object_Lott
 .word 0x14000037
 .word 0x3940035e
 .word 0xb9801340
-bl _p_31
+bl _p_33
 .word 0xf9001ba0
 .word 0x3940035e
 .word 0xb9801740
-bl _p_31
+bl _p_33
 .word 0xf9001fa0
 .word 0xeb1f033f
 .word 0x10000011
@@ -3278,7 +3379,7 @@ bl _p_31
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #704]
+ldr x0, [x16, #720]
 .word 0xd2801001
 bl _p_3
 .word 0xaa0003e3
@@ -3303,17 +3404,17 @@ ldr x4, [x16, #16]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #712]
+ldr x0, [x16, #728]
 .word 0xf9001460
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #720]
+ldr x0, [x16, #736]
 .word 0xf9002060
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #728]
+ldr x0, [x16, #744]
 .word 0xf9401404
 .word 0xf9000c64
 .word 0xf9401000
@@ -3321,13 +3422,13 @@ ldr x0, [x16, #728]
 .word 0x3901c07f
 .word 0xaa1803e0
 .word 0xf9400304
-.word 0xf942b890
+.word 0xf942c090
 .word 0xd63f0200
 .word 0xf9403f22
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
-bl _p_30
+bl _p_32
 .word 0xa94167b8
 .word 0xf94013ba
 .word 0x910003bf
@@ -3340,7 +3441,7 @@ bl _p_2
 .word 0xaa1103e1
 bl _p_2
 
-Lme_2f:
+Lme_31:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnPause_object_System_EventArgs
@@ -3359,20 +3460,20 @@ _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnPause_object_System_EventArg
 .word 0x14000005
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf942c030
+.word 0xf942c830
 .word 0xd63f0200
 .word 0xf9400fa0
 .word 0xf9403c02
 .word 0xaa0203e0
 .word 0xd2800001
 .word 0x3940005e
-bl _p_30
+bl _p_32
 .word 0xf9400bb9
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_30:
+Lme_32:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnElementPropertyChanged_object_System_ComponentModel_PropertyChangedEventArgs
@@ -3380,17 +3481,17 @@ _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnElementPropertyChanged_objec
 .loc 1 1 0
 .word 0xa9bc7bfd
 .word 0x910003fd
-.word 0xa90167b8
-.word 0xf90013ba
+.word 0xf9000bb8
+.word 0xf9000fba
 .word 0xaa0003f8
-.word 0xaa0103f9
+.word 0xf90013a1
 .word 0xaa0203fa
 .word 0xaa1803e0
-.word 0xaa1903e1
+.word 0xf94013a1
 .word 0xaa1a03e2
-bl _p_32
+bl _p_34
 .word 0xf9403f00
-.word 0xb4000f20
+.word 0xb4001720
 .word 0x3940035e
 .word 0xf9400b40
 
@@ -3401,45 +3502,23 @@ ldr x1, [x16, #216]
 .word 0xaa0103e2
 .word 0x3940005e
 .word 0xf9401021
-bl _p_33
+bl _p_35
 .word 0x53001c00
-.word 0x34000460
+.word 0x340001a0
 .word 0xf9403f01
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_28
-.word 0xaa0003f9
-.word 0xb40000f9
-.word 0xd2800000
-.word 0xb9801321
-.word 0x6b01001f
-.word 0x54000062
-.word 0xd2800019
-.word 0x14000002
-.word 0xd2800039
-.word 0x53001f20
-.word 0x35000280
-.word 0xf9407700
-.word 0xaa0003f9
-.word 0xb5000040
-.word 0x14000005
-.word 0xaa1903e0
-.word 0xf9400321
-.word 0xf9421430
-.word 0xd63f0200
-.word 0xf9407700
-.word 0xaa0003f9
-.word 0xb5000040
-.word 0x14000005
-.word 0xf9407b01
-.word 0xaa1903e0
-.word 0x3940033e
-bl _p_34
+bl _p_29
+bl _p_30
+.word 0x53001c00
+.word 0x350000c0
+.word 0xaa1803e0
+bl _p_24
 .word 0xf9403f01
 .word 0xaa1803e0
-bl _p_29
+bl _p_31
 .word 0xf9407700
-.word 0xb4000920
+.word 0xb40013e0
 .word 0x3940035e
 .word 0xf9400b40
 
@@ -3450,7 +3529,7 @@ ldr x1, [x16, #192]
 .word 0xaa0103e2
 .word 0x3940005e
 .word 0xf9401021
-bl _p_33
+bl _p_35
 .word 0x53001c00
 .word 0x340001a0
 .word 0xf9407700
@@ -3458,12 +3537,12 @@ bl _p_33
 .word 0xf9403f01
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_35
+bl _p_36
 .word 0x1e22c000
 .word 0xf9401ba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9428830
+.word 0xf9429030
 .word 0xd63f0200
 .word 0x3940035e
 .word 0xf9400b40
@@ -3475,7 +3554,7 @@ ldr x1, [x16, #256]
 .word 0xaa0103e2
 .word 0x3940005e
 .word 0xf9401021
-bl _p_33
+bl _p_35
 .word 0x53001c00
 .word 0x340001a0
 .word 0xf9407700
@@ -3483,12 +3562,12 @@ bl _p_33
 .word 0xf9403f01
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_36
+bl _p_37
 .word 0xf9401ba2
 .word 0x53001c01
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9425c50
+.word 0xf9426450
 .word 0xd63f0200
 .word 0x3940035e
 .word 0xf9400b40
@@ -3500,7 +3579,7 @@ ldr x1, [x16, #296]
 .word 0xaa0103e2
 .word 0x3940005e
 .word 0xf9401021
-bl _p_33
+bl _p_35
 .word 0x53001c00
 .word 0x340001a0
 .word 0xf9407700
@@ -3508,20 +3587,118 @@ bl _p_33
 .word 0xf9403f01
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_37
+bl _p_38
 .word 0x1e22c000
 .word 0xf9401ba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9428030
+.word 0xf9428830
 .word 0xd63f0200
-.word 0xa94167b8
-.word 0xf94013ba
+.word 0x3940035e
+.word 0xf9400b40
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x1, [x16, #288]
+.word 0xf9400021
+.word 0xaa0103e2
+.word 0x3940005e
+.word 0xf9401021
+bl _p_35
+.word 0x53001c00
+.word 0x34000960
+.word 0xf9403f01
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_29
+.word 0xaa0003fa
+.word 0xb40000fa
+.word 0xd2800000
+.word 0xb9801341
+.word 0x6b01001f
+.word 0x54000062
+.word 0xd280001a
+.word 0x14000002
+.word 0xd280003a
+.word 0x53001f40
+.word 0x35000780
+.word 0xf9403f01
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_39
+.word 0x53001c00
+.word 0x34000620
+.word 0xf9407700
+.word 0xf9001ba0
+.word 0xeb1f031f
+.word 0x10000011
+.word 0x54000720
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x0, [x16, #720]
+.word 0xd2801001
+bl _p_3
+.word 0xaa0003e1
+.word 0xf9401ba2
+.word 0xeb1f031f
+.word 0x10000011
+.word 0x54000580
+.word 0xf9001038
+.word 0x91008020
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030000
+.word 0xd280003e
+.word 0x3900001e
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x0, [x16, #728]
+.word 0xf9001420
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x0, [x16, #736]
+.word 0xf9002020
+
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x0, [x16, #744]
+.word 0xf9401403
+.word 0xf9000c23
+.word 0xf9401000
+.word 0xf9000820
+.word 0x3901c03f
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf942b050
+.word 0xd63f0200
+.word 0x14000006
+.word 0xf9407701
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf942c830
+.word 0xd63f0200
+.word 0xf9400bb8
+.word 0xf9400fba
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
+.word 0xd28017a0
+.word 0xaa1103e1
+bl _p_2
+.word 0xd2800e20
+.word 0xaa1103e1
+bl _p_2
 
-Lme_31:
+Lme_33:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_InitAnimationViewForElement_Lottie_Forms_AnimationView
@@ -3534,54 +3711,54 @@ _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_InitAnimationViewForElement_Lo
 .word 0xaa0103fa
 .word 0xaa1a03e0
 .word 0x3940035e
-bl _p_28
-bl _p_38
+bl _p_29
+bl _p_40
 .word 0xf90043a0
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #736]
+ldr x0, [x16, #752]
 bl _p_17
 .word 0xf94043a1
 .word 0xf9003fa0
-bl _p_39
+bl _p_41
 .word 0xf9403fa2
 .word 0xaa0203e0
 .word 0xf9003ba0
 .word 0xaa0203e0
 .word 0xd28007e1
 .word 0x3940005e
-bl _p_40
+bl _p_42
 .word 0xf9403ba2
 .word 0xaa0203e0
 .word 0xf90037a0
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
-bl _p_41
+bl _p_43
 .word 0xf94037a0
 .word 0xf90033a0
 .word 0xf9002fa0
 .word 0xaa1a03e0
 .word 0x3940035e
-bl _p_36
+bl _p_37
 .word 0xf94033a2
 .word 0x53001c01
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9425c50
+.word 0xf9426450
 .word 0xd63f0200
 .word 0xf9402fa0
 .word 0xf9002ba0
 .word 0xf90027a0
 .word 0xaa1a03e0
 .word 0x3940035e
-bl _p_37
+bl _p_38
 .word 0x1e22c000
 .word 0xf9402ba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9428030
+.word 0xf9428830
 .word 0xd63f0200
 .word 0xf94027a0
 .word 0xf9007720
@@ -3599,16 +3776,16 @@ ldr x2, [x16, #16]
 .word 0x3900003e
 .word 0xeb1f035f
 .word 0x10000011
-.word 0x54001260
+.word 0x540012c0
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #744]
+ldr x0, [x16, #760]
 .word 0xd2801001
 bl _p_3
 .word 0xeb1f035f
 .word 0x10000011
-.word 0x54001100
+.word 0x54001160
 .word 0xf900101a
 .word 0x91008001
 .word 0xd349fc21
@@ -3625,17 +3802,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x1, [x16, #752]
+ldr x1, [x16, #768]
 .word 0xf9001401
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x1, [x16, #760]
+ldr x1, [x16, #776]
 .word 0xf9002001
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x1, [x16, #768]
+ldr x1, [x16, #784]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -3645,11 +3822,11 @@ ldr x1, [x16, #768]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #776]
+ldr x0, [x16, #792]
 bl _p_17
 .word 0xf94023a1
 .word 0xf9001fa0
-bl _p_42
+bl _p_44
 .word 0xf9401fa0
 .word 0xf9007b20
 .word 0x9103c321
@@ -3668,45 +3845,50 @@ ldr x2, [x16, #16]
 .word 0xf9407b21
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_43
+bl _p_45
 .word 0xf9403f20
 .word 0xf9001ba0
 .word 0xf9407721
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9429030
+.word 0xf9429830
 .word 0xd63f0200
 .word 0x910083a0
 .word 0xf90017a0
-bl _p_44
+bl _p_46
 .word 0xf94017be
 .word 0xf90003c0
 .word 0xf9401ba2
 .word 0xaa0203e0
 .word 0xf94013a1
 .word 0x3940005e
-bl _p_45
+bl _p_47
 .word 0xaa1a03e0
 .word 0x3940035e
-bl _p_46
+bl _p_48
+.word 0x53001c00
+.word 0x350000c0
+.word 0xaa1a03e0
+.word 0x3940035e
+bl _p_39
 .word 0x53001c00
 .word 0x34000600
 .word 0xf9407720
 .word 0xf9001ba0
 .word 0xeb1f033f
 .word 0x10000011
-.word 0x54000740
+.word 0x54000700
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #704]
+ldr x0, [x16, #720]
 .word 0xd2801001
 bl _p_3
 .word 0xaa0003e1
 .word 0xf9401ba2
 .word 0xeb1f033f
 .word 0x10000011
-.word 0x540005a0
+.word 0x54000560
 .word 0xf9001039
 .word 0x91008020
 .word 0xd349fc00
@@ -3723,17 +3905,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #712]
+ldr x0, [x16, #728]
 .word 0xf9001420
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #720]
+ldr x0, [x16, #736]
 .word 0xf9002020
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #728]
+ldr x0, [x16, #744]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -3741,16 +3923,14 @@ ldr x0, [x16, #728]
 .word 0x3901c03f
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf942a850
+.word 0xf942b050
 .word 0xd63f0200
-.word 0xf9407720
-.word 0xb40000e0
 .word 0xf9407721
 .word 0xaa1903e0
-bl _p_47
+bl _p_49
 .word 0xaa1903e0
 .word 0x3940033e
-bl _p_48
+bl _p_50
 .word 0xa9416bb9
 .word 0x910003bf
 .word 0xa8c97bfd
@@ -3762,7 +3942,7 @@ bl _p_2
 .word 0xaa1103e1
 bl _p_2
 
-Lme_32:
+Lme_34:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_PlaybackFinishedIfActually_bool
@@ -3781,13 +3961,55 @@ _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_PlaybackFinishedIfActually_boo
 .word 0xb5000040
 .word 0x14000003
 .word 0xaa1a03e0
-bl _p_49
+bl _p_51
 .word 0xf9400bba
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_33:
+Lme_35:
+.text
+	.align 4
+	.no_dead_strip _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_CleanupResources
+_Lottie_Forms_iOS_Renderers_AnimationViewRenderer_CleanupResources:
+.loc 1 1 0
+.word 0xa9be7bfd
+.word 0x910003fd
+.word 0xa9016bb9
+.word 0xaa0003fa
+.word 0xf9407b40
+.word 0xb40001c0
+.word 0xf9407740
+.word 0xaa0003f9
+.word 0xb5000040
+.word 0x14000005
+.word 0xf9407b41
+.word 0xaa1903e0
+.word 0x3940033e
+bl _p_52
+.word 0xf9407b41
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_53
+.word 0xf9007b5f
+.word 0xf9407740
+.word 0xb4000160
+.word 0xf9407741
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9421430
+.word 0xd63f0200
+.word 0xf9407741
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_53
+.word 0xf900775f
+.word 0xa9416bb9
+.word 0x910003bf
+.word 0xa8c27bfd
+.word 0xd65f03c0
+
+Lme_36:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_iOS_Renderers_AnimationViewRenderer__ctor
@@ -3797,12 +4019,12 @@ _Lottie_Forms_iOS_Renderers_AnimationViewRenderer__ctor:
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9400ba0
-bl _p_50
+bl _p_54
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_34:
+Lme_37:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_EventArguments_FrameSegmentEventArgs_get_From
@@ -3817,7 +4039,7 @@ _Lottie_Forms_EventArguments_FrameSegmentEventArgs_get_From:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_35:
+Lme_38:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_EventArguments_FrameSegmentEventArgs_set_From_int
@@ -3834,7 +4056,7 @@ _Lottie_Forms_EventArguments_FrameSegmentEventArgs_set_From_int:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_36:
+Lme_39:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_EventArguments_FrameSegmentEventArgs_get_To
@@ -3849,7 +4071,7 @@ _Lottie_Forms_EventArguments_FrameSegmentEventArgs_get_To:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_37:
+Lme_3a:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_EventArguments_FrameSegmentEventArgs_set_To_int
@@ -3866,7 +4088,7 @@ _Lottie_Forms_EventArguments_FrameSegmentEventArgs_set_To_int:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_38:
+Lme_3b:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_EventArguments_FrameSegmentEventArgs__ctor
@@ -3879,7 +4101,7 @@ _Lottie_Forms_EventArguments_FrameSegmentEventArgs__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_39:
+Lme_3c:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_EventArguments_FrameSegmentEventArgs__ctor_int_int
@@ -3899,7 +4121,7 @@ _Lottie_Forms_EventArguments_FrameSegmentEventArgs__ctor_int_int:
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3a:
+Lme_3d:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_get_From
@@ -3916,7 +4138,7 @@ _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_get_From:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_3b:
+Lme_3e:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_set_From_single
@@ -3935,7 +4157,7 @@ _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_set_From_single:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_3c:
+Lme_3f:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_get_To
@@ -3952,7 +4174,7 @@ _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_get_To:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_3d:
+Lme_40:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_set_To_single
@@ -3971,7 +4193,7 @@ _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_set_To_single:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_3e:
+Lme_41:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_EventArguments_ProgressSegmentEventArgs__ctor
@@ -3984,7 +4206,7 @@ _Lottie_Forms_EventArguments_ProgressSegmentEventArgs__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_3f:
+Lme_42:
 .text
 	.align 4
 	.no_dead_strip _Lottie_Forms_EventArguments_ProgressSegmentEventArgs__ctor_single_single
@@ -4016,7 +4238,7 @@ _Lottie_Forms_EventArguments_ProgressSegmentEventArgs__ctor_single_single:
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_40:
+Lme_43:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs_invoke_void_object_TEventArgs_object_Lottie_Forms_EventArguments_ProgressSegmentEventArgs
@@ -4032,7 +4254,7 @@ wrapper_delegate_invoke_System_EventHandler_1_Lottie_Forms_EventArguments_Progre
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #800]
 .word 0xb9400000
 .word 0x35000680
 .word 0x14000001
@@ -4086,7 +4308,7 @@ ldr x0, [x16, #784]
 .word 0xd65f03c0
 .word 0xaa1703e0
 bl _p_10
-bl _p_51
+bl _p_55
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffcb
@@ -4094,7 +4316,7 @@ bl _p_51
 .word 0xaa1103e1
 bl _p_2
 
-Lme_42:
+Lme_45:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_Lottie_Forms_EventArguments_FrameSegmentEventArgs_invoke_void_object_TEventArgs_object_Lottie_Forms_EventArguments_FrameSegmentEventArgs
@@ -4110,7 +4332,7 @@ wrapper_delegate_invoke_System_EventHandler_1_Lottie_Forms_EventArguments_FrameS
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #800]
 .word 0xb9400000
 .word 0x35000680
 .word 0x14000001
@@ -4164,7 +4386,7 @@ ldr x0, [x16, #784]
 .word 0xd65f03c0
 .word 0xaa1703e0
 bl _p_10
-bl _p_51
+bl _p_55
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffcb
@@ -4172,7 +4394,7 @@ bl _p_51
 .word 0xaa1103e1
 bl _p_2
 
-Lme_43:
+Lme_46:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_System_ComponentModel_PropertyChangedEventArgs_invoke_void_object_TEventArgs_object_System_ComponentModel_PropertyChangedEventArgs
@@ -4188,7 +4410,7 @@ wrapper_delegate_invoke_System_EventHandler_1_System_ComponentModel_PropertyChan
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #800]
 .word 0xb9400000
 .word 0x35000680
 .word 0x14000001
@@ -4242,7 +4464,7 @@ ldr x0, [x16, #784]
 .word 0xd65f03c0
 .word 0xaa1703e0
 bl _p_10
-bl _p_51
+bl _p_55
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffcb
@@ -4250,9 +4472,9 @@ bl _p_51
 .word 0xaa1103e1
 bl _p_2
 
-Lme_44:
+Lme_47:
 .text
-ut_69:
+ut_72:
 add x0, x0, 16
 b System_Nullable_1_bool__ctor_bool
 ut_end:
@@ -4260,7 +4482,7 @@ ut_end:
 _unbox_trampoline_p:
 
 	.long 0
-LDIFF_SYM3=ut_end - ut_69
+LDIFF_SYM3=ut_end - ut_72
 	.long LDIFF_SYM3
 .text
 	.align 4
@@ -4283,9 +4505,9 @@ System_Nullable_1_bool__ctor_bool:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_45:
+Lme_48:
 .text
-ut_70:
+ut_73:
 add x0, x0, 16
 b System_Nullable_1_bool_get_HasValue
 .text
@@ -4302,9 +4524,9 @@ System_Nullable_1_bool_get_HasValue:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_46:
+Lme_49:
 .text
-ut_71:
+ut_74:
 add x0, x0, 16
 b System_Nullable_1_bool_get_Value
 .text
@@ -4326,7 +4548,7 @@ System_Nullable_1_bool_get_Value:
 .word 0xd65f03c0
 .loc 2 46 0
 .word 0xd289bec0
-bl _p_52
+bl _p_56
 .word 0xaa0003e1
 .word 0xd28015a0
 .word 0xf2a04000
@@ -4334,9 +4556,9 @@ bl _mono_create_corlib_exception_1
 bl _p_10
 .word 0x17fffff4
 
-Lme_47:
+Lme_4a:
 .text
-ut_72:
+ut_75:
 add x0, x0, 16
 b System_Nullable_1_bool_GetValueOrDefault
 .text
@@ -4353,9 +4575,9 @@ System_Nullable_1_bool_GetValueOrDefault:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_48:
+Lme_4b:
 .text
-ut_73:
+ut_76:
 add x0, x0, 16
 b System_Nullable_1_bool_GetValueOrDefault_bool
 .text
@@ -4378,9 +4600,9 @@ System_Nullable_1_bool_GetValueOrDefault_bool:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_49:
+Lme_4c:
 .text
-ut_74:
+ut_77:
 add x0, x0, 16
 b System_Nullable_1_bool_Equals_object
 .text
@@ -4408,15 +4630,15 @@ System_Nullable_1_bool_Equals_object:
 .word 0xf9400ba0
 .word 0x91000400
 .word 0xf9400fa1
-bl _p_53
+bl _p_57
 .word 0x53001c00
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_4a:
+Lme_4d:
 .text
-ut_75:
+ut_78:
 add x0, x0, 16
 b System_Nullable_1_bool_GetHashCode
 .text
@@ -4446,9 +4668,9 @@ System_Nullable_1_bool_GetHashCode:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_4b:
+Lme_4e:
 .text
-ut_76:
+ut_79:
 add x0, x0, 16
 b System_Nullable_1_bool_ToString
 .text
@@ -4465,7 +4687,7 @@ System_Nullable_1_bool_ToString:
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #792]
+ldr x0, [x16, #808]
 .word 0x1400000e
 .word 0x91000740
 .word 0xaa0003e1
@@ -4475,21 +4697,21 @@ ldr x0, [x16, #792]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x26, [x16, #800]
+ldr x26, [x16, #816]
 .word 0x14000004
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x26, [x16, #808]
+ldr x26, [x16, #824]
 .word 0xaa1a03e0
 .word 0xf9400bba
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_4c:
+Lme_4f:
 .text
-ut_77:
+ut_80:
 add x0, x0, 16
 b System_Nullable_1_bool_Box_System_Nullable_1_bool
 .text
@@ -4521,9 +4743,9 @@ bl _p_3
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_4d:
+Lme_50:
 .text
-ut_78:
+ut_81:
 add x0, x0, 16
 b System_Nullable_1_bool_Unbox_object
 .text
@@ -4568,9 +4790,9 @@ ldr x2, [x16, #264]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x15, [x16, #816]
+ldr x15, [x16, #832]
 .word 0x9100a3a0
-bl _p_54
+bl _p_58
 .word 0x3980a3a0
 .word 0x390043a0
 .word 0x3980a7a0
@@ -4583,9 +4805,9 @@ bl _p_54
 .word 0xaa1103e1
 bl _p_2
 
-Lme_4e:
+Lme_51:
 .text
-ut_79:
+ut_82:
 add x0, x0, 16
 b System_Nullable_1_bool_UnboxExact_object
 .text
@@ -4614,7 +4836,7 @@ System_Nullable_1_bool_UnboxExact_object:
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x1, [x16, #824]
+ldr x1, [x16, #840]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0x6b1f001f
@@ -4642,9 +4864,9 @@ ldr x1, [x16, #264]
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x15, [x16, #816]
+ldr x15, [x16, #832]
 .word 0x9100a3a0
-bl _p_54
+bl _p_58
 .word 0x3980a3a0
 .word 0x390063a0
 .word 0x3980a7a0
@@ -4663,7 +4885,7 @@ bl _p_10
 .word 0xaa1103e1
 bl _p_2
 
-Lme_4f:
+Lme_52:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
@@ -4679,7 +4901,7 @@ wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualE
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #800]
 .word 0xb9400000
 .word 0x35000680
 .word 0x14000001
@@ -4733,7 +4955,7 @@ ldr x0, [x16, #784]
 .word 0xd65f03c0
 .word 0xaa1703e0
 bl _p_10
-bl _p_51
+bl _p_55
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffcb
@@ -4741,7 +4963,7 @@ bl _p_51
 .word 0xaa1103e1
 bl _p_2
 
-Lme_50:
+Lme_53:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Lottie_Forms_AnimationView_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Lottie_Forms_AnimationView
@@ -4757,7 +4979,7 @@ wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_Element
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #800]
 .word 0xb9400000
 .word 0x35000680
 .word 0x14000001
@@ -4811,7 +5033,7 @@ ldr x0, [x16, #784]
 .word 0xd65f03c0
 .word 0xaa1703e0
 bl _p_10
-bl _p_51
+bl _p_55
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffcb
@@ -4819,7 +5041,7 @@ bl _p_51
 .word 0xaa1103e1
 bl _p_2
 
-Lme_51:
+Lme_54:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
@@ -4835,12 +5057,12 @@ System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
 .word 0x35000140
 .loc 4 86 0
 .word 0xf9401fa0
-bl _p_55
+bl _p_59
 .word 0x3980b410
 .word 0xb5000050
-bl _p_56
+bl _p_60
 .word 0xf9401fa0
-bl _p_57
+bl _p_61
 .word 0xf9400000
 .word 0x14000023
 .loc 4 88 0
@@ -4848,17 +5070,17 @@ bl _p_57
 .word 0xf90017a0
 .word 0xf9001ba0
 .word 0xf9401fa0
-bl _p_58
+bl _p_62
 .word 0xaa0003ef
 .word 0x9100a3a0
 .word 0xf9400ba1
-bl _p_59
+bl _p_63
 .word 0xf94017a0
 .word 0xf9000fa0
 .word 0xf9401ba0
 .word 0xf90013a0
 .word 0xf9401fa0
-bl _p_58
+bl _p_62
 .word 0xd2800401
 bl _p_3
 .word 0x91004003
@@ -4883,7 +5105,7 @@ ldr x4, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_5a:
+Lme_5d:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_get_Count
@@ -4898,7 +5120,7 @@ System_Array_InternalArray__ICollection_get_Count:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_5b:
+Lme_5e:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_get_IsReadOnly
@@ -4912,7 +5134,7 @@ System_Array_InternalArray__ICollection_get_IsReadOnly:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_5c:
+Lme_5f:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Clear
@@ -4922,7 +5144,7 @@ System_Array_InternalArray__ICollection_Clear:
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xd28d0ba0
-bl _p_52
+bl _p_56
 .word 0xaa0003e1
 .word 0xd2802680
 .word 0xf2a04000
@@ -4932,7 +5154,7 @@ bl _p_10
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_5d:
+Lme_60:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Add_T_REF_T_REF
@@ -4944,7 +5166,7 @@ System_Array_InternalArray__ICollection_Add_T_REF_T_REF:
 .word 0xf9000ba0
 .word 0xf9000fa1
 .word 0xd28d11a0
-bl _p_52
+bl _p_56
 .word 0xaa0003e1
 .word 0xd2802680
 .word 0xf2a04000
@@ -4954,7 +5176,7 @@ bl _p_10
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_5e:
+Lme_61:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
@@ -4966,7 +5188,7 @@ System_Array_InternalArray__ICollection_Remove_T_REF_T_REF:
 .word 0xf9000ba0
 .word 0xf9000fa1
 .word 0xd28d11a0
-bl _p_52
+bl _p_56
 .word 0xaa0003e1
 .word 0xd2802680
 .word 0xf2a04000
@@ -4976,7 +5198,7 @@ bl _p_10
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_5f:
+Lme_62:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
@@ -5002,7 +5224,7 @@ System_Array_InternalArray__ICollection_Contains_T_REF_T_REF:
 .word 0x14000016
 .loc 4 114 0
 .word 0xf9401fa0
-bl _p_60
+bl _p_64
 .word 0x93407ee0
 .word 0xd37df000
 .word 0x8b000320
@@ -5040,14 +5262,14 @@ bl _p_60
 .word 0xd65f03c0
 .loc 4 109 0
 .word 0xd28d1920
-bl _p_52
+bl _p_56
 .word 0xaa0003e1
 .word 0xd2801960
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_10
 
-Lme_60:
+Lme_63:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
@@ -5075,14 +5297,14 @@ System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int:
 .word 0xaa1603e1
 .word 0xf94013a2
 .word 0xb9802ba3
-bl _p_61
+bl _p_65
 .loc 4 134 0
 .word 0xf9400bb6
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_61:
+Lme_64:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Predicate_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_bool_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
@@ -5097,7 +5319,7 @@ wrapper_delegate_invoke_System_Predicate_1_System_EventHandler_1_Xamarin_Forms_P
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #800]
 .word 0xb9400000
 .word 0x350006c0
 .word 0x14000001
@@ -5153,7 +5375,7 @@ ldr x0, [x16, #784]
 .word 0xd65f03c0
 .word 0xaa1803e0
 bl _p_10
-bl _p_51
+bl _p_55
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffc9
@@ -5161,7 +5383,7 @@ bl _p_51
 .word 0xaa1103e1
 bl _p_2
 
-Lme_62:
+Lme_65:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
@@ -5176,7 +5398,7 @@ wrapper_delegate_invoke_System_Action_1_System_EventHandler_1_Xamarin_Forms_Plat
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #800]
 .word 0xb9400000
 .word 0x35000620
 .word 0x14000001
@@ -5227,7 +5449,7 @@ ldr x0, [x16, #784]
 .word 0xd65f03c0
 .word 0xaa1803e0
 bl _p_10
-bl _p_51
+bl _p_55
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
@@ -5235,7 +5457,7 @@ bl _p_51
 .word 0xaa1103e1
 bl _p_2
 
-Lme_63:
+Lme_66:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Comparison_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_int_T_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
@@ -5251,7 +5473,7 @@ wrapper_delegate_invoke_System_Comparison_1_System_EventHandler_1_Xamarin_Forms_
 
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #800]
 .word 0xb9400000
 .word 0x35000720
 .word 0x14000001
@@ -5310,7 +5532,7 @@ ldr x0, [x16, #784]
 .word 0xd65f03c0
 .word 0xaa1703e0
 bl _p_10
-bl _p_51
+bl _p_55
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
@@ -5318,9 +5540,9 @@ bl _p_51
 .word 0xaa1103e1
 bl _p_2
 
-Lme_64:
+Lme_67:
 .text
-ut_101:
+ut_104:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 .text
@@ -5356,7 +5578,7 @@ ldr x3, [x16, #16]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_65:
+Lme_68:
 .text
 	.align 3
 jit_code_end:
@@ -5388,6 +5610,8 @@ bl _Lottie_Forms_AnimationView_get_ClickedCommand
 bl _Lottie_Forms_AnimationView_set_ClickedCommand_System_Windows_Input_ICommand
 bl _Lottie_Forms_AnimationView_get_ImageAssetsFolder
 bl _Lottie_Forms_AnimationView_set_ImageAssetsFolder_string
+bl _Lottie_Forms_AnimationView_get_HardwareAcceleration
+bl _Lottie_Forms_AnimationView_set_HardwareAcceleration_bool
 bl _Lottie_Forms_AnimationView_add_OnPlay_System_EventHandler
 bl _Lottie_Forms_AnimationView_remove_OnPlay_System_EventHandler
 bl _Lottie_Forms_AnimationView_Play
@@ -5418,6 +5642,7 @@ bl _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnPause_object_System_Event
 bl _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnElementPropertyChanged_object_System_ComponentModel_PropertyChangedEventArgs
 bl _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_InitAnimationViewForElement_Lottie_Forms_AnimationView
 bl _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_PlaybackFinishedIfActually_bool
+bl _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_CleanupResources
 bl _Lottie_Forms_iOS_Renderers_AnimationViewRenderer__ctor
 bl _Lottie_Forms_EventArguments_FrameSegmentEventArgs_get_From
 bl _Lottie_Forms_EventArguments_FrameSegmentEventArgs_set_From_int
@@ -5474,17 +5699,14 @@ method_addresses_end:
 	.align 3
 unbox_trampolines:
 
-	.long 69,70,71,72,73,74,75,76
-	.long 77,78,79,101
+	.long 72,73,74,75,76,77,78,79
+	.long 80,81,82,104
 unbox_trampolines_end:
 
 	.long 0
 .text
 	.align 3
 unbox_trampoline_addresses:
-bl ut_69
-bl ut_70
-bl ut_71
 bl ut_72
 bl ut_73
 bl ut_74
@@ -5493,7 +5715,10 @@ bl ut_76
 bl ut_77
 bl ut_78
 bl ut_79
-bl ut_101
+bl ut_80
+bl ut_81
+bl ut_82
+bl ut_104
 
 	.long 0
 .section __TEXT, __const
@@ -5505,15 +5730,16 @@ unwind_info:
 	.byte 68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1,18,12,31,0,68,14,32
 	.byte 157,4,158,3,68,13,29,68,153,2,154,1,18,12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7,18
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,151,6,152,5,16,12,31,0,68,14,32,157,4,158,3,68,13,29
-	.byte 68,153,2,14,12,31,0,68,14,192,1,157,24,158,23,68,13,29,13,12,31,0,68,14,16,157,2,158,1,68,13,29
-	.byte 21,12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6,18,12,31,0,68,14,48,157,6,158
-	.byte 5,68,13,29,68,153,4,154,3,21,12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,153,5,68,154,4,16
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4,19,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68
-	.byte 153,16,154,15,16,12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4,28,12,31,0,68,14,80,157,10,158,9
-	.byte 68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3,16,12,31,0,68,14,64,157,8,158,7,68,13,29
-	.byte 68,154,6,26,12,31,0,68,14,64,157,8,158,7,68,13,29,68,150,6,151,5,68,152,4,153,3,68,154,2,16,12
-	.byte 31,0,68,14,64,157,8,158,7,68,13,29,68,150,6,26,12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8
-	.byte 151,7,68,152,6,153,5,68,154,4
+	.byte 68,153,2,14,12,31,0,68,14,224,1,157,28,158,27,68,13,29,13,12,31,0,68,14,16,157,2,158,1,68,13,29
+	.byte 18,12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5,18,12,31,0,68,14,48,157,6,158,5,68,13
+	.byte 29,68,153,4,154,3,21,12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6,21,12,31,0
+	.byte 68,14,64,157,8,158,7,68,13,29,68,152,6,153,5,68,154,4,16,12,31,0,68,14,48,157,6,158,5,68,13,29
+	.byte 68,153,4,19,12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,68,154,5,19,12,31,0,68,14,144,1,157
+	.byte 18,158,17,68,13,29,68,153,16,154,15,16,12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4,28,12,31,0
+	.byte 68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3,16,12,31,0,68,14,64
+	.byte 157,8,158,7,68,13,29,68,154,6,26,12,31,0,68,14,64,157,8,158,7,68,13,29,68,150,6,151,5,68,152,4
+	.byte 153,3,68,154,2,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,150,6,26,12,31,0,68,14,80,157,10,158
+	.byte 9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
 
 .text
 	.align 4
@@ -5524,493 +5750,525 @@ plt_Xamarin_Forms_BindableObject_GetValue_Xamarin_Forms_BindableProperty:
 _p_1:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x16, [x16, #840]
+ldr x16, [x16, #856]
 br x16
-.word 1737
+.word 1769
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_2:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x16, [x16, #848]
+ldr x16, [x16, #864]
 br x16
-.word 1742
+.word 1774
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_3:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x16, [x16, #856]
+ldr x16, [x16, #872]
 br x16
-.word 1777
+.word 1809
 	.no_dead_strip plt_Xamarin_Forms_BindableObject_SetValue_Xamarin_Forms_BindableProperty_object
 plt_Xamarin_Forms_BindableObject_SetValue_Xamarin_Forms_BindableProperty_object:
 _p_4:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x16, [x16, #864]
+ldr x16, [x16, #880]
 br x16
-.word 1785
+.word 1817
 	.no_dead_strip plt_System_Delegate_Combine_System_Delegate_System_Delegate
 plt_System_Delegate_Combine_System_Delegate_System_Delegate:
 _p_5:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x16, [x16, #872]
+ldr x16, [x16, #888]
 br x16
-.word 1790
+.word 1822
 	.no_dead_strip plt_System_Delegate_Remove_System_Delegate_System_Delegate
 plt_System_Delegate_Remove_System_Delegate_System_Delegate:
 _p_6:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x16, [x16, #880]
+ldr x16, [x16, #896]
 br x16
-.word 1795
+.word 1827
 	.no_dead_strip plt_Lottie_Forms_AnimationView_get_PlaybackStartedCommand
 plt_Lottie_Forms_AnimationView_get_PlaybackStartedCommand:
 _p_7:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x16, [x16, #888]
+ldr x16, [x16, #904]
 br x16
-.word 1800
+.word 1832
 	.no_dead_strip plt_Lottie_Forms_AnimationView_ExecuteCommandIfPossible_System_Windows_Input_ICommand
 plt_Lottie_Forms_AnimationView_ExecuteCommandIfPossible_System_Windows_Input_ICommand:
 _p_8:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x16, [x16, #896]
+ldr x16, [x16, #912]
 br x16
-.word 1802
+.word 1834
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_9:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x16, [x16, #904]
+ldr x16, [x16, #920]
 br x16
-.word 1804
+.word 1836
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_10:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x16, [x16, #912]
+ldr x16, [x16, #928]
 br x16
-.word 1824
+.word 1856
 	.no_dead_strip plt_Lottie_Forms_EventArguments_ProgressSegmentEventArgs__ctor_single_single
 plt_Lottie_Forms_EventArguments_ProgressSegmentEventArgs__ctor_single_single:
 _p_11:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x16, [x16, #920]
+ldr x16, [x16, #936]
 br x16
-.word 1852
+.word 1884
 	.no_dead_strip plt_Lottie_Forms_EventArguments_FrameSegmentEventArgs__ctor_int_int
 plt_Lottie_Forms_EventArguments_FrameSegmentEventArgs__ctor_int_int:
 _p_12:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x16, [x16, #928]
+ldr x16, [x16, #944]
 br x16
-.word 1854
+.word 1886
 	.no_dead_strip plt_Lottie_Forms_AnimationView_get_ClickedCommand
 plt_Lottie_Forms_AnimationView_get_ClickedCommand:
 _p_13:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x16, [x16, #936]
+ldr x16, [x16, #952]
 br x16
-.word 1856
+.word 1888
 	.no_dead_strip plt_Lottie_Forms_AnimationView_get_PlaybackFinishedCommand
 plt_Lottie_Forms_AnimationView_get_PlaybackFinishedCommand:
 _p_14:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x16, [x16, #944]
+ldr x16, [x16, #960]
 br x16
-.word 1858
+.word 1890
 	.no_dead_strip plt_Xamarin_Forms_View__ctor
 plt_Xamarin_Forms_View__ctor:
 _p_15:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x16, [x16, #952]
+ldr x16, [x16, #968]
 br x16
-.word 1860
+.word 1892
 	.no_dead_strip plt_Xamarin_Forms_BindableProperty_Create_string_System_Type_System_Type_object_Xamarin_Forms_BindingMode_Xamarin_Forms_BindableProperty_ValidateValueDelegate_Xamarin_Forms_BindableProperty_BindingPropertyChangedDelegate_Xamarin_Forms_BindableProperty_BindingPropertyChangingDelegate_Xamarin_Forms_BindableProperty_CoerceValueDelegate_Xamarin_Forms_BindableProperty_CreateDefaultValueDelegate
 plt_Xamarin_Forms_BindableProperty_Create_string_System_Type_System_Type_object_Xamarin_Forms_BindingMode_Xamarin_Forms_BindableProperty_ValidateValueDelegate_Xamarin_Forms_BindableProperty_BindingPropertyChangedDelegate_Xamarin_Forms_BindableProperty_BindingPropertyChangingDelegate_Xamarin_Forms_BindableProperty_CoerceValueDelegate_Xamarin_Forms_BindableProperty_CreateDefaultValueDelegate:
 _p_16:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x16, [x16, #960]
+ldr x16, [x16, #976]
 br x16
-.word 1865
+.word 1897
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_17:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x16, [x16, #968]
+ldr x16, [x16, #984]
 br x16
-.word 1870
+.word 1902
 	.no_dead_strip plt_Lottie_Forms_iOS_Renderers_AnimationViewRenderer__ctor
 plt_Lottie_Forms_iOS_Renderers_AnimationViewRenderer__ctor:
 _p_18:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x16, [x16, #976]
+ldr x16, [x16, #992]
 br x16
-.word 1902
+.word 1934
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Lottie_Forms_AnimationView_Airbnb_Lottie_LOTAnimationView_OnElementChanged_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Lottie_Forms_AnimationView
 plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Lottie_Forms_AnimationView_Airbnb_Lottie_LOTAnimationView_OnElementChanged_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Lottie_Forms_AnimationView:
 _p_19:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x16, [x16, #984]
+ldr x16, [x16, #1000]
 br x16
-.word 1904
+.word 1936
 	.no_dead_strip plt_Lottie_Forms_AnimationView_remove_OnPlay_System_EventHandler
 plt_Lottie_Forms_AnimationView_remove_OnPlay_System_EventHandler:
 _p_20:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x16, [x16, #992]
+ldr x16, [x16, #1008]
 br x16
-.word 1915
+.word 1947
 	.no_dead_strip plt_Lottie_Forms_AnimationView_remove_OnPause_System_EventHandler
 plt_Lottie_Forms_AnimationView_remove_OnPause_System_EventHandler:
 _p_21:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x16, [x16, #1000]
+ldr x16, [x16, #1016]
 br x16
-.word 1917
+.word 1949
 	.no_dead_strip plt_Lottie_Forms_AnimationView_remove_OnPlayProgressSegment_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs
 plt_Lottie_Forms_AnimationView_remove_OnPlayProgressSegment_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs:
 _p_22:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x16, [x16, #1008]
+ldr x16, [x16, #1024]
 br x16
-.word 1919
+.word 1951
 	.no_dead_strip plt_Lottie_Forms_AnimationView_remove_OnPlayFrameSegment_System_EventHandler_1_Lottie_Forms_EventArguments_FrameSegmentEventArgs
 plt_Lottie_Forms_AnimationView_remove_OnPlayFrameSegment_System_EventHandler_1_Lottie_Forms_EventArguments_FrameSegmentEventArgs:
 _p_23:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x16, [x16, #1016]
-br x16
-.word 1921
-	.no_dead_strip plt_Lottie_Forms_AnimationView_add_OnPlay_System_EventHandler
-plt_Lottie_Forms_AnimationView_add_OnPlay_System_EventHandler:
-_p_24:
-adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
-add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
-ldr x16, [x16, #1024]
-br x16
-.word 1923
-	.no_dead_strip plt_Lottie_Forms_AnimationView_add_OnPause_System_EventHandler
-plt_Lottie_Forms_AnimationView_add_OnPause_System_EventHandler:
-_p_25:
-adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
-add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1032]
 br x16
-.word 1925
-	.no_dead_strip plt_Lottie_Forms_AnimationView_add_OnPlayProgressSegment_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs
-plt_Lottie_Forms_AnimationView_add_OnPlayProgressSegment_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs:
-_p_26:
+.word 1953
+	.no_dead_strip plt_Lottie_Forms_iOS_Renderers_AnimationViewRenderer_CleanupResources
+plt_Lottie_Forms_iOS_Renderers_AnimationViewRenderer_CleanupResources:
+_p_24:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1040]
 br x16
-.word 1927
-	.no_dead_strip plt_Lottie_Forms_AnimationView_add_OnPlayFrameSegment_System_EventHandler_1_Lottie_Forms_EventArguments_FrameSegmentEventArgs
-plt_Lottie_Forms_AnimationView_add_OnPlayFrameSegment_System_EventHandler_1_Lottie_Forms_EventArguments_FrameSegmentEventArgs:
-_p_27:
+.word 1955
+	.no_dead_strip plt_Lottie_Forms_AnimationView_add_OnPlay_System_EventHandler
+plt_Lottie_Forms_AnimationView_add_OnPlay_System_EventHandler:
+_p_25:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1048]
 br x16
-.word 1929
-	.no_dead_strip plt_Lottie_Forms_AnimationView_get_Animation
-plt_Lottie_Forms_AnimationView_get_Animation:
-_p_28:
+.word 1957
+	.no_dead_strip plt_Lottie_Forms_AnimationView_add_OnPause_System_EventHandler
+plt_Lottie_Forms_AnimationView_add_OnPause_System_EventHandler:
+_p_26:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1056]
 br x16
-.word 1931
-	.no_dead_strip plt_Lottie_Forms_iOS_Renderers_AnimationViewRenderer_InitAnimationViewForElement_Lottie_Forms_AnimationView
-plt_Lottie_Forms_iOS_Renderers_AnimationViewRenderer_InitAnimationViewForElement_Lottie_Forms_AnimationView:
-_p_29:
+.word 1959
+	.no_dead_strip plt_Lottie_Forms_AnimationView_add_OnPlayProgressSegment_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs
+plt_Lottie_Forms_AnimationView_add_OnPlayProgressSegment_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs:
+_p_27:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1064]
 br x16
-.word 1933
-	.no_dead_strip plt_Lottie_Forms_AnimationView_set_IsPlaying_bool
-plt_Lottie_Forms_AnimationView_set_IsPlaying_bool:
-_p_30:
+.word 1961
+	.no_dead_strip plt_Lottie_Forms_AnimationView_add_OnPlayFrameSegment_System_EventHandler_1_Lottie_Forms_EventArguments_FrameSegmentEventArgs
+plt_Lottie_Forms_AnimationView_add_OnPlayFrameSegment_System_EventHandler_1_Lottie_Forms_EventArguments_FrameSegmentEventArgs:
+_p_28:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1072]
 br x16
-.word 1935
-	.no_dead_strip plt_Foundation_NSNumber_op_Implicit_int
-plt_Foundation_NSNumber_op_Implicit_int:
-_p_31:
+.word 1963
+	.no_dead_strip plt_Lottie_Forms_AnimationView_get_Animation
+plt_Lottie_Forms_AnimationView_get_Animation:
+_p_29:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1080]
 br x16
-.word 1937
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Lottie_Forms_AnimationView_Airbnb_Lottie_LOTAnimationView_OnElementPropertyChanged_object_System_ComponentModel_PropertyChangedEventArgs
-plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Lottie_Forms_AnimationView_Airbnb_Lottie_LOTAnimationView_OnElementPropertyChanged_object_System_ComponentModel_PropertyChangedEventArgs:
-_p_32:
+.word 1965
+	.no_dead_strip plt_string_IsNullOrWhiteSpace_string
+plt_string_IsNullOrWhiteSpace_string:
+_p_30:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1088]
 br x16
-.word 1942
-	.no_dead_strip plt_string_op_Equality_string_string
-plt_string_op_Equality_string_string:
-_p_33:
+.word 1967
+	.no_dead_strip plt_Lottie_Forms_iOS_Renderers_AnimationViewRenderer_InitAnimationViewForElement_Lottie_Forms_AnimationView
+plt_Lottie_Forms_iOS_Renderers_AnimationViewRenderer_InitAnimationViewForElement_Lottie_Forms_AnimationView:
+_p_31:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1096]
 br x16
-.word 1953
-	.no_dead_strip plt_UIKit_UIView_RemoveGestureRecognizer_UIKit_UIGestureRecognizer
-plt_UIKit_UIView_RemoveGestureRecognizer_UIKit_UIGestureRecognizer:
-_p_34:
+.word 1972
+	.no_dead_strip plt_Lottie_Forms_AnimationView_set_IsPlaying_bool
+plt_Lottie_Forms_AnimationView_set_IsPlaying_bool:
+_p_32:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1104]
 br x16
-.word 1958
-	.no_dead_strip plt_Lottie_Forms_AnimationView_get_Progress
-plt_Lottie_Forms_AnimationView_get_Progress:
-_p_35:
+.word 1974
+	.no_dead_strip plt_Foundation_NSNumber_op_Implicit_int
+plt_Foundation_NSNumber_op_Implicit_int:
+_p_33:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1112]
 br x16
-.word 1963
-	.no_dead_strip plt_Lottie_Forms_AnimationView_get_Loop
-plt_Lottie_Forms_AnimationView_get_Loop:
-_p_36:
+.word 1976
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Lottie_Forms_AnimationView_Airbnb_Lottie_LOTAnimationView_OnElementPropertyChanged_object_System_ComponentModel_PropertyChangedEventArgs
+plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Lottie_Forms_AnimationView_Airbnb_Lottie_LOTAnimationView_OnElementPropertyChanged_object_System_ComponentModel_PropertyChangedEventArgs:
+_p_34:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1120]
 br x16
-.word 1965
-	.no_dead_strip plt_Lottie_Forms_AnimationView_get_Speed
-plt_Lottie_Forms_AnimationView_get_Speed:
-_p_37:
+.word 1981
+	.no_dead_strip plt_string_op_Equality_string_string
+plt_string_op_Equality_string_string:
+_p_35:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1128]
 br x16
-.word 1967
-	.no_dead_strip plt_Foundation_NSUrl_FromFilename_string
-plt_Foundation_NSUrl_FromFilename_string:
-_p_38:
+.word 1992
+	.no_dead_strip plt_Lottie_Forms_AnimationView_get_Progress
+plt_Lottie_Forms_AnimationView_get_Progress:
+_p_36:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1136]
 br x16
-.word 1969
-	.no_dead_strip plt_Airbnb_Lottie_LOTAnimationView__ctor_Foundation_NSUrl
-plt_Airbnb_Lottie_LOTAnimationView__ctor_Foundation_NSUrl:
-_p_39:
+.word 1997
+	.no_dead_strip plt_Lottie_Forms_AnimationView_get_Loop
+plt_Lottie_Forms_AnimationView_get_Loop:
+_p_37:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1144]
 br x16
-.word 1974
-	.no_dead_strip plt_UIKit_UIView_set_AutoresizingMask_UIKit_UIViewAutoresizing
-plt_UIKit_UIView_set_AutoresizingMask_UIKit_UIViewAutoresizing:
-_p_40:
+.word 1999
+	.no_dead_strip plt_Lottie_Forms_AnimationView_get_Speed
+plt_Lottie_Forms_AnimationView_get_Speed:
+_p_38:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1152]
 br x16
-.word 1979
-	.no_dead_strip plt_UIKit_UIView_set_ContentMode_UIKit_UIViewContentMode
-plt_UIKit_UIView_set_ContentMode_UIKit_UIViewContentMode:
-_p_41:
+.word 2001
+	.no_dead_strip plt_Lottie_Forms_AnimationView_get_IsPlaying
+plt_Lottie_Forms_AnimationView_get_IsPlaying:
+_p_39:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1160]
 br x16
-.word 1984
-	.no_dead_strip plt_UIKit_UITapGestureRecognizer__ctor_System_Action
-plt_UIKit_UITapGestureRecognizer__ctor_System_Action:
-_p_42:
+.word 2003
+	.no_dead_strip plt_Foundation_NSUrl_FromFilename_string
+plt_Foundation_NSUrl_FromFilename_string:
+_p_40:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1168]
 br x16
-.word 1989
-	.no_dead_strip plt_UIKit_UIView_AddGestureRecognizer_UIKit_UIGestureRecognizer
-plt_UIKit_UIView_AddGestureRecognizer_UIKit_UIGestureRecognizer:
-_p_43:
+.word 2005
+	.no_dead_strip plt_Airbnb_Lottie_LOTAnimationView__ctor_Foundation_NSUrl
+plt_Airbnb_Lottie_LOTAnimationView__ctor_Foundation_NSUrl:
+_p_41:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1176]
 br x16
-.word 1994
-	.no_dead_strip plt_System_TimeSpan_FromMilliseconds_double
-plt_System_TimeSpan_FromMilliseconds_double:
-_p_44:
+.word 2010
+	.no_dead_strip plt_UIKit_UIView_set_AutoresizingMask_UIKit_UIViewAutoresizing
+plt_UIKit_UIView_set_AutoresizingMask_UIKit_UIViewAutoresizing:
+_p_42:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1184]
 br x16
-.word 1999
-	.no_dead_strip plt_Lottie_Forms_AnimationView_set_Duration_System_TimeSpan
-plt_Lottie_Forms_AnimationView_set_Duration_System_TimeSpan:
-_p_45:
+.word 2015
+	.no_dead_strip plt_UIKit_UIView_set_ContentMode_UIKit_UIViewContentMode
+plt_UIKit_UIView_set_ContentMode_UIKit_UIViewContentMode:
+_p_43:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1192]
 br x16
-.word 2004
-	.no_dead_strip plt_Lottie_Forms_AnimationView_get_AutoPlay
-plt_Lottie_Forms_AnimationView_get_AutoPlay:
-_p_46:
+.word 2020
+	.no_dead_strip plt_UIKit_UITapGestureRecognizer__ctor_System_Action
+plt_UIKit_UITapGestureRecognizer__ctor_System_Action:
+_p_44:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1200]
 br x16
-.word 2006
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Lottie_Forms_AnimationView_Airbnb_Lottie_LOTAnimationView_SetNativeControl_Airbnb_Lottie_LOTAnimationView
-plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Lottie_Forms_AnimationView_Airbnb_Lottie_LOTAnimationView_SetNativeControl_Airbnb_Lottie_LOTAnimationView:
-_p_47:
+.word 2025
+	.no_dead_strip plt_UIKit_UIView_AddGestureRecognizer_UIKit_UIGestureRecognizer
+plt_UIKit_UIView_AddGestureRecognizer_UIKit_UIGestureRecognizer:
+_p_45:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1208]
 br x16
-.word 2008
-	.no_dead_strip plt_UIKit_UIView_SetNeedsLayout
-plt_UIKit_UIView_SetNeedsLayout:
-_p_48:
+.word 2030
+	.no_dead_strip plt_System_TimeSpan_FromMilliseconds_double
+plt_System_TimeSpan_FromMilliseconds_double:
+_p_46:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1216]
 br x16
-.word 2019
-	.no_dead_strip plt_Lottie_Forms_AnimationView_PlaybackFinished
-plt_Lottie_Forms_AnimationView_PlaybackFinished:
-_p_49:
+.word 2035
+	.no_dead_strip plt_Lottie_Forms_AnimationView_set_Duration_System_TimeSpan
+plt_Lottie_Forms_AnimationView_set_Duration_System_TimeSpan:
+_p_47:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1224]
 br x16
-.word 2024
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Lottie_Forms_AnimationView_Airbnb_Lottie_LOTAnimationView__ctor
-plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Lottie_Forms_AnimationView_Airbnb_Lottie_LOTAnimationView__ctor:
-_p_50:
+.word 2040
+	.no_dead_strip plt_Lottie_Forms_AnimationView_get_AutoPlay
+plt_Lottie_Forms_AnimationView_get_AutoPlay:
+_p_48:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1232]
 br x16
-.word 2026
-	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
-plt__jit_icall_mono_thread_interruption_checkpoint:
-_p_51:
+.word 2042
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Lottie_Forms_AnimationView_Airbnb_Lottie_LOTAnimationView_SetNativeControl_Airbnb_Lottie_LOTAnimationView
+plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Lottie_Forms_AnimationView_Airbnb_Lottie_LOTAnimationView_SetNativeControl_Airbnb_Lottie_LOTAnimationView:
+_p_49:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1240]
 br x16
-.word 2037
-	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
-plt__jit_icall_mono_helper_ldstr_mscorlib:
-_p_52:
+.word 2044
+	.no_dead_strip plt_UIKit_UIView_SetNeedsLayout
+plt_UIKit_UIView_SetNeedsLayout:
+_p_50:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1248]
 br x16
-.word 2075
-	.no_dead_strip plt_bool_Equals_object
-plt_bool_Equals_object:
-_p_53:
+.word 2055
+	.no_dead_strip plt_Lottie_Forms_AnimationView_PlaybackFinished
+plt_Lottie_Forms_AnimationView_PlaybackFinished:
+_p_51:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1256]
 br x16
-.word 2104
-	.no_dead_strip plt_System_Nullable_1_bool__ctor_bool
-plt_System_Nullable_1_bool__ctor_bool:
-_p_54:
+.word 2060
+	.no_dead_strip plt_UIKit_UIView_RemoveGestureRecognizer_UIKit_UIGestureRecognizer
+plt_UIKit_UIView_RemoveGestureRecognizer_UIKit_UIGestureRecognizer:
+_p_52:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1264]
 br x16
-.word 2109
-	.no_dead_strip plt__rgctx_fetch_0
-plt__rgctx_fetch_0:
-_p_55:
+.word 2062
+	.no_dead_strip plt_Foundation_NSObject_Dispose
+plt_Foundation_NSObject_Dispose:
+_p_53:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1272]
 br x16
-.word 2156
-	.no_dead_strip plt__jit_icall_mono_generic_class_init
-plt__jit_icall_mono_generic_class_init:
-_p_56:
+.word 2067
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Lottie_Forms_AnimationView_Airbnb_Lottie_LOTAnimationView__ctor
+plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Lottie_Forms_AnimationView_Airbnb_Lottie_LOTAnimationView__ctor:
+_p_54:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1280]
 br x16
-.word 2164
-	.no_dead_strip plt__rgctx_fetch_1
-plt__rgctx_fetch_1:
-_p_57:
+.word 2072
+	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
+plt__jit_icall_mono_thread_interruption_checkpoint:
+_p_55:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1288]
 br x16
-.word 2190
-	.no_dead_strip plt__rgctx_fetch_2
-plt__rgctx_fetch_2:
-_p_58:
+.word 2083
+	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
+plt__jit_icall_mono_helper_ldstr_mscorlib:
+_p_56:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1296]
 br x16
-.word 2207
-	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
-_p_59:
+.word 2121
+	.no_dead_strip plt_bool_Equals_object
+plt_bool_Equals_object:
+_p_57:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1304]
 br x16
-.word 2215
-	.no_dead_strip plt__rgctx_fetch_3
-plt__rgctx_fetch_3:
-_p_60:
+.word 2150
+	.no_dead_strip plt_System_Nullable_1_bool__ctor_bool
+plt_System_Nullable_1_bool__ctor_bool:
+_p_58:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1312]
 br x16
-.word 2253
-	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
-plt_System_Array_Copy_System_Array_int_System_Array_int_int:
-_p_61:
+.word 2155
+	.no_dead_strip plt__rgctx_fetch_0
+plt__rgctx_fetch_0:
+_p_59:
 adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
 add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
 ldr x16, [x16, #1320]
 br x16
-.word 2277
+.word 2202
+	.no_dead_strip plt__jit_icall_mono_generic_class_init
+plt__jit_icall_mono_generic_class_init:
+_p_60:
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x16, [x16, #1328]
+br x16
+.word 2210
+	.no_dead_strip plt__rgctx_fetch_1
+plt__rgctx_fetch_1:
+_p_61:
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x16, [x16, #1336]
+br x16
+.word 2236
+	.no_dead_strip plt__rgctx_fetch_2
+plt__rgctx_fetch_2:
+_p_62:
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x16, [x16, #1344]
+br x16
+.word 2253
+	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
+_p_63:
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x16, [x16, #1352]
+br x16
+.word 2261
+	.no_dead_strip plt__rgctx_fetch_3
+plt__rgctx_fetch_3:
+_p_64:
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x16, [x16, #1360]
+br x16
+.word 2299
+	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
+plt_System_Array_Copy_System_Array_int_System_Array_int_int:
+_p_65:
+adrp x16, mono_aot_Lottie_Forms_got@PAGE+0
+add x16, x16, mono_aot_Lottie_Forms_got@PAGEOFF
+ldr x16, [x16, #1368]
+br x16
+.word 2323
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_Lottie_Forms_got, 1328
+.lcomm mono_aot_Lottie_Forms_got, 1376
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -6041,7 +6299,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "418697CD-BB1F-4A3C-9418-D8B0CF43A628"
+	.asciz "D4F4A570-3D94-4B50-89B1-0C19D0E5A111"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -6124,14 +6382,14 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 104,1328,62,102,8,66,387000831,0
-	.long 3179,128,8,8,8,9,8388607,0
-	.long 24,5568,2376,1784,1376,0,1584,1752
-	.long 1424,0,1080,160,2368,0,0,0
+	.long 106,1376,66,105,8,66,387000831,0
+	.long 3258,128,8,8,8,9,8388607,0
+	.long 24,5648,2384,1792,1384,0,1592,1760
+	.long 1432,0,1088,168,2376,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 108,156,187,155,83,9,0,167,124,25,5,109,219,192,60,203
+	.byte 234,26,74,227,77,254,57,196,52,87,113,67,80,247,92,75
 	.globl _mono_aot_module_Lottie_Forms_info
 	.align 3
 _mono_aot_module_Lottie_Forms_info:
@@ -6663,13 +6921,13 @@ LDIFF_SYM97=LTDIE_14 - Ldebug_info_start
 LTDIE_22:
 
 	.byte 5
-	.asciz "System_EventHandler"
+	.asciz "Xamarin_Forms_PropertyChangingEventHandler"
 
 	.byte 128,1,16
 LDIFF_SYM98=LTDIE_15 - Ldebug_info_start
 	.long LDIFF_SYM98
 	.byte 2,35,0,0,7
-	.asciz "System_EventHandler"
+	.asciz "Xamarin_Forms_PropertyChangingEventHandler"
 
 LDIFF_SYM99=LTDIE_22 - Ldebug_info_start
 	.long LDIFF_SYM99
@@ -6686,13 +6944,13 @@ LDIFF_SYM101=LTDIE_22 - Ldebug_info_start
 LTDIE_23:
 
 	.byte 5
-	.asciz "Xamarin_Forms_PropertyChangingEventHandler"
+	.asciz "System_EventHandler"
 
 	.byte 128,1,16
 LDIFF_SYM102=LTDIE_15 - Ldebug_info_start
 	.long LDIFF_SYM102
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_PropertyChangingEventHandler"
+	.asciz "System_EventHandler"
 
 LDIFF_SYM103=LTDIE_23 - Ldebug_info_start
 	.long LDIFF_SYM103
@@ -6735,12 +6993,12 @@ LDIFF_SYM109=LDIE_OBJECT - Ldebug_info_start
 LDIFF_SYM110=LTDIE_14_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM110
 	.byte 2,35,32,6
-	.asciz "BindingContextChanged"
+	.asciz "PropertyChanging"
 
 LDIFF_SYM111=LTDIE_22_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM111
 	.byte 2,35,40,6
-	.asciz "PropertyChanging"
+	.asciz "BindingContextChanged"
 
 LDIFF_SYM112=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM112
@@ -7134,7 +7392,7 @@ LDIFF_SYM181=LTDIE_31 - Ldebug_info_start
 	.byte 2,35,0,6
 	.asciz "Clearing"
 
-LDIFF_SYM182=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM182=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM182
 	.byte 2,35,64,0,7
 	.asciz "Xamarin_Forms_TrackableCollection`1"
@@ -7275,7 +7533,7 @@ LDIFF_SYM207=LTDIE_36_REFERENCE - Ldebug_info_start
 	.byte 3,35,152,1,6
 	.asciz "ParentSet"
 
-LDIFF_SYM208=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM208=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM208
 	.byte 3,35,160,1,6
 	.asciz "_platform"
@@ -7285,7 +7543,7 @@ LDIFF_SYM209=LTDIE_37_REFERENCE - Ldebug_info_start
 	.byte 3,35,168,1,6
 	.asciz "PlatformSet"
 
-LDIFF_SYM210=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM210=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM210
 	.byte 3,35,176,1,6
 	.asciz "_cssFallbackTypeName"
@@ -8836,7 +9094,7 @@ LDIFF_SYM440=LTDIE_52_REFERENCE - Ldebug_info_start
 	.byte 3,35,248,1,6
 	.asciz "ChildrenReordered"
 
-LDIFF_SYM441=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM441=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM441
 	.byte 3,35,128,2,6
 	.asciz "Focused"
@@ -8846,12 +9104,12 @@ LDIFF_SYM442=LTDIE_69_REFERENCE - Ldebug_info_start
 	.byte 3,35,136,2,6
 	.asciz "MeasureInvalidated"
 
-LDIFF_SYM443=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM443=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM443
 	.byte 3,35,144,2,6
 	.asciz "SizeChanged"
 
-LDIFF_SYM444=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM444=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM444
 	.byte 3,35,152,2,6
 	.asciz "Unfocused"
@@ -9102,7 +9360,7 @@ LDIFF_SYM488=LTDIE_1 - Ldebug_info_start
 	.byte 2,35,0,6
 	.asciz "OnPlay"
 
-LDIFF_SYM489=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM489=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM489
 	.byte 3,35,128,3,6
 	.asciz "OnPlayProgressSegment"
@@ -9117,17 +9375,17 @@ LDIFF_SYM491=LTDIE_77_REFERENCE - Ldebug_info_start
 	.byte 3,35,144,3,6
 	.asciz "OnPause"
 
-LDIFF_SYM492=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM492=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM492
 	.byte 3,35,152,3,6
 	.asciz "OnClick"
 
-LDIFF_SYM493=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM493=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM493
 	.byte 3,35,160,3,6
 	.asciz "OnFinish"
 
-LDIFF_SYM494=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM494=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM494
 	.byte 3,35,168,3,0,7
 	.asciz "Lottie_Forms_AnimationView"
@@ -9994,11 +10252,11 @@ Lfde21_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Lottie.Forms.AnimationView:add_OnPlay"
-	.asciz "_Lottie_Forms_AnimationView_add_OnPlay_System_EventHandler"
+	.asciz "Lottie.Forms.AnimationView:get_HardwareAcceleration"
+	.asciz "_Lottie_Forms_AnimationView_get_HardwareAcceleration"
 
 	.byte 0,0
-	.quad _Lottie_Forms_AnimationView_add_OnPlay_System_EventHandler
+	.quad _Lottie_Forms_AnimationView_get_HardwareAcceleration
 	.quad Lme_16
 
 	.byte 2,118,16,3
@@ -10006,54 +10264,73 @@ Lfde21_end:
 
 LDIFF_SYM583=LTDIE_0_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM583
-	.byte 1,105,3
-	.asciz "value"
-
-LDIFF_SYM584=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM584
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM585=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM585
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM586=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM586
-	.byte 1,103,11
-	.asciz "V_2"
-
-LDIFF_SYM587=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM587
-	.byte 1,101,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM588=Lfde22_end - Lfde22_start
-	.long LDIFF_SYM588
+LDIFF_SYM584=Lfde22_end - Lfde22_start
+	.long LDIFF_SYM584
 Lfde22_start:
 
 	.long 0
 	.align 3
-	.quad _Lottie_Forms_AnimationView_add_OnPlay_System_EventHandler
+	.quad _Lottie_Forms_AnimationView_get_HardwareAcceleration
 
-LDIFF_SYM589=Lme_16 - _Lottie_Forms_AnimationView_add_OnPlay_System_EventHandler
-	.long LDIFF_SYM589
+LDIFF_SYM585=Lme_16 - _Lottie_Forms_AnimationView_get_HardwareAcceleration
+	.long LDIFF_SYM585
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
 Lfde22_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Lottie.Forms.AnimationView:remove_OnPlay"
-	.asciz "_Lottie_Forms_AnimationView_remove_OnPlay_System_EventHandler"
+	.asciz "Lottie.Forms.AnimationView:set_HardwareAcceleration"
+	.asciz "_Lottie_Forms_AnimationView_set_HardwareAcceleration_bool"
 
 	.byte 0,0
-	.quad _Lottie_Forms_AnimationView_remove_OnPlay_System_EventHandler
+	.quad _Lottie_Forms_AnimationView_set_HardwareAcceleration_bool
 	.quad Lme_17
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM586=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM586
+	.byte 2,141,16,3
+	.asciz "value"
+
+LDIFF_SYM587=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM587
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM588=Lfde23_end - Lfde23_start
+	.long LDIFF_SYM588
+Lfde23_start:
+
+	.long 0
+	.align 3
+	.quad _Lottie_Forms_AnimationView_set_HardwareAcceleration_bool
+
+LDIFF_SYM589=Lme_17 - _Lottie_Forms_AnimationView_set_HardwareAcceleration_bool
+	.long LDIFF_SYM589
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde23_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Lottie.Forms.AnimationView:add_OnPlay"
+	.asciz "_Lottie_Forms_AnimationView_add_OnPlay_System_EventHandler"
+
+	.byte 0,0
+	.quad _Lottie_Forms_AnimationView_add_OnPlay_System_EventHandler
+	.quad Lme_18
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -10063,41 +10340,95 @@ LDIFF_SYM590=LTDIE_0_REFERENCE - Ldebug_info_start
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM591=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM591=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM591
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM592=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM592=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM592
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM593=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM593=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM593
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM594=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM594=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM594
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM595=Lfde23_end - Lfde23_start
+LDIFF_SYM595=Lfde24_end - Lfde24_start
 	.long LDIFF_SYM595
-Lfde23_start:
+Lfde24_start:
+
+	.long 0
+	.align 3
+	.quad _Lottie_Forms_AnimationView_add_OnPlay_System_EventHandler
+
+LDIFF_SYM596=Lme_18 - _Lottie_Forms_AnimationView_add_OnPlay_System_EventHandler
+	.long LDIFF_SYM596
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
+	.align 3
+Lfde24_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Lottie.Forms.AnimationView:remove_OnPlay"
+	.asciz "_Lottie_Forms_AnimationView_remove_OnPlay_System_EventHandler"
+
+	.byte 0,0
+	.quad _Lottie_Forms_AnimationView_remove_OnPlay_System_EventHandler
+	.quad Lme_19
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM597=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM597
+	.byte 1,105,3
+	.asciz "value"
+
+LDIFF_SYM598=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM598
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM599=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM599
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM600=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM600
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM601=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM601
+	.byte 1,101,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM602=Lfde25_end - Lfde25_start
+	.long LDIFF_SYM602
+Lfde25_start:
 
 	.long 0
 	.align 3
 	.quad _Lottie_Forms_AnimationView_remove_OnPlay_System_EventHandler
 
-LDIFF_SYM596=Lme_17 - _Lottie_Forms_AnimationView_remove_OnPlay_System_EventHandler
-	.long LDIFF_SYM596
+LDIFF_SYM603=Lme_19 - _Lottie_Forms_AnimationView_remove_OnPlay_System_EventHandler
+	.long LDIFF_SYM603
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
 	.align 3
-Lfde23_end:
+Lfde25_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -10107,31 +10438,31 @@ Lfde23_end:
 
 	.byte 0,0
 	.quad _Lottie_Forms_AnimationView_Play
-	.quad Lme_18
+	.quad Lme_1a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM597=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM597
+LDIFF_SYM604=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM604
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM598=Lfde24_end - Lfde24_start
-	.long LDIFF_SYM598
-Lfde24_start:
+LDIFF_SYM605=Lfde26_end - Lfde26_start
+	.long LDIFF_SYM605
+Lfde26_start:
 
 	.long 0
 	.align 3
 	.quad _Lottie_Forms_AnimationView_Play
 
-LDIFF_SYM599=Lme_18 - _Lottie_Forms_AnimationView_Play
-	.long LDIFF_SYM599
+LDIFF_SYM606=Lme_1a - _Lottie_Forms_AnimationView_Play
+	.long LDIFF_SYM606
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2,154,1
 	.align 3
-Lfde24_end:
+Lfde26_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -10141,61 +10472,7 @@ Lfde24_end:
 
 	.byte 0,0
 	.quad _Lottie_Forms_AnimationView_add_OnPlayProgressSegment_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs
-	.quad Lme_19
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM600=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM600
-	.byte 1,105,3
-	.asciz "value"
-
-LDIFF_SYM601=LTDIE_76_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM601
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM602=LTDIE_76_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM602
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM603=LTDIE_76_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM603
-	.byte 1,103,11
-	.asciz "V_2"
-
-LDIFF_SYM604=LTDIE_76_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM604
-	.byte 1,101,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM605=Lfde25_end - Lfde25_start
-	.long LDIFF_SYM605
-Lfde25_start:
-
-	.long 0
-	.align 3
-	.quad _Lottie_Forms_AnimationView_add_OnPlayProgressSegment_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs
-
-LDIFF_SYM606=Lme_19 - _Lottie_Forms_AnimationView_add_OnPlayProgressSegment_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs
-	.long LDIFF_SYM606
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
-	.align 3
-Lfde25_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "Lottie.Forms.AnimationView:remove_OnPlayProgressSegment"
-	.asciz "_Lottie_Forms_AnimationView_remove_OnPlayProgressSegment_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs"
-
-	.byte 0,0
-	.quad _Lottie_Forms_AnimationView_remove_OnPlayProgressSegment_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs
-	.quad Lme_1a
+	.quad Lme_1b
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -10226,20 +10503,74 @@ LDIFF_SYM611=LTDIE_76_REFERENCE - Ldebug_info_start
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM612=Lfde26_end - Lfde26_start
+LDIFF_SYM612=Lfde27_end - Lfde27_start
 	.long LDIFF_SYM612
-Lfde26_start:
+Lfde27_start:
+
+	.long 0
+	.align 3
+	.quad _Lottie_Forms_AnimationView_add_OnPlayProgressSegment_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs
+
+LDIFF_SYM613=Lme_1b - _Lottie_Forms_AnimationView_add_OnPlayProgressSegment_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs
+	.long LDIFF_SYM613
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
+	.align 3
+Lfde27_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Lottie.Forms.AnimationView:remove_OnPlayProgressSegment"
+	.asciz "_Lottie_Forms_AnimationView_remove_OnPlayProgressSegment_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs"
+
+	.byte 0,0
+	.quad _Lottie_Forms_AnimationView_remove_OnPlayProgressSegment_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs
+	.quad Lme_1c
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM614=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM614
+	.byte 1,105,3
+	.asciz "value"
+
+LDIFF_SYM615=LTDIE_76_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM615
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM616=LTDIE_76_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM616
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM617=LTDIE_76_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM617
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM618=LTDIE_76_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM618
+	.byte 1,101,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM619=Lfde28_end - Lfde28_start
+	.long LDIFF_SYM619
+Lfde28_start:
 
 	.long 0
 	.align 3
 	.quad _Lottie_Forms_AnimationView_remove_OnPlayProgressSegment_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs
 
-LDIFF_SYM613=Lme_1a - _Lottie_Forms_AnimationView_remove_OnPlayProgressSegment_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs
-	.long LDIFF_SYM613
+LDIFF_SYM620=Lme_1c - _Lottie_Forms_AnimationView_remove_OnPlayProgressSegment_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs
+	.long LDIFF_SYM620
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
 	.align 3
-Lfde26_end:
+Lfde28_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -10249,41 +10580,41 @@ Lfde26_end:
 
 	.byte 0,0
 	.quad _Lottie_Forms_AnimationView_PlayProgressSegment_single_single
-	.quad Lme_1b
+	.quad Lme_1d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM614=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM614
+LDIFF_SYM621=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM621
 	.byte 1,106,3
 	.asciz "from"
 
-LDIFF_SYM615=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM615
+LDIFF_SYM622=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM622
 	.byte 2,141,32,3
 	.asciz "to"
 
-LDIFF_SYM616=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM616
+LDIFF_SYM623=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM623
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM617=Lfde27_end - Lfde27_start
-	.long LDIFF_SYM617
-Lfde27_start:
+LDIFF_SYM624=Lfde29_end - Lfde29_start
+	.long LDIFF_SYM624
+Lfde29_start:
 
 	.long 0
 	.align 3
 	.quad _Lottie_Forms_AnimationView_PlayProgressSegment_single_single
 
-LDIFF_SYM618=Lme_1b - _Lottie_Forms_AnimationView_PlayProgressSegment_single_single
-	.long LDIFF_SYM618
+LDIFF_SYM625=Lme_1d - _Lottie_Forms_AnimationView_PlayProgressSegment_single_single
+	.long LDIFF_SYM625
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
-Lfde27_end:
+Lfde29_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -10293,61 +10624,7 @@ Lfde27_end:
 
 	.byte 0,0
 	.quad _Lottie_Forms_AnimationView_add_OnPlayFrameSegment_System_EventHandler_1_Lottie_Forms_EventArguments_FrameSegmentEventArgs
-	.quad Lme_1c
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM619=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM619
-	.byte 1,105,3
-	.asciz "value"
-
-LDIFF_SYM620=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM620
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM621=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM621
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM622=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM622
-	.byte 1,103,11
-	.asciz "V_2"
-
-LDIFF_SYM623=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM623
-	.byte 1,101,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM624=Lfde28_end - Lfde28_start
-	.long LDIFF_SYM624
-Lfde28_start:
-
-	.long 0
-	.align 3
-	.quad _Lottie_Forms_AnimationView_add_OnPlayFrameSegment_System_EventHandler_1_Lottie_Forms_EventArguments_FrameSegmentEventArgs
-
-LDIFF_SYM625=Lme_1c - _Lottie_Forms_AnimationView_add_OnPlayFrameSegment_System_EventHandler_1_Lottie_Forms_EventArguments_FrameSegmentEventArgs
-	.long LDIFF_SYM625
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
-	.align 3
-Lfde28_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "Lottie.Forms.AnimationView:remove_OnPlayFrameSegment"
-	.asciz "_Lottie_Forms_AnimationView_remove_OnPlayFrameSegment_System_EventHandler_1_Lottie_Forms_EventArguments_FrameSegmentEventArgs"
-
-	.byte 0,0
-	.quad _Lottie_Forms_AnimationView_remove_OnPlayFrameSegment_System_EventHandler_1_Lottie_Forms_EventArguments_FrameSegmentEventArgs
-	.quad Lme_1d
+	.quad Lme_1e
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -10378,20 +10655,74 @@ LDIFF_SYM630=LTDIE_77_REFERENCE - Ldebug_info_start
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM631=Lfde29_end - Lfde29_start
+LDIFF_SYM631=Lfde30_end - Lfde30_start
 	.long LDIFF_SYM631
-Lfde29_start:
+Lfde30_start:
+
+	.long 0
+	.align 3
+	.quad _Lottie_Forms_AnimationView_add_OnPlayFrameSegment_System_EventHandler_1_Lottie_Forms_EventArguments_FrameSegmentEventArgs
+
+LDIFF_SYM632=Lme_1e - _Lottie_Forms_AnimationView_add_OnPlayFrameSegment_System_EventHandler_1_Lottie_Forms_EventArguments_FrameSegmentEventArgs
+	.long LDIFF_SYM632
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
+	.align 3
+Lfde30_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Lottie.Forms.AnimationView:remove_OnPlayFrameSegment"
+	.asciz "_Lottie_Forms_AnimationView_remove_OnPlayFrameSegment_System_EventHandler_1_Lottie_Forms_EventArguments_FrameSegmentEventArgs"
+
+	.byte 0,0
+	.quad _Lottie_Forms_AnimationView_remove_OnPlayFrameSegment_System_EventHandler_1_Lottie_Forms_EventArguments_FrameSegmentEventArgs
+	.quad Lme_1f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM633=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM633
+	.byte 1,105,3
+	.asciz "value"
+
+LDIFF_SYM634=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM634
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM635=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM635
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM636=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM636
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM637=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM637
+	.byte 1,101,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM638=Lfde31_end - Lfde31_start
+	.long LDIFF_SYM638
+Lfde31_start:
 
 	.long 0
 	.align 3
 	.quad _Lottie_Forms_AnimationView_remove_OnPlayFrameSegment_System_EventHandler_1_Lottie_Forms_EventArguments_FrameSegmentEventArgs
 
-LDIFF_SYM632=Lme_1d - _Lottie_Forms_AnimationView_remove_OnPlayFrameSegment_System_EventHandler_1_Lottie_Forms_EventArguments_FrameSegmentEventArgs
-	.long LDIFF_SYM632
+LDIFF_SYM639=Lme_1f - _Lottie_Forms_AnimationView_remove_OnPlayFrameSegment_System_EventHandler_1_Lottie_Forms_EventArguments_FrameSegmentEventArgs
+	.long LDIFF_SYM639
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
 	.align 3
-Lfde29_end:
+Lfde31_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -10401,41 +10732,41 @@ Lfde29_end:
 
 	.byte 0,0
 	.quad _Lottie_Forms_AnimationView_PlayFrameSegment_int_int
-	.quad Lme_1e
+	.quad Lme_20
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM633=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM633
+LDIFF_SYM640=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM640
 	.byte 1,104,3
 	.asciz "from"
 
-LDIFF_SYM634=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM634
+LDIFF_SYM641=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM641
 	.byte 2,141,32,3
 	.asciz "to"
 
-LDIFF_SYM635=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM635
+LDIFF_SYM642=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM642
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM636=Lfde30_end - Lfde30_start
-	.long LDIFF_SYM636
-Lfde30_start:
+LDIFF_SYM643=Lfde32_end - Lfde32_start
+	.long LDIFF_SYM643
+Lfde32_start:
 
 	.long 0
 	.align 3
 	.quad _Lottie_Forms_AnimationView_PlayFrameSegment_int_int
 
-LDIFF_SYM637=Lme_1e - _Lottie_Forms_AnimationView_PlayFrameSegment_int_int
-	.long LDIFF_SYM637
+LDIFF_SYM644=Lme_20 - _Lottie_Forms_AnimationView_PlayFrameSegment_int_int
+	.long LDIFF_SYM644
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,151,6,152,5
 	.align 3
-Lfde30_end:
+Lfde32_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -10445,61 +10776,7 @@ Lfde30_end:
 
 	.byte 0,0
 	.quad _Lottie_Forms_AnimationView_add_OnPause_System_EventHandler
-	.quad Lme_1f
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM638=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM638
-	.byte 1,105,3
-	.asciz "value"
-
-LDIFF_SYM639=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM639
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM640=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM640
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM641=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM641
-	.byte 1,103,11
-	.asciz "V_2"
-
-LDIFF_SYM642=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM642
-	.byte 1,101,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM643=Lfde31_end - Lfde31_start
-	.long LDIFF_SYM643
-Lfde31_start:
-
-	.long 0
-	.align 3
-	.quad _Lottie_Forms_AnimationView_add_OnPause_System_EventHandler
-
-LDIFF_SYM644=Lme_1f - _Lottie_Forms_AnimationView_add_OnPause_System_EventHandler
-	.long LDIFF_SYM644
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
-	.align 3
-Lfde31_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "Lottie.Forms.AnimationView:remove_OnPause"
-	.asciz "_Lottie_Forms_AnimationView_remove_OnPause_System_EventHandler"
-
-	.byte 0,0
-	.quad _Lottie_Forms_AnimationView_remove_OnPause_System_EventHandler
-	.quad Lme_20
+	.quad Lme_21
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -10509,41 +10786,95 @@ LDIFF_SYM645=LTDIE_0_REFERENCE - Ldebug_info_start
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM646=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM646=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM646
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM647=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM647=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM647
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM648=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM648=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM648
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM649=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM649=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM649
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM650=Lfde32_end - Lfde32_start
+LDIFF_SYM650=Lfde33_end - Lfde33_start
 	.long LDIFF_SYM650
-Lfde32_start:
+Lfde33_start:
+
+	.long 0
+	.align 3
+	.quad _Lottie_Forms_AnimationView_add_OnPause_System_EventHandler
+
+LDIFF_SYM651=Lme_21 - _Lottie_Forms_AnimationView_add_OnPause_System_EventHandler
+	.long LDIFF_SYM651
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
+	.align 3
+Lfde33_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Lottie.Forms.AnimationView:remove_OnPause"
+	.asciz "_Lottie_Forms_AnimationView_remove_OnPause_System_EventHandler"
+
+	.byte 0,0
+	.quad _Lottie_Forms_AnimationView_remove_OnPause_System_EventHandler
+	.quad Lme_22
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM652=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM652
+	.byte 1,105,3
+	.asciz "value"
+
+LDIFF_SYM653=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM653
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM654=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM654
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM655=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM655
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM656=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM656
+	.byte 1,101,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM657=Lfde34_end - Lfde34_start
+	.long LDIFF_SYM657
+Lfde34_start:
 
 	.long 0
 	.align 3
 	.quad _Lottie_Forms_AnimationView_remove_OnPause_System_EventHandler
 
-LDIFF_SYM651=Lme_20 - _Lottie_Forms_AnimationView_remove_OnPause_System_EventHandler
-	.long LDIFF_SYM651
+LDIFF_SYM658=Lme_22 - _Lottie_Forms_AnimationView_remove_OnPause_System_EventHandler
+	.long LDIFF_SYM658
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
 	.align 3
-Lfde32_end:
+Lfde34_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -10553,31 +10884,31 @@ Lfde32_end:
 
 	.byte 0,0
 	.quad _Lottie_Forms_AnimationView_Pause
-	.quad Lme_21
+	.quad Lme_23
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM652=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM652
+LDIFF_SYM659=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM659
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM653=Lfde33_end - Lfde33_start
-	.long LDIFF_SYM653
-Lfde33_start:
+LDIFF_SYM660=Lfde35_end - Lfde35_start
+	.long LDIFF_SYM660
+Lfde35_start:
 
 	.long 0
 	.align 3
 	.quad _Lottie_Forms_AnimationView_Pause
 
-LDIFF_SYM654=Lme_21 - _Lottie_Forms_AnimationView_Pause
-	.long LDIFF_SYM654
+LDIFF_SYM661=Lme_23 - _Lottie_Forms_AnimationView_Pause
+	.long LDIFF_SYM661
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2
 	.align 3
-Lfde33_end:
+Lfde35_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -10587,61 +10918,7 @@ Lfde33_end:
 
 	.byte 0,0
 	.quad _Lottie_Forms_AnimationView_add_OnClick_System_EventHandler
-	.quad Lme_22
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM655=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM655
-	.byte 1,105,3
-	.asciz "value"
-
-LDIFF_SYM656=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM656
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM657=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM657
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM658=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM658
-	.byte 1,103,11
-	.asciz "V_2"
-
-LDIFF_SYM659=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM659
-	.byte 1,101,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM660=Lfde34_end - Lfde34_start
-	.long LDIFF_SYM660
-Lfde34_start:
-
-	.long 0
-	.align 3
-	.quad _Lottie_Forms_AnimationView_add_OnClick_System_EventHandler
-
-LDIFF_SYM661=Lme_22 - _Lottie_Forms_AnimationView_add_OnClick_System_EventHandler
-	.long LDIFF_SYM661
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
-	.align 3
-Lfde34_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "Lottie.Forms.AnimationView:remove_OnClick"
-	.asciz "_Lottie_Forms_AnimationView_remove_OnClick_System_EventHandler"
-
-	.byte 0,0
-	.quad _Lottie_Forms_AnimationView_remove_OnClick_System_EventHandler
-	.quad Lme_23
+	.quad Lme_24
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -10651,41 +10928,95 @@ LDIFF_SYM662=LTDIE_0_REFERENCE - Ldebug_info_start
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM663=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM663=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM663
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM664=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM664=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM664
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM665=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM665=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM665
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM666=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM666=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM666
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM667=Lfde35_end - Lfde35_start
+LDIFF_SYM667=Lfde36_end - Lfde36_start
 	.long LDIFF_SYM667
-Lfde35_start:
+Lfde36_start:
+
+	.long 0
+	.align 3
+	.quad _Lottie_Forms_AnimationView_add_OnClick_System_EventHandler
+
+LDIFF_SYM668=Lme_24 - _Lottie_Forms_AnimationView_add_OnClick_System_EventHandler
+	.long LDIFF_SYM668
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
+	.align 3
+Lfde36_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Lottie.Forms.AnimationView:remove_OnClick"
+	.asciz "_Lottie_Forms_AnimationView_remove_OnClick_System_EventHandler"
+
+	.byte 0,0
+	.quad _Lottie_Forms_AnimationView_remove_OnClick_System_EventHandler
+	.quad Lme_25
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM669=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM669
+	.byte 1,105,3
+	.asciz "value"
+
+LDIFF_SYM670=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM670
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM671=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM671
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM672=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM672
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM673=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM673
+	.byte 1,101,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM674=Lfde37_end - Lfde37_start
+	.long LDIFF_SYM674
+Lfde37_start:
 
 	.long 0
 	.align 3
 	.quad _Lottie_Forms_AnimationView_remove_OnClick_System_EventHandler
 
-LDIFF_SYM668=Lme_23 - _Lottie_Forms_AnimationView_remove_OnClick_System_EventHandler
-	.long LDIFF_SYM668
+LDIFF_SYM675=Lme_25 - _Lottie_Forms_AnimationView_remove_OnClick_System_EventHandler
+	.long LDIFF_SYM675
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
 	.align 3
-Lfde35_end:
+Lfde37_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -10695,31 +11026,31 @@ Lfde35_end:
 
 	.byte 0,0
 	.quad _Lottie_Forms_AnimationView_Click
-	.quad Lme_24
+	.quad Lme_26
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM669=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM669
+LDIFF_SYM676=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM676
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM670=Lfde36_end - Lfde36_start
-	.long LDIFF_SYM670
-Lfde36_start:
+LDIFF_SYM677=Lfde38_end - Lfde38_start
+	.long LDIFF_SYM677
+Lfde38_start:
 
 	.long 0
 	.align 3
 	.quad _Lottie_Forms_AnimationView_Click
 
-LDIFF_SYM671=Lme_24 - _Lottie_Forms_AnimationView_Click
-	.long LDIFF_SYM671
+LDIFF_SYM678=Lme_26 - _Lottie_Forms_AnimationView_Click
+	.long LDIFF_SYM678
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2,154,1
 	.align 3
-Lfde36_end:
+Lfde38_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -10729,61 +11060,7 @@ Lfde36_end:
 
 	.byte 0,0
 	.quad _Lottie_Forms_AnimationView_add_OnFinish_System_EventHandler
-	.quad Lme_25
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM672=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM672
-	.byte 1,105,3
-	.asciz "value"
-
-LDIFF_SYM673=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM673
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM674=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM674
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM675=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM675
-	.byte 1,103,11
-	.asciz "V_2"
-
-LDIFF_SYM676=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM676
-	.byte 1,101,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM677=Lfde37_end - Lfde37_start
-	.long LDIFF_SYM677
-Lfde37_start:
-
-	.long 0
-	.align 3
-	.quad _Lottie_Forms_AnimationView_add_OnFinish_System_EventHandler
-
-LDIFF_SYM678=Lme_25 - _Lottie_Forms_AnimationView_add_OnFinish_System_EventHandler
-	.long LDIFF_SYM678
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
-	.align 3
-Lfde37_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "Lottie.Forms.AnimationView:remove_OnFinish"
-	.asciz "_Lottie_Forms_AnimationView_remove_OnFinish_System_EventHandler"
-
-	.byte 0,0
-	.quad _Lottie_Forms_AnimationView_remove_OnFinish_System_EventHandler
-	.quad Lme_26
+	.quad Lme_27
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -10793,97 +11070,78 @@ LDIFF_SYM679=LTDIE_0_REFERENCE - Ldebug_info_start
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM680=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM680=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM680
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM681=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM681=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM681
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM682=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM682=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM682
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM683=LTDIE_22_REFERENCE - Ldebug_info_start
+LDIFF_SYM683=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM683
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM684=Lfde38_end - Lfde38_start
+LDIFF_SYM684=Lfde39_end - Lfde39_start
 	.long LDIFF_SYM684
-Lfde38_start:
-
-	.long 0
-	.align 3
-	.quad _Lottie_Forms_AnimationView_remove_OnFinish_System_EventHandler
-
-LDIFF_SYM685=Lme_26 - _Lottie_Forms_AnimationView_remove_OnFinish_System_EventHandler
-	.long LDIFF_SYM685
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
-	.align 3
-Lfde38_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "Lottie.Forms.AnimationView:PlaybackFinished"
-	.asciz "_Lottie_Forms_AnimationView_PlaybackFinished"
-
-	.byte 0,0
-	.quad _Lottie_Forms_AnimationView_PlaybackFinished
-	.quad Lme_27
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM686=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM686
-	.byte 1,106,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM687=Lfde39_end - Lfde39_start
-	.long LDIFF_SYM687
 Lfde39_start:
 
 	.long 0
 	.align 3
-	.quad _Lottie_Forms_AnimationView_PlaybackFinished
+	.quad _Lottie_Forms_AnimationView_add_OnFinish_System_EventHandler
 
-LDIFF_SYM688=Lme_27 - _Lottie_Forms_AnimationView_PlaybackFinished
-	.long LDIFF_SYM688
+LDIFF_SYM685=Lme_27 - _Lottie_Forms_AnimationView_add_OnFinish_System_EventHandler
+	.long LDIFF_SYM685
 	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2,154,1
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
 	.align 3
 Lfde39_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Lottie.Forms.AnimationView:ExecuteCommandIfPossible"
-	.asciz "_Lottie_Forms_AnimationView_ExecuteCommandIfPossible_System_Windows_Input_ICommand"
+	.asciz "Lottie.Forms.AnimationView:remove_OnFinish"
+	.asciz "_Lottie_Forms_AnimationView_remove_OnFinish_System_EventHandler"
 
 	.byte 0,0
-	.quad _Lottie_Forms_AnimationView_ExecuteCommandIfPossible_System_Windows_Input_ICommand
+	.quad _Lottie_Forms_AnimationView_remove_OnFinish_System_EventHandler
 	.quad Lme_28
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM689=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM689
-	.byte 0,3
-	.asciz "command"
+LDIFF_SYM686=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM686
+	.byte 1,105,3
+	.asciz "value"
 
-LDIFF_SYM690=LTDIE_79_REFERENCE - Ldebug_info_start
+LDIFF_SYM687=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM687
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM688=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM688
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM689=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM689
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM690=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM690
-	.byte 1,106,0
+	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -10893,23 +11151,23 @@ Lfde40_start:
 
 	.long 0
 	.align 3
-	.quad _Lottie_Forms_AnimationView_ExecuteCommandIfPossible_System_Windows_Input_ICommand
+	.quad _Lottie_Forms_AnimationView_remove_OnFinish_System_EventHandler
 
-LDIFF_SYM692=Lme_28 - _Lottie_Forms_AnimationView_ExecuteCommandIfPossible_System_Windows_Input_ICommand
+LDIFF_SYM692=Lme_28 - _Lottie_Forms_AnimationView_remove_OnFinish_System_EventHandler
 	.long LDIFF_SYM692
 	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
 	.align 3
 Lfde40_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Lottie.Forms.AnimationView:.ctor"
-	.asciz "_Lottie_Forms_AnimationView__ctor"
+	.asciz "Lottie.Forms.AnimationView:PlaybackFinished"
+	.asciz "_Lottie_Forms_AnimationView_PlaybackFinished"
 
 	.byte 0,0
-	.quad _Lottie_Forms_AnimationView__ctor
+	.quad _Lottie_Forms_AnimationView_PlaybackFinished
 	.quad Lme_29
 
 	.byte 2,118,16,3
@@ -10917,7 +11175,7 @@ Lfde40_end:
 
 LDIFF_SYM693=LTDIE_0_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM693
-	.byte 2,141,16,0
+	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -10927,14 +11185,87 @@ Lfde41_start:
 
 	.long 0
 	.align 3
+	.quad _Lottie_Forms_AnimationView_PlaybackFinished
+
+LDIFF_SYM695=Lme_29 - _Lottie_Forms_AnimationView_PlaybackFinished
+	.long LDIFF_SYM695
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2,154,1
+	.align 3
+Lfde41_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Lottie.Forms.AnimationView:ExecuteCommandIfPossible"
+	.asciz "_Lottie_Forms_AnimationView_ExecuteCommandIfPossible_System_Windows_Input_ICommand"
+
+	.byte 0,0
+	.quad _Lottie_Forms_AnimationView_ExecuteCommandIfPossible_System_Windows_Input_ICommand
+	.quad Lme_2a
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM696=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM696
+	.byte 0,3
+	.asciz "command"
+
+LDIFF_SYM697=LTDIE_79_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM697
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM698=Lfde42_end - Lfde42_start
+	.long LDIFF_SYM698
+Lfde42_start:
+
+	.long 0
+	.align 3
+	.quad _Lottie_Forms_AnimationView_ExecuteCommandIfPossible_System_Windows_Input_ICommand
+
+LDIFF_SYM699=Lme_2a - _Lottie_Forms_AnimationView_ExecuteCommandIfPossible_System_Windows_Input_ICommand
+	.long LDIFF_SYM699
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
+	.align 3
+Lfde42_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Lottie.Forms.AnimationView:.ctor"
+	.asciz "_Lottie_Forms_AnimationView__ctor"
+
+	.byte 0,0
+	.quad _Lottie_Forms_AnimationView__ctor
+	.quad Lme_2b
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM700=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM700
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM701=Lfde43_end - Lfde43_start
+	.long LDIFF_SYM701
+Lfde43_start:
+
+	.long 0
+	.align 3
 	.quad _Lottie_Forms_AnimationView__ctor
 
-LDIFF_SYM695=Lme_29 - _Lottie_Forms_AnimationView__ctor
-	.long LDIFF_SYM695
+LDIFF_SYM702=Lme_2b - _Lottie_Forms_AnimationView__ctor
+	.long LDIFF_SYM702
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde41_end:
+Lfde43_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -10944,31 +11275,31 @@ Lfde41_end:
 
 	.byte 0,0
 	.quad _Lottie_Forms_AnimationView__cctor
-	.quad Lme_2a
+	.quad Lme_2c
 
 	.byte 2,118,16,11
 	.asciz "V_0"
 
-LDIFF_SYM696=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM696
+LDIFF_SYM703=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM703
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM697=Lfde42_end - Lfde42_start
-	.long LDIFF_SYM697
-Lfde42_start:
+LDIFF_SYM704=Lfde44_end - Lfde44_start
+	.long LDIFF_SYM704
+Lfde44_start:
 
 	.long 0
 	.align 3
 	.quad _Lottie_Forms_AnimationView__cctor
 
-LDIFF_SYM698=Lme_2a - _Lottie_Forms_AnimationView__cctor
-	.long LDIFF_SYM698
+LDIFF_SYM705=Lme_2c - _Lottie_Forms_AnimationView__cctor
+	.long LDIFF_SYM705
 	.long 0
-	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29
+	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29
 	.align 3
-Lfde42_end:
+Lfde44_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -10978,26 +11309,26 @@ Lfde42_end:
 
 	.byte 0,0
 	.quad _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_Init
-	.quad Lme_2b
+	.quad Lme_2d
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM699=Lfde43_end - Lfde43_start
-	.long LDIFF_SYM699
-Lfde43_start:
+LDIFF_SYM706=Lfde45_end - Lfde45_start
+	.long LDIFF_SYM706
+Lfde45_start:
 
 	.long 0
 	.align 3
 	.quad _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_Init
 
-LDIFF_SYM700=Lme_2b - _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_Init
-	.long LDIFF_SYM700
+LDIFF_SYM707=Lme_2d - _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_Init
+	.long LDIFF_SYM707
 	.long 0
 	.byte 12,31,0,68,14,16,157,2,158,1,68,13,29
 	.align 3
-Lfde43_end:
+Lfde45_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_86:
@@ -11006,8 +11337,8 @@ LTDIE_86:
 	.asciz "_Flags"
 
 	.byte 1
-LDIFF_SYM701=LDIE_U1 - Ldebug_info_start
-	.long LDIFF_SYM701
+LDIFF_SYM708=LDIE_U1 - Ldebug_info_start
+	.long LDIFF_SYM708
 	.byte 9
 	.asciz "Disposed"
 
@@ -11032,173 +11363,173 @@ LDIFF_SYM701=LDIE_U1 - Ldebug_info_start
 	.byte 128,127,0,7
 	.asciz "_Flags"
 
-LDIFF_SYM702=LTDIE_86 - Ldebug_info_start
-	.long LDIFF_SYM702
+LDIFF_SYM709=LTDIE_86 - Ldebug_info_start
+	.long LDIFF_SYM709
 LTDIE_86_POINTER:
 
 	.byte 13
-LDIFF_SYM703=LTDIE_86 - Ldebug_info_start
-	.long LDIFF_SYM703
+LDIFF_SYM710=LTDIE_86 - Ldebug_info_start
+	.long LDIFF_SYM710
 LTDIE_86_REFERENCE:
 
 	.byte 14
-LDIFF_SYM704=LTDIE_86 - Ldebug_info_start
-	.long LDIFF_SYM704
+LDIFF_SYM711=LTDIE_86 - Ldebug_info_start
+	.long LDIFF_SYM711
 LTDIE_85:
 
 	.byte 5
 	.asciz "Foundation_NSObject"
 
 	.byte 40,16
-LDIFF_SYM705=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM705
+LDIFF_SYM712=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM712
 	.byte 2,35,0,6
 	.asciz "handle"
 
-LDIFF_SYM706=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM706
+LDIFF_SYM713=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM713
 	.byte 2,35,16,6
 	.asciz "class_handle"
 
-LDIFF_SYM707=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM707
+LDIFF_SYM714=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM714
 	.byte 2,35,24,6
 	.asciz "flags"
 
-LDIFF_SYM708=LTDIE_86 - Ldebug_info_start
-	.long LDIFF_SYM708
+LDIFF_SYM715=LTDIE_86 - Ldebug_info_start
+	.long LDIFF_SYM715
 	.byte 2,35,32,0,7
 	.asciz "Foundation_NSObject"
 
-LDIFF_SYM709=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM709
+LDIFF_SYM716=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM716
 LTDIE_85_POINTER:
 
 	.byte 13
-LDIFF_SYM710=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM710
+LDIFF_SYM717=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM717
 LTDIE_85_REFERENCE:
 
 	.byte 14
-LDIFF_SYM711=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM711
+LDIFF_SYM718=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM718
 LTDIE_84:
 
 	.byte 5
 	.asciz "UIKit_UIResponder"
 
 	.byte 40,16
-LDIFF_SYM712=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM712
+LDIFF_SYM719=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM719
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UIResponder"
 
-LDIFF_SYM713=LTDIE_84 - Ldebug_info_start
-	.long LDIFF_SYM713
+LDIFF_SYM720=LTDIE_84 - Ldebug_info_start
+	.long LDIFF_SYM720
 LTDIE_84_POINTER:
 
 	.byte 13
-LDIFF_SYM714=LTDIE_84 - Ldebug_info_start
-	.long LDIFF_SYM714
+LDIFF_SYM721=LTDIE_84 - Ldebug_info_start
+	.long LDIFF_SYM721
 LTDIE_84_REFERENCE:
 
 	.byte 14
-LDIFF_SYM715=LTDIE_84 - Ldebug_info_start
-	.long LDIFF_SYM715
+LDIFF_SYM722=LTDIE_84 - Ldebug_info_start
+	.long LDIFF_SYM722
 LTDIE_83:
 
 	.byte 5
 	.asciz "UIKit_UIView"
 
 	.byte 48,16
-LDIFF_SYM716=LTDIE_84 - Ldebug_info_start
-	.long LDIFF_SYM716
+LDIFF_SYM723=LTDIE_84 - Ldebug_info_start
+	.long LDIFF_SYM723
 	.byte 2,35,0,6
 	.asciz "__mt_PreferredFocusedView_var"
 
-LDIFF_SYM717=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM717
+LDIFF_SYM724=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM724
 	.byte 2,35,40,0,7
 	.asciz "UIKit_UIView"
 
-LDIFF_SYM718=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM718
+LDIFF_SYM725=LTDIE_83 - Ldebug_info_start
+	.long LDIFF_SYM725
 LTDIE_83_POINTER:
 
 	.byte 13
-LDIFF_SYM719=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM719
+LDIFF_SYM726=LTDIE_83 - Ldebug_info_start
+	.long LDIFF_SYM726
 LTDIE_83_REFERENCE:
 
 	.byte 14
-LDIFF_SYM720=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM720
+LDIFF_SYM727=LTDIE_83 - Ldebug_info_start
+	.long LDIFF_SYM727
 LTDIE_87:
 
 	.byte 5
 	.asciz "UIKit_UIColor"
 
 	.byte 40,16
-LDIFF_SYM721=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM721
+LDIFF_SYM728=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM728
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UIColor"
 
-LDIFF_SYM722=LTDIE_87 - Ldebug_info_start
-	.long LDIFF_SYM722
+LDIFF_SYM729=LTDIE_87 - Ldebug_info_start
+	.long LDIFF_SYM729
 LTDIE_87_POINTER:
 
 	.byte 13
-LDIFF_SYM723=LTDIE_87 - Ldebug_info_start
-	.long LDIFF_SYM723
+LDIFF_SYM730=LTDIE_87 - Ldebug_info_start
+	.long LDIFF_SYM730
 LTDIE_87_REFERENCE:
 
 	.byte 14
-LDIFF_SYM724=LTDIE_87 - Ldebug_info_start
-	.long LDIFF_SYM724
+LDIFF_SYM731=LTDIE_87 - Ldebug_info_start
+	.long LDIFF_SYM731
 LTDIE_88:
 
 	.byte 5
 	.asciz "System_Collections_Generic_List`1"
 
 	.byte 40,16
-LDIFF_SYM725=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM725
+LDIFF_SYM732=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM732
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM726=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM726
+LDIFF_SYM733=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM733
 	.byte 2,35,16,6
 	.asciz "_size"
 
-LDIFF_SYM727=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM727
+LDIFF_SYM734=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM734
 	.byte 2,35,32,6
 	.asciz "_version"
 
-LDIFF_SYM728=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM728
+LDIFF_SYM735=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM735
 	.byte 2,35,36,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM729=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM729
+LDIFF_SYM736=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM736
 	.byte 2,35,24,0,7
 	.asciz "System_Collections_Generic_List`1"
 
-LDIFF_SYM730=LTDIE_88 - Ldebug_info_start
-	.long LDIFF_SYM730
+LDIFF_SYM737=LTDIE_88 - Ldebug_info_start
+	.long LDIFF_SYM737
 LTDIE_88_POINTER:
 
 	.byte 13
-LDIFF_SYM731=LTDIE_88 - Ldebug_info_start
-	.long LDIFF_SYM731
+LDIFF_SYM738=LTDIE_88 - Ldebug_info_start
+	.long LDIFF_SYM738
 LTDIE_88_REFERENCE:
 
 	.byte 14
-LDIFF_SYM732=LTDIE_88 - Ldebug_info_start
-	.long LDIFF_SYM732
+LDIFF_SYM739=LTDIE_88 - Ldebug_info_start
+	.long LDIFF_SYM739
 LTDIE_91:
 
 	.byte 17
@@ -11207,147 +11538,147 @@ LTDIE_91:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
 
-LDIFF_SYM733=LTDIE_91 - Ldebug_info_start
-	.long LDIFF_SYM733
+LDIFF_SYM740=LTDIE_91 - Ldebug_info_start
+	.long LDIFF_SYM740
 LTDIE_91_POINTER:
 
 	.byte 13
-LDIFF_SYM734=LTDIE_91 - Ldebug_info_start
-	.long LDIFF_SYM734
+LDIFF_SYM741=LTDIE_91 - Ldebug_info_start
+	.long LDIFF_SYM741
 LTDIE_91_REFERENCE:
 
 	.byte 14
-LDIFF_SYM735=LTDIE_91 - Ldebug_info_start
-	.long LDIFF_SYM735
+LDIFF_SYM742=LTDIE_91 - Ldebug_info_start
+	.long LDIFF_SYM742
 LTDIE_92:
 
 	.byte 5
 	.asciz "_KeyCollection"
 
 	.byte 24,16
-LDIFF_SYM736=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM736
+LDIFF_SYM743=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM743
 	.byte 2,35,0,6
 	.asciz "_dictionary"
 
-LDIFF_SYM737=LTDIE_90_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM737
+LDIFF_SYM744=LTDIE_90_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM744
 	.byte 2,35,16,0,7
 	.asciz "_KeyCollection"
 
-LDIFF_SYM738=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM738
+LDIFF_SYM745=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM745
 LTDIE_92_POINTER:
 
 	.byte 13
-LDIFF_SYM739=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM739
+LDIFF_SYM746=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM746
 LTDIE_92_REFERENCE:
 
 	.byte 14
-LDIFF_SYM740=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM740
+LDIFF_SYM747=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM747
 LTDIE_93:
 
 	.byte 5
 	.asciz "_ValueCollection"
 
 	.byte 24,16
-LDIFF_SYM741=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM741
+LDIFF_SYM748=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM748
 	.byte 2,35,0,6
 	.asciz "_dictionary"
 
-LDIFF_SYM742=LTDIE_90_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM742
+LDIFF_SYM749=LTDIE_90_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM749
 	.byte 2,35,16,0,7
 	.asciz "_ValueCollection"
 
-LDIFF_SYM743=LTDIE_93 - Ldebug_info_start
-	.long LDIFF_SYM743
+LDIFF_SYM750=LTDIE_93 - Ldebug_info_start
+	.long LDIFF_SYM750
 LTDIE_93_POINTER:
 
 	.byte 13
-LDIFF_SYM744=LTDIE_93 - Ldebug_info_start
-	.long LDIFF_SYM744
+LDIFF_SYM751=LTDIE_93 - Ldebug_info_start
+	.long LDIFF_SYM751
 LTDIE_93_REFERENCE:
 
 	.byte 14
-LDIFF_SYM745=LTDIE_93 - Ldebug_info_start
-	.long LDIFF_SYM745
+LDIFF_SYM752=LTDIE_93 - Ldebug_info_start
+	.long LDIFF_SYM752
 LTDIE_90:
 
 	.byte 5
 	.asciz "System_Collections_Generic_Dictionary`2"
 
 	.byte 80,16
-LDIFF_SYM746=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM746
+LDIFF_SYM753=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM753
 	.byte 2,35,0,6
 	.asciz "_buckets"
 
-LDIFF_SYM747=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM747
+LDIFF_SYM754=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM754
 	.byte 2,35,16,6
 	.asciz "_entries"
 
-LDIFF_SYM748=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM748
+LDIFF_SYM755=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM755
 	.byte 2,35,24,6
 	.asciz "_count"
 
-LDIFF_SYM749=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM749
+LDIFF_SYM756=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM756
 	.byte 2,35,64,6
 	.asciz "_freeList"
 
-LDIFF_SYM750=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM750
+LDIFF_SYM757=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM757
 	.byte 2,35,68,6
 	.asciz "_freeCount"
 
-LDIFF_SYM751=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM751
+LDIFF_SYM758=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM758
 	.byte 2,35,72,6
 	.asciz "_version"
 
-LDIFF_SYM752=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM752
+LDIFF_SYM759=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM759
 	.byte 2,35,76,6
 	.asciz "_comparer"
 
-LDIFF_SYM753=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM753
+LDIFF_SYM760=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM760
 	.byte 2,35,32,6
 	.asciz "_keys"
 
-LDIFF_SYM754=LTDIE_92_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM754
+LDIFF_SYM761=LTDIE_92_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM761
 	.byte 2,35,40,6
 	.asciz "_values"
 
-LDIFF_SYM755=LTDIE_93_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM755
+LDIFF_SYM762=LTDIE_93_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM762
 	.byte 2,35,48,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM756=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM756
+LDIFF_SYM763=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM763
 	.byte 2,35,56,0,7
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-LDIFF_SYM757=LTDIE_90 - Ldebug_info_start
-	.long LDIFF_SYM757
+LDIFF_SYM764=LTDIE_90 - Ldebug_info_start
+	.long LDIFF_SYM764
 LTDIE_90_POINTER:
 
 	.byte 13
-LDIFF_SYM758=LTDIE_90 - Ldebug_info_start
-	.long LDIFF_SYM758
+LDIFF_SYM765=LTDIE_90 - Ldebug_info_start
+	.long LDIFF_SYM765
 LTDIE_90_REFERENCE:
 
 	.byte 14
-LDIFF_SYM759=LTDIE_90 - Ldebug_info_start
-	.long LDIFF_SYM759
+LDIFF_SYM766=LTDIE_90 - Ldebug_info_start
+	.long LDIFF_SYM766
 LTDIE_94:
 
 	.byte 17
@@ -11356,107 +11687,107 @@ LTDIE_94:
 	.byte 16,7
 	.asciz "Xamarin_Forms_Platform_iOS_IVisualElementRenderer"
 
-LDIFF_SYM760=LTDIE_94 - Ldebug_info_start
-	.long LDIFF_SYM760
+LDIFF_SYM767=LTDIE_94 - Ldebug_info_start
+	.long LDIFF_SYM767
 LTDIE_94_POINTER:
 
 	.byte 13
-LDIFF_SYM761=LTDIE_94 - Ldebug_info_start
-	.long LDIFF_SYM761
+LDIFF_SYM768=LTDIE_94 - Ldebug_info_start
+	.long LDIFF_SYM768
 LTDIE_94_REFERENCE:
 
 	.byte 14
-LDIFF_SYM762=LTDIE_94 - Ldebug_info_start
-	.long LDIFF_SYM762
+LDIFF_SYM769=LTDIE_94 - Ldebug_info_start
+	.long LDIFF_SYM769
 LTDIE_95:
 
 	.byte 5
 	.asciz "UIKit_UITouchEventArgs"
 
 	.byte 128,1,16
-LDIFF_SYM763=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM763
+LDIFF_SYM770=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM770
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UITouchEventArgs"
 
-LDIFF_SYM764=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM764
+LDIFF_SYM771=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM771
 LTDIE_95_POINTER:
 
 	.byte 13
-LDIFF_SYM765=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM765
+LDIFF_SYM772=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM772
 LTDIE_95_REFERENCE:
 
 	.byte 14
-LDIFF_SYM766=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM766
+LDIFF_SYM773=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM773
 LTDIE_89:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Platform_iOS_EventTracker"
 
 	.byte 72,16
-LDIFF_SYM767=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM767
+LDIFF_SYM774=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM774
 	.byte 2,35,0,6
 	.asciz "_collectionChangedHandler"
 
-LDIFF_SYM768=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM768
+LDIFF_SYM775=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM775
 	.byte 2,35,16,6
 	.asciz "_gestureRecognizers"
 
-LDIFF_SYM769=LTDIE_90_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM769
+LDIFF_SYM776=LTDIE_90_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM776
 	.byte 2,35,24,6
 	.asciz "_renderer"
 
-LDIFF_SYM770=LTDIE_94_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM770
+LDIFF_SYM777=LTDIE_94_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM777
 	.byte 2,35,32,6
 	.asciz "_disposed"
 
-LDIFF_SYM771=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM771
+LDIFF_SYM778=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM778
 	.byte 2,35,56,6
 	.asciz "_handler"
 
-LDIFF_SYM772=LTDIE_83_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM772
+LDIFF_SYM779=LTDIE_83_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM779
 	.byte 2,35,40,6
 	.asciz "_previousScale"
 
-LDIFF_SYM773=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM773
+LDIFF_SYM780=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM780
 	.byte 2,35,64,6
 	.asciz "_shouldReceiveTouch"
 
-LDIFF_SYM774=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM774
+LDIFF_SYM781=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM781
 	.byte 2,35,48,0,7
 	.asciz "Xamarin_Forms_Platform_iOS_EventTracker"
 
-LDIFF_SYM775=LTDIE_89 - Ldebug_info_start
-	.long LDIFF_SYM775
+LDIFF_SYM782=LTDIE_89 - Ldebug_info_start
+	.long LDIFF_SYM782
 LTDIE_89_POINTER:
 
 	.byte 13
-LDIFF_SYM776=LTDIE_89 - Ldebug_info_start
-	.long LDIFF_SYM776
+LDIFF_SYM783=LTDIE_89 - Ldebug_info_start
+	.long LDIFF_SYM783
 LTDIE_89_REFERENCE:
 
 	.byte 14
-LDIFF_SYM777=LTDIE_89 - Ldebug_info_start
-	.long LDIFF_SYM777
+LDIFF_SYM784=LTDIE_89 - Ldebug_info_start
+	.long LDIFF_SYM784
 LTDIE_96:
 
 	.byte 8
 	.asciz "Xamarin_Forms_Platform_iOS_VisualElementRendererFlags"
 
 	.byte 4
-LDIFF_SYM778=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM778
+LDIFF_SYM785=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM785
 	.byte 9
 	.asciz "Disposed"
 
@@ -11469,236 +11800,236 @@ LDIFF_SYM778=LDIE_I4 - Ldebug_info_start
 	.byte 4,0,7
 	.asciz "Xamarin_Forms_Platform_iOS_VisualElementRendererFlags"
 
-LDIFF_SYM779=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM779
+LDIFF_SYM786=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM786
 LTDIE_96_POINTER:
 
 	.byte 13
-LDIFF_SYM780=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM780
+LDIFF_SYM787=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM787
 LTDIE_96_REFERENCE:
 
 	.byte 14
-LDIFF_SYM781=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM781
+LDIFF_SYM788=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM788
 LTDIE_97:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Platform_iOS_VisualElementPackager"
 
 	.byte 40,16
-LDIFF_SYM782=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM782
+LDIFF_SYM789=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM789
 	.byte 2,35,0,6
 	.asciz "_element"
 
-LDIFF_SYM783=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM783
+LDIFF_SYM790=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM790
 	.byte 2,35,16,6
 	.asciz "_isDisposed"
 
-LDIFF_SYM784=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM784
+LDIFF_SYM791=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM791
 	.byte 2,35,32,6
 	.asciz "<Renderer>k__BackingField"
 
-LDIFF_SYM785=LTDIE_94_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM785
+LDIFF_SYM792=LTDIE_94_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM792
 	.byte 2,35,24,0,7
 	.asciz "Xamarin_Forms_Platform_iOS_VisualElementPackager"
 
-LDIFF_SYM786=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM786
+LDIFF_SYM793=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM793
 LTDIE_97_POINTER:
 
 	.byte 13
-LDIFF_SYM787=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM787
+LDIFF_SYM794=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM794
 LTDIE_97_REFERENCE:
 
 	.byte 14
-LDIFF_SYM788=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM788
+LDIFF_SYM795=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM795
 LTDIE_100:
 
 	.byte 5
 	.asciz "System_WeakReference"
 
 	.byte 24,16
-LDIFF_SYM789=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM789
+LDIFF_SYM796=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM796
 	.byte 2,35,0,6
 	.asciz "isLongReference"
 
-LDIFF_SYM790=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM790
+LDIFF_SYM797=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM797
 	.byte 2,35,16,6
 	.asciz "gcHandle"
 
-LDIFF_SYM791=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM791
+LDIFF_SYM798=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM798
 	.byte 2,35,20,0,7
 	.asciz "System_WeakReference"
 
-LDIFF_SYM792=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM792
+LDIFF_SYM799=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM799
 LTDIE_100_POINTER:
 
 	.byte 13
-LDIFF_SYM793=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM793
+LDIFF_SYM800=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM800
 LTDIE_100_REFERENCE:
 
 	.byte 14
-LDIFF_SYM794=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM794
+LDIFF_SYM801=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM801
 LTDIE_99:
 
 	.byte 5
 	.asciz "CoreAnimation_CALayer"
 
 	.byte 56,16
-LDIFF_SYM795=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM795
+LDIFF_SYM802=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM802
 	.byte 2,35,0,6
 	.asciz "calayerdelegate"
 
-LDIFF_SYM796=LTDIE_100_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM796
+LDIFF_SYM803=LTDIE_100_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM803
 	.byte 2,35,40,6
 	.asciz "__mt_WeakDelegate_var"
 
-LDIFF_SYM797=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM797
+LDIFF_SYM804=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM804
 	.byte 2,35,48,0,7
 	.asciz "CoreAnimation_CALayer"
 
-LDIFF_SYM798=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM798
+LDIFF_SYM805=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM805
 LTDIE_99_POINTER:
 
 	.byte 13
-LDIFF_SYM799=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM799
+LDIFF_SYM806=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM806
 LTDIE_99_REFERENCE:
 
 	.byte 14
-LDIFF_SYM800=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM800
+LDIFF_SYM807=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM807
 LTDIE_98:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Platform_iOS_VisualElementTracker"
 
 	.byte 120,16
-LDIFF_SYM801=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM801
+LDIFF_SYM808=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM808
 	.byte 2,35,0,6
 	.asciz "_batchCommittedHandler"
 
-LDIFF_SYM802=LTDIE_70_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM802
+LDIFF_SYM809=LTDIE_70_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM809
 	.byte 2,35,16,6
 	.asciz "_propertyChangedHandler"
 
-LDIFF_SYM803=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM803
+LDIFF_SYM810=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM810
 	.byte 2,35,24,6
 	.asciz "_sizeChangedEventHandler"
 
-LDIFF_SYM804=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM804
+LDIFF_SYM811=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM811
 	.byte 2,35,32,6
 	.asciz "_disposed"
 
-LDIFF_SYM805=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM805
+LDIFF_SYM812=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM812
 	.byte 2,35,72,6
 	.asciz "_element"
 
-LDIFF_SYM806=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM806
+LDIFF_SYM813=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM813
 	.byte 2,35,40,6
 	.asciz "_isInteractive"
 
-LDIFF_SYM807=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM807
+LDIFF_SYM814=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM814
 	.byte 2,35,73,6
 	.asciz "_lastBounds"
 
-LDIFF_SYM808=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM808
+LDIFF_SYM815=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM815
 	.byte 2,35,80,6
 	.asciz "_layer"
 
-LDIFF_SYM809=LTDIE_99_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM809
+LDIFF_SYM816=LTDIE_99_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM816
 	.byte 2,35,48,6
 	.asciz "_updateCount"
 
-LDIFF_SYM810=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM810
+LDIFF_SYM817=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM817
 	.byte 2,35,112,6
 	.asciz "<TrackFrame>k__BackingField"
 
-LDIFF_SYM811=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM811
+LDIFF_SYM818=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM818
 	.byte 2,35,116,6
 	.asciz "<Renderer>k__BackingField"
 
-LDIFF_SYM812=LTDIE_94_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM812
+LDIFF_SYM819=LTDIE_94_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM819
 	.byte 2,35,56,6
 	.asciz "NativeControlUpdated"
 
-LDIFF_SYM813=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM813
+LDIFF_SYM820=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM820
 	.byte 2,35,64,0,7
 	.asciz "Xamarin_Forms_Platform_iOS_VisualElementTracker"
 
-LDIFF_SYM814=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM814
+LDIFF_SYM821=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM821
 LTDIE_98_POINTER:
 
 	.byte 13
-LDIFF_SYM815=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM815
+LDIFF_SYM822=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM822
 LTDIE_98_REFERENCE:
 
 	.byte 14
-LDIFF_SYM816=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM816
+LDIFF_SYM823=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM823
 LTDIE_101:
 
 	.byte 5
 	.asciz "UIKit_UIVisualEffectView"
 
 	.byte 48,16
-LDIFF_SYM817=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM817
+LDIFF_SYM824=LTDIE_83 - Ldebug_info_start
+	.long LDIFF_SYM824
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UIVisualEffectView"
 
-LDIFF_SYM818=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM818
+LDIFF_SYM825=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM825
 LTDIE_101_POINTER:
 
 	.byte 13
-LDIFF_SYM819=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM819
+LDIFF_SYM826=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM826
 LTDIE_101_REFERENCE:
 
 	.byte 14
-LDIFF_SYM820=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM820
+LDIFF_SYM827=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM827
 LTDIE_102:
 
 	.byte 8
 	.asciz "Xamarin_Forms_PlatformConfiguration_iOSSpecific_BlurEffectStyle"
 
 	.byte 4
-LDIFF_SYM821=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM821
+LDIFF_SYM828=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM828
 	.byte 9
 	.asciz "None"
 
@@ -11714,258 +12045,258 @@ LDIFF_SYM821=LDIE_I4 - Ldebug_info_start
 	.byte 3,0,7
 	.asciz "Xamarin_Forms_PlatformConfiguration_iOSSpecific_BlurEffectStyle"
 
-LDIFF_SYM822=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM822
+LDIFF_SYM829=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM829
 LTDIE_102_POINTER:
 
 	.byte 13
-LDIFF_SYM823=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM823
+LDIFF_SYM830=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM830
 LTDIE_102_REFERENCE:
 
 	.byte 14
-LDIFF_SYM824=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM824
+LDIFF_SYM831=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM831
 LTDIE_103:
 
 	.byte 5
 	.asciz "System_EventHandler`1"
 
 	.byte 128,1,16
-LDIFF_SYM825=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM825
+LDIFF_SYM832=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM832
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM826=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM826
+LDIFF_SYM833=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM833
 LTDIE_103_POINTER:
 
 	.byte 13
-LDIFF_SYM827=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM827
+LDIFF_SYM834=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM834
 LTDIE_103_REFERENCE:
 
 	.byte 14
-LDIFF_SYM828=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM828
+LDIFF_SYM835=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM835
 LTDIE_82:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Platform_iOS_VisualElementRenderer`1"
 
 	.byte 168,1,16
-LDIFF_SYM829=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM829
+LDIFF_SYM836=LTDIE_83 - Ldebug_info_start
+	.long LDIFF_SYM836
 	.byte 2,35,0,6
 	.asciz "_defaultColor"
 
-LDIFF_SYM830=LTDIE_87_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM830
+LDIFF_SYM837=LTDIE_87_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM837
 	.byte 2,35,48,6
 	.asciz "_elementChangedHandlers"
 
-LDIFF_SYM831=LTDIE_88_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM831
+LDIFF_SYM838=LTDIE_88_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM838
 	.byte 2,35,56,6
 	.asciz "_propertyChangedHandler"
 
-LDIFF_SYM832=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM832
+LDIFF_SYM839=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM839
 	.byte 2,35,64,6
 	.asciz "_defaultAccessibilityLabel"
 
-LDIFF_SYM833=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM833
+LDIFF_SYM840=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM840
 	.byte 2,35,72,6
 	.asciz "_defaultAccessibilityHint"
 
-LDIFF_SYM834=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM834
+LDIFF_SYM841=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM841
 	.byte 2,35,80,6
 	.asciz "_defaultIsAccessibilityElement"
 
-LDIFF_SYM835=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM835
+LDIFF_SYM842=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM842
 	.byte 3,35,144,1,6
 	.asciz "_events"
 
-LDIFF_SYM836=LTDIE_89_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM836
+LDIFF_SYM843=LTDIE_89_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM843
 	.byte 2,35,88,6
 	.asciz "_flags"
 
-LDIFF_SYM837=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM837
+LDIFF_SYM844=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM844
 	.byte 3,35,148,1,6
 	.asciz "_packager"
 
-LDIFF_SYM838=LTDIE_97_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM838
+LDIFF_SYM845=LTDIE_97_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM845
 	.byte 2,35,96,6
 	.asciz "_tracker"
 
-LDIFF_SYM839=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM839
+LDIFF_SYM846=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM846
 	.byte 2,35,104,6
 	.asciz "_blur"
 
-LDIFF_SYM840=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM840
+LDIFF_SYM847=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM847
 	.byte 2,35,112,6
 	.asciz "_previousBlur"
 
-LDIFF_SYM841=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM841
+LDIFF_SYM848=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM848
 	.byte 3,35,152,1,6
 	.asciz "<Element>k__BackingField"
 
-LDIFF_SYM842=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM842
+LDIFF_SYM849=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM849
 	.byte 2,35,120,6
 	.asciz "ElementChanged"
 
-LDIFF_SYM843=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM843
+LDIFF_SYM850=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM850
 	.byte 3,35,128,1,6
 	.asciz "<TabIndex>k__BackingField"
 
-LDIFF_SYM844=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM844
+LDIFF_SYM851=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM851
 	.byte 3,35,156,1,6
 	.asciz "<TabStop>k__BackingField"
 
-LDIFF_SYM845=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM845
+LDIFF_SYM852=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM852
 	.byte 3,35,160,1,6
 	.asciz "tabCommands"
 
-LDIFF_SYM846=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM846
+LDIFF_SYM853=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM853
 	.byte 3,35,136,1,0,7
 	.asciz "Xamarin_Forms_Platform_iOS_VisualElementRenderer`1"
 
-LDIFF_SYM847=LTDIE_82 - Ldebug_info_start
-	.long LDIFF_SYM847
+LDIFF_SYM854=LTDIE_82 - Ldebug_info_start
+	.long LDIFF_SYM854
 LTDIE_82_POINTER:
 
 	.byte 13
-LDIFF_SYM848=LTDIE_82 - Ldebug_info_start
-	.long LDIFF_SYM848
+LDIFF_SYM855=LTDIE_82 - Ldebug_info_start
+	.long LDIFF_SYM855
 LTDIE_82_REFERENCE:
 
 	.byte 14
-LDIFF_SYM849=LTDIE_82 - Ldebug_info_start
-	.long LDIFF_SYM849
+LDIFF_SYM856=LTDIE_82 - Ldebug_info_start
+	.long LDIFF_SYM856
 LTDIE_104:
 
 	.byte 5
 	.asciz "System_EventHandler`1"
 
 	.byte 128,1,16
-LDIFF_SYM850=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM850
+LDIFF_SYM857=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM857
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM851=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM851
+LDIFF_SYM858=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM858
 LTDIE_104_POINTER:
 
 	.byte 13
-LDIFF_SYM852=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM852
+LDIFF_SYM859=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM859
 LTDIE_104_REFERENCE:
 
 	.byte 14
-LDIFF_SYM853=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM853
+LDIFF_SYM860=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM860
 LTDIE_105:
 
 	.byte 5
 	.asciz "Airbnb_Lottie_LOTAnimationView"
 
 	.byte 48,16
-LDIFF_SYM854=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM854
+LDIFF_SYM861=LTDIE_83 - Ldebug_info_start
+	.long LDIFF_SYM861
 	.byte 2,35,0,0,7
 	.asciz "Airbnb_Lottie_LOTAnimationView"
 
-LDIFF_SYM855=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM855
+LDIFF_SYM862=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM862
 LTDIE_105_POINTER:
 
 	.byte 13
-LDIFF_SYM856=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM856
+LDIFF_SYM863=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM863
 LTDIE_105_REFERENCE:
 
 	.byte 14
-LDIFF_SYM857=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM857
+LDIFF_SYM864=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM864
 LTDIE_81:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Platform_iOS_ViewRenderer`2"
 
 	.byte 232,1,16
-LDIFF_SYM858=LTDIE_82 - Ldebug_info_start
-	.long LDIFF_SYM858
+LDIFF_SYM865=LTDIE_82 - Ldebug_info_start
+	.long LDIFF_SYM865
 	.byte 2,35,0,6
 	.asciz "_defaultAccessibilityLabel"
 
-LDIFF_SYM859=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM859
+LDIFF_SYM866=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM866
 	.byte 3,35,168,1,6
 	.asciz "_defaultAccessibilityHint"
 
-LDIFF_SYM860=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM860
+LDIFF_SYM867=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM867
 	.byte 3,35,176,1,6
 	.asciz "_defaultIsAccessibilityElement"
 
-LDIFF_SYM861=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM861
+LDIFF_SYM868=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM868
 	.byte 3,35,224,1,6
 	.asciz "_defaultColor"
 
-LDIFF_SYM862=LTDIE_87_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM862
+LDIFF_SYM869=LTDIE_87_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM869
 	.byte 3,35,184,1,6
 	.asciz "_elementPropertyChanged"
 
-LDIFF_SYM863=LTDIE_104_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM863
+LDIFF_SYM870=LTDIE_104_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM870
 	.byte 3,35,192,1,6
 	.asciz "_controlChanging"
 
-LDIFF_SYM864=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM864
+LDIFF_SYM871=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM871
 	.byte 3,35,200,1,6
 	.asciz "_controlChanged"
 
-LDIFF_SYM865=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM865
+LDIFF_SYM872=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM872
 	.byte 3,35,208,1,6
 	.asciz "<Control>k__BackingField"
 
-LDIFF_SYM866=LTDIE_105_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM866
+LDIFF_SYM873=LTDIE_105_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM873
 	.byte 3,35,216,1,0,7
 	.asciz "Xamarin_Forms_Platform_iOS_ViewRenderer`2"
 
-LDIFF_SYM867=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM867
+LDIFF_SYM874=LTDIE_81 - Ldebug_info_start
+	.long LDIFF_SYM874
 LTDIE_81_POINTER:
 
 	.byte 13
-LDIFF_SYM868=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM868
+LDIFF_SYM875=LTDIE_81 - Ldebug_info_start
+	.long LDIFF_SYM875
 LTDIE_81_REFERENCE:
 
 	.byte 14
-LDIFF_SYM869=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM869
+LDIFF_SYM876=LTDIE_81 - Ldebug_info_start
+	.long LDIFF_SYM876
 LTDIE_109:
 
 	.byte 17
@@ -11974,328 +12305,328 @@ LTDIE_109:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
 
-LDIFF_SYM870=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM870
+LDIFF_SYM877=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM877
 LTDIE_109_POINTER:
 
 	.byte 13
-LDIFF_SYM871=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM871
+LDIFF_SYM878=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM878
 LTDIE_109_REFERENCE:
 
 	.byte 14
-LDIFF_SYM872=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM872
+LDIFF_SYM879=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM879
 LTDIE_110:
 
 	.byte 5
 	.asciz "_KeyCollection"
 
 	.byte 24,16
-LDIFF_SYM873=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM873
+LDIFF_SYM880=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM880
 	.byte 2,35,0,6
 	.asciz "_dictionary"
 
-LDIFF_SYM874=LTDIE_108_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM874
+LDIFF_SYM881=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM881
 	.byte 2,35,16,0,7
 	.asciz "_KeyCollection"
 
-LDIFF_SYM875=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM875
+LDIFF_SYM882=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM882
 LTDIE_110_POINTER:
 
 	.byte 13
-LDIFF_SYM876=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM876
+LDIFF_SYM883=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM883
 LTDIE_110_REFERENCE:
 
 	.byte 14
-LDIFF_SYM877=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM877
+LDIFF_SYM884=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM884
 LTDIE_111:
 
 	.byte 5
 	.asciz "_ValueCollection"
 
 	.byte 24,16
-LDIFF_SYM878=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM878
+LDIFF_SYM885=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM885
 	.byte 2,35,0,6
 	.asciz "_dictionary"
 
-LDIFF_SYM879=LTDIE_108_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM879
+LDIFF_SYM886=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM886
 	.byte 2,35,16,0,7
 	.asciz "_ValueCollection"
 
-LDIFF_SYM880=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM880
+LDIFF_SYM887=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM887
 LTDIE_111_POINTER:
 
 	.byte 13
-LDIFF_SYM881=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM881
+LDIFF_SYM888=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM888
 LTDIE_111_REFERENCE:
 
 	.byte 14
-LDIFF_SYM882=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM882
+LDIFF_SYM889=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM889
 LTDIE_108:
 
 	.byte 5
 	.asciz "System_Collections_Generic_Dictionary`2"
 
 	.byte 80,16
-LDIFF_SYM883=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM883
+LDIFF_SYM890=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM890
 	.byte 2,35,0,6
 	.asciz "_buckets"
 
-LDIFF_SYM884=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM884
+LDIFF_SYM891=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM891
 	.byte 2,35,16,6
 	.asciz "_entries"
 
-LDIFF_SYM885=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM885
+LDIFF_SYM892=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM892
 	.byte 2,35,24,6
 	.asciz "_count"
 
-LDIFF_SYM886=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM886
+LDIFF_SYM893=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM893
 	.byte 2,35,64,6
 	.asciz "_freeList"
 
-LDIFF_SYM887=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM887
+LDIFF_SYM894=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM894
 	.byte 2,35,68,6
 	.asciz "_freeCount"
 
-LDIFF_SYM888=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM888
+LDIFF_SYM895=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM895
 	.byte 2,35,72,6
 	.asciz "_version"
 
-LDIFF_SYM889=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM889
+LDIFF_SYM896=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM896
 	.byte 2,35,76,6
 	.asciz "_comparer"
 
-LDIFF_SYM890=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM890
+LDIFF_SYM897=LTDIE_109_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM897
 	.byte 2,35,32,6
 	.asciz "_keys"
 
-LDIFF_SYM891=LTDIE_110_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM891
+LDIFF_SYM898=LTDIE_110_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM898
 	.byte 2,35,40,6
 	.asciz "_values"
 
-LDIFF_SYM892=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM892
+LDIFF_SYM899=LTDIE_111_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM899
 	.byte 2,35,48,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM893=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM893
+LDIFF_SYM900=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM900
 	.byte 2,35,56,0,7
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-LDIFF_SYM894=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM894
+LDIFF_SYM901=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM901
 LTDIE_108_POINTER:
 
 	.byte 13
-LDIFF_SYM895=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM895
+LDIFF_SYM902=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM902
 LTDIE_108_REFERENCE:
 
 	.byte 14
-LDIFF_SYM896=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM896
+LDIFF_SYM903=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM903
 LTDIE_107:
 
 	.byte 5
 	.asciz "UIKit_UIGestureRecognizer"
 
 	.byte 56,16
-LDIFF_SYM897=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM897
+LDIFF_SYM904=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM904
 	.byte 2,35,0,6
 	.asciz "recognizers"
 
-LDIFF_SYM898=LTDIE_108_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM898
+LDIFF_SYM905=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM905
 	.byte 2,35,40,6
 	.asciz "__mt_WeakDelegate_var"
 
-LDIFF_SYM899=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM899
+LDIFF_SYM906=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM906
 	.byte 2,35,48,0,7
 	.asciz "UIKit_UIGestureRecognizer"
 
-LDIFF_SYM900=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM900
+LDIFF_SYM907=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM907
 LTDIE_107_POINTER:
 
 	.byte 13
-LDIFF_SYM901=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM901
+LDIFF_SYM908=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM908
 LTDIE_107_REFERENCE:
 
 	.byte 14
-LDIFF_SYM902=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM902
+LDIFF_SYM909=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM909
 LTDIE_106:
 
 	.byte 5
 	.asciz "UIKit_UITapGestureRecognizer"
 
 	.byte 56,16
-LDIFF_SYM903=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM903
+LDIFF_SYM910=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM910
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UITapGestureRecognizer"
 
-LDIFF_SYM904=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM904
+LDIFF_SYM911=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM911
 LTDIE_106_POINTER:
 
 	.byte 13
-LDIFF_SYM905=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM905
+LDIFF_SYM912=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM912
 LTDIE_106_REFERENCE:
 
 	.byte 14
-LDIFF_SYM906=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM906
+LDIFF_SYM913=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM913
 LTDIE_80:
 
 	.byte 5
 	.asciz "Lottie_Forms_iOS_Renderers_AnimationViewRenderer"
 
 	.byte 248,1,16
-LDIFF_SYM907=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM907
+LDIFF_SYM914=LTDIE_81 - Ldebug_info_start
+	.long LDIFF_SYM914
 	.byte 2,35,0,6
 	.asciz "_animationView"
 
-LDIFF_SYM908=LTDIE_105_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM908
+LDIFF_SYM915=LTDIE_105_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM915
 	.byte 3,35,232,1,6
 	.asciz "_gestureRecognizer"
 
-LDIFF_SYM909=LTDIE_106_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM909
+LDIFF_SYM916=LTDIE_106_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM916
 	.byte 3,35,240,1,0,7
 	.asciz "Lottie_Forms_iOS_Renderers_AnimationViewRenderer"
 
-LDIFF_SYM910=LTDIE_80 - Ldebug_info_start
-	.long LDIFF_SYM910
+LDIFF_SYM917=LTDIE_80 - Ldebug_info_start
+	.long LDIFF_SYM917
 LTDIE_80_POINTER:
 
 	.byte 13
-LDIFF_SYM911=LTDIE_80 - Ldebug_info_start
-	.long LDIFF_SYM911
+LDIFF_SYM918=LTDIE_80 - Ldebug_info_start
+	.long LDIFF_SYM918
 LTDIE_80_REFERENCE:
 
 	.byte 14
-LDIFF_SYM912=LTDIE_80 - Ldebug_info_start
-	.long LDIFF_SYM912
+LDIFF_SYM919=LTDIE_80 - Ldebug_info_start
+	.long LDIFF_SYM919
 LTDIE_113:
 
 	.byte 5
 	.asciz "System_EventArgs"
 
 	.byte 16,16
-LDIFF_SYM913=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM913
+LDIFF_SYM920=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM920
 	.byte 2,35,0,0,7
 	.asciz "System_EventArgs"
 
-LDIFF_SYM914=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM914
+LDIFF_SYM921=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM921
 LTDIE_113_POINTER:
 
 	.byte 13
-LDIFF_SYM915=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM915
+LDIFF_SYM922=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM922
 LTDIE_113_REFERENCE:
 
 	.byte 14
-LDIFF_SYM916=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM916
+LDIFF_SYM923=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM923
 LTDIE_112:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Platform_iOS_ElementChangedEventArgs`1"
 
 	.byte 32,16
-LDIFF_SYM917=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM917
+LDIFF_SYM924=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM924
 	.byte 2,35,0,6
 	.asciz "<NewElement>k__BackingField"
 
-LDIFF_SYM918=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM918
+LDIFF_SYM925=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM925
 	.byte 2,35,16,6
 	.asciz "<OldElement>k__BackingField"
 
-LDIFF_SYM919=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM919
+LDIFF_SYM926=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM926
 	.byte 2,35,24,0,7
 	.asciz "Xamarin_Forms_Platform_iOS_ElementChangedEventArgs`1"
 
-LDIFF_SYM920=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM920
+LDIFF_SYM927=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM927
 LTDIE_112_POINTER:
 
 	.byte 13
-LDIFF_SYM921=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM921
+LDIFF_SYM928=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM928
 LTDIE_112_REFERENCE:
 
 	.byte 14
-LDIFF_SYM922=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM922
+LDIFF_SYM929=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM929
 	.byte 2
 	.asciz "Lottie.Forms.iOS.Renderers.AnimationViewRenderer:OnElementChanged"
 	.asciz "_Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnElementChanged_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Lottie_Forms_AnimationView"
 
 	.byte 0,0
 	.quad _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnElementChanged_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Lottie_Forms_AnimationView
-	.quad Lme_2c
+	.quad Lme_2e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM923=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM923
+LDIFF_SYM930=LTDIE_80_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM930
 	.byte 1,105,3
 	.asciz "e"
 
-LDIFF_SYM924=LTDIE_112_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM924
+LDIFF_SYM931=LTDIE_112_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM931
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM925=Lfde44_end - Lfde44_start
-	.long LDIFF_SYM925
-Lfde44_start:
+LDIFF_SYM932=Lfde46_end - Lfde46_start
+	.long LDIFF_SYM932
+Lfde46_start:
 
 	.long 0
 	.align 3
 	.quad _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnElementChanged_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Lottie_Forms_AnimationView
 
-LDIFF_SYM926=Lme_2c - _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnElementChanged_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Lottie_Forms_AnimationView
-	.long LDIFF_SYM926
+LDIFF_SYM933=Lme_2e - _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnElementChanged_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Lottie_Forms_AnimationView
+	.long LDIFF_SYM933
 	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
 	.align 3
-Lfde44_end:
+Lfde46_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -12305,41 +12636,41 @@ Lfde44_end:
 
 	.byte 0,0
 	.quad _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnPlay_object_System_EventArgs
-	.quad Lme_2d
+	.quad Lme_2f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM927=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM927
+LDIFF_SYM934=LTDIE_80_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM934
 	.byte 1,106,3
 	.asciz "sender"
 
-LDIFF_SYM928=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM928
+LDIFF_SYM935=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM935
 	.byte 0,3
 	.asciz "e"
 
-LDIFF_SYM929=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM929
+LDIFF_SYM936=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM936
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM930=Lfde45_end - Lfde45_start
-	.long LDIFF_SYM930
-Lfde45_start:
+LDIFF_SYM937=Lfde47_end - Lfde47_start
+	.long LDIFF_SYM937
+Lfde47_start:
 
 	.long 0
 	.align 3
 	.quad _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnPlay_object_System_EventArgs
 
-LDIFF_SYM931=Lme_2d - _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnPlay_object_System_EventArgs
-	.long LDIFF_SYM931
+LDIFF_SYM938=Lme_2f - _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnPlay_object_System_EventArgs
+	.long LDIFF_SYM938
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4,154,3
 	.align 3
-Lfde45_end:
+Lfde47_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_114:
@@ -12348,74 +12679,74 @@ LTDIE_114:
 	.asciz "Lottie_Forms_EventArguments_ProgressSegmentEventArgs"
 
 	.byte 24,16
-LDIFF_SYM932=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM932
+LDIFF_SYM939=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM939
 	.byte 2,35,0,6
 	.asciz "<From>k__BackingField"
 
-LDIFF_SYM933=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM933
+LDIFF_SYM940=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM940
 	.byte 2,35,16,6
 	.asciz "<To>k__BackingField"
 
-LDIFF_SYM934=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM934
+LDIFF_SYM941=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM941
 	.byte 2,35,20,0,7
 	.asciz "Lottie_Forms_EventArguments_ProgressSegmentEventArgs"
 
-LDIFF_SYM935=LTDIE_114 - Ldebug_info_start
-	.long LDIFF_SYM935
+LDIFF_SYM942=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM942
 LTDIE_114_POINTER:
 
 	.byte 13
-LDIFF_SYM936=LTDIE_114 - Ldebug_info_start
-	.long LDIFF_SYM936
+LDIFF_SYM943=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM943
 LTDIE_114_REFERENCE:
 
 	.byte 14
-LDIFF_SYM937=LTDIE_114 - Ldebug_info_start
-	.long LDIFF_SYM937
+LDIFF_SYM944=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM944
 	.byte 2
 	.asciz "Lottie.Forms.iOS.Renderers.AnimationViewRenderer:OnPlayProgressSegment"
 	.asciz "_Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnPlayProgressSegment_object_Lottie_Forms_EventArguments_ProgressSegmentEventArgs"
 
 	.byte 0,0
 	.quad _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnPlayProgressSegment_object_Lottie_Forms_EventArguments_ProgressSegmentEventArgs
-	.quad Lme_2e
+	.quad Lme_30
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM938=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM938
+LDIFF_SYM945=LTDIE_80_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM945
 	.byte 1,105,3
 	.asciz "sender"
 
-LDIFF_SYM939=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM939
+LDIFF_SYM946=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM946
 	.byte 0,3
 	.asciz "e"
 
-LDIFF_SYM940=LTDIE_114_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM940
+LDIFF_SYM947=LTDIE_114_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM947
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM941=Lfde46_end - Lfde46_start
-	.long LDIFF_SYM941
-Lfde46_start:
+LDIFF_SYM948=Lfde48_end - Lfde48_start
+	.long LDIFF_SYM948
+Lfde48_start:
 
 	.long 0
 	.align 3
 	.quad _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnPlayProgressSegment_object_Lottie_Forms_EventArguments_ProgressSegmentEventArgs
 
-LDIFF_SYM942=Lme_2e - _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnPlayProgressSegment_object_Lottie_Forms_EventArguments_ProgressSegmentEventArgs
-	.long LDIFF_SYM942
+LDIFF_SYM949=Lme_30 - _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnPlayProgressSegment_object_Lottie_Forms_EventArguments_ProgressSegmentEventArgs
+	.long LDIFF_SYM949
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6
 	.align 3
-Lfde46_end:
+Lfde48_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_115:
@@ -12424,74 +12755,74 @@ LTDIE_115:
 	.asciz "Lottie_Forms_EventArguments_FrameSegmentEventArgs"
 
 	.byte 24,16
-LDIFF_SYM943=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM943
+LDIFF_SYM950=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM950
 	.byte 2,35,0,6
 	.asciz "<From>k__BackingField"
 
-LDIFF_SYM944=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM944
+LDIFF_SYM951=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM951
 	.byte 2,35,16,6
 	.asciz "<To>k__BackingField"
 
-LDIFF_SYM945=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM945
+LDIFF_SYM952=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM952
 	.byte 2,35,20,0,7
 	.asciz "Lottie_Forms_EventArguments_FrameSegmentEventArgs"
 
-LDIFF_SYM946=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM946
+LDIFF_SYM953=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM953
 LTDIE_115_POINTER:
 
 	.byte 13
-LDIFF_SYM947=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM947
+LDIFF_SYM954=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM954
 LTDIE_115_REFERENCE:
 
 	.byte 14
-LDIFF_SYM948=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM948
+LDIFF_SYM955=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM955
 	.byte 2
 	.asciz "Lottie.Forms.iOS.Renderers.AnimationViewRenderer:OnPlayFrameSegment"
 	.asciz "_Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnPlayFrameSegment_object_Lottie_Forms_EventArguments_FrameSegmentEventArgs"
 
 	.byte 0,0
 	.quad _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnPlayFrameSegment_object_Lottie_Forms_EventArguments_FrameSegmentEventArgs
-	.quad Lme_2f
+	.quad Lme_31
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM949=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM949
+LDIFF_SYM956=LTDIE_80_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM956
 	.byte 1,105,3
 	.asciz "sender"
 
-LDIFF_SYM950=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM950
+LDIFF_SYM957=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM957
 	.byte 0,3
 	.asciz "e"
 
-LDIFF_SYM951=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM951
+LDIFF_SYM958=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM958
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM952=Lfde47_end - Lfde47_start
-	.long LDIFF_SYM952
-Lfde47_start:
+LDIFF_SYM959=Lfde49_end - Lfde49_start
+	.long LDIFF_SYM959
+Lfde49_start:
 
 	.long 0
 	.align 3
 	.quad _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnPlayFrameSegment_object_Lottie_Forms_EventArguments_FrameSegmentEventArgs
 
-LDIFF_SYM953=Lme_2f - _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnPlayFrameSegment_object_Lottie_Forms_EventArguments_FrameSegmentEventArgs
-	.long LDIFF_SYM953
+LDIFF_SYM960=Lme_31 - _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnPlayFrameSegment_object_Lottie_Forms_EventArguments_FrameSegmentEventArgs
+	.long LDIFF_SYM960
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,153,5,68,154,4
 	.align 3
-Lfde47_end:
+Lfde49_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -12501,41 +12832,41 @@ Lfde47_end:
 
 	.byte 0,0
 	.quad _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnPause_object_System_EventArgs
-	.quad Lme_30
+	.quad Lme_32
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM954=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM954
+LDIFF_SYM961=LTDIE_80_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM961
 	.byte 2,141,24,3
 	.asciz "sender"
 
-LDIFF_SYM955=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM955
+LDIFF_SYM962=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM962
 	.byte 0,3
 	.asciz "e"
 
-LDIFF_SYM956=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM956
+LDIFF_SYM963=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM963
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM957=Lfde48_end - Lfde48_start
-	.long LDIFF_SYM957
-Lfde48_start:
+LDIFF_SYM964=Lfde50_end - Lfde50_start
+	.long LDIFF_SYM964
+Lfde50_start:
 
 	.long 0
 	.align 3
 	.quad _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnPause_object_System_EventArgs
 
-LDIFF_SYM958=Lme_30 - _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnPause_object_System_EventArgs
-	.long LDIFF_SYM958
+LDIFF_SYM965=Lme_32 - _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnPause_object_System_EventArgs
+	.long LDIFF_SYM965
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4
 	.align 3
-Lfde48_end:
+Lfde50_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_116:
@@ -12544,69 +12875,69 @@ LTDIE_116:
 	.asciz "System_ComponentModel_PropertyChangedEventArgs"
 
 	.byte 24,16
-LDIFF_SYM959=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM959
+LDIFF_SYM966=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM966
 	.byte 2,35,0,6
 	.asciz "_propertyName"
 
-LDIFF_SYM960=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM960
+LDIFF_SYM967=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM967
 	.byte 2,35,16,0,7
 	.asciz "System_ComponentModel_PropertyChangedEventArgs"
 
-LDIFF_SYM961=LTDIE_116 - Ldebug_info_start
-	.long LDIFF_SYM961
+LDIFF_SYM968=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM968
 LTDIE_116_POINTER:
 
 	.byte 13
-LDIFF_SYM962=LTDIE_116 - Ldebug_info_start
-	.long LDIFF_SYM962
+LDIFF_SYM969=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM969
 LTDIE_116_REFERENCE:
 
 	.byte 14
-LDIFF_SYM963=LTDIE_116 - Ldebug_info_start
-	.long LDIFF_SYM963
+LDIFF_SYM970=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM970
 	.byte 2
 	.asciz "Lottie.Forms.iOS.Renderers.AnimationViewRenderer:OnElementPropertyChanged"
 	.asciz "_Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnElementPropertyChanged_object_System_ComponentModel_PropertyChangedEventArgs"
 
 	.byte 0,0
 	.quad _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnElementPropertyChanged_object_System_ComponentModel_PropertyChangedEventArgs
-	.quad Lme_31
+	.quad Lme_33
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM964=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM964
+LDIFF_SYM971=LTDIE_80_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM971
 	.byte 1,104,3
 	.asciz "sender"
 
-LDIFF_SYM965=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM965
-	.byte 1,105,3
+LDIFF_SYM972=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM972
+	.byte 2,141,32,3
 	.asciz "e"
 
-LDIFF_SYM966=LTDIE_116_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM966
+LDIFF_SYM973=LTDIE_116_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM973
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM967=Lfde49_end - Lfde49_start
-	.long LDIFF_SYM967
-Lfde49_start:
+LDIFF_SYM974=Lfde51_end - Lfde51_start
+	.long LDIFF_SYM974
+Lfde51_start:
 
 	.long 0
 	.align 3
 	.quad _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnElementPropertyChanged_object_System_ComponentModel_PropertyChangedEventArgs
 
-LDIFF_SYM968=Lme_31 - _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnElementPropertyChanged_object_System_ComponentModel_PropertyChangedEventArgs
-	.long LDIFF_SYM968
+LDIFF_SYM975=Lme_33 - _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_OnElementPropertyChanged_object_System_ComponentModel_PropertyChangedEventArgs
+	.long LDIFF_SYM975
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,153,5,68,154,4
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,68,154,5
 	.align 3
-Lfde49_end:
+Lfde51_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -12616,92 +12947,19 @@ Lfde49_end:
 
 	.byte 0,0
 	.quad _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_InitAnimationViewForElement_Lottie_Forms_AnimationView
-	.quad Lme_32
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM969=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM969
-	.byte 1,105,3
-	.asciz "theElement"
-
-LDIFF_SYM970=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM970
-	.byte 1,106,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM971=Lfde50_end - Lfde50_start
-	.long LDIFF_SYM971
-Lfde50_start:
-
-	.long 0
-	.align 3
-	.quad _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_InitAnimationViewForElement_Lottie_Forms_AnimationView
-
-LDIFF_SYM972=Lme_32 - _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_InitAnimationViewForElement_Lottie_Forms_AnimationView
-	.long LDIFF_SYM972
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,154,15
-	.align 3
-Lfde50_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "Lottie.Forms.iOS.Renderers.AnimationViewRenderer:PlaybackFinishedIfActually"
-	.asciz "_Lottie_Forms_iOS_Renderers_AnimationViewRenderer_PlaybackFinishedIfActually_bool"
-
-	.byte 0,0
-	.quad _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_PlaybackFinishedIfActually_bool
-	.quad Lme_33
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM973=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM973
-	.byte 2,141,24,3
-	.asciz "animationFinished"
-
-LDIFF_SYM974=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM974
-	.byte 2,141,32,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM975=Lfde51_end - Lfde51_start
-	.long LDIFF_SYM975
-Lfde51_start:
-
-	.long 0
-	.align 3
-	.quad _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_PlaybackFinishedIfActually_bool
-
-LDIFF_SYM976=Lme_33 - _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_PlaybackFinishedIfActually_bool
-	.long LDIFF_SYM976
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
-	.align 3
-Lfde51_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "Lottie.Forms.iOS.Renderers.AnimationViewRenderer:.ctor"
-	.asciz "_Lottie_Forms_iOS_Renderers_AnimationViewRenderer__ctor"
-
-	.byte 0,0
-	.quad _Lottie_Forms_iOS_Renderers_AnimationViewRenderer__ctor
 	.quad Lme_34
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM977=LTDIE_80_REFERENCE - Ldebug_info_start
+LDIFF_SYM976=LTDIE_80_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM976
+	.byte 1,105,3
+	.asciz "theElement"
+
+LDIFF_SYM977=LTDIE_0_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM977
-	.byte 2,141,16,0
+	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -12711,70 +12969,70 @@ Lfde52_start:
 
 	.long 0
 	.align 3
-	.quad _Lottie_Forms_iOS_Renderers_AnimationViewRenderer__ctor
+	.quad _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_InitAnimationViewForElement_Lottie_Forms_AnimationView
 
-LDIFF_SYM979=Lme_34 - _Lottie_Forms_iOS_Renderers_AnimationViewRenderer__ctor
+LDIFF_SYM979=Lme_34 - _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_InitAnimationViewForElement_Lottie_Forms_AnimationView
 	.long LDIFF_SYM979
 	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,154,15
 	.align 3
 Lfde52_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Lottie.Forms.EventArguments.FrameSegmentEventArgs:get_From"
-	.asciz "_Lottie_Forms_EventArguments_FrameSegmentEventArgs_get_From"
+	.asciz "Lottie.Forms.iOS.Renderers.AnimationViewRenderer:PlaybackFinishedIfActually"
+	.asciz "_Lottie_Forms_iOS_Renderers_AnimationViewRenderer_PlaybackFinishedIfActually_bool"
 
 	.byte 0,0
-	.quad _Lottie_Forms_EventArguments_FrameSegmentEventArgs_get_From
+	.quad _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_PlaybackFinishedIfActually_bool
 	.quad Lme_35
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM980=LTDIE_115_REFERENCE - Ldebug_info_start
+LDIFF_SYM980=LTDIE_80_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM980
-	.byte 2,141,16,0
+	.byte 2,141,24,3
+	.asciz "animationFinished"
+
+LDIFF_SYM981=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM981
+	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM981=Lfde53_end - Lfde53_start
-	.long LDIFF_SYM981
+LDIFF_SYM982=Lfde53_end - Lfde53_start
+	.long LDIFF_SYM982
 Lfde53_start:
 
 	.long 0
 	.align 3
-	.quad _Lottie_Forms_EventArguments_FrameSegmentEventArgs_get_From
+	.quad _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_PlaybackFinishedIfActually_bool
 
-LDIFF_SYM982=Lme_35 - _Lottie_Forms_EventArguments_FrameSegmentEventArgs_get_From
-	.long LDIFF_SYM982
+LDIFF_SYM983=Lme_35 - _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_PlaybackFinishedIfActually_bool
+	.long LDIFF_SYM983
 	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
 Lfde53_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Lottie.Forms.EventArguments.FrameSegmentEventArgs:set_From"
-	.asciz "_Lottie_Forms_EventArguments_FrameSegmentEventArgs_set_From_int"
+	.asciz "Lottie.Forms.iOS.Renderers.AnimationViewRenderer:CleanupResources"
+	.asciz "_Lottie_Forms_iOS_Renderers_AnimationViewRenderer_CleanupResources"
 
 	.byte 0,0
-	.quad _Lottie_Forms_EventArguments_FrameSegmentEventArgs_set_From_int
+	.quad _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_CleanupResources
 	.quad Lme_36
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM983=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM983
-	.byte 2,141,16,3
-	.asciz "value"
-
-LDIFF_SYM984=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM984=LTDIE_80_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM984
-	.byte 2,141,24,0
+	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -12784,29 +13042,29 @@ Lfde54_start:
 
 	.long 0
 	.align 3
-	.quad _Lottie_Forms_EventArguments_FrameSegmentEventArgs_set_From_int
+	.quad _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_CleanupResources
 
-LDIFF_SYM986=Lme_36 - _Lottie_Forms_EventArguments_FrameSegmentEventArgs_set_From_int
+LDIFF_SYM986=Lme_36 - _Lottie_Forms_iOS_Renderers_AnimationViewRenderer_CleanupResources
 	.long LDIFF_SYM986
 	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2,154,1
 	.align 3
 Lfde54_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Lottie.Forms.EventArguments.FrameSegmentEventArgs:get_To"
-	.asciz "_Lottie_Forms_EventArguments_FrameSegmentEventArgs_get_To"
+	.asciz "Lottie.Forms.iOS.Renderers.AnimationViewRenderer:.ctor"
+	.asciz "_Lottie_Forms_iOS_Renderers_AnimationViewRenderer__ctor"
 
 	.byte 0,0
-	.quad _Lottie_Forms_EventArguments_FrameSegmentEventArgs_get_To
+	.quad _Lottie_Forms_iOS_Renderers_AnimationViewRenderer__ctor
 	.quad Lme_37
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM987=LTDIE_115_REFERENCE - Ldebug_info_start
+LDIFF_SYM987=LTDIE_80_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM987
 	.byte 2,141,16,0
 
@@ -12818,9 +13076,9 @@ Lfde55_start:
 
 	.long 0
 	.align 3
-	.quad _Lottie_Forms_EventArguments_FrameSegmentEventArgs_get_To
+	.quad _Lottie_Forms_iOS_Renderers_AnimationViewRenderer__ctor
 
-LDIFF_SYM989=Lme_37 - _Lottie_Forms_EventArguments_FrameSegmentEventArgs_get_To
+LDIFF_SYM989=Lme_37 - _Lottie_Forms_iOS_Renderers_AnimationViewRenderer__ctor
 	.long LDIFF_SYM989
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -12830,11 +13088,11 @@ Lfde55_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Lottie.Forms.EventArguments.FrameSegmentEventArgs:set_To"
-	.asciz "_Lottie_Forms_EventArguments_FrameSegmentEventArgs_set_To_int"
+	.asciz "Lottie.Forms.EventArguments.FrameSegmentEventArgs:get_From"
+	.asciz "_Lottie_Forms_EventArguments_FrameSegmentEventArgs_get_From"
 
 	.byte 0,0
-	.quad _Lottie_Forms_EventArguments_FrameSegmentEventArgs_set_To_int
+	.quad _Lottie_Forms_EventArguments_FrameSegmentEventArgs_get_From
 	.quad Lme_38
 
 	.byte 2,118,16,3
@@ -12842,25 +13100,20 @@ Lfde55_end:
 
 LDIFF_SYM990=LTDIE_115_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM990
-	.byte 2,141,16,3
-	.asciz "value"
-
-LDIFF_SYM991=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM991
-	.byte 2,141,24,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM992=Lfde56_end - Lfde56_start
-	.long LDIFF_SYM992
+LDIFF_SYM991=Lfde56_end - Lfde56_start
+	.long LDIFF_SYM991
 Lfde56_start:
 
 	.long 0
 	.align 3
-	.quad _Lottie_Forms_EventArguments_FrameSegmentEventArgs_set_To_int
+	.quad _Lottie_Forms_EventArguments_FrameSegmentEventArgs_get_From
 
-LDIFF_SYM993=Lme_38 - _Lottie_Forms_EventArguments_FrameSegmentEventArgs_set_To_int
-	.long LDIFF_SYM993
+LDIFF_SYM992=Lme_38 - _Lottie_Forms_EventArguments_FrameSegmentEventArgs_get_From
+	.long LDIFF_SYM992
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -12869,19 +13122,24 @@ Lfde56_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Lottie.Forms.EventArguments.FrameSegmentEventArgs:.ctor"
-	.asciz "_Lottie_Forms_EventArguments_FrameSegmentEventArgs__ctor"
+	.asciz "Lottie.Forms.EventArguments.FrameSegmentEventArgs:set_From"
+	.asciz "_Lottie_Forms_EventArguments_FrameSegmentEventArgs_set_From_int"
 
 	.byte 0,0
-	.quad _Lottie_Forms_EventArguments_FrameSegmentEventArgs__ctor
+	.quad _Lottie_Forms_EventArguments_FrameSegmentEventArgs_set_From_int
 	.quad Lme_39
 
 	.byte 2,118,16,3
 	.asciz "this"
 
+LDIFF_SYM993=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM993
+	.byte 2,141,16,3
+	.asciz "value"
+
 LDIFF_SYM994=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM994
-	.byte 0,0
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -12891,9 +13149,9 @@ Lfde57_start:
 
 	.long 0
 	.align 3
-	.quad _Lottie_Forms_EventArguments_FrameSegmentEventArgs__ctor
+	.quad _Lottie_Forms_EventArguments_FrameSegmentEventArgs_set_From_int
 
-LDIFF_SYM996=Lme_39 - _Lottie_Forms_EventArguments_FrameSegmentEventArgs__ctor
+LDIFF_SYM996=Lme_39 - _Lottie_Forms_EventArguments_FrameSegmentEventArgs_set_From_int
 	.long LDIFF_SYM996
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -12903,11 +13161,11 @@ Lfde57_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Lottie.Forms.EventArguments.FrameSegmentEventArgs:.ctor"
-	.asciz "_Lottie_Forms_EventArguments_FrameSegmentEventArgs__ctor_int_int"
+	.asciz "Lottie.Forms.EventArguments.FrameSegmentEventArgs:get_To"
+	.asciz "_Lottie_Forms_EventArguments_FrameSegmentEventArgs_get_To"
 
 	.byte 0,0
-	.quad _Lottie_Forms_EventArguments_FrameSegmentEventArgs__ctor_int_int
+	.quad _Lottie_Forms_EventArguments_FrameSegmentEventArgs_get_To
 	.quad Lme_3a
 
 	.byte 2,118,16,3
@@ -12915,64 +13173,59 @@ Lfde57_end:
 
 LDIFF_SYM997=LTDIE_115_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM997
-	.byte 2,141,16,3
-	.asciz "from"
-
-LDIFF_SYM998=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM998
-	.byte 2,141,24,3
-	.asciz "to"
-
-LDIFF_SYM999=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM999
-	.byte 2,141,32,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1000=Lfde58_end - Lfde58_start
-	.long LDIFF_SYM1000
+LDIFF_SYM998=Lfde58_end - Lfde58_start
+	.long LDIFF_SYM998
 Lfde58_start:
 
 	.long 0
 	.align 3
-	.quad _Lottie_Forms_EventArguments_FrameSegmentEventArgs__ctor_int_int
+	.quad _Lottie_Forms_EventArguments_FrameSegmentEventArgs_get_To
 
-LDIFF_SYM1001=Lme_3a - _Lottie_Forms_EventArguments_FrameSegmentEventArgs__ctor_int_int
-	.long LDIFF_SYM1001
+LDIFF_SYM999=Lme_3a - _Lottie_Forms_EventArguments_FrameSegmentEventArgs_get_To
+	.long LDIFF_SYM999
 	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
 Lfde58_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Lottie.Forms.EventArguments.ProgressSegmentEventArgs:get_From"
-	.asciz "_Lottie_Forms_EventArguments_ProgressSegmentEventArgs_get_From"
+	.asciz "Lottie.Forms.EventArguments.FrameSegmentEventArgs:set_To"
+	.asciz "_Lottie_Forms_EventArguments_FrameSegmentEventArgs_set_To_int"
 
 	.byte 0,0
-	.quad _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_get_From
+	.quad _Lottie_Forms_EventArguments_FrameSegmentEventArgs_set_To_int
 	.quad Lme_3b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1002=LTDIE_114_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1002
-	.byte 2,141,16,0
+LDIFF_SYM1000=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1000
+	.byte 2,141,16,3
+	.asciz "value"
+
+LDIFF_SYM1001=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1001
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1003=Lfde59_end - Lfde59_start
-	.long LDIFF_SYM1003
+LDIFF_SYM1002=Lfde59_end - Lfde59_start
+	.long LDIFF_SYM1002
 Lfde59_start:
 
 	.long 0
 	.align 3
-	.quad _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_get_From
+	.quad _Lottie_Forms_EventArguments_FrameSegmentEventArgs_set_To_int
 
-LDIFF_SYM1004=Lme_3b - _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_get_From
-	.long LDIFF_SYM1004
+LDIFF_SYM1003=Lme_3b - _Lottie_Forms_EventArguments_FrameSegmentEventArgs_set_To_int
+	.long LDIFF_SYM1003
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -12981,37 +13234,32 @@ Lfde59_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Lottie.Forms.EventArguments.ProgressSegmentEventArgs:set_From"
-	.asciz "_Lottie_Forms_EventArguments_ProgressSegmentEventArgs_set_From_single"
+	.asciz "Lottie.Forms.EventArguments.FrameSegmentEventArgs:.ctor"
+	.asciz "_Lottie_Forms_EventArguments_FrameSegmentEventArgs__ctor"
 
 	.byte 0,0
-	.quad _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_set_From_single
+	.quad _Lottie_Forms_EventArguments_FrameSegmentEventArgs__ctor
 	.quad Lme_3c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1005=LTDIE_114_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1005
-	.byte 2,141,16,3
-	.asciz "value"
-
-LDIFF_SYM1006=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM1006
-	.byte 2,141,24,0
+LDIFF_SYM1004=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1004
+	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1007=Lfde60_end - Lfde60_start
-	.long LDIFF_SYM1007
+LDIFF_SYM1005=Lfde60_end - Lfde60_start
+	.long LDIFF_SYM1005
 Lfde60_start:
 
 	.long 0
 	.align 3
-	.quad _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_set_From_single
+	.quad _Lottie_Forms_EventArguments_FrameSegmentEventArgs__ctor
 
-LDIFF_SYM1008=Lme_3c - _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_set_From_single
-	.long LDIFF_SYM1008
+LDIFF_SYM1006=Lme_3c - _Lottie_Forms_EventArguments_FrameSegmentEventArgs__ctor
+	.long LDIFF_SYM1006
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -13020,19 +13268,29 @@ Lfde60_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Lottie.Forms.EventArguments.ProgressSegmentEventArgs:get_To"
-	.asciz "_Lottie_Forms_EventArguments_ProgressSegmentEventArgs_get_To"
+	.asciz "Lottie.Forms.EventArguments.FrameSegmentEventArgs:.ctor"
+	.asciz "_Lottie_Forms_EventArguments_FrameSegmentEventArgs__ctor_int_int"
 
 	.byte 0,0
-	.quad _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_get_To
+	.quad _Lottie_Forms_EventArguments_FrameSegmentEventArgs__ctor_int_int
 	.quad Lme_3d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1009=LTDIE_114_REFERENCE - Ldebug_info_start
+LDIFF_SYM1007=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1007
+	.byte 2,141,16,3
+	.asciz "from"
+
+LDIFF_SYM1008=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1008
+	.byte 2,141,24,3
+	.asciz "to"
+
+LDIFF_SYM1009=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1009
-	.byte 2,141,16,0
+	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -13042,23 +13300,23 @@ Lfde61_start:
 
 	.long 0
 	.align 3
-	.quad _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_get_To
+	.quad _Lottie_Forms_EventArguments_FrameSegmentEventArgs__ctor_int_int
 
-LDIFF_SYM1011=Lme_3d - _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_get_To
+LDIFF_SYM1011=Lme_3d - _Lottie_Forms_EventArguments_FrameSegmentEventArgs__ctor_int_int
 	.long LDIFF_SYM1011
 	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde61_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Lottie.Forms.EventArguments.ProgressSegmentEventArgs:set_To"
-	.asciz "_Lottie_Forms_EventArguments_ProgressSegmentEventArgs_set_To_single"
+	.asciz "Lottie.Forms.EventArguments.ProgressSegmentEventArgs:get_From"
+	.asciz "_Lottie_Forms_EventArguments_ProgressSegmentEventArgs_get_From"
 
 	.byte 0,0
-	.quad _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_set_To_single
+	.quad _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_get_From
 	.quad Lme_3e
 
 	.byte 2,118,16,3
@@ -13066,25 +13324,20 @@ Lfde61_end:
 
 LDIFF_SYM1012=LTDIE_114_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1012
-	.byte 2,141,16,3
-	.asciz "value"
-
-LDIFF_SYM1013=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM1013
-	.byte 2,141,24,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1014=Lfde62_end - Lfde62_start
-	.long LDIFF_SYM1014
+LDIFF_SYM1013=Lfde62_end - Lfde62_start
+	.long LDIFF_SYM1013
 Lfde62_start:
 
 	.long 0
 	.align 3
-	.quad _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_set_To_single
+	.quad _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_get_From
 
-LDIFF_SYM1015=Lme_3e - _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_set_To_single
-	.long LDIFF_SYM1015
+LDIFF_SYM1014=Lme_3e - _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_get_From
+	.long LDIFF_SYM1014
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -13093,19 +13346,24 @@ Lfde62_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Lottie.Forms.EventArguments.ProgressSegmentEventArgs:.ctor"
-	.asciz "_Lottie_Forms_EventArguments_ProgressSegmentEventArgs__ctor"
+	.asciz "Lottie.Forms.EventArguments.ProgressSegmentEventArgs:set_From"
+	.asciz "_Lottie_Forms_EventArguments_ProgressSegmentEventArgs_set_From_single"
 
 	.byte 0,0
-	.quad _Lottie_Forms_EventArguments_ProgressSegmentEventArgs__ctor
+	.quad _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_set_From_single
 	.quad Lme_3f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1016=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1015=LTDIE_114_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1015
+	.byte 2,141,16,3
+	.asciz "value"
+
+LDIFF_SYM1016=LDIE_R4 - Ldebug_info_start
 	.long LDIFF_SYM1016
-	.byte 0,0
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -13115,9 +13373,9 @@ Lfde63_start:
 
 	.long 0
 	.align 3
-	.quad _Lottie_Forms_EventArguments_ProgressSegmentEventArgs__ctor
+	.quad _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_set_From_single
 
-LDIFF_SYM1018=Lme_3f - _Lottie_Forms_EventArguments_ProgressSegmentEventArgs__ctor
+LDIFF_SYM1018=Lme_3f - _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_set_From_single
 	.long LDIFF_SYM1018
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -13127,11 +13385,11 @@ Lfde63_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "Lottie.Forms.EventArguments.ProgressSegmentEventArgs:.ctor"
-	.asciz "_Lottie_Forms_EventArguments_ProgressSegmentEventArgs__ctor_single_single"
+	.asciz "Lottie.Forms.EventArguments.ProgressSegmentEventArgs:get_To"
+	.asciz "_Lottie_Forms_EventArguments_ProgressSegmentEventArgs_get_To"
 
 	.byte 0,0
-	.quad _Lottie_Forms_EventArguments_ProgressSegmentEventArgs__ctor_single_single
+	.quad _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_get_To
 	.quad Lme_40
 
 	.byte 2,118,16,3
@@ -13139,34 +13397,141 @@ Lfde63_end:
 
 LDIFF_SYM1019=LTDIE_114_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1019
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1020=Lfde64_end - Lfde64_start
+	.long LDIFF_SYM1020
+Lfde64_start:
+
+	.long 0
+	.align 3
+	.quad _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_get_To
+
+LDIFF_SYM1021=Lme_40 - _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_get_To
+	.long LDIFF_SYM1021
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde64_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Lottie.Forms.EventArguments.ProgressSegmentEventArgs:set_To"
+	.asciz "_Lottie_Forms_EventArguments_ProgressSegmentEventArgs_set_To_single"
+
+	.byte 0,0
+	.quad _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_set_To_single
+	.quad Lme_41
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1022=LTDIE_114_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1022
+	.byte 2,141,16,3
+	.asciz "value"
+
+LDIFF_SYM1023=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM1023
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1024=Lfde65_end - Lfde65_start
+	.long LDIFF_SYM1024
+Lfde65_start:
+
+	.long 0
+	.align 3
+	.quad _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_set_To_single
+
+LDIFF_SYM1025=Lme_41 - _Lottie_Forms_EventArguments_ProgressSegmentEventArgs_set_To_single
+	.long LDIFF_SYM1025
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde65_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Lottie.Forms.EventArguments.ProgressSegmentEventArgs:.ctor"
+	.asciz "_Lottie_Forms_EventArguments_ProgressSegmentEventArgs__ctor"
+
+	.byte 0,0
+	.quad _Lottie_Forms_EventArguments_ProgressSegmentEventArgs__ctor
+	.quad Lme_42
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1026=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1026
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1027=Lfde66_end - Lfde66_start
+	.long LDIFF_SYM1027
+Lfde66_start:
+
+	.long 0
+	.align 3
+	.quad _Lottie_Forms_EventArguments_ProgressSegmentEventArgs__ctor
+
+LDIFF_SYM1028=Lme_42 - _Lottie_Forms_EventArguments_ProgressSegmentEventArgs__ctor
+	.long LDIFF_SYM1028
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde66_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Lottie.Forms.EventArguments.ProgressSegmentEventArgs:.ctor"
+	.asciz "_Lottie_Forms_EventArguments_ProgressSegmentEventArgs__ctor_single_single"
+
+	.byte 0,0
+	.quad _Lottie_Forms_EventArguments_ProgressSegmentEventArgs__ctor_single_single
+	.quad Lme_43
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1029=LTDIE_114_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1029
 	.byte 2,141,16,3
 	.asciz "from"
 
-LDIFF_SYM1020=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM1020
+LDIFF_SYM1030=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM1030
 	.byte 2,141,24,3
 	.asciz "to"
 
-LDIFF_SYM1021=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM1021
+LDIFF_SYM1031=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM1031
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1022=Lfde64_end - Lfde64_start
-	.long LDIFF_SYM1022
-Lfde64_start:
+LDIFF_SYM1032=Lfde67_end - Lfde67_start
+	.long LDIFF_SYM1032
+Lfde67_start:
 
 	.long 0
 	.align 3
 	.quad _Lottie_Forms_EventArguments_ProgressSegmentEventArgs__ctor_single_single
 
-LDIFF_SYM1023=Lme_40 - _Lottie_Forms_EventArguments_ProgressSegmentEventArgs__ctor_single_single
-	.long LDIFF_SYM1023
+LDIFF_SYM1033=Lme_43 - _Lottie_Forms_EventArguments_ProgressSegmentEventArgs__ctor_single_single
+	.long LDIFF_SYM1033
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde64_end:
+Lfde67_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_117:
@@ -13175,104 +13540,35 @@ LTDIE_117:
 	.asciz "System_Array"
 
 	.byte 16,16
-LDIFF_SYM1024=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM1024
+LDIFF_SYM1034=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM1034
 	.byte 2,35,0,0,7
 	.asciz "System_Array"
 
-LDIFF_SYM1025=LTDIE_117 - Ldebug_info_start
-	.long LDIFF_SYM1025
+LDIFF_SYM1035=LTDIE_117 - Ldebug_info_start
+	.long LDIFF_SYM1035
 LTDIE_117_POINTER:
 
 	.byte 13
-LDIFF_SYM1026=LTDIE_117 - Ldebug_info_start
-	.long LDIFF_SYM1026
+LDIFF_SYM1036=LTDIE_117 - Ldebug_info_start
+	.long LDIFF_SYM1036
 LTDIE_117_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1027=LTDIE_117 - Ldebug_info_start
-	.long LDIFF_SYM1027
+LDIFF_SYM1037=LTDIE_117 - Ldebug_info_start
+	.long LDIFF_SYM1037
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.EventHandler`1<Lottie.Forms.EventArguments.ProgressSegmentEventArgs>:invoke_void_object_TEventArgs"
 	.asciz "wrapper_delegate_invoke_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs_invoke_void_object_TEventArgs_object_Lottie_Forms_EventArguments_ProgressSegmentEventArgs"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs_invoke_void_object_TEventArgs_object_Lottie_Forms_EventArguments_ProgressSegmentEventArgs
-	.quad Lme_42
+	.quad Lme_45
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1028=LTDIE_76_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1028
-	.byte 1,104,3
-	.asciz "param0"
-
-LDIFF_SYM1029=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1029
-	.byte 1,105,3
-	.asciz "param1"
-
-LDIFF_SYM1030=LTDIE_114_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1030
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1031=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1031
-	.byte 1,102,11
-	.asciz "V_1"
-
-LDIFF_SYM1032=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1032
-	.byte 1,104,11
-	.asciz "V_2"
-
-LDIFF_SYM1033=LTDIE_117_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1033
-	.byte 1,103,11
-	.asciz "V_3"
-
-LDIFF_SYM1034=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1034
-	.byte 1,101,11
-	.asciz "V_4"
-
-LDIFF_SYM1035=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1035
-	.byte 1,103,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1036=Lfde65_end - Lfde65_start
-	.long LDIFF_SYM1036
-Lfde65_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs_invoke_void_object_TEventArgs_object_Lottie_Forms_EventArguments_ProgressSegmentEventArgs
-
-LDIFF_SYM1037=Lme_42 - wrapper_delegate_invoke_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs_invoke_void_object_TEventArgs_object_Lottie_Forms_EventArguments_ProgressSegmentEventArgs
-	.long LDIFF_SYM1037
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
-	.align 3
-Lfde65_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.EventHandler`1<Lottie.Forms.EventArguments.FrameSegmentEventArgs>:invoke_void_object_TEventArgs"
-	.asciz "wrapper_delegate_invoke_System_EventHandler_1_Lottie_Forms_EventArguments_FrameSegmentEventArgs_invoke_void_object_TEventArgs_object_Lottie_Forms_EventArguments_FrameSegmentEventArgs"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_EventHandler_1_Lottie_Forms_EventArguments_FrameSegmentEventArgs_invoke_void_object_TEventArgs_object_Lottie_Forms_EventArguments_FrameSegmentEventArgs
-	.quad Lme_43
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1038=LTDIE_77_REFERENCE - Ldebug_info_start
+LDIFF_SYM1038=LTDIE_76_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1038
 	.byte 1,104,3
 	.asciz "param0"
@@ -13282,7 +13578,7 @@ LDIFF_SYM1039=LDIE_OBJECT - Ldebug_info_start
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1040=LTDIE_115_REFERENCE - Ldebug_info_start
+LDIFF_SYM1040=LTDIE_114_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1040
 	.byte 1,106,11
 	.asciz "V_0"
@@ -13313,35 +13609,35 @@ LDIFF_SYM1045=LDIE_OBJECT - Ldebug_info_start
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1046=Lfde66_end - Lfde66_start
+LDIFF_SYM1046=Lfde68_end - Lfde68_start
 	.long LDIFF_SYM1046
-Lfde66_start:
+Lfde68_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_EventHandler_1_Lottie_Forms_EventArguments_FrameSegmentEventArgs_invoke_void_object_TEventArgs_object_Lottie_Forms_EventArguments_FrameSegmentEventArgs
+	.quad wrapper_delegate_invoke_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs_invoke_void_object_TEventArgs_object_Lottie_Forms_EventArguments_ProgressSegmentEventArgs
 
-LDIFF_SYM1047=Lme_43 - wrapper_delegate_invoke_System_EventHandler_1_Lottie_Forms_EventArguments_FrameSegmentEventArgs_invoke_void_object_TEventArgs_object_Lottie_Forms_EventArguments_FrameSegmentEventArgs
+LDIFF_SYM1047=Lme_45 - wrapper_delegate_invoke_System_EventHandler_1_Lottie_Forms_EventArguments_ProgressSegmentEventArgs_invoke_void_object_TEventArgs_object_Lottie_Forms_EventArguments_ProgressSegmentEventArgs
 	.long LDIFF_SYM1047
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
 	.align 3
-Lfde66_end:
+Lfde68_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.EventHandler`1<System.ComponentModel.PropertyChangedEventArgs>:invoke_void_object_TEventArgs"
-	.asciz "wrapper_delegate_invoke_System_EventHandler_1_System_ComponentModel_PropertyChangedEventArgs_invoke_void_object_TEventArgs_object_System_ComponentModel_PropertyChangedEventArgs"
+	.asciz "(wrapper_delegate-invoke)_System.EventHandler`1<Lottie.Forms.EventArguments.FrameSegmentEventArgs>:invoke_void_object_TEventArgs"
+	.asciz "wrapper_delegate_invoke_System_EventHandler_1_Lottie_Forms_EventArguments_FrameSegmentEventArgs_invoke_void_object_TEventArgs_object_Lottie_Forms_EventArguments_FrameSegmentEventArgs"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_EventHandler_1_System_ComponentModel_PropertyChangedEventArgs_invoke_void_object_TEventArgs_object_System_ComponentModel_PropertyChangedEventArgs
-	.quad Lme_44
+	.quad wrapper_delegate_invoke_System_EventHandler_1_Lottie_Forms_EventArguments_FrameSegmentEventArgs_invoke_void_object_TEventArgs_object_Lottie_Forms_EventArguments_FrameSegmentEventArgs
+	.quad Lme_46
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1048=LTDIE_104_REFERENCE - Ldebug_info_start
+LDIFF_SYM1048=LTDIE_77_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1048
 	.byte 1,104,3
 	.asciz "param0"
@@ -13351,7 +13647,7 @@ LDIFF_SYM1049=LDIE_OBJECT - Ldebug_info_start
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1050=LTDIE_116_REFERENCE - Ldebug_info_start
+LDIFF_SYM1050=LTDIE_115_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1050
 	.byte 1,106,11
 	.asciz "V_0"
@@ -13382,20 +13678,89 @@ LDIFF_SYM1055=LDIE_OBJECT - Ldebug_info_start
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1056=Lfde67_end - Lfde67_start
+LDIFF_SYM1056=Lfde69_end - Lfde69_start
 	.long LDIFF_SYM1056
-Lfde67_start:
+Lfde69_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_EventHandler_1_Lottie_Forms_EventArguments_FrameSegmentEventArgs_invoke_void_object_TEventArgs_object_Lottie_Forms_EventArguments_FrameSegmentEventArgs
+
+LDIFF_SYM1057=Lme_46 - wrapper_delegate_invoke_System_EventHandler_1_Lottie_Forms_EventArguments_FrameSegmentEventArgs_invoke_void_object_TEventArgs_object_Lottie_Forms_EventArguments_FrameSegmentEventArgs
+	.long LDIFF_SYM1057
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
+	.align 3
+Lfde69_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.EventHandler`1<System.ComponentModel.PropertyChangedEventArgs>:invoke_void_object_TEventArgs"
+	.asciz "wrapper_delegate_invoke_System_EventHandler_1_System_ComponentModel_PropertyChangedEventArgs_invoke_void_object_TEventArgs_object_System_ComponentModel_PropertyChangedEventArgs"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_EventHandler_1_System_ComponentModel_PropertyChangedEventArgs_invoke_void_object_TEventArgs_object_System_ComponentModel_PropertyChangedEventArgs
+	.quad Lme_47
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1058=LTDIE_104_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1058
+	.byte 1,104,3
+	.asciz "param0"
+
+LDIFF_SYM1059=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1059
+	.byte 1,105,3
+	.asciz "param1"
+
+LDIFF_SYM1060=LTDIE_116_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1060
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1061=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1061
+	.byte 1,102,11
+	.asciz "V_1"
+
+LDIFF_SYM1062=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1062
+	.byte 1,104,11
+	.asciz "V_2"
+
+LDIFF_SYM1063=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1063
+	.byte 1,103,11
+	.asciz "V_3"
+
+LDIFF_SYM1064=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1064
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM1065=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1065
+	.byte 1,103,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1066=Lfde70_end - Lfde70_start
+	.long LDIFF_SYM1066
+Lfde70_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_EventHandler_1_System_ComponentModel_PropertyChangedEventArgs_invoke_void_object_TEventArgs_object_System_ComponentModel_PropertyChangedEventArgs
 
-LDIFF_SYM1057=Lme_44 - wrapper_delegate_invoke_System_EventHandler_1_System_ComponentModel_PropertyChangedEventArgs_invoke_void_object_TEventArgs_object_System_ComponentModel_PropertyChangedEventArgs
-	.long LDIFF_SYM1057
+LDIFF_SYM1067=Lme_47 - wrapper_delegate_invoke_System_EventHandler_1_System_ComponentModel_PropertyChangedEventArgs_invoke_void_object_TEventArgs_object_System_ComponentModel_PropertyChangedEventArgs
+	.long LDIFF_SYM1067
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
 	.align 3
-Lfde67_end:
+Lfde70_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_118:
@@ -13404,69 +13769,69 @@ LTDIE_118:
 	.asciz "System_Nullable`1"
 
 	.byte 18,16
-LDIFF_SYM1058=LTDIE_9 - Ldebug_info_start
-	.long LDIFF_SYM1058
+LDIFF_SYM1068=LTDIE_9 - Ldebug_info_start
+	.long LDIFF_SYM1068
 	.byte 2,35,0,6
 	.asciz "hasValue"
 
-LDIFF_SYM1059=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1059
+LDIFF_SYM1069=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1069
 	.byte 2,35,16,6
 	.asciz "value"
 
-LDIFF_SYM1060=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1060
+LDIFF_SYM1070=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1070
 	.byte 2,35,17,0,7
 	.asciz "System_Nullable`1"
 
-LDIFF_SYM1061=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM1061
+LDIFF_SYM1071=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM1071
 LTDIE_118_POINTER:
 
 	.byte 13
-LDIFF_SYM1062=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM1062
+LDIFF_SYM1072=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM1072
 LTDIE_118_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1063=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM1063
+LDIFF_SYM1073=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM1073
 	.byte 2
 	.asciz "System.Nullable`1<bool>:.ctor"
 	.asciz "System_Nullable_1_bool__ctor_bool"
 
 	.byte 1,27
 	.quad System_Nullable_1_bool__ctor_bool
-	.quad Lme_45
+	.quad Lme_48
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1064=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1064
+LDIFF_SYM1074=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1074
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM1065=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1065
+LDIFF_SYM1075=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1075
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1066=Lfde68_end - Lfde68_start
-	.long LDIFF_SYM1066
-Lfde68_start:
+LDIFF_SYM1076=Lfde71_end - Lfde71_start
+	.long LDIFF_SYM1076
+Lfde71_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool__ctor_bool
 
-LDIFF_SYM1067=Lme_45 - System_Nullable_1_bool__ctor_bool
-	.long LDIFF_SYM1067
+LDIFF_SYM1077=Lme_48 - System_Nullable_1_bool__ctor_bool
+	.long LDIFF_SYM1077
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde68_end:
+Lfde71_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13476,121 +13841,14 @@ Lfde68_end:
 
 	.byte 1,36
 	.quad System_Nullable_1_bool_get_HasValue
-	.quad Lme_46
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1068=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1068
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1069=Lfde69_end - Lfde69_start
-	.long LDIFF_SYM1069
-Lfde69_start:
-
-	.long 0
-	.align 3
-	.quad System_Nullable_1_bool_get_HasValue
-
-LDIFF_SYM1070=Lme_46 - System_Nullable_1_bool_get_HasValue
-	.long LDIFF_SYM1070
-	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
-	.align 3
-Lfde69_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Nullable`1<bool>:get_Value"
-	.asciz "System_Nullable_1_bool_get_Value"
-
-	.byte 1,44
-	.quad System_Nullable_1_bool_get_Value
-	.quad Lme_47
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1071=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1071
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1072=Lfde70_end - Lfde70_start
-	.long LDIFF_SYM1072
-Lfde70_start:
-
-	.long 0
-	.align 3
-	.quad System_Nullable_1_bool_get_Value
-
-LDIFF_SYM1073=Lme_47 - System_Nullable_1_bool_get_Value
-	.long LDIFF_SYM1073
-	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
-	.align 3
-Lfde70_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Nullable`1<bool>:GetValueOrDefault"
-	.asciz "System_Nullable_1_bool_GetValueOrDefault"
-
-	.byte 1,55
-	.quad System_Nullable_1_bool_GetValueOrDefault
-	.quad Lme_48
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1074=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1074
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1075=Lfde71_end - Lfde71_start
-	.long LDIFF_SYM1075
-Lfde71_start:
-
-	.long 0
-	.align 3
-	.quad System_Nullable_1_bool_GetValueOrDefault
-
-LDIFF_SYM1076=Lme_48 - System_Nullable_1_bool_GetValueOrDefault
-	.long LDIFF_SYM1076
-	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
-	.align 3
-Lfde71_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Nullable`1<bool>:GetValueOrDefault"
-	.asciz "System_Nullable_1_bool_GetValueOrDefault_bool"
-
-	.byte 1,61
-	.quad System_Nullable_1_bool_GetValueOrDefault_bool
 	.quad Lme_49
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1077=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1077
-	.byte 2,141,16,3
-	.asciz "defaultValue"
-
-LDIFF_SYM1078=LDIE_BOOLEAN - Ldebug_info_start
+LDIFF_SYM1078=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM1078
-	.byte 2,141,24,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -13600,9 +13858,9 @@ Lfde72_start:
 
 	.long 0
 	.align 3
-	.quad System_Nullable_1_bool_GetValueOrDefault_bool
+	.quad System_Nullable_1_bool_get_HasValue
 
-LDIFF_SYM1080=Lme_49 - System_Nullable_1_bool_GetValueOrDefault_bool
+LDIFF_SYM1080=Lme_49 - System_Nullable_1_bool_get_HasValue
 	.long LDIFF_SYM1080
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -13612,11 +13870,11 @@ Lfde72_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Nullable`1<bool>:Equals"
-	.asciz "System_Nullable_1_bool_Equals_object"
+	.asciz "System.Nullable`1<bool>:get_Value"
+	.asciz "System_Nullable_1_bool_get_Value"
 
-	.byte 1,66
-	.quad System_Nullable_1_bool_Equals_object
+	.byte 1,44
+	.quad System_Nullable_1_bool_get_Value
 	.quad Lme_4a
 
 	.byte 2,118,16,3
@@ -13624,25 +13882,20 @@ Lfde72_end:
 
 LDIFF_SYM1081=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM1081
-	.byte 2,141,16,3
-	.asciz "other"
-
-LDIFF_SYM1082=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1082
-	.byte 2,141,24,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1083=Lfde73_end - Lfde73_start
-	.long LDIFF_SYM1083
+LDIFF_SYM1082=Lfde73_end - Lfde73_start
+	.long LDIFF_SYM1082
 Lfde73_start:
 
 	.long 0
 	.align 3
-	.quad System_Nullable_1_bool_Equals_object
+	.quad System_Nullable_1_bool_get_Value
 
-LDIFF_SYM1084=Lme_4a - System_Nullable_1_bool_Equals_object
-	.long LDIFF_SYM1084
+LDIFF_SYM1083=Lme_4a - System_Nullable_1_bool_get_Value
+	.long LDIFF_SYM1083
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -13651,53 +13904,58 @@ Lfde73_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Nullable`1<bool>:GetHashCode"
-	.asciz "System_Nullable_1_bool_GetHashCode"
+	.asciz "System.Nullable`1<bool>:GetValueOrDefault"
+	.asciz "System_Nullable_1_bool_GetValueOrDefault"
 
-	.byte 1,73
-	.quad System_Nullable_1_bool_GetHashCode
+	.byte 1,55
+	.quad System_Nullable_1_bool_GetValueOrDefault
 	.quad Lme_4b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1085=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1085
-	.byte 1,106,0
+LDIFF_SYM1084=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1084
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1086=Lfde74_end - Lfde74_start
-	.long LDIFF_SYM1086
+LDIFF_SYM1085=Lfde74_end - Lfde74_start
+	.long LDIFF_SYM1085
 Lfde74_start:
 
 	.long 0
 	.align 3
-	.quad System_Nullable_1_bool_GetHashCode
+	.quad System_Nullable_1_bool_GetValueOrDefault
 
-LDIFF_SYM1087=Lme_4b - System_Nullable_1_bool_GetHashCode
-	.long LDIFF_SYM1087
+LDIFF_SYM1086=Lme_4b - System_Nullable_1_bool_GetValueOrDefault
+	.long LDIFF_SYM1086
 	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
 Lfde74_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Nullable`1<bool>:ToString"
-	.asciz "System_Nullable_1_bool_ToString"
+	.asciz "System.Nullable`1<bool>:GetValueOrDefault"
+	.asciz "System_Nullable_1_bool_GetValueOrDefault_bool"
 
-	.byte 1,78
-	.quad System_Nullable_1_bool_ToString
+	.byte 1,61
+	.quad System_Nullable_1_bool_GetValueOrDefault_bool
 	.quad Lme_4c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1088=LDIE_I - Ldebug_info_start
+LDIFF_SYM1087=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1087
+	.byte 2,141,16,3
+	.asciz "defaultValue"
+
+LDIFF_SYM1088=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM1088
-	.byte 1,106,0
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -13707,70 +13965,70 @@ Lfde75_start:
 
 	.long 0
 	.align 3
-	.quad System_Nullable_1_bool_ToString
+	.quad System_Nullable_1_bool_GetValueOrDefault_bool
 
-LDIFF_SYM1090=Lme_4c - System_Nullable_1_bool_ToString
+LDIFF_SYM1090=Lme_4c - System_Nullable_1_bool_GetValueOrDefault_bool
 	.long LDIFF_SYM1090
 	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
 Lfde75_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Nullable`1<bool>:Box"
-	.asciz "System_Nullable_1_bool_Box_System_Nullable_1_bool"
+	.asciz "System.Nullable`1<bool>:Equals"
+	.asciz "System_Nullable_1_bool_Equals_object"
 
-	.byte 2,52
-	.quad System_Nullable_1_bool_Box_System_Nullable_1_bool
+	.byte 1,66
+	.quad System_Nullable_1_bool_Equals_object
 	.quad Lme_4d
 
 	.byte 2,118,16,3
-	.asciz "o"
+	.asciz "this"
 
-LDIFF_SYM1091=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1091=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM1091
-	.byte 2,141,16,0
+	.byte 2,141,16,3
+	.asciz "other"
+
+LDIFF_SYM1092=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1092
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1092=Lfde76_end - Lfde76_start
-	.long LDIFF_SYM1092
+LDIFF_SYM1093=Lfde76_end - Lfde76_start
+	.long LDIFF_SYM1093
 Lfde76_start:
 
 	.long 0
 	.align 3
-	.quad System_Nullable_1_bool_Box_System_Nullable_1_bool
+	.quad System_Nullable_1_bool_Equals_object
 
-LDIFF_SYM1093=Lme_4d - System_Nullable_1_bool_Box_System_Nullable_1_bool
-	.long LDIFF_SYM1093
+LDIFF_SYM1094=Lme_4d - System_Nullable_1_bool_Equals_object
+	.long LDIFF_SYM1094
 	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
 Lfde76_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Nullable`1<bool>:Unbox"
-	.asciz "System_Nullable_1_bool_Unbox_object"
+	.asciz "System.Nullable`1<bool>:GetHashCode"
+	.asciz "System_Nullable_1_bool_GetHashCode"
 
-	.byte 2,60
-	.quad System_Nullable_1_bool_Unbox_object
+	.byte 1,73
+	.quad System_Nullable_1_bool_GetHashCode
 	.quad Lme_4e
 
 	.byte 2,118,16,3
-	.asciz "o"
+	.asciz "this"
 
-LDIFF_SYM1094=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1094
-	.byte 2,141,32,11
-	.asciz "V_0"
-
-LDIFF_SYM1095=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1095=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM1095
-	.byte 2,141,48,0
+	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -13780,14 +14038,121 @@ Lfde77_start:
 
 	.long 0
 	.align 3
+	.quad System_Nullable_1_bool_GetHashCode
+
+LDIFF_SYM1097=Lme_4e - System_Nullable_1_bool_GetHashCode
+	.long LDIFF_SYM1097
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
+	.align 3
+Lfde77_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Nullable`1<bool>:ToString"
+	.asciz "System_Nullable_1_bool_ToString"
+
+	.byte 1,78
+	.quad System_Nullable_1_bool_ToString
+	.quad Lme_4f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1098=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1098
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1099=Lfde78_end - Lfde78_start
+	.long LDIFF_SYM1099
+Lfde78_start:
+
+	.long 0
+	.align 3
+	.quad System_Nullable_1_bool_ToString
+
+LDIFF_SYM1100=Lme_4f - System_Nullable_1_bool_ToString
+	.long LDIFF_SYM1100
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
+	.align 3
+Lfde78_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Nullable`1<bool>:Box"
+	.asciz "System_Nullable_1_bool_Box_System_Nullable_1_bool"
+
+	.byte 2,52
+	.quad System_Nullable_1_bool_Box_System_Nullable_1_bool
+	.quad Lme_50
+
+	.byte 2,118,16,3
+	.asciz "o"
+
+LDIFF_SYM1101=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1101
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1102=Lfde79_end - Lfde79_start
+	.long LDIFF_SYM1102
+Lfde79_start:
+
+	.long 0
+	.align 3
+	.quad System_Nullable_1_bool_Box_System_Nullable_1_bool
+
+LDIFF_SYM1103=Lme_50 - System_Nullable_1_bool_Box_System_Nullable_1_bool
+	.long LDIFF_SYM1103
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde79_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Nullable`1<bool>:Unbox"
+	.asciz "System_Nullable_1_bool_Unbox_object"
+
+	.byte 2,60
+	.quad System_Nullable_1_bool_Unbox_object
+	.quad Lme_51
+
+	.byte 2,118,16,3
+	.asciz "o"
+
+LDIFF_SYM1104=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1104
+	.byte 2,141,32,11
+	.asciz "V_0"
+
+LDIFF_SYM1105=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1105
+	.byte 2,141,48,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1106=Lfde80_end - Lfde80_start
+	.long LDIFF_SYM1106
+Lfde80_start:
+
+	.long 0
+	.align 3
 	.quad System_Nullable_1_bool_Unbox_object
 
-LDIFF_SYM1097=Lme_4e - System_Nullable_1_bool_Unbox_object
-	.long LDIFF_SYM1097
+LDIFF_SYM1107=Lme_51 - System_Nullable_1_bool_Unbox_object
+	.long LDIFF_SYM1107
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde77_end:
+Lfde80_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13797,36 +14162,36 @@ Lfde77_end:
 
 	.byte 2,67
 	.quad System_Nullable_1_bool_UnboxExact_object
-	.quad Lme_4f
+	.quad Lme_52
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM1098=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1098
+LDIFF_SYM1108=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1108
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1099=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1099
+LDIFF_SYM1109=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1109
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1100=Lfde78_end - Lfde78_start
-	.long LDIFF_SYM1100
-Lfde78_start:
+LDIFF_SYM1110=Lfde81_end - Lfde81_start
+	.long LDIFF_SYM1110
+Lfde81_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_UnboxExact_object
 
-LDIFF_SYM1101=Lme_4f - System_Nullable_1_bool_UnboxExact_object
-	.long LDIFF_SYM1101
+LDIFF_SYM1111=Lme_52 - System_Nullable_1_bool_UnboxExact_object
+	.long LDIFF_SYM1111
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde78_end:
+Lfde81_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_119:
@@ -13835,160 +14200,91 @@ LTDIE_119:
 	.asciz "System_EventHandler`1"
 
 	.byte 128,1,16
-LDIFF_SYM1102=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1102
+LDIFF_SYM1112=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1112
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM1103=LTDIE_119 - Ldebug_info_start
-	.long LDIFF_SYM1103
+LDIFF_SYM1113=LTDIE_119 - Ldebug_info_start
+	.long LDIFF_SYM1113
 LTDIE_119_POINTER:
 
 	.byte 13
-LDIFF_SYM1104=LTDIE_119 - Ldebug_info_start
-	.long LDIFF_SYM1104
+LDIFF_SYM1114=LTDIE_119 - Ldebug_info_start
+	.long LDIFF_SYM1114
 LTDIE_119_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1105=LTDIE_119 - Ldebug_info_start
-	.long LDIFF_SYM1105
+LDIFF_SYM1115=LTDIE_119 - Ldebug_info_start
+	.long LDIFF_SYM1115
 LTDIE_121:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Platform_iOS_ElementChangedEventArgs`1"
 
 	.byte 32,16
-LDIFF_SYM1106=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM1106
+LDIFF_SYM1116=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM1116
 	.byte 2,35,0,6
 	.asciz "<NewElement>k__BackingField"
 
-LDIFF_SYM1107=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1107
+LDIFF_SYM1117=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1117
 	.byte 2,35,16,6
 	.asciz "<OldElement>k__BackingField"
 
-LDIFF_SYM1108=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1108
+LDIFF_SYM1118=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1118
 	.byte 2,35,24,0,7
 	.asciz "Xamarin_Forms_Platform_iOS_ElementChangedEventArgs`1"
 
-LDIFF_SYM1109=LTDIE_121 - Ldebug_info_start
-	.long LDIFF_SYM1109
+LDIFF_SYM1119=LTDIE_121 - Ldebug_info_start
+	.long LDIFF_SYM1119
 LTDIE_121_POINTER:
 
 	.byte 13
-LDIFF_SYM1110=LTDIE_121 - Ldebug_info_start
-	.long LDIFF_SYM1110
+LDIFF_SYM1120=LTDIE_121 - Ldebug_info_start
+	.long LDIFF_SYM1120
 LTDIE_121_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1111=LTDIE_121 - Ldebug_info_start
-	.long LDIFF_SYM1111
+LDIFF_SYM1121=LTDIE_121 - Ldebug_info_start
+	.long LDIFF_SYM1121
 LTDIE_120:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs"
 
 	.byte 32,16
-LDIFF_SYM1112=LTDIE_121 - Ldebug_info_start
-	.long LDIFF_SYM1112
+LDIFF_SYM1122=LTDIE_121 - Ldebug_info_start
+	.long LDIFF_SYM1122
 	.byte 2,35,0,0,7
 	.asciz "Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs"
 
-LDIFF_SYM1113=LTDIE_120 - Ldebug_info_start
-	.long LDIFF_SYM1113
+LDIFF_SYM1123=LTDIE_120 - Ldebug_info_start
+	.long LDIFF_SYM1123
 LTDIE_120_POINTER:
 
 	.byte 13
-LDIFF_SYM1114=LTDIE_120 - Ldebug_info_start
-	.long LDIFF_SYM1114
+LDIFF_SYM1124=LTDIE_120 - Ldebug_info_start
+	.long LDIFF_SYM1124
 LTDIE_120_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1115=LTDIE_120 - Ldebug_info_start
-	.long LDIFF_SYM1115
+LDIFF_SYM1125=LTDIE_120 - Ldebug_info_start
+	.long LDIFF_SYM1125
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.EventHandler`1<Xamarin.Forms.Platform.iOS.VisualElementChangedEventArgs>:invoke_void_object_TEventArgs"
 	.asciz "wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
-	.quad Lme_50
+	.quad Lme_53
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1116=LTDIE_119_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1116
-	.byte 1,104,3
-	.asciz "param0"
-
-LDIFF_SYM1117=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1117
-	.byte 1,105,3
-	.asciz "param1"
-
-LDIFF_SYM1118=LTDIE_120_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1118
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1119=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1119
-	.byte 1,102,11
-	.asciz "V_1"
-
-LDIFF_SYM1120=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1120
-	.byte 1,104,11
-	.asciz "V_2"
-
-LDIFF_SYM1121=LTDIE_117_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1121
-	.byte 1,103,11
-	.asciz "V_3"
-
-LDIFF_SYM1122=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1122
-	.byte 1,101,11
-	.asciz "V_4"
-
-LDIFF_SYM1123=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1123
-	.byte 1,103,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1124=Lfde79_end - Lfde79_start
-	.long LDIFF_SYM1124
-Lfde79_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
-
-LDIFF_SYM1125=Lme_50 - wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
-	.long LDIFF_SYM1125
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
-	.align 3
-Lfde79_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.EventHandler`1<Xamarin.Forms.Platform.iOS.ElementChangedEventArgs`1<Lottie.Forms.AnimationView>>:invoke_void_object_TEventArgs"
-	.asciz "wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Lottie_Forms_AnimationView_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Lottie_Forms_AnimationView"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Lottie_Forms_AnimationView_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Lottie_Forms_AnimationView
-	.quad Lme_51
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1126=LTDIE_103_REFERENCE - Ldebug_info_start
+LDIFF_SYM1126=LTDIE_119_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1126
 	.byte 1,104,3
 	.asciz "param0"
@@ -13998,7 +14294,7 @@ LDIFF_SYM1127=LDIE_OBJECT - Ldebug_info_start
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1128=LTDIE_112_REFERENCE - Ldebug_info_start
+LDIFF_SYM1128=LTDIE_120_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1128
 	.byte 1,106,11
 	.asciz "V_0"
@@ -14029,20 +14325,89 @@ LDIFF_SYM1133=LDIE_OBJECT - Ldebug_info_start
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1134=Lfde80_end - Lfde80_start
+LDIFF_SYM1134=Lfde82_end - Lfde82_start
 	.long LDIFF_SYM1134
-Lfde80_start:
+Lfde82_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
+
+LDIFF_SYM1135=Lme_53 - wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
+	.long LDIFF_SYM1135
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
+	.align 3
+Lfde82_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.EventHandler`1<Xamarin.Forms.Platform.iOS.ElementChangedEventArgs`1<Lottie.Forms.AnimationView>>:invoke_void_object_TEventArgs"
+	.asciz "wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Lottie_Forms_AnimationView_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Lottie_Forms_AnimationView"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Lottie_Forms_AnimationView_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Lottie_Forms_AnimationView
+	.quad Lme_54
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1136=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1136
+	.byte 1,104,3
+	.asciz "param0"
+
+LDIFF_SYM1137=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1137
+	.byte 1,105,3
+	.asciz "param1"
+
+LDIFF_SYM1138=LTDIE_112_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1138
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1139=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1139
+	.byte 1,102,11
+	.asciz "V_1"
+
+LDIFF_SYM1140=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1140
+	.byte 1,104,11
+	.asciz "V_2"
+
+LDIFF_SYM1141=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1141
+	.byte 1,103,11
+	.asciz "V_3"
+
+LDIFF_SYM1142=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1142
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM1143=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1143
+	.byte 1,103,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1144=Lfde83_end - Lfde83_start
+	.long LDIFF_SYM1144
+Lfde83_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Lottie_Forms_AnimationView_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Lottie_Forms_AnimationView
 
-LDIFF_SYM1135=Lme_51 - wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Lottie_Forms_AnimationView_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Lottie_Forms_AnimationView
-	.long LDIFF_SYM1135
+LDIFF_SYM1145=Lme_54 - wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Lottie_Forms_AnimationView_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Lottie_Forms_AnimationView
+	.long LDIFF_SYM1145
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
 	.align 3
-Lfde80_end:
+Lfde83_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14052,31 +14417,31 @@ Lfde80_end:
 
 	.byte 3,85
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
-	.quad Lme_5a
+	.quad Lme_5d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1136=LTDIE_117_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1136
+LDIFF_SYM1146=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1146
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1137=Lfde81_end - Lfde81_start
-	.long LDIFF_SYM1137
-Lfde81_start:
+LDIFF_SYM1147=Lfde84_end - Lfde84_start
+	.long LDIFF_SYM1147
+Lfde84_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 
-LDIFF_SYM1138=Lme_5a - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
-	.long LDIFF_SYM1138
+LDIFF_SYM1148=Lme_5d - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
+	.long LDIFF_SYM1148
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde81_end:
+Lfde84_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14086,121 +14451,14 @@ Lfde81_end:
 
 	.byte 3,60
 	.quad System_Array_InternalArray__ICollection_get_Count
-	.quad Lme_5b
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1139=LTDIE_117_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1139
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1140=Lfde82_end - Lfde82_start
-	.long LDIFF_SYM1140
-Lfde82_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalArray__ICollection_get_Count
-
-LDIFF_SYM1141=Lme_5b - System_Array_InternalArray__ICollection_get_Count
-	.long LDIFF_SYM1141
-	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
-	.align 3
-Lfde82_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array:InternalArray__ICollection_get_IsReadOnly"
-	.asciz "System_Array_InternalArray__ICollection_get_IsReadOnly"
-
-	.byte 3,65
-	.quad System_Array_InternalArray__ICollection_get_IsReadOnly
-	.quad Lme_5c
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1142=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1142
-	.byte 0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1143=Lfde83_end - Lfde83_start
-	.long LDIFF_SYM1143
-Lfde83_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalArray__ICollection_get_IsReadOnly
-
-LDIFF_SYM1144=Lme_5c - System_Array_InternalArray__ICollection_get_IsReadOnly
-	.long LDIFF_SYM1144
-	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
-	.align 3
-Lfde83_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array:InternalArray__ICollection_Clear"
-	.asciz "System_Array_InternalArray__ICollection_Clear"
-
-	.byte 3,93
-	.quad System_Array_InternalArray__ICollection_Clear
-	.quad Lme_5d
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1145=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1145
-	.byte 0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1146=Lfde84_end - Lfde84_start
-	.long LDIFF_SYM1146
-Lfde84_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalArray__ICollection_Clear
-
-LDIFF_SYM1147=Lme_5d - System_Array_InternalArray__ICollection_Clear
-	.long LDIFF_SYM1147
-	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
-	.align 3
-Lfde84_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array:InternalArray__ICollection_Add<T_REF>"
-	.asciz "System_Array_InternalArray__ICollection_Add_T_REF_T_REF"
-
-	.byte 3,98
-	.quad System_Array_InternalArray__ICollection_Add_T_REF_T_REF
 	.quad Lme_5e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1148=LTDIE_117_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1148
-	.byte 2,141,16,3
-	.asciz "item"
-
-LDIFF_SYM1149=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1149=LTDIE_117_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1149
-	.byte 0,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -14210,14 +14468,121 @@ Lfde85_start:
 
 	.long 0
 	.align 3
+	.quad System_Array_InternalArray__ICollection_get_Count
+
+LDIFF_SYM1151=Lme_5e - System_Array_InternalArray__ICollection_get_Count
+	.long LDIFF_SYM1151
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde85_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array:InternalArray__ICollection_get_IsReadOnly"
+	.asciz "System_Array_InternalArray__ICollection_get_IsReadOnly"
+
+	.byte 3,65
+	.quad System_Array_InternalArray__ICollection_get_IsReadOnly
+	.quad Lme_5f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1152=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1152
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1153=Lfde86_end - Lfde86_start
+	.long LDIFF_SYM1153
+Lfde86_start:
+
+	.long 0
+	.align 3
+	.quad System_Array_InternalArray__ICollection_get_IsReadOnly
+
+LDIFF_SYM1154=Lme_5f - System_Array_InternalArray__ICollection_get_IsReadOnly
+	.long LDIFF_SYM1154
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde86_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array:InternalArray__ICollection_Clear"
+	.asciz "System_Array_InternalArray__ICollection_Clear"
+
+	.byte 3,93
+	.quad System_Array_InternalArray__ICollection_Clear
+	.quad Lme_60
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1155=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1155
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1156=Lfde87_end - Lfde87_start
+	.long LDIFF_SYM1156
+Lfde87_start:
+
+	.long 0
+	.align 3
+	.quad System_Array_InternalArray__ICollection_Clear
+
+LDIFF_SYM1157=Lme_60 - System_Array_InternalArray__ICollection_Clear
+	.long LDIFF_SYM1157
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde87_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array:InternalArray__ICollection_Add<T_REF>"
+	.asciz "System_Array_InternalArray__ICollection_Add_T_REF_T_REF"
+
+	.byte 3,98
+	.quad System_Array_InternalArray__ICollection_Add_T_REF_T_REF
+	.quad Lme_61
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1158=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1158
+	.byte 2,141,16,3
+	.asciz "item"
+
+LDIFF_SYM1159=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1159
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1160=Lfde88_end - Lfde88_start
+	.long LDIFF_SYM1160
+Lfde88_start:
+
+	.long 0
+	.align 3
 	.quad System_Array_InternalArray__ICollection_Add_T_REF_T_REF
 
-LDIFF_SYM1151=Lme_5e - System_Array_InternalArray__ICollection_Add_T_REF_T_REF
-	.long LDIFF_SYM1151
+LDIFF_SYM1161=Lme_61 - System_Array_InternalArray__ICollection_Add_T_REF_T_REF
+	.long LDIFF_SYM1161
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde85_end:
+Lfde88_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14227,36 +14592,36 @@ Lfde85_end:
 
 	.byte 3,103
 	.quad System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
-	.quad Lme_5f
+	.quad Lme_62
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1152=LTDIE_117_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1152
+LDIFF_SYM1162=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1162
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM1153=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1153
+LDIFF_SYM1163=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1163
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1154=Lfde86_end - Lfde86_start
-	.long LDIFF_SYM1154
-Lfde86_start:
+LDIFF_SYM1164=Lfde89_end - Lfde89_start
+	.long LDIFF_SYM1164
+Lfde89_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
 
-LDIFF_SYM1155=Lme_5f - System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
-	.long LDIFF_SYM1155
+LDIFF_SYM1165=Lme_62 - System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
+	.long LDIFF_SYM1165
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde86_end:
+Lfde89_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14266,51 +14631,51 @@ Lfde86_end:
 
 	.byte 3,108
 	.quad System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
-	.quad Lme_60
+	.quad Lme_63
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1156=LTDIE_117_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1156
+LDIFF_SYM1166=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1166
 	.byte 1,105,3
 	.asciz "item"
 
-LDIFF_SYM1157=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1157
+LDIFF_SYM1167=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1167
 	.byte 1,106,11
 	.asciz "length"
 
-LDIFF_SYM1158=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1158
+LDIFF_SYM1168=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1168
 	.byte 1,104,11
 	.asciz "i"
 
-LDIFF_SYM1159=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1159
+LDIFF_SYM1169=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1169
 	.byte 1,103,11
 	.asciz "value"
 
-LDIFF_SYM1160=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1160
+LDIFF_SYM1170=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1170
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1161=Lfde87_end - Lfde87_start
-	.long LDIFF_SYM1161
-Lfde87_start:
+LDIFF_SYM1171=Lfde90_end - Lfde90_start
+	.long LDIFF_SYM1171
+Lfde90_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
 
-LDIFF_SYM1162=Lme_60 - System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
-	.long LDIFF_SYM1162
+LDIFF_SYM1172=Lme_63 - System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
+	.long LDIFF_SYM1172
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,150,6,151,5,68,152,4,153,3,68,154,2
 	.align 3
-Lfde87_end:
+Lfde90_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14320,41 +14685,41 @@ Lfde87_end:
 
 	.byte 3,133,1
 	.quad System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
-	.quad Lme_61
+	.quad Lme_64
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1163=LTDIE_117_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1163
+LDIFF_SYM1173=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1173
 	.byte 2,141,24,3
 	.asciz "array"
 
-LDIFF_SYM1164=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1164
+LDIFF_SYM1174=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1174
 	.byte 2,141,32,3
 	.asciz "arrayIndex"
 
-LDIFF_SYM1165=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1165
+LDIFF_SYM1175=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1175
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1166=Lfde88_end - Lfde88_start
-	.long LDIFF_SYM1166
-Lfde88_start:
+LDIFF_SYM1176=Lfde91_end - Lfde91_start
+	.long LDIFF_SYM1176
+Lfde91_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
 
-LDIFF_SYM1167=Lme_61 - System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
-	.long LDIFF_SYM1167
+LDIFF_SYM1177=Lme_64 - System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
+	.long LDIFF_SYM1177
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,150,6
 	.align 3
-Lfde88_end:
+Lfde91_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_122:
@@ -14363,89 +14728,89 @@ LTDIE_122:
 	.asciz "System_Predicate`1"
 
 	.byte 128,1,16
-LDIFF_SYM1168=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1168
+LDIFF_SYM1178=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1178
 	.byte 2,35,0,0,7
 	.asciz "System_Predicate`1"
 
-LDIFF_SYM1169=LTDIE_122 - Ldebug_info_start
-	.long LDIFF_SYM1169
+LDIFF_SYM1179=LTDIE_122 - Ldebug_info_start
+	.long LDIFF_SYM1179
 LTDIE_122_POINTER:
 
 	.byte 13
-LDIFF_SYM1170=LTDIE_122 - Ldebug_info_start
-	.long LDIFF_SYM1170
+LDIFF_SYM1180=LTDIE_122 - Ldebug_info_start
+	.long LDIFF_SYM1180
 LTDIE_122_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1171=LTDIE_122 - Ldebug_info_start
-	.long LDIFF_SYM1171
+LDIFF_SYM1181=LTDIE_122 - Ldebug_info_start
+	.long LDIFF_SYM1181
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Predicate`1<System.EventHandler`1<Xamarin.Forms.Platform.iOS.VisualElementChangedEventArgs>>:invoke_bool_T"
 	.asciz "wrapper_delegate_invoke_System_Predicate_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_bool_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Predicate_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_bool_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
-	.quad Lme_62
+	.quad Lme_65
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1172=LTDIE_122_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1172
+LDIFF_SYM1182=LTDIE_122_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1182
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1173=LTDIE_119_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1173
+LDIFF_SYM1183=LTDIE_119_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1183
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1174=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1174
+LDIFF_SYM1184=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1184
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1175=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1175
+LDIFF_SYM1185=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1185
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM1176=LTDIE_117_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1176
+LDIFF_SYM1186=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1186
 	.byte 1,104,11
 	.asciz "V_3"
 
-LDIFF_SYM1177=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1177
+LDIFF_SYM1187=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1187
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM1178=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1178
+LDIFF_SYM1188=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1188
 	.byte 1,104,11
 	.asciz "V_5"
 
-LDIFF_SYM1179=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1179
+LDIFF_SYM1189=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1189
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1180=Lfde89_end - Lfde89_start
-	.long LDIFF_SYM1180
-Lfde89_start:
+LDIFF_SYM1190=Lfde92_end - Lfde92_start
+	.long LDIFF_SYM1190
+Lfde92_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Predicate_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_bool_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
 
-LDIFF_SYM1181=Lme_62 - wrapper_delegate_invoke_System_Predicate_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_bool_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
-	.long LDIFF_SYM1181
+LDIFF_SYM1191=Lme_65 - wrapper_delegate_invoke_System_Predicate_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_bool_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
+	.long LDIFF_SYM1191
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
 	.align 3
-Lfde89_end:
+Lfde92_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_123:
@@ -14454,84 +14819,84 @@ LTDIE_123:
 	.asciz "System_Action`1"
 
 	.byte 128,1,16
-LDIFF_SYM1182=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1182
+LDIFF_SYM1192=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1192
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM1183=LTDIE_123 - Ldebug_info_start
-	.long LDIFF_SYM1183
+LDIFF_SYM1193=LTDIE_123 - Ldebug_info_start
+	.long LDIFF_SYM1193
 LTDIE_123_POINTER:
 
 	.byte 13
-LDIFF_SYM1184=LTDIE_123 - Ldebug_info_start
-	.long LDIFF_SYM1184
+LDIFF_SYM1194=LTDIE_123 - Ldebug_info_start
+	.long LDIFF_SYM1194
 LTDIE_123_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1185=LTDIE_123 - Ldebug_info_start
-	.long LDIFF_SYM1185
+LDIFF_SYM1195=LTDIE_123 - Ldebug_info_start
+	.long LDIFF_SYM1195
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.EventHandler`1<Xamarin.Forms.Platform.iOS.VisualElementChangedEventArgs>>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
-	.quad Lme_63
+	.quad Lme_66
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1186=LTDIE_123_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1186
+LDIFF_SYM1196=LTDIE_123_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1196
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1187=LTDIE_119_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1187
+LDIFF_SYM1197=LTDIE_119_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1197
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1188=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1188
+LDIFF_SYM1198=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1198
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1189=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1189
+LDIFF_SYM1199=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1199
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM1190=LTDIE_117_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1190
+LDIFF_SYM1200=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1200
 	.byte 1,104,11
 	.asciz "V_3"
 
-LDIFF_SYM1191=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1191
+LDIFF_SYM1201=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1201
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM1192=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1192
+LDIFF_SYM1202=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1202
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1193=Lfde90_end - Lfde90_start
-	.long LDIFF_SYM1193
-Lfde90_start:
+LDIFF_SYM1203=Lfde93_end - Lfde93_start
+	.long LDIFF_SYM1203
+Lfde93_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
 
-LDIFF_SYM1194=Lme_63 - wrapper_delegate_invoke_System_Action_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
-	.long LDIFF_SYM1194
+LDIFF_SYM1204=Lme_66 - wrapper_delegate_invoke_System_Action_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
+	.long LDIFF_SYM1204
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
 	.align 3
-Lfde90_end:
+Lfde93_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_124:
@@ -14540,94 +14905,94 @@ LTDIE_124:
 	.asciz "System_Comparison`1"
 
 	.byte 128,1,16
-LDIFF_SYM1195=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1195
+LDIFF_SYM1205=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1205
 	.byte 2,35,0,0,7
 	.asciz "System_Comparison`1"
 
-LDIFF_SYM1196=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM1196
+LDIFF_SYM1206=LTDIE_124 - Ldebug_info_start
+	.long LDIFF_SYM1206
 LTDIE_124_POINTER:
 
 	.byte 13
-LDIFF_SYM1197=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM1197
+LDIFF_SYM1207=LTDIE_124 - Ldebug_info_start
+	.long LDIFF_SYM1207
 LTDIE_124_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1198=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM1198
+LDIFF_SYM1208=LTDIE_124 - Ldebug_info_start
+	.long LDIFF_SYM1208
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Comparison`1<System.EventHandler`1<Xamarin.Forms.Platform.iOS.VisualElementChangedEventArgs>>:invoke_int_T_T"
 	.asciz "wrapper_delegate_invoke_System_Comparison_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_int_T_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Comparison_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_int_T_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
-	.quad Lme_64
+	.quad Lme_67
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1199=LTDIE_124_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1199
+LDIFF_SYM1209=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1209
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1200=LTDIE_119_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1200
+LDIFF_SYM1210=LTDIE_119_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1210
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1201=LTDIE_119_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1201
+LDIFF_SYM1211=LTDIE_119_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1211
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1202=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1202
+LDIFF_SYM1212=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1212
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM1203=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1203
+LDIFF_SYM1213=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1213
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1204=LTDIE_117_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1204
+LDIFF_SYM1214=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1214
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM1205=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1205
+LDIFF_SYM1215=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1215
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1206=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1206
+LDIFF_SYM1216=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1216
 	.byte 1,103,11
 	.asciz "V_5"
 
-LDIFF_SYM1207=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1207
+LDIFF_SYM1217=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1217
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1208=Lfde91_end - Lfde91_start
-	.long LDIFF_SYM1208
-Lfde91_start:
+LDIFF_SYM1218=Lfde94_end - Lfde94_start
+	.long LDIFF_SYM1218
+Lfde94_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Comparison_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_int_T_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
 
-LDIFF_SYM1209=Lme_64 - wrapper_delegate_invoke_System_Comparison_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_int_T_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
-	.long LDIFF_SYM1209
+LDIFF_SYM1219=Lme_67 - wrapper_delegate_invoke_System_Comparison_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_int_T_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
+	.long LDIFF_SYM1219
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
 	.align 3
-Lfde91_end:
+Lfde94_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_125:
@@ -14636,69 +15001,69 @@ LTDIE_125:
 	.asciz "_InternalEnumerator`1"
 
 	.byte 32,16
-LDIFF_SYM1210=LTDIE_9 - Ldebug_info_start
-	.long LDIFF_SYM1210
+LDIFF_SYM1220=LTDIE_9 - Ldebug_info_start
+	.long LDIFF_SYM1220
 	.byte 2,35,0,6
 	.asciz "array"
 
-LDIFF_SYM1211=LTDIE_117_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1211
+LDIFF_SYM1221=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1221
 	.byte 2,35,16,6
 	.asciz "idx"
 
-LDIFF_SYM1212=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1212
+LDIFF_SYM1222=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1222
 	.byte 2,35,24,0,7
 	.asciz "_InternalEnumerator`1"
 
-LDIFF_SYM1213=LTDIE_125 - Ldebug_info_start
-	.long LDIFF_SYM1213
+LDIFF_SYM1223=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM1223
 LTDIE_125_POINTER:
 
 	.byte 13
-LDIFF_SYM1214=LTDIE_125 - Ldebug_info_start
-	.long LDIFF_SYM1214
+LDIFF_SYM1224=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM1224
 LTDIE_125_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1215=LTDIE_125 - Ldebug_info_start
-	.long LDIFF_SYM1215
+LDIFF_SYM1225=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM1225
 	.byte 2
 	.asciz "System.Array/InternalEnumerator`1<T_REF>:.ctor"
 	.asciz "System_Array_InternalEnumerator_1_T_REF__ctor_System_Array"
 
 	.byte 3,232,1
 	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.quad Lme_65
+	.quad Lme_68
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1216=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1216
+LDIFF_SYM1226=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1226
 	.byte 2,141,16,3
 	.asciz "array"
 
-LDIFF_SYM1217=LTDIE_117_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1217
+LDIFF_SYM1227=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1227
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1218=Lfde92_end - Lfde92_start
-	.long LDIFF_SYM1218
-Lfde92_start:
+LDIFF_SYM1228=Lfde95_end - Lfde95_start
+	.long LDIFF_SYM1228
+Lfde95_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 
-LDIFF_SYM1219=Lme_65 - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.long LDIFF_SYM1219
+LDIFF_SYM1229=Lme_68 - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+	.long LDIFF_SYM1229
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde92_end:
+Lfde95_end:
 
 .section __DWARF, __debug_info,regular,debug
 

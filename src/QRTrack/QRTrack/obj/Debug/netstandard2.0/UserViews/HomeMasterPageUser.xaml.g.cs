@@ -16,10 +16,10 @@ namespace QRTrack.UserViews {
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("UserViews/HomeMasterPageUser.xaml")]
     public partial class HomeMasterPageUser : global::Xamarin.Forms.MasterDetailPage {
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::QRTrack.UserViews.MasterDetailMenuUser MasterDetailMenuUser;
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(HomeMasterPageUser));
             MasterDetailMenuUser = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::QRTrack.UserViews.MasterDetailMenuUser>(this, "MasterDetailMenuUser");

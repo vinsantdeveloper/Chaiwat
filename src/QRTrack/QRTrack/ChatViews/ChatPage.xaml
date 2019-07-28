@@ -5,7 +5,7 @@
              xmlns:partials="clr-namespace:QRTrack.Partials"
              xmlns:controls="clr-namespace:QRTrack.Controls">
     <ContentPage.Content>
-        <Grid RowSpacing="0"
+        <Grid RowSpacing="0" 
               ColumnSpacing="0">
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
@@ -44,7 +44,7 @@
                               IsVisible="{Binding PendingMessageCountVisible}"
                               VerticalTextAlignment="Center"
                               TextColor="{DynamicResource primary}"/>
-                        <Image Source="ic_scrolldown@3x"
+                        <Image Source="ic_scrolldown.png"
                                WidthRequest="30"
                                HeightRequest="30"
                                VerticalOptions="CenterAndExpand"/>
@@ -60,9 +60,18 @@
                  BackgroundColor="LightGray"
                  Grid.Row="1"/>
             
-         <partials:ChatInputBarView Grid.Row="2"
-                                   Margin="0,0,10,0"
-                                   x:Name="chatInput"/>
+         <partials:ChatInputBarView Grid.Row="2" Margin="0,0,10,0" x:Name="chatInput"/>
+
+
+            <StackLayout Grid.Row="0" Grid.RowSpan="2" VerticalOptions="CenterAndExpand"
+                             HorizontalOptions="CenterAndExpand"
+                             Orientation="Horizontal">
+                <ActivityIndicator x:Name="activityIndicator"
+                                       IsRunning="true"
+                                       IsVisible="True"
+                                       Color="{StaticResource redColor}"/>
+            </StackLayout>
+
         </Grid>
     </ContentPage.Content>
 </ContentPage>

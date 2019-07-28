@@ -12563,7 +12563,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 91,83,216,205,40,250,37,83,224,85,113,175,207,140,202,150
+	.byte 27,204,55,196,144,225,233,147,219,189,82,36,213,177,167,54
 	.globl _mono_aot_module_Microsoft_Extensions_Primitives_info
 	.align 3
 _mono_aot_module_Microsoft_Extensions_Primitives_info:

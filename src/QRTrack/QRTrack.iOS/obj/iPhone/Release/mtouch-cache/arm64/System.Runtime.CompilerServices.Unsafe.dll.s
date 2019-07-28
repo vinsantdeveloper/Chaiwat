@@ -1943,7 +1943,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 215,183,112,88,17,245,25,81,66,182,165,194,69,194,220,97
+	.byte 9,204,179,52,124,222,126,223,134,17,56,166,234,150,54,16
 	.globl _mono_aot_module_System_Runtime_CompilerServices_Unsafe_info
 	.align 3
 _mono_aot_module_System_Runtime_CompilerServices_Unsafe_info:

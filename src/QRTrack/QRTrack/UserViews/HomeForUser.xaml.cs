@@ -10,6 +10,8 @@ using QRTrack.ChatViews;
 using QRTrack.Models;
 using QRTrack.Services;
 using Xamarin.Forms;
+using QRTrack.Helper;
+using System.Linq;
 
 namespace QRTrack.UserViews
 {
@@ -22,61 +24,96 @@ namespace QRTrack.UserViews
 
         public HomeForUser()
         {
-            InitializeComponent();
-            sqLiteService = new SQLiteService();
-
-            _client.BaseAddress = new Uri(App.MobileServiceUrl);
-            _client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-            _client.Timeout = TimeSpan.FromSeconds(120);
-
-            MessagingCenter.Subscribe<HomeMasterPageUser, string>(this, "UserLogin", (sender, args) =>
+            try
             {
-                userId = args as string;
-                if (userId != null)
-                {
-                    userInfo = sqLiteService.GetItems(userId).Find(uId => uId.Id == userId);
-                    home_username.Text = userInfo.Firstname + "  " + userInfo.Lastname;
-                }
-                else
-                {
+                InitializeComponent();
 
-                }
-            });
+                Settings.callingStatus = false;
+                sqLiteService = new SQLiteService();
+
+                _client.BaseAddress = new Uri(App.MobileServiceUrl);
+                _client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                _client.Timeout = TimeSpan.FromSeconds(120);
+
+                MessagingCenter.Subscribe<HomeMasterPageUser, string>(this, "UserLogin", (sender, args) =>
+                {
+                    userId = args as string;
+                    if (userId != null)
+                    {
+                        userInfo = sqLiteService.GetItems(userId).Find(uId => uId.Id == userId);
+                        home_username.Text = userInfo.Firstname + "  " + userInfo.Lastname;
+                    }
+                    else
+                    {
+
+                    }
+                });
+            }
+            catch(Exception ex)
+            {
+
+            }
         }
 
         protected override void OnAppearing()
         {
             base.OnAppearing();
-
-            MessagingCenter.Subscribe<object, string>(this, App.NotificationReceivedKey, OnMessageReceived);
+            MessagingCenter.Subscribe<object, string>(this, Settings.userWhoSentNotiId, OnMessageReceived);
         }
 
         void OnMessageReceived(object sender, string msg)
         {
-            Device.BeginInvokeOnMainThread(async () => {
-                await DisplayAlert("notification", msg, "OK");
+            Device.BeginInvokeOnMainThread(() => {
+                if (Settings.callingStatus)
+                {
+                    bt_lottie_Calling.Animation = "calling_button.json";
+                    tb_calling_status.Text = "press to accept calling";
+                }
+                else
+                {
+                    bt_lottie_Calling.Animation = "no_calling_button.json";
+                    tb_calling_status.Text = "no calling";
+                }
             });
         }
 
         protected override void OnDisappearing()
         {
             base.OnDisappearing();
-            MessagingCenter.Unsubscribe<object>(this, App.NotificationReceivedKey);
+            //MessagingCenter.Unsubscribe<object>(this, Settings.userWhoSentNotiId);
         }
 
         async void bt_calling_bt_OnClickAsync(object sender, System.EventArgs e)
         {
-            await PostAsync();
+            //await PostAsync();
+            if (Settings.callingStatus)
+            {
+                bt_lottie_Calling.Animation = "no_calling_button.json";
+                tb_calling_status.Text = "no calling";
+                Settings.callingStatus = false;
+                await SendPush();
+            }
         }
 
-        private async Task PostAsync()
+        private async Task SendPush()
         {
-            Debug.WriteLine($"Sending message: " + userInfo.Id);
+            var userDeviceTokenList = await App.TaskForAzureAsync.GetAllUserDeviceTokenDb();
+            var tokenList = userDeviceTokenList.Where(s => s.UserId == Settings.userWhoSentNotiId).ToList().OrderByDescending(s => s.DateTime);
 
-            var content = new StringContent("\"" + userInfo.Id + "\"", Encoding.UTF8, "application/json");
-            //var content = new StringContent(@"/api/QRPickNotifi/" + userInfo.Id, Encoding.UTF8, "application/json");
-            var result = await _client.PostAsync(App.MobileServiceUrl + @"/api/QRPickNotifi", content);
-            Debug.WriteLine("Send result: " + result.IsSuccessStatusCode);
+            if (tokenList.Any())
+            {
+                var token = tokenList.FirstOrDefault();
+                var message = $"{userInfo.Firstname} {userInfo.Lastname} recieved your calling!";
+
+                if (token.IsAndroid)
+                {
+                    PushNotiificationSenderService.SendAndroidPushNotification(token.Token, message);
+                }
+                else
+                {
+                    PushNotiificationSenderService.SendIOSNotification(token.Token, message, userId);
+                }
+            }
         }
 
         async void bt_qrGen_pageCall_ClickedAsync(object sender, System.EventArgs e)

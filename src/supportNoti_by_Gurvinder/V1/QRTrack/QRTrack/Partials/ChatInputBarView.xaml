@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="QRTrack.Partials.ChatInputBarView"
+             xmlns:controls="clr-namespace:QRTrack.Controls">
+    <Grid RowSpacing="0" 
+           ColumnSpacing="0">
+               <Grid.RowDefinitions>
+                     <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+        <controls:ExtendedEditorControl x:Name="chatTextInput" 
+                 Text="{Binding TextToSend}" 
+                 FontFamily="{StaticResource Avenir_NormalFont}"
+                 FontSize="{StaticResource Avenir_FontMediumSize}"
+                 Margin="1"  
+                 TextColor="Black" 
+                 Keyboard="Chat"  
+                 IsExpandable="true"
+                 HorizontalOptions="FillAndExpand" 
+                 PlaceholderColor="LightGray"
+                 Placeholder="Type your message here"
+                 Grid.Row="0" 
+                 Grid.Column="0" />
+        <Label Text="Send"
+               Grid.Row="0"
+               Grid.Column="1"
+               FontFamily="{StaticResource Avenir_NormalFont}"
+               FontSize="{StaticResource Avenir_FontMediumSize}"
+               VerticalTextAlignment="Center"
+               Margin="0,0,20,0"
+               >
+            <Label.GestureRecognizers> 
+                <TapGestureRecognizer
+                      Command="{Binding OnSendCommand}"
+                      Tapped="Handle_Completed"/>
+           </Label.GestureRecognizers>
+       </Label>
+    </Grid>
+</ContentView>

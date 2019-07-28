@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:QRTrack.UserViews;assembly=QRTrack"
+             x:Class="QRTrack.UserViews.HomeMasterPageUser"
+             NavigationPage.HasBackButton="false">
+    <MasterDetailPage.Master>
+        <local:MasterDetailMenuUser x:Name="MasterDetailMenuUser" />
+    </MasterDetailPage.Master>
+    
+    <MasterDetailPage.Detail>
+        <NavigationPage BarBackgroundColor="{StaticResource greenColor}"
+                        BarTextColor="White"
+                        >
+            <x:Arguments>
+                <local:HomeForUser/>
+            </x:Arguments>
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

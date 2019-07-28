@@ -2771,7 +2771,7 @@ bl _p_64
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 .loc 5 72 0
-.word 0xd291f380
+.word 0xd2920080
 .word 0xf2a00020
 bl _p_51
 .word 0xaa0003e1
@@ -3567,13 +3567,13 @@ _mono_aot_file_info:
 	.quad unbox_trampoline_addresses
 
 	.long 63,1024,65,59,7,66,387000831,0
-	.long 2927,128,8,8,8,9,8388607,0
-	.long 24,5200,2264,1640,1344,0,1496,1608
+	.long 2951,128,8,8,8,9,8388607,0
+	.long 24,5224,2264,1640,1344,0,1496,1608
 	.long 1392,0,1016,104,2256,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 109,54,152,254,158,156,41,188,23,41,193,140,39,92,130,118
+	.byte 120,212,78,28,109,48,181,58,239,237,31,110,190,64,15,24
 	.globl _mono_aot_module_ImageCircle_Forms_Plugin_info
 	.align 3
 _mono_aot_module_ImageCircle_Forms_Plugin_info:
@@ -4676,13 +4676,13 @@ LDIFF_SYM191=LTDIE_37 - Ldebug_info_start
 LTDIE_41:
 
 	.byte 5
-	.asciz "System_EventHandler"
+	.asciz "Xamarin_Forms_PropertyChangingEventHandler"
 
 	.byte 128,1,16
 LDIFF_SYM192=LTDIE_14 - Ldebug_info_start
 	.long LDIFF_SYM192
 	.byte 2,35,0,0,7
-	.asciz "System_EventHandler"
+	.asciz "Xamarin_Forms_PropertyChangingEventHandler"
 
 LDIFF_SYM193=LTDIE_41 - Ldebug_info_start
 	.long LDIFF_SYM193
@@ -4699,13 +4699,13 @@ LDIFF_SYM195=LTDIE_41 - Ldebug_info_start
 LTDIE_42:
 
 	.byte 5
-	.asciz "Xamarin_Forms_PropertyChangingEventHandler"
+	.asciz "System_EventHandler"
 
 	.byte 128,1,16
 LDIFF_SYM196=LTDIE_14 - Ldebug_info_start
 	.long LDIFF_SYM196
 	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_PropertyChangingEventHandler"
+	.asciz "System_EventHandler"
 
 LDIFF_SYM197=LTDIE_42 - Ldebug_info_start
 	.long LDIFF_SYM197
@@ -4748,12 +4748,12 @@ LDIFF_SYM203=LDIE_OBJECT - Ldebug_info_start
 LDIFF_SYM204=LTDIE_13_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM204
 	.byte 2,35,32,6
-	.asciz "BindingContextChanged"
+	.asciz "PropertyChanging"
 
 LDIFF_SYM205=LTDIE_41_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM205
 	.byte 2,35,40,6
-	.asciz "PropertyChanging"
+	.asciz "BindingContextChanged"
 
 LDIFF_SYM206=LTDIE_42_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM206
@@ -5124,7 +5124,7 @@ LDIFF_SYM271=LTDIE_50 - Ldebug_info_start
 	.byte 2,35,0,6
 	.asciz "Clearing"
 
-LDIFF_SYM272=LTDIE_41_REFERENCE - Ldebug_info_start
+LDIFF_SYM272=LTDIE_42_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM272
 	.byte 2,35,64,0,7
 	.asciz "Xamarin_Forms_TrackableCollection`1"
@@ -5265,7 +5265,7 @@ LDIFF_SYM297=LTDIE_54_REFERENCE - Ldebug_info_start
 	.byte 3,35,152,1,6
 	.asciz "ParentSet"
 
-LDIFF_SYM298=LTDIE_41_REFERENCE - Ldebug_info_start
+LDIFF_SYM298=LTDIE_42_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM298
 	.byte 3,35,160,1,6
 	.asciz "_platform"
@@ -5275,7 +5275,7 @@ LDIFF_SYM299=LTDIE_55_REFERENCE - Ldebug_info_start
 	.byte 3,35,168,1,6
 	.asciz "PlatformSet"
 
-LDIFF_SYM300=LTDIE_41_REFERENCE - Ldebug_info_start
+LDIFF_SYM300=LTDIE_42_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM300
 	.byte 3,35,176,1,6
 	.asciz "_cssFallbackTypeName"
@@ -6798,7 +6798,7 @@ LDIFF_SYM525=LTDIE_69_REFERENCE - Ldebug_info_start
 	.byte 3,35,248,1,6
 	.asciz "ChildrenReordered"
 
-LDIFF_SYM526=LTDIE_41_REFERENCE - Ldebug_info_start
+LDIFF_SYM526=LTDIE_42_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM526
 	.byte 3,35,128,2,6
 	.asciz "Focused"
@@ -6808,12 +6808,12 @@ LDIFF_SYM527=LTDIE_86_REFERENCE - Ldebug_info_start
 	.byte 3,35,136,2,6
 	.asciz "MeasureInvalidated"
 
-LDIFF_SYM528=LTDIE_41_REFERENCE - Ldebug_info_start
+LDIFF_SYM528=LTDIE_42_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM528
 	.byte 3,35,144,2,6
 	.asciz "SizeChanged"
 
-LDIFF_SYM529=LTDIE_41_REFERENCE - Ldebug_info_start
+LDIFF_SYM529=LTDIE_42_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM529
 	.byte 3,35,152,2,6
 	.asciz "Unfocused"
@@ -6970,7 +6970,7 @@ LDIFF_SYM557=LTDIE_13_REFERENCE - Ldebug_info_start
 	.byte 2,35,24,6
 	.asciz "_sizeChangedEventHandler"
 
-LDIFF_SYM558=LTDIE_41_REFERENCE - Ldebug_info_start
+LDIFF_SYM558=LTDIE_42_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM558
 	.byte 2,35,32,6
 	.asciz "_disposed"
@@ -7015,7 +7015,7 @@ LDIFF_SYM566=LTDIE_28_REFERENCE - Ldebug_info_start
 	.byte 2,35,56,6
 	.asciz "NativeControlUpdated"
 
-LDIFF_SYM567=LTDIE_41_REFERENCE - Ldebug_info_start
+LDIFF_SYM567=LTDIE_42_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM567
 	.byte 2,35,64,0,7
 	.asciz "Xamarin_Forms_Platform_iOS_VisualElementTracker"
@@ -8474,12 +8474,12 @@ LDIFF_SYM824=LTDIE_127_REFERENCE - Ldebug_info_start
 	.byte 3,35,192,1,6
 	.asciz "_controlChanging"
 
-LDIFF_SYM825=LTDIE_41_REFERENCE - Ldebug_info_start
+LDIFF_SYM825=LTDIE_42_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM825
 	.byte 3,35,200,1,6
 	.asciz "_controlChanged"
 
-LDIFF_SYM826=LTDIE_41_REFERENCE - Ldebug_info_start
+LDIFF_SYM826=LTDIE_42_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM826
 	.byte 3,35,208,1,6
 	.asciz "<Control>k__BackingField"

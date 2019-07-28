@@ -82999,7 +82999,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 62,229,162,252,137,180,234,141,123,222,52,71,115,36,95,134
+	.byte 220,193,14,185,249,38,82,13,204,27,153,2,146,50,139,107
 	.globl _mono_aot_module_Microsoft_Extensions_DependencyInjection_info
 	.align 3
 _mono_aot_module_Microsoft_Extensions_DependencyInjection_info:

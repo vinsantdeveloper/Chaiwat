@@ -42360,9 +42360,9 @@ ldr x16, [x16, #1528]
 .word 0xf940d231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd291f380
+.word 0xd2920080
 .word 0xf2a00020
-.word 0xd291f380
+.word 0xd2920080
 .word 0xf2a00020
 bl _p_408
 .word 0xaa0003e1
@@ -42582,9 +42582,9 @@ ldr x16, [x16, #1544]
 .word 0xf940e231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd291f380
+.word 0xd2920080
 .word 0xf2a00020
-.word 0xd291f380
+.word 0xd2920080
 .word 0xf2a00020
 bl _p_408
 .word 0xaa0003e1
@@ -42734,9 +42734,9 @@ bl _p_457
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd291f380
+.word 0xd2920080
 .word 0xf2a00020
-.word 0xd291f380
+.word 0xd2920080
 .word 0xf2a00020
 bl _p_408
 .word 0xaa0003e1
@@ -48597,9 +48597,9 @@ bl _p_504
 .word 0xf9428a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd291f8c0
+.word 0xd29205c0
 .word 0xf2a00020
-.word 0xd291f8c0
+.word 0xd29205c0
 .word 0xf2a00020
 bl _p_408
 bl _p_544
@@ -48780,9 +48780,9 @@ ldr x16, [x16, #2288]
 .word 0xf9408631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2886ba0
+.word 0xd2887a20
 .word 0xf2a00020
-.word 0xd2886ba0
+.word 0xd2887a20
 .word 0xf2a00020
 bl _p_408
 .word 0xaa0003e1
@@ -48908,9 +48908,9 @@ bl _p_524
 .word 0xf9426231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd291f8c0
+.word 0xd29205c0
 .word 0xf2a00020
-.word 0xd291f8c0
+.word 0xd29205c0
 .word 0xf2a00020
 bl _p_408
 bl _p_544
@@ -59326,7 +59326,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 118,103,11,212,246,1,13,144,172,102,45,111,92,222,69,247
+	.byte 199,52,240,15,184,223,97,226,242,89,93,131,76,55,33,139
 	.globl _mono_aot_module_Microsoft_Azure_Mobile_Client_SQLiteStore_info
 	.align 3
 _mono_aot_module_Microsoft_Azure_Mobile_Client_SQLiteStore_info:

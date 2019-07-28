@@ -15124,7 +15124,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 85,252,7,32,25,151,179,53,93,63,218,103,149,163,253,75
+	.byte 223,157,87,185,228,103,94,61,120,138,40,14,74,49,105,39
 	.globl _mono_aot_module_Microsoft_AspNetCore_Http_Connections_Common_info
 	.align 3
 _mono_aot_module_Microsoft_AspNetCore_Http_Connections_Common_info:

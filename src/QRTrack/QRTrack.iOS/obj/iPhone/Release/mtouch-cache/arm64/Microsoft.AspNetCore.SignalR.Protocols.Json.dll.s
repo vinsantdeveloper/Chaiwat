@@ -35094,7 +35094,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 123,157,218,2,22,121,87,142,163,128,226,246,187,102,191,204
+	.byte 137,48,145,81,195,34,117,159,180,43,81,227,205,73,101,126
 	.globl _mono_aot_module_Microsoft_AspNetCore_SignalR_Protocols_Json_info
 	.align 3
 _mono_aot_module_Microsoft_AspNetCore_SignalR_Protocols_Json_info:

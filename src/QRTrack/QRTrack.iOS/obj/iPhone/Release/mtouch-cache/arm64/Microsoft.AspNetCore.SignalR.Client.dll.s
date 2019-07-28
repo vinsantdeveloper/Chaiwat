@@ -2362,7 +2362,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Microsoft_AspNetCore_Co
 .word 0xf9402400
 .word 0xf90037a0
 .word 0x14000009
-.word 0xd291f380
+.word 0xd2920080
 .word 0xf2a00020
 bl _p_26
 .word 0xaa0003e1
@@ -3041,7 +3041,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 47,130,17,225,170,45,4,96,196,200,30,99,59,65,114,239
+	.byte 100,61,8,77,177,226,230,222,175,128,237,88,181,125,113,67
 	.globl _mono_aot_module_Microsoft_AspNetCore_SignalR_Client_info
 	.align 3
 _mono_aot_module_Microsoft_AspNetCore_SignalR_Client_info:

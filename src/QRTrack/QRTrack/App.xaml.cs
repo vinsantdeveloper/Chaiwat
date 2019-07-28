@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.SignalR.Client;
 using QRTrack.Services;
+using QRTrack.Services.SignalRImplementation;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -9,47 +11,57 @@ namespace QRTrack
 {
     public partial class App : Application
     {
-        private TaskForAzureAsync taskForAsure;
+        public static TaskForAzureAsync TaskForAzureAsync;
         //public const string ListenConnectionString = "Endpoint=sb://qpicknotification.servicebus.windows.net/;SharedAccessKeyName=DefaultListenSharedAccessSignature;SharedAccessKey=uMIfYQ6hT44QUdMtDfb4hzFom8nPUbX7aMDWBdvrb04=";
         //public const string NotificationHubName = "q-pick_notification";
         public const string NotificationReceivedKey = "NotificationReceived";
         public const string MobileServiceUrl = "https://qrtracks.azurewebsites.net";
 
+        public static IChatService ChatService;
+
         public App()
         {
             InitializeComponent();
-
+            ChatService = new ChatService();
             //MainPage = new MainPage();
-            Bootstrapper.Init();
-            taskForAsure = new TaskForAzureAsync();
+            // Bootstrapper.Init();
+            TaskForAzureAsync = new TaskForAzureAsync();
             MainPage = new NavigationPage(new MainPage());
         }
 
-        protected override void OnStart()
+        protected override async void OnStart()
         {
-            // Handle when your app starts
-
         }
 
         protected override void OnSleep()
         {
             // Handle when your app sleeps
-            var chatService = Resolver.Resolve<IChatService>();
-            chatService.Dispose();
+          //  var chatService = Resolver.Resolve<IChatService>();
+            //chatService.Dispose();
         }
 
-        protected override void OnResume()
+        protected override async void OnResume()
         {
-            // Handle when your app resumes
-            Task.Run(async () =>
-            {
-                var chatService = Resolver.Resolve<IChatService>();
+            //     var chatService = Resolver.Resolve<IChatService>();
+            var chatService = App.ChatService;
 
-                if (!chatService.IsConnected)
-                {
-                    await chatService.CreateConnection();
-                }
-            });
+            if (!chatService.IsConnected)
+            {
+                await chatService.ConnectAsync();
+            }
+
+            //await chatService.SendMessage(new UserConnectedMessage(userInfo.Firstname, userInfo.Id));
+
+            //// Handle when your app resumes
+            //Task.Run(async () =>
+            //{
+            //    var chatService = Resolver.Resolve<IChatService>();
+
+            //    if (!chatService.IsConnected)
+            //    {
+            //        await chatService.CreateConnection();
+            //    }
+            //});
         }
     }
 }
